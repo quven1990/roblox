@@ -8,11 +8,11 @@ Banned: Free Robux, generators, scripts, “working codes” with an empty list,
 
 ## `/steal-an-egg`
 
-**Title:** Steal An Egg Wiki — Pets, Eggs, Speed (Unofficial)
+**Title:** Steal An Egg (Roblox) — steal eggs, hatch pets, train Speed
 
 **H1:** Steal An Egg (Roblox) — steal eggs, hatch pets, train Speed
 
-**Dek:** Unofficial guide for Steal An Egg by and Collect Rare Pets. This is not Steal a Brainrot and not the older game titled Steal a Egg.
+**Dek:** Steal An Egg is a Roblox pet / tycoon by and Collect Rare Pets. This unofficial guide is not Steal a Brainrot and not the older game titled Steal a Egg.
 
 **Nav:** Guide · Pets · Eggs · Biomes · Mutations · Speed · Play
 

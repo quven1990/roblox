@@ -29,11 +29,11 @@ export const stealAnEggArt = {
 } as const;
 
 export const stealAnEggCopy = {
-  title: "Unofficial Steal An Egg guide — Pet Index, eggs, Speed",
+  title: "Steal An Egg (Roblox) — steal eggs, hatch pets, train Speed",
   h1: "Steal An Egg (Roblox) — steal eggs, hatch pets, train Speed",
-  dek: "Unofficial guide for Steal An Egg by and Collect Rare Pets. This is not Steal a Brainrot and not the older game titled Steal a Egg.",
+  dek: "Steal An Egg is a Roblox pet / tycoon by and Collect Rare Pets. This unofficial guide is not Steal a Brainrot and not the older game titled Steal a Egg.",
   metaDescription:
-    "Unofficial Steal An Egg guide by Upvane. Partial Pet Index: Chicken is Common at $1/s. Eggs, biomes, mutations, and Speed from Index photos and gameplay. Not Steal a Brainrot.",
+    "Steal An Egg is a Roblox game by and Collect Rare Pets. Unofficial pets Index (Chicken is Common at $1/s), eggs, biomes, mutations, and Speed. Not Steal a Brainrot.",
   heroCta: "Play on Roblox",
   nav: {
     guide: "Guide",
@@ -477,7 +477,7 @@ export const stealAnEggMetadata = pageMetadata(
 
 export const stealAnEggPetsMetadata = pageMetadata(
   "Steal An Egg pets (Index) — Chicken, Forest, 78 total",
-  "Partial unofficial Steal An Egg Pet Index from an in-game screenshot: 78 pets. Forest and Lake names photographed. Chicken is Common at $1/s. Locked slots stay ???.",
+  "Partial Steal An Egg Pet Index from an in-game screenshot: 78 pets. Forest and Lake names photographed. Chicken is Common at $1/s. Locked slots stay ???.",
   `${stealAnEgg.path}/pets`,
 );
 
