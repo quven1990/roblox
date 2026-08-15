@@ -507,7 +507,7 @@ img {
 
 .cover-card h2 {
   margin: 0;
-  font-size: 46px;
+  font-size: clamp(28px, 3.4vw, 42px);
   line-height: 1;
   color: #fff;
 }
@@ -684,6 +684,24 @@ img {
 @media (min-width: 800px) {
   .game-card {
     grid-template-columns: 0.92fr 1.08fr;
+  }
+}
+
+@media (min-width: 960px) {
+  .featured-grid[data-count="3"],
+  .featured-grid[data-count="4"] {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
+  }
+
+  .featured-grid[data-count="3"] .game-card,
+  .featured-grid[data-count="4"] .game-card {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-grid[data-count="3"] .game-thumb,
+  .featured-grid[data-count="4"] .game-thumb {
+    min-height: 176px;
   }
 }
 

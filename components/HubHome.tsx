@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import { JsonLd } from "@/components/JsonLd";
 import { SiteShell } from "@/components/SiteShell";
-import { catalog, catalogForJsonLd } from "@/lib/games";
+import { catalog, catalogForJsonLd, latestKit } from "@/lib/games";
 import { hubJsonLd } from "@/lib/hub";
 import { siteCopy } from "@/lib/site";
 import risingData from "@/data/rising/home.json";
@@ -27,7 +27,8 @@ function formatNumber(value: number) {
 }
 
 export function HubHome() {
-  const liveGame = catalog[0];
+  const latest = latestKit();
+  const featured = [...catalog].toReversed();
 
   return (
     <SiteShell current="hub">
@@ -40,28 +41,25 @@ export function HubHome() {
               <h1>{siteCopy.h1}</h1>
               <p>{siteCopy.dek}</p>
               <div className="hero-actions">
-                <Link className="btn btn-primary" href={liveGame.path}>
-                  Enter Steal An Egg hub
+                <Link className="btn btn-primary" href={latest.path}>
+                  Open {latest.name}
                   <ArrowRight size={18} aria-hidden="true" />
                 </Link>
-                <Link
-                  className="btn btn-ghost"
-                  href="/grow-a-chicken-fighter/"
-                >
-                  Open Grow a Chicken Fighter
-                </Link>
+                <a className="btn btn-ghost" href="#kits">
+                  All live guides
+                </a>
               </div>
             </div>
 
-            <div className="portal-stage" aria-label="Featured Roblox guide">
-              <Link className="cover-card" href={liveGame.path}>
-                <img src={liveGame.thumb} alt={`${liveGame.name} screenshot`} />
-                <span className="cover-badge">Live guide</span>
+            <div className="portal-stage" aria-label="Live Roblox guides">
+              <Link className="cover-card" href={latest.path}>
+                <img src={latest.thumb} alt={`${latest.name} promotional art`} />
+                <span className="cover-badge">Newest kit</span>
                 <div>
-                  <p>{liveGame.kicker}</p>
-                  <h2>{liveGame.name}</h2>
+                  <p>{latest.kicker}</p>
+                  <h2>{latest.name}</h2>
                   <span>
-                    Guide, pets, eggs, speed
+                    {latest.lede}
                     <ArrowRight size={16} aria-hidden="true" />
                   </span>
                 </div>
@@ -106,7 +104,7 @@ export function HubHome() {
           </div>
           <div>
             <strong>{catalog.length}</strong>
-            <span>deep guides live now</span>
+            <span>live kits on this hub</span>
           </div>
           <div>
             <strong>0</strong>
@@ -114,17 +112,22 @@ export function HubHome() {
           </div>
         </section>
 
-        <section className="wrap section-head">
-          <p className="kicker">Live guide</p>
-          <h2>One homepage, many game rooms</h2>
+        <section id="kits" className="wrap section-head">
+          <p className="kicker">Live kits</p>
+          <h2>{catalog.length} rooms, one homepage</h2>
           <p>
-            The hub stays fresh, while each shipped Roblox game gets its own
-            clean route for guides, pets, code checks, and future tools.
+            Each shipped game is its own route. The catalog grows when a kit is
+            ready — this grid is generated from that list, not from hardcoded
+            buttons.
           </p>
         </section>
 
-        <section className="wrap featured-grid" aria-label="Published Roblox guides">
-          {catalog.map((game) => (
+        <section
+          className="wrap featured-grid"
+          data-count={String(catalog.length)}
+          aria-label="Published Roblox guides"
+        >
+          {featured.map((game) => (
             <article key={game.slug} className="game-card">
               <div
                 className="game-thumb"
@@ -145,7 +148,9 @@ export function HubHome() {
                     <h2>{game.name}</h2>
                     <p className="game-dev">{game.developer}</p>
                   </div>
-                  <span className="status">{game.kicker}</span>
+                  <span className="status">
+                    {game.slug === latest.slug ? "New" : game.kicker}
+                  </span>
                 </div>
                 <p className="game-lede">{game.lede}</p>
                 <div className="chips">

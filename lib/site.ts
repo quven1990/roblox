@@ -52,7 +52,7 @@ export const siteCopy = {
     "Unofficial Upvane hub for rising Roblox games: focused guides, pet indexes, and Play links. Not affiliated with Roblox.",
   kicker: "Roblox trend desk",
   h1: "Find the Roblox games getting hot right now.",
-  dek: "Upvane is a fast Roblox game hub: one homepage for fresh discoveries, then focused guide pages for the games that are actually worth building around.",
+  dek: "One homepage for the Roblox games we keep. Each title is its own guide kit. New rooms join the catalog; the radar below is only a queue.",
   nav: {
     games: "Trend desk",
     unofficial: "Unofficial",

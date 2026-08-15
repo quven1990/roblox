@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { stealAnEgg } from "@/lib/games/steal-an-egg";
 import { growAChickenFighter } from "@/lib/games/grow-a-chicken-fighter";
+import { animeVanguards } from "@/lib/games/anime-vanguards";
 import { absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
@@ -78,6 +79,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: "weekly",
       priority: 0.8,
+    },
+    {
+      url: absoluteUrl(animeVanguards.path),
+      lastModified: new Date(`${animeVanguards.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: absoluteUrl(`${animeVanguards.path}/codes`),
+      lastModified: new Date(`${animeVanguards.lastChecked}T00:00:00Z`),
+      changeFrequency: "daily",
+      priority: 0.85,
     },
     {
       url: absoluteUrl("/privacy"),

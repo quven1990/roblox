@@ -3,6 +3,11 @@ import Link from "next/link";
 import { Compass, Play } from "lucide-react";
 import { catalog, type GameSlug } from "@/lib/games";
 import {
+  animeVanguards,
+  animeVanguardsCopy,
+  animeVanguardsNav,
+} from "@/lib/games/anime-vanguards";
+import {
   growAChickenFighter,
   growAChickenFighterCopy,
   growAChickenFighterNav,
@@ -20,26 +25,34 @@ export type KitSection =
   | "codes"
   | "rewards"
   | "chickens"
-  | "fusion";
+  | "fusion"
+  | "traits";
 
 type Current = "hub" | "legal" | KitSection;
 
 function kitChrome(slug: GameSlug) {
-  if (slug === "grow-a-chicken-fighter") {
-    return {
+  const bySlug = {
+    "steal-an-egg": {
+      game: stealAnEgg,
+      nav: stealAnEggNav,
+      footer: stealAnEggCopy.footer,
+      playLabel: stealAnEggCopy.nav.play,
+    },
+    "grow-a-chicken-fighter": {
       game: growAChickenFighter,
       nav: growAChickenFighterNav,
       footer: growAChickenFighterCopy.footer,
       playLabel: growAChickenFighterCopy.nav.play,
-    };
-  }
+    },
+    "anime-vanguards": {
+      game: animeVanguards,
+      nav: animeVanguardsNav,
+      footer: animeVanguardsCopy.footer,
+      playLabel: animeVanguardsCopy.nav.play,
+    },
+  } as const;
 
-  return {
-    game: stealAnEgg,
-    nav: stealAnEggNav,
-    footer: stealAnEggCopy.footer,
-    playLabel: stealAnEggCopy.nav.play,
-  };
+  return bySlug[slug];
 }
 
 export function SiteShell({
