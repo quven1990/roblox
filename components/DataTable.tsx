@@ -1,9 +1,11 @@
+import type { ReactNode } from "react";
+
 export function DataTable({
   columns,
   rows,
 }: {
   columns: readonly string[];
-  rows: readonly (readonly string[])[];
+  rows: readonly (readonly ReactNode[])[];
 }) {
   return (
     <div className="table-wrap">
@@ -18,10 +20,10 @@ export function DataTable({
           </tr>
         </thead>
         <tbody>
-          {rows.map((row) => (
-            <tr key={row.join("-")}>
+          {rows.map((row, rowIndex) => (
+            <tr key={rowIndex}>
               {row.map((cell, index) => (
-                <td key={`${row[0]}-${columns[index]}`} data-label={columns[index]}>
+                <td key={`${rowIndex}-${columns[index]}`} data-label={columns[index]}>
                   {cell}
                 </td>
               ))}

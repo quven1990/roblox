@@ -22,6 +22,7 @@ export function pageMetadata(
   title: string,
   description: string,
   pathname: string,
+  extra?: Pick<Metadata, "robots">,
 ): Metadata {
   const url = absoluteUrl(pathname);
   return {
@@ -41,6 +42,7 @@ export function pageMetadata(
       title,
       description,
     },
+    ...(extra?.robots ? { robots: extra.robots } : {}),
   };
 }
 

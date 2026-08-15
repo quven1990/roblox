@@ -14,6 +14,7 @@
   --yellow: #facc15;
   --surface: rgba(255, 255, 255, 0.82);
   --shadow: 0 24px 70px rgba(22, 34, 51, 0.12);
+  --topbar-h: 64px;
 }
 
 * {
@@ -43,6 +44,7 @@ body {
 
 a {
   color: var(--red);
+  touch-action: manipulation;
 }
 
 a:hover {
@@ -80,6 +82,15 @@ img {
   min-height: 100vh;
 }
 
+.is-kit {
+  scroll-padding-top: calc(var(--topbar-h) + 52px);
+}
+
+.is-kit h2,
+.is-kit [id] {
+  scroll-margin-top: calc(var(--topbar-h) + 52px);
+}
+
 .main {
   padding-bottom: 24px;
 }
@@ -106,11 +117,11 @@ img {
 }
 
 .topbar-inner {
-  height: 64px;
+  height: var(--topbar-h);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
+  gap: 12px;
 }
 
 .brand {
@@ -119,6 +130,8 @@ img {
   gap: 10px;
   color: var(--ink);
   text-decoration: none;
+  flex: 0 0 auto;
+  min-width: 0;
 }
 
 .brand:hover {
@@ -155,7 +168,21 @@ img {
 .top-nav {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 4px;
+  min-width: 0;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.top-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-narrow {
+  display: none;
 }
 
 .top-nav a {
@@ -165,6 +192,8 @@ img {
   font-size: 14px;
   padding: 8px 12px;
   border-radius: 8px;
+  flex: 0 1 auto;
+  min-width: 0;
 }
 
 .top-nav a:hover,
@@ -211,6 +240,7 @@ img {
   overscroll-behavior-x: contain;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  scroll-padding-inline: 8px;
 }
 
 .subnav-links::-webkit-scrollbar {
@@ -246,6 +276,8 @@ img {
   color: var(--red);
   border-left: 1px solid var(--line);
   padding-right: max(16px, env(safe-area-inset-right));
+  background: rgba(255, 255, 255, 0.97);
+  box-shadow: -18px 0 16px rgba(255, 255, 255, 0.95);
 }
 
 .hub-hero {
@@ -627,6 +659,8 @@ img {
 }
 
 .featured-grid {
+  display: grid;
+  gap: 16px;
   padding-top: 18px;
 }
 
@@ -663,6 +697,11 @@ img {
   align-items: center;
 }
 
+.game-card-top > div {
+  min-width: 0;
+  flex: 1;
+}
+
 .game-icon {
   width: 72px;
   height: 72px;
@@ -677,6 +716,7 @@ img {
   font-size: 28px;
   color: var(--ink);
   letter-spacing: 0;
+  overflow-wrap: anywhere;
 }
 
 .game-dev {
@@ -733,6 +773,7 @@ img {
   padding: 11px 16px;
   min-height: 44px;
   border: 1px solid transparent;
+  touch-action: manipulation;
 }
 
 .btn-primary {
@@ -921,6 +962,14 @@ img {
   border-radius: 8px;
   box-shadow: 8px 8px 0 #dbeafe;
   background: #fff;
+}
+
+.kit-cover.is-capture {
+  aspect-ratio: auto;
+  max-height: min(70dvh, 680px);
+  object-fit: contain;
+  object-position: top center;
+  background: #111827;
 }
 
 .kit-hero-copy {
@@ -1130,7 +1179,7 @@ img {
 .kit-more a {
   display: inline-flex;
   align-items: center;
-  min-height: 40px;
+  min-height: 44px;
   padding: 8px 12px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -1219,6 +1268,8 @@ img {
   min-height: 44px;
   display: flex;
   align-items: center;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .faq p {
@@ -1256,6 +1307,40 @@ img {
 
 .data-table td {
   color: var(--muted);
+}
+
+.copy-code {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.copy-code-value {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+
+.copy-code-hint {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.copy-code:hover .copy-code-value,
+.copy-code:focus-visible .copy-code-value {
+  text-decoration: underline;
 }
 
 .footer {
@@ -1334,22 +1419,54 @@ img {
   font-size: 14px;
 }
 
+@media (hover: none) {
+  .cover-card:hover,
+  .rising-card:hover,
+  .game-card:hover,
+  .queue-card:hover,
+  .wiki-card:hover {
+    transform: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .nav-wide {
+    display: none;
+  }
+
+  .nav-narrow {
+    display: inline;
+  }
+
+  .top-nav .kit-name.is-other {
+    display: none;
+  }
+
+  .top-nav .kit-name.is-current {
+    display: inline-flex;
+    max-width: min(48vw, 14rem);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
 @media (max-width: 640px) {
+  :root {
+    --topbar-h: 56px;
+  }
+
   .topbar-inner {
-    height: 56px;
+    height: var(--topbar-h);
     align-items: center;
     padding-top: 0;
     padding-bottom: 0;
-    gap: 10px;
+    gap: 8px;
   }
 
   .top-nav a {
     min-height: 44px;
     padding: 8px 10px;
-  }
-
-  .is-kit .top-nav .kit-name {
-    display: none;
   }
 
   .brand-mark {
@@ -1373,6 +1490,10 @@ img {
   .kit-cover {
     max-height: 180px;
     box-shadow: 4px 4px 0 #dbeafe;
+  }
+
+  .kit-cover.is-capture {
+    max-height: min(58dvh, 520px);
   }
 
   .kit-hero-copy {
@@ -1439,11 +1560,13 @@ img {
 
   .data-table td {
     display: grid;
-    grid-template-columns: 7.5rem 1fr;
-    gap: 8px;
-    padding: 5px 0;
+    grid-template-columns: 1fr;
+    gap: 2px;
+    padding: 7px 0;
     border: 0;
     color: var(--text);
+    min-width: 0;
+    overflow-wrap: anywhere;
   }
 
   .data-table td::before {
@@ -1483,6 +1606,14 @@ img {
     font-size: 16px;
   }
 
+  .section-head {
+    padding-top: 32px;
+  }
+
+  .section-head.inline {
+    padding-top: 32px;
+  }
+
   .section-head h2,
   .page-hero h1,
   .article h1 {
@@ -1503,6 +1634,10 @@ img {
     box-shadow: 6px 6px 0 #bfdbfe;
   }
 
+  .cover-card > div {
+    padding: 16px;
+  }
+
   .cover-card h2 {
     font-size: 28px;
   }
@@ -1513,6 +1648,14 @@ img {
 
   .game-card-top {
     align-items: flex-start;
+  }
+
+  .game-card-body {
+    padding: 16px;
+  }
+
+  .game-card h2 {
+    font-size: 22px;
   }
 
   .game-icon {
@@ -1526,10 +1669,6 @@ img {
 
   .game-thumb {
     min-height: 140px;
-  }
-
-  .rising-card dl {
-    grid-template-columns: 1fr;
   }
 
   .legal {
@@ -1548,6 +1687,10 @@ img {
     margin-top: 28px;
   }
 
+  .article {
+    padding-bottom: 32px;
+  }
+
   .steps li {
     grid-template-columns: 36px 1fr;
     padding: 12px;
@@ -1557,5 +1700,9 @@ img {
     width: 36px;
     height: 36px;
     font-size: 13px;
+  }
+
+  .hub-stats strong {
+    font-size: 24px;
   }
 }

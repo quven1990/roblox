@@ -13,10 +13,14 @@ import { SiteShell } from "@/components/SiteShell";
 import { catalog, catalogForJsonLd } from "@/lib/games";
 import { hubJsonLd } from "@/lib/hub";
 import { siteCopy } from "@/lib/site";
-import risingData from "@/data/rising/latest.json";
+import risingData from "@/data/rising/home.json";
 
-const risingGames = risingData.games.slice(0, 6);
-const heroQueue = risingData.games.slice(1, 5);
+const liveUniverseIds = new Set(catalog.map((game) => String(game.universeId)));
+const queuedGames = risingData.games.filter(
+  (game) => !liveUniverseIds.has(String(game.universeId)),
+);
+const risingGames = queuedGames.slice(0, 6);
+const heroQueue = queuedGames.slice(0, 4);
 
 function formatNumber(value: number) {
   return new Intl.NumberFormat("en-US", { notation: "compact" }).format(value);
@@ -40,13 +44,12 @@ export function HubHome() {
                   Enter Steal An Egg hub
                   <ArrowRight size={18} aria-hidden="true" />
                 </Link>
-                <a
+                <Link
                   className="btn btn-ghost"
-                  href="#rising"
-                  aria-label="Jump to rising Roblox games"
+                  href="/grow-a-chicken-fighter/"
                 >
-                  View trend queue
-                </a>
+                  Open Grow a Chicken Fighter
+                </Link>
               </div>
             </div>
 
@@ -103,7 +106,7 @@ export function HubHome() {
           </div>
           <div>
             <strong>{catalog.length}</strong>
-            <span>deep guide live now</span>
+            <span>deep guides live now</span>
           </div>
           <div>
             <strong>0</strong>

@@ -24,6 +24,11 @@ CTX = ssl.create_default_context()
 ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "data" / "rising"
 SNAP_DIR = OUT_DIR / "snapshots"
+CJK = re.compile(r"[\u4e00-\u9fff]+")
+
+
+def strip_cjk(value: str) -> str:
+    return CJK.sub("", value).strip()
 
 # Thresholds live in one place (do not scatter).
 T = {
@@ -646,6 +651,27 @@ def write_report(rows: list[dict]) -> Path:
     )
     (OUT_DIR / "latest.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    home = {
+        "generatedAt": stamp,
+        "games": [
+            {
+                "universeId": g["universeId"],
+                "placeId": g["placeId"],
+                "name": strip_cjk(str(g.get("name") or "")),
+                "playing": g["playing"],
+                "score": g["score"],
+                "ageDays": g["ageDays"],
+                "genre": strip_cjk(str(g.get("genre") or "")),
+                "creator": strip_cjk(str(g.get("creator") or "")),
+                "url": g["url"],
+            }
+            for g in serializable
+            if strip_cjk(str(g.get("name") or ""))
+        ],
+    }
+    (OUT_DIR / "home.json").write_text(
+        json.dumps(home, ensure_ascii=True, indent=2), encoding="utf-8"
     )
     snap_path = SNAP_DIR / f"{now_utc().strftime('%Y-%m-%dT%H%M')}Z.json"
     snap_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")

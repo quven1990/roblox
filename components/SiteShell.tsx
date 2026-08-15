@@ -1,63 +1,60 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { Compass, Play } from "lucide-react";
-import { catalog } from "@/lib/games";
-import { stealAnEgg, stealAnEggCopy } from "@/lib/games/steal-an-egg";
+import { catalog, type GameSlug } from "@/lib/games";
+import {
+  growAChickenFighter,
+  growAChickenFighterCopy,
+  growAChickenFighterNav,
+} from "@/lib/games/grow-a-chicken-fighter";
+import { stealAnEgg, stealAnEggCopy, stealAnEggNav } from "@/lib/games/steal-an-egg";
 import { SITE_CONTACT_EMAIL, SITE_NAME, SITE_PRIVACY_EMAIL, siteCopy } from "@/lib/site";
 
-type Current =
-  | "hub"
+export type KitSection =
   | "guide"
   | "pets"
   | "eggs"
   | "biomes"
   | "mutations"
   | "speed"
-  | "legal";
+  | "codes"
+  | "rewards"
+  | "chickens"
+  | "fusion";
+
+type Current = "hub" | "legal" | KitSection;
+
+function kitChrome(slug: GameSlug) {
+  if (slug === "grow-a-chicken-fighter") {
+    return {
+      game: growAChickenFighter,
+      nav: growAChickenFighterNav,
+      footer: growAChickenFighterCopy.footer,
+      playLabel: growAChickenFighterCopy.nav.play,
+    };
+  }
+
+  return {
+    game: stealAnEgg,
+    nav: stealAnEggNav,
+    footer: stealAnEggCopy.footer,
+    playLabel: stealAnEggCopy.nav.play,
+  };
+}
 
 export function SiteShell({
   children,
   current = "hub",
+  slug,
 }: {
   children: ReactNode;
   current?: Current;
+  slug?: GameSlug;
 }) {
-  const onKit =
-    current === "guide" ||
-    current === "pets" ||
-    current === "eggs" ||
-    current === "biomes" ||
-    current === "mutations" ||
-    current === "speed";
-
-  const kitNav = [
-    { id: "guide" as const, href: stealAnEgg.path, label: stealAnEggCopy.nav.guide },
-    {
-      id: "pets" as const,
-      href: `${stealAnEgg.path}/pets`,
-      label: stealAnEggCopy.nav.pets,
-    },
-    {
-      id: "eggs" as const,
-      href: `${stealAnEgg.path}/eggs`,
-      label: stealAnEggCopy.nav.eggs,
-    },
-    {
-      id: "biomes" as const,
-      href: `${stealAnEgg.path}/biomes`,
-      label: stealAnEggCopy.nav.biomes,
-    },
-    {
-      id: "mutations" as const,
-      href: `${stealAnEgg.path}/mutations`,
-      label: stealAnEggCopy.nav.mutations,
-    },
-    {
-      id: "speed" as const,
-      href: `${stealAnEgg.path}/speed`,
-      label: stealAnEggCopy.nav.speed,
-    },
-  ];
+  const kitSlug: GameSlug | undefined =
+    current === "hub" || current === "legal" ? undefined : (slug ?? "steal-an-egg");
+  const kit = kitSlug ? kitChrome(kitSlug) : null;
+  const onKit = Boolean(kit);
 
   return (
     <div className={onKit ? "shell is-kit" : "shell"}>
@@ -74,22 +71,30 @@ export function SiteShell({
           </Link>
           <nav className="top-nav" aria-label="Site">
             <Link href="/" className={current === "hub" ? "is-on" : undefined}>
-              {siteCopy.nav.games}
+              <span className="nav-wide">{siteCopy.nav.games}</span>
+              <span className="nav-narrow">Hub</span>
             </Link>
-            <Link
-              href={stealAnEgg.path}
-              className={onKit ? "is-on kit-name" : "kit-name"}
-            >
-              {stealAnEgg.name}
-            </Link>
+            {catalog.map((game) => (
+              <Link
+                key={game.slug}
+                href={game.path}
+                className={
+                  kitSlug === game.slug
+                    ? "is-on kit-name is-current"
+                    : "kit-name is-other"
+                }
+              >
+                {game.name}
+              </Link>
+            ))}
             <span className="pill">{siteCopy.nav.unofficial}</span>
           </nav>
         </div>
-        {onKit ? (
+        {kit ? (
           <div className="subnav">
             <div className="subnav-inner">
-              <nav className="subnav-links" aria-label="Steal An Egg">
-                {kitNav.map((item) => (
+              <nav className="subnav-links" aria-label={kit.game.name}>
+                {kit.nav.map((item) => (
                   <Link
                     key={item.id}
                     href={item.href}
@@ -101,11 +106,11 @@ export function SiteShell({
               </nav>
               <a
                 className="play"
-                href={stealAnEgg.playUrl}
+                href={kit.game.playUrl}
                 rel="noopener noreferrer"
               >
                 <Play size={14} aria-hidden="true" />
-                {stealAnEggCopy.nav.play}
+                {kit.playLabel}
               </a>
             </div>
           </div>
@@ -161,7 +166,7 @@ export function SiteShell({
           </div>
         </div>
         <div className="wrap" style={{ paddingTop: 16 }}>
-          <p>{onKit ? stealAnEggCopy.footer : siteCopy.footer}</p>
+          <p>{kit ? kit.footer : siteCopy.footer}</p>
         </div>
       </footer>
     </div>

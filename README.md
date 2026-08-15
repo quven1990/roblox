@@ -1,6 +1,6 @@
 # Upvane
 
-Unofficial Roblox **hub** at [upvane.com](https://upvane.com): a catalog of independent game kits. First live kit: **Steal An Egg** by and Collect Rare Pets.
+Unofficial Roblox **hub** at [upvane.com](https://upvane.com): a catalog of independent game kits. Live kits: **Steal An Egg** and **Grow a Chicken Fighter**.
 
 Pushing `master` to GitHub deploys to Cloudflare Pages (`upvane` project). Build is `npm run build`; output directory is `out/`. Production branch is `master`. Custom domains: `upvane.com` and `www.upvane.com`.
 
@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). `/` is the Upvane hub. Steal An Egg lives at `/steal-an-egg`.
+Open [http://localhost:3000](http://localhost:3000). `/` is the Upvane hub. Kits: `/steal-an-egg` and `/grow-a-chicken-fighter`.
 
 ```bash
 npm run build
@@ -27,9 +27,11 @@ Static HTML lands in `out/` (`output: 'export'`). Preview the export with `npm s
 | `/steal-an-egg` | First game kit |
 | `/steal-an-egg/pets` | Partial in-game Pet Index |
 | `/steal-an-egg/eggs` `/biomes` `/mutations` `/speed` | Game kit pages |
+| `/grow-a-chicken-fighter` | Second game kit |
+| `/grow-a-chicken-fighter/codes` `/rewards` `/eggs` `/chickens` `/fusion` | GCF kit pages |
 | `/privacy` `/terms` | Unofficial legal pages |
 
-The hub lists live kits only. There is no fake 600-game dump, no Rising chart, and no codes table for games without a redeem UI. Steal An Egg has no redeem UI as of 2026-08-15.
+The hub lists live kits only. Codes tables only exist when a redeem box is confirmed. Steal An Egg has no redeem UI as of 2026-08-15. Grow a Chicken Fighter lists WELCOME from the official experience page; extra codes stay unverified until photographed.
 
 ## Analytics
 

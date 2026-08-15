@@ -467,6 +467,39 @@ export const stealAnEggIndex = {
   ],
 } as const;
 
+export const stealAnEggNav = [
+  {
+    id: "guide" as const,
+    href: stealAnEgg.path,
+    label: stealAnEggCopy.nav.guide,
+  },
+  {
+    id: "pets" as const,
+    href: `${stealAnEgg.path}/pets`,
+    label: stealAnEggCopy.nav.pets,
+  },
+  {
+    id: "eggs" as const,
+    href: `${stealAnEgg.path}/eggs`,
+    label: stealAnEggCopy.nav.eggs,
+  },
+  {
+    id: "biomes" as const,
+    href: `${stealAnEgg.path}/biomes`,
+    label: stealAnEggCopy.nav.biomes,
+  },
+  {
+    id: "mutations" as const,
+    href: `${stealAnEgg.path}/mutations`,
+    label: stealAnEggCopy.nav.mutations,
+  },
+  {
+    id: "speed" as const,
+    href: `${stealAnEgg.path}/speed`,
+    label: stealAnEggCopy.nav.speed,
+  },
+] as const;
+
 export const stealAnEggCanonical = absoluteUrl(stealAnEgg.path);
 
 export const stealAnEggMetadata = pageMetadata(

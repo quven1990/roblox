@@ -9,6 +9,7 @@ export function KitHero({
   icon,
   children,
   eager = false,
+  capture = false,
 }: {
   kicker: string;
   title: string;
@@ -18,12 +19,13 @@ export function KitHero({
   icon?: string;
   children?: ReactNode;
   eager?: boolean;
+  capture?: boolean;
 }) {
   return (
     <header className="kit-hero">
       <div className="wrap">
         <img
-          className="kit-cover"
+          className={capture ? "kit-cover is-capture" : "kit-cover"}
           src={src}
           alt={alt}
           width={1400}

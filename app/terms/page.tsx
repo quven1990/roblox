@@ -1,5 +1,4 @@
 import { SiteShell } from "@/components/SiteShell";
-import { stealAnEgg } from "@/lib/games/steal-an-egg";
 import {
   SITE_CONTACT_EMAIL,
   SITE_NAME,
@@ -39,9 +38,9 @@ export default function TermsPage() {
         <h2>Unofficial site</h2>
         <p>
           {SITE_NAME} is unofficial. It is not affiliated with, endorsed by, or
-          sponsored by Roblox Corporation or {stealAnEgg.developer}. Titles that
-          say “wiki” mean fan notes. They are not the in-game Index and they are
-          not official patch notes.
+          sponsored by Roblox Corporation or the developers of games covered
+          here. Titles that say “wiki” mean fan notes. They are not the in-game
+          Index and they are not official patch notes.
         </p>
 
         <h2>Trademarks and art</h2>
