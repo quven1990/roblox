@@ -1,14 +1,40 @@
 # Upvane
 
-Research (2026-08-15) and MVP PRD for a **rising-only** Roblox games toolkit hub.
+Unofficial Roblox **hub** at [upvane.com](https://upvane.com): a catalog of independent game kits. First live kit: **Steal An Egg** by and Collect Rare Pets.
 
-Live domain: [upvane.com](https://upvane.com)
+This repository is **not** a live production deploy. DNS and production hosting stay blocked until a human confirms.
 
-Repo: `git@github.com:quven1990/roblox.git`
+## Local site (Next.js)
 
-First game in intake: [Steal An Egg](docs/games/steal-an-egg.md) — toolkit only, no codes table.
+```bash
+npm install
+npm run dev
+```
 
-## Docs
+Open [http://localhost:3000](http://localhost:3000). `/` is the Upvane hub. Steal An Egg lives at `/steal-an-egg`.
+
+```bash
+npm run build
+```
+
+Static HTML lands in `out/` (`output: 'export'`). Preview the export with `npm start` (`serve out`).
+
+## Routes
+
+| Path | Notes |
+|------|--------|
+| `/` | Hub homepage (kits catalog) |
+| `/steal-an-egg` | First game kit |
+| `/steal-an-egg/pets` | **noindex** placeholder until Index data exists |
+| `/privacy` `/terms` | Short unofficial legal pages |
+
+The hub lists live kits only. There is no fake 600-game dump, no Rising chart, and no codes table for games without a redeem UI. Steal An Egg has no redeem UI as of 2026-08-15.
+
+## Analytics
+
+No GA / Clarity / Bing IDs are in this repo. v0 does not add fake analytics.
+
+## Docs / research
 
 | File | What |
 |------|------|
@@ -16,8 +42,9 @@ First game in intake: [Steal An Egg](docs/games/steal-an-egg.md) — toolkit onl
 | [docs/01-serp-rising-games.md](docs/01-serp-rising-games.md) | 5 rising `{game} codes` SERPs |
 | [docs/01-keyword-opportunity-report.md](docs/01-keyword-opportunity-report.md) | A_NOW / skip pools |
 | [docs/02-prd-hub-mvp.md](docs/02-prd-hub-mvp.md) | Product, gates, routes, NOT-DO |
-| [docs/03-game-discovery.md](docs/03-game-discovery.md) | 如何找有潜力的游戏 |
+| [docs/03-game-discovery.md](docs/03-game-discovery.md) | How to find games with potential |
 | [docs/games/steal-an-egg.md](docs/games/steal-an-egg.md) | First game card: toolkit, no `/codes` |
+| [docs/games/steal-an-egg-copy.md](docs/games/steal-an-egg-copy.md) | Frozen en-US copy |
 | [docs/handoff-research.md](docs/handoff-research.md) | Research handoff |
 | [docs/handoff-prd.md](docs/handoff-prd.md) | PRD handoff |
 
@@ -27,4 +54,4 @@ Find rising games (do not use the raw CCU top chart):
 python3 scripts/discover_rising.py
 ```
 
-Output: `data/rising/latest.md`. Production deploy is blocked until DNS points at hosting. SEO-copy freeze can start in parallel.
+Output: `data/rising/latest.md`.

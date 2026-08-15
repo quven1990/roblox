@@ -34,7 +34,7 @@
 
 ## 3. 本阶段结论
 
-- 结论一句话：做一个 **Rising Games codes 枢纽**——只收录正在起量且真有 redeem 的游戏，24h 内可索引，死游归档 noindex；**不做全量 Wiki，不做 FreshCodes 600 游戏克隆。**
+- 结论一句话：同一域名下 **每个游戏各做各的小站**；不搞强制枢纽导航。有 redeem 才做 codes，没有就做那款游戏的工具页。
 - 证据：短窗量化通过；5 词 SERP 里独立小站可进可见结果；顶流 codes 已被枢纽占满；无 redeem 热游必须否决。
 - 风险：薄模板、codes 新鲜度撒谎、新域冷启动、Roblox 商标/UGC。
 
@@ -42,7 +42,7 @@
 
 ### 一句话定位
 
-Unofficial codes hub for **rising** Roblox games. We publish a game the day the search shows up, label how we checked it, and archive it when the wave is over.
+Unofficial toolkit pages for **one rising Roblox game at a time**. Same domain (`upvane.com`), **each game is its own mini-site**. Players land from Google onto that game. There is no hub nav they have to click through.
 
 ### ICP（主 ICP = 1）
 
@@ -59,10 +59,10 @@ Unofficial codes hub for **rising** Roblox games. We publish a game the day the 
 
 ### 差异化
 
-1. **只做 rising**，首页是 8–20 条短名单，不是 600 卡片
+1. **一游戏一套站**，共用域名和页脚 disclaimer，不共用一套「飙升枢纽」导航
 2. **诚实状态**：working / unconfirmed / expired / no-redeem-feature
-3. **redeem requirements** 字段（Ken 类：group、时长、等级）
-4. 活过 14 天预留工具槽，避免永远停留在复制列表
+3. 有 redeem 才做 codes；没有就做那一款的不公平页（pets / calc / tier）
+4. 死游只归档那一套 URL，不影响其他游戏
 
 ### NOT-DO（MVP 硬边界）
 
@@ -72,7 +72,9 @@ Unofficial codes hub for **rising** Roblox games. We publish a game the day the 
 - 不上线仍标 working 的过期码
 - 不碰 Free Robux / 生成器 / 密码
 - 不把所有旧单站 301 进大站
-- 不把顶流红海（GaG2、Blox Fruits、MM2、Brookhaven）当冷启动主词
+- 不做整站级 Rising / All games / Codes 目录导航（各游戏自己的页内导航即可）
+- 不把所有游戏用同一套枢纽栏绑在一起
+- 首页不是产品；第一个游戏上线时 `/` 可以只指到当前游戏或极短品牌页
 - 域名不硬蹭 Roblox 商标
 
 ## 5. 收录 / 留下 / 退出闸
@@ -86,8 +88,8 @@ Unofficial codes hub for **rising** Roblox games. We publish a game the day the 
 
 **再分流：**
 
-1. **有 Redeem UI** → 可建 `/games/{slug}/codes`。还要有搜索意图（媒体 codes 文或 `{game} codes` 已有结果）。
-2. **无 Redeem UI** → **禁止 codes 表**。若有图鉴/计算器/tier 切口，可只建枢纽 + 那一个工具页（例：Steal An Egg）。
+1. **有 Redeem UI** → 可建 `/{slug}/codes`。还要有搜索意图（媒体 codes 文或 `{game} codes` 已有结果）。
+2. **无 Redeem UI** → **禁止 codes 表**。若有图鉴/计算器/tier 切口，只建这一款的根页 + 那一个工具页（例：Steal An Egg）。
 3. 无 Redeem **且** 无工具切口 → 不收录。
 
 ### 留下（每周）
@@ -112,30 +114,23 @@ Unofficial codes hub for **rising** Roblox games. We publish a game the day the 
 
 ## 6. 页面矩阵 / Route Contract
 
-所有公开页默认 `index`，除非标明。H1 必须含游戏官方名 + unofficial 语境（站点页脚统一 disclaimer）。
+玩家从 Google 进的是 **某一款游戏的小站**，不是 Upvane 目录。全站只共用：域名、Unofficial 页脚、极小品牌字。每个游戏自己的导航（Pets / Codes / 该有的那几项），不链一圈「本周飙升」。
 
-| URL | index | 主词 | H1 意向 | 用户任务 | Schema | 内链 | 素材/数据 |
-|-----|-------|------|---------|----------|--------|------|-----------|
-| `/` | yes | rising roblox codes（品牌+目录） | 本周正在起量的游戏 | 30s 内点进正在爆发的 codes 页 | WebSite + ItemList | → 飙升游戏 `/games/{slug}/codes` | CCU、新码数、进入日期 |
-| `/codes` | yes | roblox codes list（次要，不硬刚 FreshCodes） | 当前在录游戏 | 浏览/筛选在录游戏 | ItemList | 每张卡片 → 游戏 codes | 状态、last-checked |
-| `/games/{slug}` | yes | `{game} wiki` 轻枢纽 | 游戏名 + unofficial hub | 搞清这是哪款游戏、去 codes/工具 | WebPage + VideoGame | codes、日后 tools、官方 Roblox 页 | slug、universeId、开发商、CCU |
-| `/games/{slug}/codes` | yes | `{game} codes` **主钱页** | `{Game} codes (Month Year)` | 复制 working codes、看过期、看 redeem 限制 | FAQPage + ItemList | 回游戏枢纽、同批 rising 游戏 | codes[]、status、requirements、source_label、checked_at |
-| `/games/{slug}/tier-list` | no 直到游戏存活 ≥14 天 | `{game} tier list` | — | — | — | — | **MVP 不建路由** |
-| `/games/{slug}/calculator` | no 直到有可验证公式 | `{game} calculator` | — | — | — | — | **MVP 不建路由** |
-| `/about` | yes | 品牌 | 我们怎么核码 | 信任 | AboutPage | /how-we-verify | 编辑政策 |
-| `/how-we-verify` | yes | 信任/E-E-A-T | 核验规则 | 看懂 official/cross-checked/unconfirmed | WebPage | 页脚 | 状态定义 |
-| `/privacy` `/terms` | yes | 合规 | 法律页 | 合规 | — | — | unofficial、无附属 Roblox |
-| 归档 codes 页 | **noindex** | — | Archived | 不被坟场稀释 | — | 回 /codes | 原 URL 301 禁止 |
+| URL | index | 主词 | 用户任务 |
+|-----|-------|------|----------|
+| `/` | yes | 品牌 | 第一个游戏期间可跳到当前游戏根；有 2 个以上游戏后再做极短目录。禁止 600 卡片 |
+| `/{slug}` | yes | `{game}` unofficial | 这款游戏的首页：怎么玩 + 去那一个主工具 |
+| `/{slug}/pets` 等 | 有数据才 index | 该游戏主钱词 | 只服务这一款 |
+| `/{slug}/codes` | 仅当有 Redeem UI | `{game} codes` | 只服务这一款；无 Redeem 不建 |
+| `/privacy` `/terms` | yes | 合规 | 全站共用 |
+
+不要：`/codes` 总目录、游戏之间的「相关 rising」模块、强制回到枢纽的顶栏。
 
 ### 首页 IA
 
-1. Hero：一句话定位 + 最后全站核验时间
-2. **Rising now**（8–20 张，按进入日期/CCU 增速，不按历史 visits）
-3. Fresh drops（7 日内新码）
-4. 3 条核验规则（不写 800 字）
-5. 页脚：unofficial、How we verify、Privacy/Terms
+第一个游戏（Steal An Egg）期间：`/` 不是产品。要么 302/`/` 指向 `/{slug}`，要么一句话品牌 + 当前这一款。
 
-禁止：首页渲染 600 游戏网格。
+有第二款之后：首页最多列现在还活着的游戏名，一行一个，不要仪表盘。
 
 ## 7. Codes 页 competitive minimum
 
@@ -148,7 +143,6 @@ Unofficial codes hub for **rising** Roblox games. We publish a game the day the 
 - Requirements（group / playtime / level），没有则明确 `None`
 - `How we checked` 一句话 + 链到 `/how-we-verify`
 - 官方来源链：Roblox 体验页、Discord/Group（若公开）
-- 相关 rising 游戏 3 条内链
 - Disclaimer：Unofficial, not affiliated with Roblox Corporation or the game owner
 
 ## 8. 数据合同（frontend-consumable）
@@ -188,7 +182,7 @@ Unofficial codes hub for **rising** Roblox games. We publish a game the day the 
 ```text
 发现（雷达：GGAID/Zing CCU + 媒体 14 天新 codes 文）
   → 闸门（redeem + 热度 + 非红海主攻）
-    → 1h 内建 /games/{slug} + /codes（同一模板）
+    → 1h 内建 `/{slug}` + 那一个工具页（有 redeem 才加 /codes）
       → sitemap lastmod + IndexNow
         → 日更对账（官方源优先，媒体/聚合交叉；冲突标 disputed）
           → 周审退出闸 → archive+noindex
