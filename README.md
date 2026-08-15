@@ -16,6 +16,7 @@ First game in intake: [Steal An Egg](docs/games/steal-an-egg.md) — toolkit onl
 | [docs/01-serp-rising-games.md](docs/01-serp-rising-games.md) | 5 rising `{game} codes` SERPs |
 | [docs/01-keyword-opportunity-report.md](docs/01-keyword-opportunity-report.md) | A_NOW / skip pools |
 | [docs/02-prd-hub-mvp.md](docs/02-prd-hub-mvp.md) | Product, gates, routes, NOT-DO |
+| [docs/03-game-discovery.md](docs/03-game-discovery.md) | 如何找有潜力的游戏 |
 | [docs/games/steal-an-egg.md](docs/games/steal-an-egg.md) | First game card: toolkit, no `/codes` |
 | [docs/handoff-research.md](docs/handoff-research.md) | Research handoff |
 | [docs/handoff-prd.md](docs/handoff-prd.md) | PRD handoff |
