@@ -34,7 +34,7 @@ export default function StealAnEggSpeedPage() {
             <p>{copy.willNot}</p>
           </div>
           <p className="source">Last checked {stealAnEgg.lastChecked}.</p>
-          <KitMore />
+          <KitMore current="speed" />
         </article>
       </main>
     </SiteShell>

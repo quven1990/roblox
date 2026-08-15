@@ -42,7 +42,7 @@ export default function GrowAChickenFighterChickensPage() {
             <p>{copy.otherSkip}</p>
           </div>
           <p className="source">Last checked {growAChickenFighter.lastChecked}.</p>
-          <KitMore slug="grow-a-chicken-fighter" />
+          <KitMore slug="grow-a-chicken-fighter" current="chickens" />
         </article>
       </main>
     </SiteShell>

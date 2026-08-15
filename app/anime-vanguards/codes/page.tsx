@@ -1,6 +1,7 @@
 import { CopyCode } from "@/components/CopyCode";
 import { DataTable } from "@/components/DataTable";
 import { JsonLd } from "@/components/JsonLd";
+import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
 import { SiteShell } from "@/components/SiteShell";
@@ -30,6 +31,15 @@ export default function AnimeVanguardsCodesPage() {
           alt={animeVanguardsArtAlt.codes}
         />
         <article className="wrap article">
+          <KitCrumb
+            trail={[
+              { href: animeVanguards.path, label: animeVanguards.name },
+              { label: "Codes" },
+            ]}
+          />
+          <div className="note">
+            <p>{copy.answer}</p>
+          </div>
           <p>{copy.body}</p>
           <p>{copy.tableNote}</p>
           <p className="source">{copy.copyHint}</p>
@@ -72,7 +82,7 @@ export default function AnimeVanguardsCodesPage() {
             ))}
           </div>
           <p className="source">Last checked {animeVanguards.lastChecked}.</p>
-          <KitMore slug="anime-vanguards" />
+          <KitMore slug="anime-vanguards" current="codes" />
         </article>
       </main>
     </SiteShell>

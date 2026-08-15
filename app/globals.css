@@ -770,13 +770,20 @@ img {
   margin-top: 14px;
 }
 
-.chips span {
+.chips span,
+.chips a {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 4px 10px;
   font-size: 12px;
   font-weight: 700;
   color: var(--muted);
+  text-decoration: none;
+}
+
+.chips a:hover {
+  border-color: var(--red);
+  color: var(--red);
 }
 
 .btn {
@@ -1104,6 +1111,14 @@ img {
   font-weight: 800;
 }
 
+.zone-list a {
+  color: inherit;
+}
+
+.zone-list a:hover {
+  color: var(--red);
+}
+
 .zone-list span {
   color: var(--muted);
   font-size: 14px;
@@ -1185,6 +1200,30 @@ img {
   margin-top: 4px;
   color: var(--muted);
   font-size: 14px;
+}
+
+.crumbs {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.crumbs a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.crumbs a:hover {
+  color: var(--red);
+}
+
+.kit-related {
+  margin: 28px 0 8px;
+}
+
+.kit-related-title {
+  margin: 0 0 10px;
+  font-size: 18px;
 }
 
 .kit-more {
@@ -1396,6 +1435,13 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.footer-kit-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin: 12px 0 0;
 }
 
 .footer a {

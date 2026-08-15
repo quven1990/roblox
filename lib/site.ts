@@ -22,9 +22,23 @@ export function pageMetadata(
   title: string,
   description: string,
   pathname: string,
-  extra?: Pick<Metadata, "robots">,
+  extra?: {
+    robots?: Metadata["robots"];
+    image?: string;
+    imageAlt?: string;
+  },
 ): Metadata {
   const url = absoluteUrl(pathname);
+  const images = extra?.image
+    ? [
+        {
+          url: extra.image,
+          alt: extra.imageAlt,
+          width: 1400,
+          height: 788,
+        },
+      ]
+    : undefined;
   return {
     title,
     description,
@@ -36,11 +50,13 @@ export function pageMetadata(
       siteName: SITE_NAME,
       locale: SITE_LOCALE,
       type: "website",
+      ...(images ? { images } : {}),
     },
     twitter: {
-      card: "summary",
+      card: images ? "summary_large_image" : "summary",
       title,
       description,
+      ...(extra?.image ? { images: [extra.image] } : {}),
     },
     ...(extra?.robots ? { robots: extra.robots } : {}),
   };

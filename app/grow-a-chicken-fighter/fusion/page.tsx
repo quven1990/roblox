@@ -28,7 +28,7 @@ export default function GrowAChickenFighterFusionPage() {
           <p>{copy.body}</p>
           <p>{copy.official}</p>
           <p className="source">Last checked {growAChickenFighter.lastChecked}.</p>
-          <KitMore slug="grow-a-chicken-fighter" />
+          <KitMore slug="grow-a-chicken-fighter" current="fusion" />
         </article>
       </main>
     </SiteShell>

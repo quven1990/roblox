@@ -70,7 +70,7 @@ export default function GrowAChickenFighterRewardsPage() {
           </div>
           <p className="source">{copy.source}</p>
           <p className="source">Last checked {growAChickenFighter.lastChecked}.</p>
-          <KitMore slug="grow-a-chicken-fighter" />
+          <KitMore slug="grow-a-chicken-fighter" current="rewards" />
         </article>
       </main>
     </SiteShell>

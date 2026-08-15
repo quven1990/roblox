@@ -42,7 +42,7 @@ export default function StealAnEggBiomesPage() {
             columns={["their name", "notes"]}
             rows={copy.otherRows.map((row) => [row.name, row.wiki])}
           />
-          <KitMore />
+          <KitMore current="biomes" />
         </article>
       </main>
     </SiteShell>

@@ -142,6 +142,15 @@ export function SiteShell({
               Roblox trend scanning plus focused guide hubs. Codes only when a
               redeem box exists.
             </p>
+            {kit ? (
+              <ul className="footer-kit-links">
+                {kit.nav.map((item) => (
+                  <li key={item.id}>
+                    <Link href={item.href}>{item.label}</Link>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
           </div>
           <div>
             <h2>Games</h2>

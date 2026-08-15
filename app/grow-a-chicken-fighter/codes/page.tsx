@@ -55,7 +55,7 @@ export default function GrowAChickenFighterCodesPage() {
             ))}
           </div>
           <p className="source">Last checked {growAChickenFighter.lastChecked}.</p>
-          <KitMore slug="grow-a-chicken-fighter" />
+          <KitMore slug="grow-a-chicken-fighter" current="codes" />
         </article>
       </main>
     </SiteShell>

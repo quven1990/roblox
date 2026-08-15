@@ -110,7 +110,7 @@ export default function StealAnEggPetsPage() {
           <div className="note warn">
             <p>{copy.otherSkip}</p>
           </div>
-          <KitMore />
+          <KitMore current="pets" />
         </article>
       </main>
     </SiteShell>

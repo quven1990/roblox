@@ -57,7 +57,7 @@ export default function StealAnEggEggsPage() {
             rows={copy.otherRows.map((row) => [row.name, row.wiki])}
           />
           <p className="source">Last checked {stealAnEgg.lastChecked}.</p>
-          <KitMore />
+          <KitMore current="eggs" />
         </article>
       </main>
     </SiteShell>

@@ -46,7 +46,7 @@ export default function GrowAChickenFighterEggsPage() {
             {growAChickenFighterCopy.rewards.source} Last checked{" "}
             {growAChickenFighter.lastChecked}.
           </p>
-          <KitMore slug="grow-a-chicken-fighter" />
+          <KitMore slug="grow-a-chicken-fighter" current="eggs" />
         </article>
       </main>
     </SiteShell>

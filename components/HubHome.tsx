@@ -154,9 +154,17 @@ export function HubHome() {
                 </div>
                 <p className="game-lede">{game.lede}</p>
                 <div className="chips">
-                  {game.tags.map((tag) => (
-                    <span key={tag}>{tag}</span>
-                  ))}
+                  {game.tags.map((tag) => {
+                    const href =
+                      tag === "Guide"
+                        ? game.path
+                        : `${game.path}/${tag.toLowerCase()}`;
+                    return (
+                      <Link key={tag} href={href}>
+                        {tag}
+                      </Link>
+                    );
+                  })}
                 </div>
                 <div className="actions">
                   <Link className="btn btn-primary" href={game.path}>

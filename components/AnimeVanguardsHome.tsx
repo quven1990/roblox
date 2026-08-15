@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { JsonLd } from "@/components/JsonLd";
+import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
 import { SiteShell } from "@/components/SiteShell";
 import {
@@ -9,6 +10,25 @@ import {
   animeVanguardsCopy,
   animeVanguardsJsonLd,
 } from "@/lib/games/anime-vanguards";
+
+function ZoneList({
+  items,
+}: {
+  items: readonly { name: string; note: string; href?: string }[];
+}) {
+  return (
+    <ol className="zone-list">
+      {items.map((item) => (
+        <li key={item.name}>
+          <strong>
+            {item.href ? <Link href={item.href}>{item.name}</Link> : item.name}
+          </strong>
+          <span>{item.note}</span>
+        </li>
+      ))}
+    </ol>
+  );
+}
 
 export function AnimeVanguardsHome() {
   const copy = animeVanguardsCopy;
@@ -34,13 +54,14 @@ export function AnimeVanguardsHome() {
             >
               {copy.heroCta}
             </a>
-            <a className="btn btn-ghost" href="#pages">
+            <Link className="btn btn-ghost" href={`${animeVanguards.path}/codes`}>
               {copy.pages.ghostCta}
-            </a>
+            </Link>
           </div>
         </KitHero>
 
         <article className="wrap article">
+          <KitCrumb trail={[{ label: animeVanguards.name }]} />
           <h2>{copy.rightGame.h2}</h2>
           <p>{copy.rightGame.body}</p>
           <div className="note warn">
@@ -88,25 +109,11 @@ export function AnimeVanguardsHome() {
 
           <h2 id="systems">{copy.systems.h2}</h2>
           <p>{copy.systems.intro}</p>
-          <ol className="zone-list">
-            {copy.systems.items.map((item) => (
-              <li key={item.name}>
-                <strong>{item.name}</strong>
-                <span>{item.note}</span>
-              </li>
-            ))}
-          </ol>
+          <ZoneList items={copy.systems.items} />
 
           <h2 id="update-14-5">{copy.update145.h2}</h2>
           <p>{copy.update145.intro}</p>
-          <ol className="zone-list">
-            {copy.update145.items.map((item) => (
-              <li key={item.name}>
-                <strong>{item.name}</strong>
-                <span>{item.note}</span>
-              </li>
-            ))}
-          </ol>
+          <ZoneList items={copy.update145.items} />
           <p>
             <Link href={`${animeVanguards.path}/units`}>
               {copy.units.pageH1} →
@@ -115,18 +122,15 @@ export function AnimeVanguardsHome() {
             <Link href={`${animeVanguards.path}/items`}>
               {copy.items.pageH1} →
             </Link>
+            {" · "}
+            <Link href={`${animeVanguards.path}/codes`}>
+              {copy.codes.pageH1} →
+            </Link>
           </p>
 
           <h2 id="modes">{copy.modes.h2}</h2>
           <p>{copy.modes.intro}</p>
-          <ol className="zone-list">
-            {copy.modes.items.map((item) => (
-              <li key={item.name}>
-                <strong>{item.name}</strong>
-                <span>{item.note}</span>
-              </li>
-            ))}
-          </ol>
+          <ZoneList items={copy.modes.items} />
 
           <h2 id="codes">{copy.codes.h2}</h2>
           <div className="note">

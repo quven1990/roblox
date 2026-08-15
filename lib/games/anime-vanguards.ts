@@ -1,5 +1,5 @@
 import type { GameFacts } from "@/lib/games/types";
-import { SITE_NAME, absoluteUrl, pageMetadata } from "@/lib/site";
+import { SITE_NAME, SITE_ORIGIN, absoluteUrl, pageMetadata } from "@/lib/site";
 
 export const animeVanguards = {
   slug: "anime-vanguards",
@@ -43,9 +43,9 @@ export const animeVanguardsArtAlt = {
 export const animeVanguardsCopy = {
   title: "Anime Vanguards (Roblox) — summon, defend, evolve",
   h1: "Anime Vanguards (Roblox) — summon, defend, evolve",
-  dek: "Anime Vanguards is a Roblox tower defense game by Kitawari. Unofficial Upvane kit. Not Anime Last Stand.",
+  dek: "Anime Vanguards is a Roblox tower defense game by Kitawari (place 16146832113). Summon units, hold the track, evolve, reroll traits. Unofficial Upvane kit — not Anime Last Stand.",
   metaDescription:
-    "Unofficial Anime Vanguards guide: Update 14.5 Lunar Bridge, Gauntlets, Codex, unit obtain paths, and codes versus the official wiki. Not Anime Last Stand.",
+    "Unofficial Anime Vanguards Roblox guide: Update 14.5 Lunar Bridge, Gauntlets, Codex, codes vs official wiki, traits, and unit obtain paths.",
   heroCta: "Play on Roblox",
   nav: {
     guide: "Guide",
@@ -57,7 +57,7 @@ export const animeVanguardsCopy = {
   },
   pages: {
     h2: "Guide pages",
-    ghostCta: "Guide pages",
+    ghostCta: "Codes",
     cards: [
       {
         id: "codes",
@@ -111,10 +111,12 @@ export const animeVanguardsCopy = {
       {
         name: "Combat stats",
         note: "Official wiki: units attack on an SPA timer inside a Range cone. Some generate yen instead of damaging. Passives are always on; actives are player-fired. Not photographed here.",
+        href: "/anime-vanguards/units",
       },
       {
         name: "Traits + Memoria + Familiars",
         note: "Official wiki: one Trait at a time; Memoria and Familiars further buff kits. This kit has a Traits table plus the five 14.5 exclusive Memoria names. New familiar icons on the 14.5 graphic stay unnamed here — open Codex.",
+        href: "/anime-vanguards/traits",
       },
       {
         name: "Codex",
@@ -123,6 +125,7 @@ export const animeVanguardsCopy = {
       {
         name: "Evolve",
         note: "Official: level up and evolve. Green / Rainbow Essence show up on code rows. Full evo quests are a wiki job, not a 200-URL factory on Upvane.",
+        href: "/anime-vanguards/items",
       },
     ],
   },
@@ -135,9 +138,9 @@ export const animeVanguardsCopy = {
       { name: "Infinite", note: "Named on official code/unit pages. Survival / wave farm, map not photographed." },
       { name: "Challenges", note: "PGG says Trait Rerolls drop after Story Stage 3 Act 1 unlocks Challenges. Unverified here." },
       { name: "Raids", note: "Code rewards include raid tokens (example: Gambler's Token on an archived row)." },
-      { name: "Lunar Bridge Dungeon", note: "Update 14.5: 11 floors. Earn Controller Tokens for the dungeon shop. Phantom Thief (Joker) and Apathetic Savior (Door) are listed as dungeon units." },
+      { name: "Lunar Bridge Dungeon", href: "/anime-vanguards/units", note: "Update 14.5: 11 floors. Earn Controller Tokens for the dungeon shop. Phantom Thief (Joker) and Apathetic Savior (Door) are listed as dungeon units." },
       { name: "Gauntlets", note: "Update 14.5: 8-player PvP bracket. Timed turns; highest score advances. Replays exist. Not photographed here." },
-      { name: "Worldlines", note: "Update 14.5 reset: Raging Oni vs Wrath God is unobtainable. Floor 50 reward is Rebel Fighter (Gauntlet)." },
+      { name: "Worldlines", href: "/anime-vanguards/units", note: "Update 14.5 reset: Raging Oni vs Wrath God is unobtainable. Floor 50 reward is Rebel Fighter (Gauntlet)." },
       { name: "Boss Rush", note: "14.0 P2 news: Copycat Boss Rush. Copycat Tokens sit on archived code rows." },
       { name: "Legend Stages", note: "Shows up as a tag on essence rewards. No lobby screenshot." },
     ],
@@ -149,10 +152,12 @@ export const animeVanguardsCopy = {
     items: [
       {
         name: "Five new units",
+        href: "/anime-vanguards/units",
         note: "Dungeon: Phantom Thief (Joker), Apathetic Savior (Door). Worldlines Floor 50: Rebel Fighter (Gauntlet). Season 14 Battlepass: Star Crusader (Platinum). Arcana login / dungeon: Investigation Leader (Truth).",
       },
       {
         name: "Five exclusive Memorias",
+        href: "/anime-vanguards/items",
         note: "Paired to those units on the graphic. Names live on the Items page. Effects were not printed on the poster.",
       },
       {
@@ -181,6 +186,7 @@ export const animeVanguardsCopy = {
       },
       {
         name: "Codes",
+        href: "/anime-vanguards/codes",
         note: "Same three strings as the wiki TBD table: 1DayDelay and 25thHour need Level 30; LetTheLarpingBegin has no level lock. Rewards on that graphic were generic — keep wiki stack sizes on the Codes page.",
       },
       {
@@ -192,7 +198,9 @@ export const animeVanguardsCopy = {
   codes: {
     h2: "Codes",
     pageH1: "Anime Vanguards codes (Roblox)",
-    dek: "Official wiki.vanguards.gg listed three TBD codes on 2026-08-16. Kitawari’s Update 14.5 graphic names the same three. August media still tagged older strings NEW. We have not redeemed in-game.",
+    dek: "Kitawari’s Update 14.5 notes and wiki.vanguards.gg listed the same three TBD strings on 2026-08-16. August media still tagged older strings NEW. Not redeemed here.",
+    answer:
+      "On 2026-08-16, 1DayDelay and 25thHour (Level 30) plus LetTheLarpingBegin (no level lock) sat on both Kitawari’s Update 14.5 notes and the official wiki TBD table. We have not redeemed them in-game.",
     body: "Codes typically need Level 30. The 14.5 notes and the official wiki both say LetTheLarpingBegin has no level lock. Fandom and developer notes say codes last about two weeks. Media describe Profile on the right, then Codes on the left of that window. We have not photographed the redeem box, so that path stays Unverified. Copy a code below — do not type it into a random shop.",
     tableNote:
       "Official mention means it was on wiki.vanguards.gg’s active table (Availability TBD). Archived by wiki means the official table already moved it out — even if Beebom still says NEW. Unverified means other sites listed it. We do not mark Working until someone redeems it here.",
@@ -306,6 +314,10 @@ export const animeVanguardsCopy = {
           a: "Level 30 is the usual gate. Strings are case-sensitive. Official and Fandom notes say codes often expire after about two weeks. A media NEW tag is not the same as the official active table.",
         },
         {
+          q: "What do the current codes give?",
+          a: "Wiki rows (not the 14.5 poster): 1DayDelay is 200 Trait Rerolls; 25thHour is 50 Trait Rerolls + 50 Memoria Shards; LetTheLarpingBegin is 50 Controller Tokens + 10,000 Gems + 50,000 Gold. Unpack those currencies on the Items page.",
+        },
+        {
           q: "Is this the same box as Gamepass gifts?",
           a: "PGG describes a yellow Gamepass Coupons button inside the same Codes window. Unverified here. Promo codes and paid gift codes are not the same list.",
         },
@@ -314,8 +326,10 @@ export const animeVanguardsCopy = {
   },
   traits: {
     h2: "Traits",
-    pageH1: "Anime Vanguards traits — Monarch to Range",
+    pageH1: "Anime Vanguards traits (Roblox) — Monarch to Range",
     dek: "Effects and pity copied from wiki.vanguards.gg on 2026-08-16. That wiki is developer-supported. We have not photographed the Trait Index, so this is sourced, not Index.",
+    answer:
+      "A unit keeps one trait. Spend Trait Rerolls at the Traits NPC (media name: Mandra). On wiki.vanguards.gg, Monarch is 0.1% with pity 1,500. If the in-game Trait Index disagrees, the Index wins.",
     body: "Official wiki: a unit keeps one trait at a time; reroll with Trait Rerolls at the Traits NPC (media name: Mandra). Mythic traits have per-unit pity on those pages. Evolving or transferring stats does not reset pity according to Fandom — also unverified here.",
     indexTitle: "Wiki-listed trait table",
     indexNote:
@@ -378,11 +392,34 @@ export const animeVanguardsCopy = {
       },
     ],
     skip: "No S-tier from us. If the in-game Index disagrees with this table, the Index wins. We will replace wiki numbers when we photograph the panel.",
+    faq: {
+      h2: "FAQ",
+      items: [
+        {
+          q: "How do Anime Vanguards traits work?",
+          a: "Official wiki: one trait per unit. Reroll it with Trait Rerolls at the Traits NPC other sites call Mandra. Evolving or transferring stats does not reset pity according to Fandom — unverified here.",
+        },
+        {
+          q: "What is the Monarch trait rate?",
+          a: "wiki.vanguards.gg (read 2026-08-16): 0.1% (1 in 1,000) with pity 1,500. Effect listed: +300% Damage, −10% SPA, +5% Range, 1 placement limit.",
+        },
+        {
+          q: "Is this table the live Trait Index?",
+          a: "No. It is copied from the developer-supported wiki. Open Codex or the Trait Index in-game if the numbers differ.",
+        },
+        {
+          q: "Where do Trait Rerolls come from?",
+          a: "Current codes dump them (see the Codes page). Challenges and the Season 14 Battlepass also tag them. Spend them here, do not buy them from a random shop.",
+        },
+      ],
+    },
   },
   items: {
     h2: "Items",
-    pageH1: "Anime Vanguards items — gems, rerolls, shards",
-    dek: "Currencies that show up on code rewards, official wiki blurbs, and Kitawari’s Update 14.5 notes. Not a shop screenshot.",
+    pageH1: "Anime Vanguards items (Roblox) — gems, Memorias, tokens",
+    dek: "Currencies from code rewards, official wiki blurbs, and Kitawari’s Update 14.5 notes. Not a shop screenshot.",
+    answer:
+      "Codes dump Gems, Trait Rerolls, and Memoria Shards. Lunar Bridge spends Controller Tokens on the dungeon shop. Five exclusive Memorias from the 14.5 notes are paired to the new units; their combat effects were not printed on that graphic.",
     intro:
       "Codes dump currencies into your inventory. Exact stack sizes change per code. Shop prices are not photographed. Exclusive Memoria names below come from the 14.5 graphic; effects were not printed there.",
     memoriaTitle: "Update 14.5 exclusive Memorias",
@@ -448,11 +485,34 @@ export const animeVanguardsCopy = {
         source: "EEPart1 archived official row",
       },
     ],
+    faq: {
+      h2: "FAQ",
+      items: [
+        {
+          q: "What is the difference between Memoria and Memoria Shards?",
+          a: "Exclusive Memorias on the 14.5 notes are named items paired to a unit (example: Want Some for Star Crusader). Memoria Shards are the reroll currency for Memoria traits. Shard stacks come from codes; exclusive names are not a drop table we have photographed.",
+        },
+        {
+          q: "What are Controller Tokens for?",
+          a: "Update 14.5: Lunar Bridge Dungeon shop. 11 floors. LetTheLarpingBegin also drops 50 Controller Tokens on the official wiki row.",
+        },
+        {
+          q: "Where do Gems and Trait Rerolls come from?",
+          a: "Codes are the fast dump (see the Codes page). Gems also buy summon banners. Trait Rerolls are spent on the Traits page NPC.",
+        },
+        {
+          q: "Do you list shop prices?",
+          a: "No. This page is labels from codes and the 14.5 graphic, not a photographed shop.",
+        },
+      ],
+    },
   },
   units: {
     h2: "Units",
-    pageH1: "Anime Vanguards units — how the roster works",
-    dek: "One page on how units function, plus Update 14.5 obtain paths from Kitawari’s notes. Not a 200-row encyclopedia and not a tier list.",
+    pageH1: "Anime Vanguards units (Roblox) — 14.5 obtain paths",
+    dek: "How units function, plus Update 14.5 obtain paths from Kitawari’s notes. Not a 200-row encyclopedia and not a tier list.",
+    answer:
+      "Update 14.5: Phantom Thief (Joker) and Apathetic Savior (Door) from Lunar Bridge Dungeon; Rebel Fighter (Gauntlet) at Worldlines Floor 50; Star Crusader (Platinum) on the Season 14 Battlepass; Investigation Leader (Truth) from Arcana login or Dungeon.",
     body: "Official wiki Unit List: units come from summoning, stages, events, and shops. In a stage they attack on an SPA timer inside Range, unless they are yen/support. Every unit has stats and passives; some have player-fired actives. You inspect owned units in Inventory; obtaining a unit once unlocks it in the Unit Index. Update 14.5 also adds Codex. We have not photographed that Index.",
     rarityTitle: "Rarity buckets the official list uses",
     rarityNote: "Bucket names only. Full names live on wiki.vanguards.gg/Unit_List.",
@@ -523,29 +583,50 @@ export const animeVanguardsCopy = {
       },
     ],
     skip: "No S-tier. No 200 cloned unit URLs. For the rest of the roster use the in-game Unit Index or wiki.vanguards.gg.",
+    faq: {
+      h2: "FAQ",
+      items: [
+        {
+          q: "How do I get the Update 14.5 units?",
+          a: "Kitawari’s notes: Phantom Thief (Joker) and Apathetic Savior (Door) from Lunar Bridge Dungeon; Rebel Fighter (Gauntlet) at Worldlines Floor 50; Star Crusader (Platinum) on the Season 14 Battlepass; Investigation Leader (Truth) from the Arcana 7-day login or Dungeon.",
+        },
+        {
+          q: "Is Phantom Thief Joker or Jester?",
+          a: "The Update 14.5 graphic says Joker. Older official wiki news used Jester. Trust the in-game Unit Index or Codex if they still disagree.",
+        },
+        {
+          q: "Do you publish an Anime Vanguards tier list?",
+          a: "No. Public S-tier lists already disagree on the same unit. This page is obtain paths and roster rules, not ranks.",
+        },
+        {
+          q: "Where is the rest of the roster?",
+          a: "In-game Codex / Unit Index, or wiki.vanguards.gg. Upvane does not clone every unit URL.",
+        },
+      ],
+    },
   },
   faq: {
     h2: "FAQ",
     items: [
       {
+        q: "What is Anime Vanguards?",
+        a: "A Roblox tower defense experience by Kitawari (place 16146832113). Summon units, hold the track, evolve, and reroll traits. The live title suffix rotates with events; 25th Hour was the suffix on 2026-08-16.",
+      },
+      {
         q: "Is Anime Vanguards the same as Anime Last Stand?",
-        a: "No. This kit is only Kitawari’s Anime Vanguards (place 16146832113). Anime Last Stand is a different Roblox tower defense.",
-      },
-      {
-        q: "Where do I redeem codes?",
-        a: "Media and the official wiki describe Profile → Codes. We have not photographed the box. Most codes need Level 30.",
-      },
-      {
-        q: "Should I follow a unit tier list from Google?",
-        a: "Not from us. Public lists already disagree on the same unit’s rank. This kit does not publish S-tier.",
-      },
-      {
-        q: "Where do Trait Rerolls go?",
-        a: "Official wiki: spend them at the Traits NPC to reroll the single trait on a unit. Media call that NPC Mandra. Pity numbers on this site are copied from wiki.vanguards.gg, not from a photographed Index.",
+        a: "No. This kit is only Kitawari’s Anime Vanguards. Anime Last Stand is a different Roblox tower defense.",
       },
       {
         q: "What did Update 14.5 add?",
-        a: "Kitawari’s Update 14.5 notes: Lunar Bridge Dungeon (11 floors, Controller Tokens), Gauntlets (8-player PvP bracket), Worldlines reset, Codex, Arcana login, Season 14 Battlepass, five units with exclusive Memorias, and the same three codes as the wiki TBD table. Full stats stay in Codex or on wiki.vanguards.gg.",
+        a: "Kitawari’s notes: Lunar Bridge Dungeon (11 floors, Controller Tokens), Gauntlets (8-player PvP bracket), Worldlines reset, Codex, Arcana login, Season 14 Battlepass, five units with exclusive Memorias, and the same three codes as the wiki TBD table. Obtain paths sit on the Units page; currencies on Items; strings on Codes.",
+      },
+      {
+        q: "Where should I redeem codes or reroll traits?",
+        a: "Codes page for strings and the unverified Profile → Codes path. Traits page for the wiki pity table. This guide does not duplicate those answers.",
+      },
+      {
+        q: "Is this a clone of the official wiki?",
+        a: "No. wiki.vanguards.gg is the developer-supported encyclopedia (they claim hundreds of articles). This is a short unofficial desk: first session, 14.5 facts, codes vs media, and a few tables.",
       },
     ],
   },
@@ -587,34 +668,55 @@ export const animeVanguardsNav = [
 
 export const animeVanguardsCanonical = absoluteUrl(animeVanguards.path);
 
-export const animeVanguardsMetadata = pageMetadata(
+function avImage(kind: keyof typeof animeVanguardsArt) {
+  return `${SITE_ORIGIN}${animeVanguardsArt[kind]}`;
+}
+
+function avMeta(
+  title: string,
+  description: string,
+  pathname: string,
+  kind: keyof typeof animeVanguardsArt,
+) {
+  return pageMetadata(title, description, pathname, {
+    image: animeVanguardsArt[kind],
+    imageAlt: animeVanguardsArtAlt[kind],
+  });
+}
+
+export const animeVanguardsMetadata = avMeta(
   animeVanguardsCopy.title,
   animeVanguardsCopy.metaDescription,
   animeVanguards.path,
+  "guide",
 );
 
-export const animeVanguardsCodesMetadata = pageMetadata(
-  "Anime Vanguards codes (Roblox) — wiki TBD vs media",
-  "Anime Vanguards codes: 1DayDelay, 25thHour, LetTheLarpingBegin match Kitawari’s Update 14.5 notes and the official wiki TBD table. Older media NEW codes were already archived. Not redeemed in-game.",
+export const animeVanguardsCodesMetadata = avMeta(
+  "Anime Vanguards codes (Roblox) — TBD vs media NEW",
+  "Anime Vanguards codes: 1DayDelay, 25thHour, LetTheLarpingBegin from Kitawari 14.5 and wiki TBD. Media NEW may already be archived. Not redeemed here.",
   `${animeVanguards.path}/codes`,
+  "codes",
 );
 
-export const animeVanguardsTraitsMetadata = pageMetadata(
-  "Anime Vanguards traits — Monarch to Range",
-  "Anime Vanguards traits with wiki.vanguards.gg rates and effects (read 2026-08-16). Not a photographed Trait Index. No S-tier.",
+export const animeVanguardsTraitsMetadata = avMeta(
+  "Anime Vanguards traits (Roblox) — Monarch to Range",
+  "Anime Vanguards traits: Monarch 0.1% pity 1,500 and the full wiki.vanguards.gg table (read 2026-08-16). Not a photographed Index. No S-tier.",
   `${animeVanguards.path}/traits`,
+  "traits",
 );
 
-export const animeVanguardsUnitsMetadata = pageMetadata(
-  "Anime Vanguards units — roster rules and 14.5 names",
-  "How Anime Vanguards units work (SPA, Range, Index) plus Update 14.5 obtain paths from Kitawari’s notes. Not a tier list.",
+export const animeVanguardsUnitsMetadata = avMeta(
+  "Anime Vanguards units (Roblox) — 14.5 obtain paths",
+  "Anime Vanguards units: SPA/Range rules plus Update 14.5 obtain paths (Dungeon, Worldlines, Battlepass, login). Not a tier list.",
   `${animeVanguards.path}/units`,
+  "units",
 );
 
-export const animeVanguardsItemsMetadata = pageMetadata(
-  "Anime Vanguards items — gems, rerolls, shards",
-  "Anime Vanguards currencies from codes and Update 14.5: Gems, Trait Rerolls, Memoria Shards, Lunar Bridge Controller Tokens, and five exclusive Memorias. Not a shop screenshot.",
+export const animeVanguardsItemsMetadata = avMeta(
+  "Anime Vanguards items (Roblox) — gems, Memorias, tokens",
+  "Anime Vanguards items: Gems, Trait Rerolls, Memoria Shards, Controller Tokens, and five Update 14.5 exclusive Memorias. Not a shop screenshot.",
   `${animeVanguards.path}/items`,
+  "items",
 );
 
 function faqEntities(
@@ -649,38 +751,72 @@ function breadcrumbs(
   };
 }
 
+function webPageNode({
+  url,
+  name,
+  description,
+  image,
+}: {
+  url: string;
+  name: string;
+  description: string;
+  image: string;
+}) {
+  return {
+    "@type": "WebPage",
+    "@id": url,
+    name,
+    url,
+    description,
+    inLanguage: "en-US",
+    dateModified: animeVanguards.lastChecked,
+    primaryImageOfPage: {
+      "@type": "ImageObject",
+      url: image,
+    },
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: absoluteUrl("/"),
+    },
+    about: {
+      "@type": "VideoGame",
+      name: animeVanguards.name,
+      url: animeVanguards.playUrl,
+      gamePlatform: "Roblox",
+      author: {
+        "@type": "Organization",
+        name: animeVanguards.developer,
+      },
+      sameAs: animeVanguards.playUrl,
+    },
+  };
+}
+
 export function animeVanguardsJsonLd() {
   return {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "WebPage",
-        "@id": animeVanguardsCanonical,
-        name: animeVanguardsCopy.title,
+      webPageNode({
         url: animeVanguardsCanonical,
+        name: animeVanguardsCopy.title,
         description: animeVanguardsCopy.metaDescription,
-        dateModified: animeVanguards.lastChecked,
-        isPartOf: {
-          "@type": "WebSite",
-          name: SITE_NAME,
-          url: absoluteUrl("/"),
-        },
-        about: {
-          "@type": "VideoGame",
-          name: animeVanguards.name,
-          url: animeVanguards.playUrl,
-          gamePlatform: "Roblox",
-          author: {
-            "@type": "Organization",
-            name: animeVanguards.developer,
-          },
-          sameAs: animeVanguards.playUrl,
-        },
-      },
+        image: avImage("guide"),
+      }),
       {
         "@type": "FAQPage",
         "@id": `${animeVanguardsCanonical}#faq`,
         mainEntity: faqEntities(animeVanguardsCopy.faq.items),
+      },
+      {
+        "@type": "ItemList",
+        name: "Anime Vanguards guide pages",
+        itemListElement: animeVanguardsCopy.pages.cards.map((card, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: card.title,
+          url: absoluteUrl(`${animeVanguards.path}/${card.id}`),
+        })),
       },
       breadcrumbs([{ name: animeVanguards.name, path: animeVanguards.path }]),
     ],
@@ -692,14 +828,22 @@ export function animeVanguardsCodesJsonLd() {
   return {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "WebPage",
-        "@id": url,
-        name: animeVanguardsCopy.codes.pageH1,
+      webPageNode({
         url,
+        name: animeVanguardsCopy.codes.pageH1,
+        description: String(animeVanguardsCodesMetadata.description ?? ""),
+        image: avImage("codes"),
+      }),
+      {
+        "@type": "HowTo",
+        name: "How to redeem Anime Vanguards codes",
         description:
-          "Anime Vanguards codes: Kitawari Update 14.5 notes and the official wiki TBD table versus media NEW tags. Redeem path still unverified.",
-        dateModified: animeVanguards.lastChecked,
+          "Path from official wiki and media. Unverified on this kit until photographed.",
+        step: animeVanguardsCopy.codes.redeemSteps.map((text, index) => ({
+          "@type": "HowToStep",
+          position: index + 1,
+          text,
+        })),
       },
       {
         "@type": "FAQPage",
@@ -709,6 +853,78 @@ export function animeVanguardsCodesJsonLd() {
       breadcrumbs([
         { name: animeVanguards.name, path: animeVanguards.path },
         { name: "Codes", path: `${animeVanguards.path}/codes` },
+      ]),
+    ],
+  };
+}
+
+export function animeVanguardsTraitsJsonLd() {
+  const url = absoluteUrl(`${animeVanguards.path}/traits`);
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      webPageNode({
+        url,
+        name: animeVanguardsCopy.traits.pageH1,
+        description: String(animeVanguardsTraitsMetadata.description ?? ""),
+        image: avImage("traits"),
+      }),
+      {
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        mainEntity: faqEntities(animeVanguardsCopy.traits.faq.items),
+      },
+      breadcrumbs([
+        { name: animeVanguards.name, path: animeVanguards.path },
+        { name: "Traits", path: `${animeVanguards.path}/traits` },
+      ]),
+    ],
+  };
+}
+
+export function animeVanguardsUnitsJsonLd() {
+  const url = absoluteUrl(`${animeVanguards.path}/units`);
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      webPageNode({
+        url,
+        name: animeVanguardsCopy.units.pageH1,
+        description: String(animeVanguardsUnitsMetadata.description ?? ""),
+        image: avImage("units"),
+      }),
+      {
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        mainEntity: faqEntities(animeVanguardsCopy.units.faq.items),
+      },
+      breadcrumbs([
+        { name: animeVanguards.name, path: animeVanguards.path },
+        { name: "Units", path: `${animeVanguards.path}/units` },
+      ]),
+    ],
+  };
+}
+
+export function animeVanguardsItemsJsonLd() {
+  const url = absoluteUrl(`${animeVanguards.path}/items`);
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      webPageNode({
+        url,
+        name: animeVanguardsCopy.items.pageH1,
+        description: String(animeVanguardsItemsMetadata.description ?? ""),
+        image: avImage("items"),
+      }),
+      {
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        mainEntity: faqEntities(animeVanguardsCopy.items.faq.items),
+      },
+      breadcrumbs([
+        { name: animeVanguards.name, path: animeVanguards.path },
+        { name: "Items", path: `${animeVanguards.path}/items` },
       ]),
     ],
   };
