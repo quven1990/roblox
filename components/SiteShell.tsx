@@ -26,7 +26,9 @@ export type KitSection =
   | "rewards"
   | "chickens"
   | "fusion"
-  | "traits";
+  | "traits"
+  | "units"
+  | "items";
 
 type Current = "hub" | "legal" | KitSection;
 

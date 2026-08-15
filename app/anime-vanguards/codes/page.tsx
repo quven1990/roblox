@@ -43,6 +43,25 @@ export default function AnimeVanguardsCodesPage() {
               row.source,
             ])}
           />
+          <h2>{copy.redeemTitle}</h2>
+          <ol className="steps">
+            {copy.redeemSteps.map((step, index) => (
+              <li key={step}>
+                <span>{String(index + 1).padStart(2, "0")}</span>
+                <p>{step}</p>
+              </li>
+            ))}
+          </ol>
+          <h2>{copy.archiveTitle}</h2>
+          <p>{copy.archiveNote}</p>
+          <DataTable
+            columns={["code", "reward", "requirement"]}
+            rows={copy.archiveRows.map((row) => [
+              <CopyCode key={row.code} code={row.code} />,
+              row.reward,
+              row.requirement,
+            ])}
+          />
           <h2>{copy.faq.h2}</h2>
           <div className="faq">
             {copy.faq.items.map((item) => (

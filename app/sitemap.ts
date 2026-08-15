@@ -93,6 +93,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: absoluteUrl(`${animeVanguards.path}/items`),
+      lastModified: new Date(`${animeVanguards.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.75,
+    },
+    {
+      url: absoluteUrl(`${animeVanguards.path}/traits`),
+      lastModified: new Date(`${animeVanguards.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.75,
+    },
+    {
+      url: absoluteUrl(`${animeVanguards.path}/units`),
+      lastModified: new Date(`${animeVanguards.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.75,
+    },
+    {
       url: absoluteUrl("/privacy"),
       lastModified,
       changeFrequency: "yearly",

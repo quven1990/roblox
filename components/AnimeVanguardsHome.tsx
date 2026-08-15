@@ -97,6 +97,17 @@ export function AnimeVanguardsHome() {
             ))}
           </ol>
 
+          <h2 id="modes">{copy.modes.h2}</h2>
+          <p>{copy.modes.intro}</p>
+          <ol className="zone-list">
+            {copy.modes.items.map((item) => (
+              <li key={item.name}>
+                <strong>{item.name}</strong>
+                <span>{item.note}</span>
+              </li>
+            ))}
+          </ol>
+
           <h2 id="codes">{copy.codes.h2}</h2>
           <div className="note">
             <p>{copy.codes.body}</p>
@@ -107,11 +118,27 @@ export function AnimeVanguardsHome() {
             </Link>
           </p>
 
+          <h2 id="items">{copy.items.h2}</h2>
+          <p>{copy.items.intro}</p>
+          <p>
+            <Link href={`${animeVanguards.path}/items`}>
+              {copy.items.pageH1} →
+            </Link>
+          </p>
+
           <h2 id="traits">{copy.traits.h2}</h2>
           <p>{copy.traits.body}</p>
           <p>
             <Link href={`${animeVanguards.path}/traits`}>
               {copy.traits.pageH1} →
+            </Link>
+          </p>
+
+          <h2 id="units">{copy.units.h2}</h2>
+          <p>{copy.units.body}</p>
+          <p>
+            <Link href={`${animeVanguards.path}/units`}>
+              {copy.units.pageH1} →
             </Link>
           </p>
 
