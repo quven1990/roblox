@@ -1,6 +1,7 @@
 import { SiteShell } from "@/components/SiteShell";
 import {
   SITE_CONTACT_EMAIL,
+  SITE_GA4_ID,
   SITE_NAME,
   SITE_ORIGIN,
   SITE_PRIVACY_EMAIL,
@@ -44,18 +45,25 @@ export default function PrivacyPage() {
 
         <h2>Analytics</h2>
         <p>
-          Page views are counted with a self-hosted Plausible script loaded from
-          plausible.shipsolo.io, with data-domain upvane.com. Plausible is
-          cookieless. The typical payload is the page URL, referrer, browser,
+          Page views are counted in two places. A self-hosted Plausible script
+          loads from plausible.shipsolo.io (data-domain upvane.com). Plausible
+          is cookieless. The typical payload is the page URL, referrer, browser,
           operating system, device type, and a coarse country derived from IP
-          address. We use that to see which guides are read, not to identify you
-          as a person.
+          address.
         </p>
         <p>
-          We do not control every retention setting on that analytics host. If
-          you prefer not to be counted, a content blocker that stops the
-          Plausible script is enough. You can also email{" "}
-          {SITE_PRIVACY_EMAIL} with questions about the count.
+          Google Analytics 4 (measurement ID {SITE_GA4_ID}) also runs. That
+          script loads from googletagmanager.com and google-analytics.com. It
+          can set first-party cookies (such as _ga) and send page URL, referrer,
+          device, and approximate location to Google. We use it to see which
+          guides are read. We do not turn on Google ads or remarketing on this
+          site. Google’s own privacy policy applies to that processing.
+        </p>
+        <p>
+          We do not control every retention setting on those hosts. A content
+          blocker that stops the analytics scripts is enough if you prefer not
+          to be counted. You can also email {SITE_PRIVACY_EMAIL} with questions
+          about the count.
         </p>
 
         <h2>Hosting and fonts</h2>
@@ -81,9 +89,9 @@ export default function PrivacyPage() {
         <h2>Third-party sites</h2>
         <p>
           Play buttons and other outbound links go to Roblox or other sites we
-          do not operate. Those sites have their own privacy policies. We do
-          not sell personal information and we do not share analytics with
-          advertisers.
+          do not operate. Those sites have their own privacy policies. Google
+          receives Analytics data as described above. We do not sell personal
+          information and we do not run ads on this site.
         </p>
 
         <h2>Children</h2>

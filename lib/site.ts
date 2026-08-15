@@ -5,6 +5,7 @@ export const SITE_ORIGIN = "https://upvane.com";
 export const SITE_LOCALE = "en_US";
 export const SITE_CONTACT_EMAIL = "contact@upvane.com";
 export const SITE_PRIVACY_EMAIL = "privacy@upvane.com";
+export const SITE_GA4_ID = "G-H20SYKX847";
 
 export function absoluteUrl(pathname = "/"): string {
   if (pathname === "/" || pathname === "") {

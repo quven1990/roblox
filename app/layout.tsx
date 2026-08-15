@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import type { Metadata, Viewport } from "next";
 import { Outfit } from "next/font/google";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { SITE_ORIGIN, siteCopy } from "@/lib/site";
 import "./globals.css";
 
@@ -39,6 +40,7 @@ export default function RootLayout({
           data-domain="upvane.com"
           src="https://plausible.shipsolo.io/js/script.js"
         />
+        <GoogleAnalytics />
       </head>
       <body className={outfit.className}>
         <a className="skip" href="#content">
