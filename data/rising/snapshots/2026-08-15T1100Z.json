@@ -1,0 +1,6244 @@
+{
+  "generatedAt": "2026-08-15T11:00Z",
+  "games": [
+    {
+      "universeId": 10338952197,
+      "placeId": 94640181989498,
+      "name": "Grow a Chicken Fighter",
+      "playing": 69301,
+      "visits": 16682958,
+      "favorited": 1943553,
+      "ageDays": 59,
+      "created": "2026-06-16T14:59:20.172Z",
+      "updatedHoursAgo": 93.58499784944445,
+      "genre": "Tycoon",
+      "creator": "Grow a Chicken Fighter",
+      "url": "https://www.roblox.com/games/94640181989498/Grow-a-Chicken-Fighter",
+      "sources": [
+        "top-playing-now",
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 4,
+        "top-trending": 15,
+        "top-playing-now": 20
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9787739243056555,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 6,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 36,
+      "reasons": [
+        "Global Trending #15",
+        "Up-and-Coming #4",
+        "机制线索 6 项"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10516888336,
+      "placeId": 100293509865504,
+      "name": "Catch 1 Billion Ducks",
+      "playing": 22658,
+      "visits": 23736798,
+      "favorited": 426794,
+      "ageDays": 29,
+      "created": "2026-07-17T07:46:11.094Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "Billion Duck Hunters",
+      "url": "https://www.roblox.com/games/100293509865504/Catch-1-Billion-Ducks",
+      "sources": [
+        "top-playing-now",
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 7,
+        "top-trending": 11,
+        "top-playing-now": 61
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9831010629323436,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 36,
+      "reasons": [
+        "Global Trending #11",
+        "Up-and-Coming #7",
+        "Early Access / Beta",
+        "机制线索 2 项"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10475794799,
+      "placeId": 83038462357724,
+      "name": "Dig & Clean 🧼",
+      "playing": 61386,
+      "visits": 36359588,
+      "favorited": 656063,
+      "ageDays": 36,
+      "created": "2026-07-09T23:01:31.839Z",
+      "updatedHoursAgo": 65.29105619111111,
+      "genre": "Tycoon",
+      "creator": "Squeaky Clean!",
+      "url": "https://www.roblox.com/games/83038462357724/Dig-Clean",
+      "sources": [
+        "top-playing-now",
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 13,
+        "top-trending": 23,
+        "top-playing-now": 23
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9536364964925955,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 34,
+      "reasons": [
+        "Global Trending #23",
+        "Up-and-Coming #13",
+        "机制线索 2 项"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 8946565814,
+      "placeId": 129932912185311,
+      "name": "Anime Origins",
+      "playing": 21625,
+      "visits": 1391639,
+      "favorited": 7069,
+      "ageDays": 304,
+      "created": "2025-10-14T15:47:57.607Z",
+      "updatedHoursAgo": 0.0722095363888889,
+      "genre": "Tower Defense",
+      "creator": "Origins Project",
+      "url": "https://www.roblox.com/games/129932912185311/Anime-Origins",
+      "sources": [
+        "top-playing-now",
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 1,
+        "top-trending": 19,
+        "top-playing-now": 67
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9292035398230089,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 7,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": true,
+      "score": 32,
+      "reasons": [
+        "Global Trending #19",
+        "Up-and-Coming #1",
+        "机制线索 7 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "可能是老游更新尖峰"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10539411000,
+      "placeId": 92637789841354,
+      "name": "🍂 Clean all the leaves!",
+      "playing": 59629,
+      "visits": 5514443,
+      "favorited": 15664,
+      "ageDays": 25,
+      "created": "2026-07-21T01:21:41.529Z",
+      "updatedHoursAgo": null,
+      "genre": "Story",
+      "creator": "Muffin Interactive",
+      "url": "https://www.roblox.com/games/92637789841354/Clean-all-the-leaves",
+      "sources": [
+        "top-playing-now",
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 3,
+        "top-trending": 29,
+        "top-playing-now": 25
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8269645306682344,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 30,
+      "reasons": [
+        "Global Trending #29",
+        "Up-and-Coming #3",
+        "机制线索 2 项"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10376944238,
+      "placeId": 134363641369914,
+      "name": "Build Your Backrooms",
+      "playing": 20768,
+      "visits": 27030957,
+      "favorited": 182037,
+      "ageDays": 53,
+      "created": "2026-06-22T16:29:40.706Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "Wind Sun Moon [WSM]",
+      "url": "https://www.roblox.com/games/134363641369914/Build-Your-Backrooms",
+      "sources": [
+        "top-playing-now",
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 16,
+        "top-trending": 26,
+        "top-playing-now": 71
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.980417674214113,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 30,
+      "reasons": [
+        "Global Trending #26",
+        "Up-and-Coming #16",
+        "机制线索 3 项"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10471583973,
+      "placeId": 125496078313264,
+      "name": "2 PLAYER Evolution Tycoon 🛸",
+      "playing": 17049,
+      "visits": 8627063,
+      "favorited": 43851,
+      "ageDays": 37,
+      "created": "2026-07-09T04:13:51.785Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "Blackbox Tycoons",
+      "url": "https://www.roblox.com/games/125496078313264/2-PLAYER-Evolution-Tycoon",
+      "sources": [
+        "ggaid-7d",
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 39,
+        "top-playing-now": 91
+      },
+      "change7d": "+90%",
+      "pastPlaying": 8904,
+      "growth7d": 0.9148,
+      "growth24h": null,
+      "likeRatio": 0.8986464711569448,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 6,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 30,
+      "reasons": [
+        "Global Trending #39",
+        "7d CCU +91%",
+        "机制线索 6 项"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10463578886,
+      "placeId": 131367064230486,
+      "name": "The House TD 2 - Launch",
+      "playing": 3673,
+      "visits": 2843927,
+      "favorited": 11388,
+      "ageDays": 38,
+      "created": "2026-07-07T14:51:28.101Z",
+      "updatedHoursAgo": null,
+      "genre": "Tower Defense",
+      "creator": "DeadB Studios",
+      "url": "https://www.roblox.com/games/131367064230486/The-House-TD-2-Launch",
+      "sources": [
+        "ggaid-7d",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 17
+      },
+      "change7d": "+110%",
+      "pastPlaying": 1675,
+      "growth7d": 1.1928,
+      "growth24h": null,
+      "likeRatio": 0.9795405763346577,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 6,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 30,
+      "reasons": [
+        "Up-and-Coming #17",
+        "7d CCU +119%",
+        "Early Access / Beta",
+        "机制线索 6 项"
+      ],
+      "risks": [],
+      "bucket": "early"
+    },
+    {
+      "universeId": 10340721921,
+      "placeId": 127475054933484,
+      "name": "⚡Power a City",
+      "playing": 6893,
+      "visits": 2338329,
+      "favorited": 13741,
+      "ageDays": 59,
+      "created": "2026-06-16T22:04:50.383Z",
+      "updatedHoursAgo": 0.09637742777777777,
+      "genre": "Tycoon",
+      "creator": "Vivat's Workers",
+      "url": "https://www.roblox.com/games/127475054933484/Power-a-City",
+      "sources": [
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 9,
+        "top-trending": 50
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9379571248423707,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 29,
+      "reasons": [
+        "Global Trending #50",
+        "Up-and-Coming #9",
+        "机制线索 3 项"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10518836988,
+      "placeId": 89907728898683,
+      "name": "[🐎] Garden Cleaner Evolution",
+      "playing": 3871,
+      "visits": 11999063,
+      "favorited": 69951,
+      "ageDays": 28,
+      "created": "2026-07-17T15:37:43.957Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "Salient Experiences",
+      "url": "https://www.roblox.com/games/89907728898683/Garden-Cleaner-Evolution",
+      "sources": [
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 28
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9712148989447326,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 5,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 27,
+      "reasons": [
+        "Up-and-Coming #28",
+        "机制线索 5 项"
+      ],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10551595617,
+      "placeId": 133294838637122,
+      "name": "⚽ Jump To Steal Soccer Players ⚽",
+      "playing": 26461,
+      "visits": 11809510,
+      "favorited": 448257,
+      "ageDays": 22,
+      "created": "2026-07-23T11:48:27.479Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "Faroeste Caboclo",
+      "url": "https://www.roblox.com/games/133294838637122/Jump-To-Steal-Soccer-Players",
+      "sources": [
+        "top-playing-now",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 12,
+        "top-playing-now": 51
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8769890687698907,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 26,
+      "reasons": [
+        "Up-and-Coming #12",
+        "机制线索 3 项"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10423774136,
+      "placeId": 104589921852670,
+      "name": "Protect the Border [BETA]",
+      "playing": 8934,
+      "visits": 1730235,
+      "favorited": 12853,
+      "ageDays": 45,
+      "created": "2026-06-30T23:32:36.805Z",
+      "updatedHoursAgo": null,
+      "genre": "Simulation",
+      "creator": "The Evil Mafia",
+      "url": "https://www.roblox.com/games/104589921852670/Protect-the-Border",
+      "sources": [
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 6,
+        "top-trending": 43
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8705418121110943,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 26,
+      "reasons": [
+        "Global Trending #43",
+        "Up-and-Coming #6",
+        "Early Access / Beta"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10438013523,
+      "placeId": 89035794510548,
+      "name": "🕹️ Endless GAMES [NO ADS]",
+      "playing": 20112,
+      "visits": 21826888,
+      "favorited": 169309,
+      "ageDays": 43,
+      "created": "2026-07-03T09:27:32.229Z",
+      "updatedHoursAgo": null,
+      "genre": "Minigame",
+      "creator": "Studio Heat",
+      "url": "https://www.roblox.com/games/89035794510548/Endless-GAMES",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 13,
+        "top-playing-now": 73
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9332019747098562,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 25,
+      "reasons": [
+        "Global Trending #13"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10523101954,
+      "placeId": 97655748236852,
+      "name": "[v5.1] hus from clark ",
+      "playing": 4264,
+      "visits": 8231503,
+      "favorited": 49087,
+      "ageDays": 28,
+      "created": "2026-07-18T10:07:13.012Z",
+      "updatedHoursAgo": null,
+      "genre": "Survival",
+      "creator": "xamcamm",
+      "url": "https://www.roblox.com/games/97655748236852/hus-from-clark",
+      "sources": [
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 25,
+        "top-trending": 51
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8659194686591947,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 25,
+      "reasons": [
+        "Global Trending #51",
+        "Up-and-Coming #25"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10514280922,
+      "placeId": 117539213094671,
+      "name": "Roll A Gnome",
+      "playing": 3619,
+      "visits": 3464799,
+      "favorited": 10637,
+      "ageDays": 29,
+      "created": "2026-07-16T18:29:16.155Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "8 Digit Bros",
+      "url": "https://www.roblox.com/games/117539213094671/Roll-A-Gnome",
+      "sources": [
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 18,
+        "top-trending": 77
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9195791055993987,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 25,
+      "reasons": [
+        "Global Trending #77",
+        "Up-and-Coming #18"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10439568447,
+      "placeId": 121781732399469,
+      "name": "[NEW] Anomaly Cafe ",
+      "playing": 2961,
+      "visits": 990213,
+      "favorited": 29114,
+      "ageDays": 42,
+      "created": "2026-07-03T14:55:33.732Z",
+      "updatedHoursAgo": null,
+      "genre": "Survival",
+      "creator": "Anomaly Cafe",
+      "url": "https://www.roblox.com/games/121781732399469/Anomaly-Cafe",
+      "sources": [
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 11,
+        "top-trending": 64
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9659090909090909,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 25,
+      "reasons": [
+        "Global Trending #64",
+        "Up-and-Coming #11",
+        "Early Access / Beta"
+      ],
+      "risks": [],
+      "bucket": "early"
+    },
+    {
+      "universeId": 10506207587,
+      "placeId": 133188236593503,
+      "name": "Magic Loot[🌗Light vs Dark Event]",
+      "playing": 25441,
+      "visits": 14681421,
+      "favorited": 35116,
+      "ageDays": 31,
+      "created": "2026-07-15T08:58:42.093Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "Magic Magic +1 +1 +1",
+      "url": "https://www.roblox.com/games/133188236593503/Magic-Loot",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 49,
+        "top-playing-now": 55
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9156659388646288,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 24,
+      "reasons": [
+        "Global Trending #49",
+        "机制线索 4 项"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10324001605,
+      "placeId": 93028168925975,
+      "name": "🌷 My Flower Shop",
+      "playing": 7019,
+      "visits": 5010252,
+      "favorited": 157430,
+      "ageDays": null,
+      "created": "2026-06-14T03:47:01.93Z",
+      "updatedHoursAgo": 2.1403473975,
+      "genre": "Tycoon",
+      "creator": "Magic Box Games",
+      "url": "https://www.roblox.com/games/93028168925975/My-Flower-Shop",
+      "sources": [
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 24,
+        "top-trending": 72
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9633286799005755,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 24,
+      "reasons": [
+        "Global Trending #72",
+        "Up-and-Coming #24",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "没有可靠发售日期"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10418505887,
+      "placeId": 85733030843250,
+      "name": "Animal Restaurant (Anomaly)",
+      "playing": 5437,
+      "visits": 2328264,
+      "favorited": 44502,
+      "ageDays": 46,
+      "created": "2026-06-29T21:26:05.491Z",
+      "updatedHoursAgo": null,
+      "genre": "Survival",
+      "creator": "Dine N' Dash",
+      "url": "https://www.roblox.com/games/85733030843250/Animal-Restaurant",
+      "sources": [
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 10,
+        "top-trending": 59
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8998472616190268,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 24,
+      "reasons": [
+        "Global Trending #59",
+        "Up-and-Coming #10",
+        "Early Access / Beta",
+        "机制线索 2 项"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10459284153,
+      "placeId": 139959709575082,
+      "name": "Build a Dinosaur",
+      "playing": 2663,
+      "visits": 1647922,
+      "favorited": 13979,
+      "ageDays": 39,
+      "created": "2026-07-06T18:32:06.876Z",
+      "updatedHoursAgo": null,
+      "genre": "Scavenger Hunt",
+      "creator": "Clean the Dinosaur Museum",
+      "url": "https://www.roblox.com/games/139959709575082/Build-a-Dinosaur",
+      "sources": [
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 20
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8865847822619237,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 6,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 24,
+      "reasons": [
+        "Up-and-Coming #20",
+        "机制线索 6 项"
+      ],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 9825259729,
+      "placeId": 135486323963203,
+      "name": "Duck Duck (Tag) 🦆",
+      "playing": 5988,
+      "visits": 13741216,
+      "favorited": 109325,
+      "ageDays": null,
+      "created": "2026-03-02T16:45:59.02Z",
+      "updatedHoursAgo": null,
+      "genre": "Minigame",
+      "creator": "Quack Quack Co.",
+      "url": "https://www.roblox.com/games/135486323963203/Duck-Duck",
+      "sources": [
+        "ggaid-7d",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 34
+      },
+      "change7d": "+89%",
+      "pastPlaying": 3028,
+      "growth7d": 0.9775,
+      "growth24h": null,
+      "likeRatio": 0.9055261522638154,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 5,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 23,
+      "reasons": [
+        "Global Trending #34",
+        "7d CCU +98%",
+        "机制线索 5 项"
+      ],
+      "risks": [
+        "没有可靠发售日期"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10563114921,
+      "placeId": 107778070777162,
+      "name": "Steal An Egg",
+      "playing": 170542,
+      "visits": 29466673,
+      "favorited": 80204,
+      "ageDays": 21,
+      "created": "2026-07-25T07:50:51.492Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "and Collect Rare Pets",
+      "url": "https://www.roblox.com/games/107778070777162/Steal-An-Egg",
+      "sources": [
+        "top-playing-now",
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 2,
+        "top-trending": 12,
+        "top-playing-now": 11
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.939944231439526,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 5,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 22,
+      "reasons": [
+        "Global Trending #12",
+        "Up-and-Coming #2",
+        "机制线索 5 项"
+      ],
+      "risks": [
+        "CCU 已偏晚，SERP 可能已挤"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10219827882,
+      "placeId": 101670277171204,
+      "name": "Automate a Restaurant 🍲",
+      "playing": 7959,
+      "visits": 2209537,
+      "favorited": 33252,
+      "ageDays": 82,
+      "created": "2026-05-25T09:05:47.507Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "m_experiment",
+      "url": "https://www.roblox.com/games/101670277171204/Automate-a-Restaurant",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 22
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.987082615291709,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 22,
+      "reasons": [
+        "Global Trending #22",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10506291803,
+      "placeId": 120336108521610,
+      "name": "Capybara Onsen ♨",
+      "playing": 1843,
+      "visits": 767906,
+      "favorited": 25056,
+      "ageDays": 31,
+      "created": "2026-07-15T09:21:58.311Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "Dojo Empire",
+      "url": "https://www.roblox.com/games/120336108521610/Capybara-Onsen",
+      "sources": [
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 15
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9511131167268352,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 22,
+      "reasons": [
+        "Up-and-Coming #15",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10552540426,
+      "placeId": 96425088123775,
+      "name": "[NEW] My Toll Farm!",
+      "playing": 1815,
+      "visits": 335488,
+      "favorited": 17117,
+      "ageDays": 22,
+      "created": "2026-07-23T15:28:29.155Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "JOFO Games",
+      "url": "https://www.roblox.com/games/96425088123775/My-Toll-Farm",
+      "sources": [
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 19
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9691159002206007,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 22,
+      "reasons": [
+        "Up-and-Coming #19"
+      ],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 9910245722,
+      "placeId": 117533937949084,
+      "name": "Iron Soul: Dungeon",
+      "playing": 22289,
+      "visits": 224662587,
+      "favorited": 660187,
+      "ageDays": 147,
+      "created": "2026-03-20T11:01:02.856Z",
+      "updatedHoursAgo": null,
+      "genre": "Action RPG",
+      "creator": "Iron Soul",
+      "url": "https://www.roblox.com/games/117533937949084/Iron-Soul-Dungeon",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 40,
+        "top-playing-now": 63
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9831854433283549,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 7,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 21,
+      "reasons": [
+        "Global Trending #40",
+        "机制线索 7 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 4777817887,
+      "placeId": 13772394625,
+      "name": "Blade Ball",
+      "playing": 21835,
+      "visits": 6338111253,
+      "favorited": 12783835,
+      "ageDays": 1155,
+      "created": "2023-06-17T00:05:26.103Z",
+      "updatedHoursAgo": 138.71711760083332,
+      "genre": "Battlegrounds & Fighting",
+      "creator": "Wiggity.",
+      "url": "https://www.roblox.com/games/13772394625/Blade-Ball",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 8,
+        "top-playing-now": 65
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.935180907530562,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 21,
+      "reasons": [
+        "Global Trending #8",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10298144467,
+      "placeId": 107653945083776,
+      "name": "Roll Anime to Fight!",
+      "playing": 13332,
+      "visits": 15355137,
+      "favorited": 31264,
+      "ageDays": 66,
+      "created": "2026-06-10T00:33:10.805Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "Another Slop",
+      "url": "https://www.roblox.com/games/107653945083776/Roll-Anime-to-Fight",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 48
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9723173179081572,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 5,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 21,
+      "reasons": [
+        "Global Trending #48",
+        "机制线索 5 项"
+      ],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10539789203,
+      "placeId": 91698952875688,
+      "name": "[QoL] Bahkruums [BETA]",
+      "playing": 1274,
+      "visits": 3173534,
+      "favorited": 37329,
+      "ageDays": 25,
+      "created": "2026-07-21T03:23:44.853Z",
+      "updatedHoursAgo": 98.28610481361112,
+      "genre": "Survival",
+      "creator": "OrbitWave Creations",
+      "url": "https://www.roblox.com/games/91698952875688/Bahkruums",
+      "sources": [
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 29
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.907447266465777,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 21,
+      "reasons": [
+        "Up-and-Coming #29",
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "early"
+    },
+    {
+      "universeId": 10440833423,
+      "placeId": 74102906764176,
+      "name": "[UPD] Greedy Growers 🌱",
+      "playing": 36854,
+      "visits": 19739578,
+      "favorited": 93342,
+      "ageDays": 42,
+      "created": "2026-07-03T19:34:07.285Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "banjo greedy lady",
+      "url": "https://www.roblox.com/games/74102906764176/Greedy-Growers",
+      "sources": [
+        "ggaid-7d",
+        "top-playing-now"
+      ],
+      "ranks": {
+        "top-playing-now": 41
+      },
+      "change7d": "+130%",
+      "pastPlaying": 15959,
+      "growth7d": 1.3093,
+      "growth24h": null,
+      "likeRatio": 0.9701746554321745,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 20,
+      "reasons": [
+        "7d CCU +131%"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10209534490,
+      "placeId": 137233438285284,
+      "name": "Chicken Farm 🐣",
+      "playing": 21978,
+      "visits": 73562326,
+      "favorited": 275839,
+      "ageDays": 83,
+      "created": "2026-05-23T14:00:01.875Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "Skandi Studios",
+      "url": "https://www.roblox.com/games/137233438285284/Chicken-Farm",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 32,
+        "top-playing-now": 64
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9900415645114128,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 20,
+      "reasons": [
+        "Global Trending #32",
+        "机制线索 4 项"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10173311467,
+      "placeId": 137228775845999,
+      "name": "Ghost Driver [PRE-ALPHA]",
+      "playing": 18540,
+      "visits": 3348845,
+      "favorited": 96498,
+      "ageDays": 91,
+      "created": "2026-05-16T00:04:12.168Z",
+      "updatedHoursAgo": null,
+      "genre": "Vehicle Sim",
+      "creator": "Tilted Vehicles",
+      "url": "https://www.roblox.com/games/137228775845999/Ghost-Driver",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 4,
+        "top-playing-now": 81
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9868754250654782,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 20,
+      "reasons": [
+        "Global Trending #4",
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10562441534,
+      "placeId": 128693673768020,
+      "name": "(UPDATE) OC NPC Playground",
+      "playing": 1572,
+      "visits": 1793527,
+      "favorited": 25656,
+      "ageDays": 21,
+      "created": "2026-07-25T05:28:52.344Z",
+      "updatedHoursAgo": null,
+      "genre": "",
+      "creator": "Resurrected_Dove",
+      "url": "https://www.roblox.com/games/128693673768020/OC-NPC-Playground",
+      "sources": [
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 23
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8261651431140417,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 20,
+      "reasons": [
+        "Up-and-Coming #23"
+      ],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 4760747038,
+      "placeId": 13718567207,
+      "name": "Wonderland",
+      "playing": 25766,
+      "visits": 3186906,
+      "favorited": 72619,
+      "ageDays": 1161,
+      "created": "2023-06-11T08:08:33.463Z",
+      "updatedHoursAgo": null,
+      "genre": "Exploration",
+      "creator": "ScaryPlay",
+      "url": "https://www.roblox.com/games/13718567207/Wonderland",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 1,
+        "top-playing-now": 53
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9322841927357377,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 19,
+      "reasons": [
+        "Global Trending #1"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10232686472,
+      "placeId": 124338404742585,
+      "name": "[BLOODMOON] Keep the Door Locked🔒 [Anomaly]",
+      "playing": 17982,
+      "visits": 25278719,
+      "favorited": 193121,
+      "ageDays": 79,
+      "created": "2026-05-28T01:43:24.549Z",
+      "updatedHoursAgo": null,
+      "genre": "Survival",
+      "creator": "Hotel Room Services",
+      "url": "https://www.roblox.com/games/124338404742585/Keep-the-Door-Locked",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 18,
+        "top-playing-now": 84
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9149240625711406,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 19,
+      "reasons": [
+        "Global Trending #18"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 5578556129,
+      "placeId": 16146832113,
+      "name": "Anime Vanguards: 25th Hour",
+      "playing": 16010,
+      "visits": 2015414468,
+      "favorited": 1982409,
+      "ageDays": 930,
+      "created": "2024-01-28T07:09:39.507Z",
+      "updatedHoursAgo": null,
+      "genre": "Tower Defense",
+      "creator": "Kitawari",
+      "url": "https://www.roblox.com/games/16146832113/Anime-Vanguards-25th-Hour",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 25,
+        "top-playing-now": 96
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9673940781572326,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 19,
+      "reasons": [
+        "Global Trending #25",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10582993047,
+      "placeId": 98884195482448,
+      "name": "(EARLY TESTING) Project Wheelie ",
+      "playing": 125,
+      "visits": 800731,
+      "favorited": 41732,
+      "ageDays": 18,
+      "created": "2026-07-28T01:26:51.688Z",
+      "updatedHoursAgo": null,
+      "genre": "Vehicle Sim",
+      "creator": "Project Wheelie",
+      "url": "https://www.roblox.com/games/98884195482448/Project-Wheelie",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 3
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9539704848910752,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 19,
+      "reasons": [
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "early"
+    },
+    {
+      "universeId": 10454554751,
+      "placeId": 112233638491976,
+      "name": "[❄️🔥] Unbox ASMR!",
+      "playing": 16560,
+      "visits": 80478444,
+      "favorited": 1970037,
+      "ageDays": 40,
+      "created": "2026-07-05T22:19:27.638Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "ASMR Labs",
+      "url": "https://www.roblox.com/games/112233638491976/Unbox-ASMR",
+      "sources": [
+        "top-playing-now"
+      ],
+      "ranks": {
+        "top-playing-now": 92
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.968077805118934,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 18,
+      "reasons": [
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 1235188606,
+      "placeId": 3475397644,
+      "name": "[EVENT ☀️] Dragon Adventures 🐉",
+      "playing": 14113,
+      "visits": 1690273218,
+      "favorited": 14201337,
+      "ageDays": 2587,
+      "created": "2019-07-15T16:19:10.623Z",
+      "updatedHoursAgo": null,
+      "genre": "RPG",
+      "creator": "Sonar Studios",
+      "url": "https://www.roblox.com/games/3475397644/Dragon-Adventures",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 37
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9340628435991658,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 18,
+      "reasons": [
+        "Global Trending #37",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 5805053299,
+      "placeId": 16901389020,
+      "name": "[NEW SUIT] Web Rush",
+      "playing": 12888,
+      "visits": 100990320,
+      "favorited": 249703,
+      "ageDays": 870,
+      "created": "2024-03-28T03:46:28.747Z",
+      "updatedHoursAgo": 37.899300105277774,
+      "genre": "Open World Action",
+      "creator": "Punk Society Games",
+      "url": "https://www.roblox.com/games/16901389020/Web-Rush",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 17
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8970871179918565,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": true,
+      "score": 18,
+      "reasons": [
+        "Global Trending #17",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "可能是老游更新尖峰",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 8520148363,
+      "placeId": 119789365111500,
+      "name": "💥 Tank Game! [2.4]",
+      "playing": 9118,
+      "visits": 233569065,
+      "favorited": 3066034,
+      "ageDays": null,
+      "created": "2025-08-23T10:55:18.7Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "7x3",
+      "url": "https://www.roblox.com/games/119789365111500/Tank-Game",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 45
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9003610686981423,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 18,
+      "reasons": [
+        "Global Trending #45",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10520859168,
+      "placeId": 125215626986308,
+      "name": "[UPD 7🌩️] Escape Huss Valley 🏃‍♂️",
+      "playing": 1442,
+      "visits": 1760549,
+      "favorited": 18318,
+      "ageDays": 28,
+      "created": "2026-07-18T00:31:05.111Z",
+      "updatedHoursAgo": null,
+      "genre": "",
+      "creator": "games group hahaa",
+      "url": "https://www.roblox.com/games/125215626986308/Escape-Huss-Valley",
+      "sources": [
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 8,
+        "top-trending": 35
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8901286915123112,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 18,
+      "reasons": [
+        "Global Trending #35",
+        "Up-and-Coming #8",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "玩法可能很薄"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10452420697,
+      "placeId": 126821001007479,
+      "name": "[EA] Combined Arms",
+      "playing": 77,
+      "visits": 454073,
+      "favorited": 26953,
+      "ageDays": 40,
+      "created": "2026-07-05T14:21:05.528Z",
+      "updatedHoursAgo": 5.658272566666667,
+      "genre": "Vehicle Sim",
+      "creator": "Combined Arms",
+      "url": "https://www.roblox.com/games/126821001007479/Combined-Arms",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 8
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.961897738446411,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 18,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10410945205,
+      "placeId": 90086669327265,
+      "name": "+1 Cut Grass Adventure",
+      "playing": 35699,
+      "visits": 11798679,
+      "favorited": 29279,
+      "ageDays": 47,
+      "created": "2026-06-28T13:55:53.933Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "Grassini",
+      "url": "https://www.roblox.com/games/90086669327265/1-Cut-Grass-Adventure",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 65,
+        "top-playing-now": 43
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9747704140834798,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 17,
+      "reasons": [
+        "Global Trending #65",
+        "机制线索 2 项"
+      ],
+      "risks": [],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 21164849,
+      "placeId": 20321167,
+      "name": "Pilot Training Flight Simulator",
+      "playing": 10208,
+      "visits": 773485631,
+      "favorited": 1818158,
+      "ageDays": 6066,
+      "created": "2010-01-04T12:59:06.023Z",
+      "updatedHoursAgo": null,
+      "genre": "Vehicle Sim",
+      "creator": "Pilot Training Club",
+      "url": "https://www.roblox.com/games/20321167/Pilot-Training-Flight-Simulator",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 21
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9316078742675068,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 17,
+      "reasons": [
+        "Global Trending #21"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 6760085372,
+      "placeId": 128451689942376,
+      "name": "[⛩️ SUKUNA] Jujutsu: Zero",
+      "playing": 8156,
+      "visits": 105936053,
+      "favorited": 183521,
+      "ageDays": null,
+      "created": "2024-11-04T17:58:40.07Z",
+      "updatedHoursAgo": null,
+      "genre": "Action RPG",
+      "creator": "Studio Resonance",
+      "url": "https://www.roblox.com/games/128451689942376/Jujutsu-Zero",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 46
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.954225187812048,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 5,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 17,
+      "reasons": [
+        "Global Trending #46",
+        "Early Access / Beta",
+        "机制线索 5 项"
+      ],
+      "risks": [
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10411121857,
+      "placeId": 138225905240404,
+      "name": "DELTARUNE Battles [UPDATE]",
+      "playing": 1071,
+      "visits": 1985244,
+      "favorited": 27436,
+      "ageDays": 47,
+      "created": "2026-06-28T14:30:32.524Z",
+      "updatedHoursAgo": null,
+      "genre": "Battlegrounds & Fighting",
+      "creator": "dreamysdead",
+      "url": "https://www.roblox.com/games/138225905240404/DELTARUNE-Battles",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 38
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8998238402818556,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 17,
+      "reasons": [
+        "Global Trending #38"
+      ],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 242453665,
+      "placeId": 601239270,
+      "name": "Mint Tycoon [BETA]",
+      "playing": 3,
+      "visits": 4063241,
+      "favorited": 115775,
+      "ageDays": null,
+      "created": "2017-01-05T03:50:25.01Z",
+      "updatedHoursAgo": 4669.984638135834,
+      "genre": "Tycoon",
+      "creator": "Bank of Robloxia",
+      "url": "https://www.roblox.com/games/601239270/Mint-Tycoon",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 47
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9299451503159064,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 6,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 17,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 6 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 1526814825,
+      "placeId": 4639625707,
+      "name": "[Merkava] War Tycoon",
+      "playing": 10237,
+      "visits": 1091289602,
+      "favorited": 4328793,
+      "ageDays": null,
+      "created": "2020-01-29T00:12:02.89Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "KizmoTek Studio",
+      "url": "https://www.roblox.com/games/4639625707/War-Tycoon",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 52
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9133062524383689,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 6,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 16,
+      "reasons": [
+        "Global Trending #52",
+        "机制线索 6 项"
+      ],
+      "risks": [
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 4568630521,
+      "placeId": 13076380114,
+      "name": "[UPDATE] Heroes Battlegrounds",
+      "playing": 8567,
+      "visits": 1698082923,
+      "favorited": 1577743,
+      "ageDays": 1222,
+      "created": "2023-04-11T02:16:49.137Z",
+      "updatedHoursAgo": null,
+      "genre": "Battlegrounds & Fighting",
+      "creator": "more awesome games yo",
+      "url": "https://www.roblox.com/games/13076380114/Heroes-Battlegrounds",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 10
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8557169482317344,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 16,
+      "reasons": [
+        "Global Trending #10"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10507075860,
+      "placeId": 129972079094718,
+      "name": "TNT to Earth's Core!",
+      "playing": 3042,
+      "visits": 1562284,
+      "favorited": 114142,
+      "ageDays": 30,
+      "created": "2026-07-15T12:48:09.721Z",
+      "updatedHoursAgo": null,
+      "genre": "Sandbox",
+      "creator": "Exploding fun!",
+      "url": "https://www.roblox.com/games/129972079094718/TNT-to-Earths-Core",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+405%",
+      "pastPlaying": 600,
+      "growth7d": 4.07,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 16,
+      "reasons": [
+        "7d CCU +407%"
+      ],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 5580972377,
+      "placeId": 16154918775,
+      "name": "💥 BUCKSHOT",
+      "playing": 2595,
+      "visits": 131748028,
+      "favorited": 553547,
+      "ageDays": null,
+      "created": "2024-01-28T18:36:04.97Z",
+      "updatedHoursAgo": 1221.965248993889,
+      "genre": "Strategy",
+      "creator": "crookit",
+      "url": "https://www.roblox.com/games/16154918775/BUCKSHOT",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 78
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9654496142701351,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 16,
+      "reasons": [
+        "Global Trending #78",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 6420180292,
+      "placeId": 18956320538,
+      "name": "[RE-RELEASE!] Mermaid Isle 🌊",
+      "playing": 1457,
+      "visits": 27743750,
+      "favorited": 189698,
+      "ageDays": 730,
+      "created": "2024-08-15T09:09:09.633Z",
+      "updatedHoursAgo": 8.072766084722222,
+      "genre": "Dress Up",
+      "creator": "Mermaid Isle",
+      "url": "https://www.roblox.com/games/18956320538/Mermaid-Isle",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 81
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9464114682284225,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 5,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 16,
+      "reasons": [
+        "Global Trending #81",
+        "机制线索 5 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 8841437826,
+      "placeId": 104973076655377,
+      "name": "Capybaras VS Plants",
+      "playing": 18913,
+      "visits": 20853941,
+      "favorited": 444146,
+      "ageDays": 318,
+      "created": "2025-09-30T22:16:32.983Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "Scarlett the Dog Group",
+      "url": "https://www.roblox.com/games/104973076655377/Capybaras-VS-Plants",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 82,
+        "top-playing-now": 79
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.976588046359538,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 15,
+      "reasons": [
+        "Global Trending #82",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10528250136,
+      "placeId": 94860588848140,
+      "name": "[X5] +1 Kitten Keyboard Escape",
+      "playing": 7264,
+      "visits": 9783567,
+      "favorited": 712402,
+      "ageDays": 27,
+      "created": "2026-07-19T04:03:52.885Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "Kitten Obby Fan Club",
+      "url": "https://www.roblox.com/games/94860588848140/1-Kitten-Keyboard-Escape",
+      "sources": [
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 22,
+        "top-trending": 85
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9647045505999547,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 15,
+      "reasons": [
+        "Global Trending #85",
+        "Up-and-Coming #22"
+      ],
+      "risks": [
+        "玩法可能很薄"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 9551044479,
+      "placeId": 99521272836282,
+      "name": "Final Swarm [VOID🌀]",
+      "playing": 5602,
+      "visits": 25922545,
+      "favorited": 141690,
+      "ageDays": 214,
+      "created": "2026-01-12T21:23:09.627Z",
+      "updatedHoursAgo": null,
+      "genre": "Action RPG",
+      "creator": "Evolution Studio Games",
+      "url": "https://www.roblox.com/games/99521272836282/Final-Swarm",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 68
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9760166582991087,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 15,
+      "reasons": [
+        "Global Trending #68",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 1281592938,
+      "placeId": 3678761576,
+      "name": "[⛈️WEATHER⛈️] ENTRENCHED 🥀",
+      "playing": 4036,
+      "visits": 292852073,
+      "favorited": 2359395,
+      "ageDays": 2554,
+      "created": "2019-08-18T01:55:23.283Z",
+      "updatedHoursAgo": 178.29237341916667,
+      "genre": "Deathmatch Shooter",
+      "creator": "Edot",
+      "url": "https://www.roblox.com/games/3678761576/ENTRENCHED",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 53
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.921636612903902,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 15,
+      "reasons": [
+        "Global Trending #53",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 2851381018,
+      "placeId": 7305309231,
+      "name": "[🌴🌴] Taxi Boss 🚖",
+      "playing": 15752,
+      "visits": 806015836,
+      "favorited": 1360108,
+      "ageDays": 1818,
+      "created": "2021-08-22T14:37:42.743Z",
+      "updatedHoursAgo": null,
+      "genre": "Vehicle Sim",
+      "creator": "Taxi Boss Group",
+      "url": "https://www.roblox.com/games/7305309231/Taxi-Boss",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 80
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9368060740216817,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 6,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 14,
+      "reasons": [
+        "Global Trending #80",
+        "机制线索 6 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10521797740,
+      "placeId": 131479356121251,
+      "name": "[UPD] 50 Player BINGO!",
+      "playing": 13338,
+      "visits": 14954377,
+      "favorited": 37400,
+      "ageDays": 28,
+      "created": "2026-07-18T04:30:05.704Z",
+      "updatedHoursAgo": null,
+      "genre": "Minigame",
+      "creator": "Turret Sims",
+      "url": "https://www.roblox.com/games/131479356121251/50-Player-BINGO",
+      "sources": [
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 14,
+        "top-trending": 33
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8040126848566674,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 14,
+      "reasons": [
+        "Global Trending #33",
+        "Up-and-Coming #14"
+      ],
+      "risks": [
+        "玩法可能很薄"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10493730706,
+      "placeId": 127332613700317,
+      "name": "[UPDATE] DON'T LOOK BACK [PRE-ALPHA] ",
+      "playing": 7711,
+      "visits": 1317454,
+      "favorited": 25113,
+      "ageDays": 33,
+      "created": "2026-07-12T22:45:33.738Z",
+      "updatedHoursAgo": null,
+      "genre": "Escape",
+      "creator": "Manul Studio",
+      "url": "https://www.roblox.com/games/127332613700317/DONT-LOOK-BACK",
+      "sources": [
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 5,
+        "top-trending": 41
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8399495904221802,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": true,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 14,
+      "reasons": [
+        "Global Trending #41",
+        "Up-and-Coming #5",
+        "Early Access / Beta",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "玩法可能很薄"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 1525626450,
+      "placeId": 4637668954,
+      "name": "Rensselaer County",
+      "playing": 4984,
+      "visits": 307438980,
+      "favorited": 813048,
+      "ageDays": 2391,
+      "created": "2020-01-28T00:40:54.047Z",
+      "updatedHoursAgo": 303.767102285,
+      "genre": "Vehicle Sim",
+      "creator": "Rensselaer County Official",
+      "url": "https://www.roblox.com/games/4637668954/Rensselaer-County",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 27
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9463723949365516,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 14,
+      "reasons": [
+        "Global Trending #27"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 9885372266,
+      "placeId": 82797688803922,
+      "name": "Unseen Liminality [Beta]",
+      "playing": 3395,
+      "visits": 66150832,
+      "favorited": 2390450,
+      "ageDays": 153,
+      "created": "2026-03-15T03:45:50.283Z",
+      "updatedHoursAgo": 37.44639312472222,
+      "genre": "Exploration",
+      "creator": "The Unseen Zone",
+      "url": "https://www.roblox.com/games/82797688803922/Unseen-Liminality",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 31
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9315252288082803,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": true,
+      "score": 14,
+      "reasons": [
+        "Global Trending #31",
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "可能是老游更新尖峰",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 2309918273,
+      "placeId": 6270290407,
+      "name": "[⚔️] VV: ULTIMATUM",
+      "playing": 2979,
+      "visits": 49476913,
+      "favorited": 497085,
+      "ageDays": 2033,
+      "created": "2021-01-19T18:45:56.497Z",
+      "updatedHoursAgo": 125.89052814388889,
+      "genre": "Action RPG",
+      "creator": "Midnight Continent",
+      "url": "https://www.roblox.com/games/6270290407/VV-ULTIMATUM",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 57
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9032478998839869,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 14,
+      "reasons": [
+        "Global Trending #57",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 358276974,
+      "placeId": 863266079,
+      "name": "Apocalypse Rising 2",
+      "playing": 2172,
+      "visits": 178525576,
+      "favorited": 967871,
+      "ageDays": 3351,
+      "created": "2017-06-11T16:28:34.007Z",
+      "updatedHoursAgo": null,
+      "genre": "Open World Action",
+      "creator": "Dualpoint Interactive",
+      "url": "https://www.roblox.com/games/863266079/Apocalypse-Rising-2",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 61
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.86156697647881,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 14,
+      "reasons": [
+        "Global Trending #61",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 5851294352,
+      "placeId": 17070462969,
+      "name": "VOXEL DESTRUCT 2 EARLY ACCESS",
+      "playing": 833,
+      "visits": 5007454,
+      "favorited": 91533,
+      "ageDays": 858,
+      "created": "2024-04-08T19:12:10.803Z",
+      "updatedHoursAgo": 92.15528111638889,
+      "genre": "Physics Sim",
+      "creator": "whatever_dev()",
+      "url": "https://www.roblox.com/games/17070462969/VOXEL-DESTRUCT-2-EARLY-ACCESS",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 2
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9748380292300738,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 14,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 2254119010,
+      "placeId": 6166197050,
+      "name": "[BETA] Bloxugan",
+      "playing": 96,
+      "visits": 1363653,
+      "favorited": 26873,
+      "ageDays": null,
+      "created": "2020-12-31T06:35:52.05Z",
+      "updatedHoursAgo": 490.1718119558333,
+      "genre": "Board & Card Games",
+      "creator": "Bloxugan",
+      "url": "https://www.roblox.com/games/6166197050/Bloxugan",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 10
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9271313364055299,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 14,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "early"
+    },
+    {
+      "universeId": 5497606909,
+      "placeId": 15899178400,
+      "name": "🎉 Call of Mini™ Zombies 2 [BETA]",
+      "playing": 79,
+      "visits": 12443636,
+      "favorited": 111502,
+      "ageDays": 951,
+      "created": "2024-01-06T23:48:02.473Z",
+      "updatedHoursAgo": 38.99884974361111,
+      "genre": "PvE Shooter",
+      "creator": "Call of Bloxia Productions",
+      "url": "https://www.roblox.com/games/15899178400/Call-of-Mini-Zombies-2",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 24
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9308680903922412,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 14,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10351246089,
+      "placeId": 114639020543523,
+      "name": "[ALPHA]  Hotel Tycoon 2",
+      "playing": 73,
+      "visits": 464984,
+      "favorited": 30568,
+      "ageDays": 57,
+      "created": "2026-06-18T15:20:55.718Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "Lycke",
+      "url": "https://www.roblox.com/games/114639020543523/Hotel-Tycoon-2",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 9
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.7141587677725119,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 14,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 324740367,
+      "placeId": 740581899,
+      "name": "Entry Point: Freelancer's Cut",
+      "playing": 72,
+      "visits": 9701102,
+      "favorited": 38863,
+      "ageDays": null,
+      "created": "2017-04-16T05:14:33.1Z",
+      "updatedHoursAgo": 718.0583550177777,
+      "genre": "PvE Shooter",
+      "creator": "Cishshato",
+      "url": "https://www.roblox.com/games/740581899/Entry-Point-Freelancers-Cut",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 19
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9792713567839196,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 14,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 7448488942,
+      "placeId": 74271625354615,
+      "name": "eko Beta Test",
+      "playing": 1,
+      "visits": 111217,
+      "favorited": 31029,
+      "ageDays": 504,
+      "created": "2025-03-28T12:32:18.157Z",
+      "updatedHoursAgo": 113.20113813805555,
+      "genre": "Sandbox",
+      "creator": "xander22",
+      "url": "https://www.roblox.com/games/74271625354615/eko-Beta-Test",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 49
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9662317728319263,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 14,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10502841145,
+      "placeId": 102072869879193,
+      "name": "[HERO TEST] Anime Astral Simulator",
+      "playing": 18462,
+      "visits": 46375789,
+      "favorited": 64843,
+      "ageDays": 31,
+      "created": "2026-07-14T15:26:28.559Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "StarX Inc",
+      "url": "https://www.roblox.com/games/102072869879193/Anime-Astral-Simulator",
+      "sources": [
+        "top-playing-now"
+      ],
+      "ranks": {
+        "top-playing-now": 82
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9669170890658942,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 13,
+      "reasons": [],
+      "risks": [
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 2380077519,
+      "placeId": 6403373529,
+      "name": "[UPDATE🃏] Slap Battles👏",
+      "playing": 17420,
+      "visits": 3588897855,
+      "favorited": 4567232,
+      "ageDays": null,
+      "created": "2021-02-16T16:37:41.25Z",
+      "updatedHoursAgo": null,
+      "genre": "Battlegrounds & Fighting",
+      "creator": "Slap Battles",
+      "url": "https://www.roblox.com/games/6403373529/Slap-Battles",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 16,
+        "top-playing-now": 88
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8604944680560549,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 13,
+      "reasons": [
+        "Global Trending #16"
+      ],
+      "risks": [
+        "没有可靠发售日期"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 6385532960,
+      "placeId": 18852831741,
+      "name": "[GENERATION 2 + PUBLIC RELEASE] Ryujin",
+      "playing": 6772,
+      "visits": 16728326,
+      "favorited": 61087,
+      "ageDays": 737,
+      "created": "2024-08-07T22:38:44.247Z",
+      "updatedHoursAgo": null,
+      "genre": "Battlegrounds & Fighting",
+      "creator": "Martial Ascension",
+      "url": "https://www.roblox.com/games/18852831741/Ryujin",
+      "sources": [
+        "ggaid-7d",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 83
+      },
+      "change7d": "+134220%",
+      "pastPlaying": 5,
+      "growth7d": 135.34,
+      "growth24h": null,
+      "likeRatio": 0.9179266578644746,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 13,
+      "reasons": [
+        "Global Trending #83",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 7856039629,
+      "placeId": 128119795963270,
+      "name": "Murder Mystery DUELS",
+      "playing": 6203,
+      "visits": 18374455,
+      "favorited": 808217,
+      "ageDays": 434,
+      "created": "2025-06-06T20:23:05.867Z",
+      "updatedHoursAgo": 102.2840784363889,
+      "genre": "Battlegrounds & Fighting",
+      "creator": "b1uu",
+      "url": "https://www.roblox.com/games/128119795963270/Murder-Mystery-DUELS",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 75
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8806166143305738,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 13,
+      "reasons": [
+        "Global Trending #75",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 4509896324,
+      "placeId": 12886143095,
+      "name": "[⏰ OG W2] Anime Last Stand",
+      "playing": 2338,
+      "visits": 1079309532,
+      "favorited": 706767,
+      "ageDays": 1239,
+      "created": "2023-03-24T22:47:28.563Z",
+      "updatedHoursAgo": 58.064323603888894,
+      "genre": "Tower Defense",
+      "creator": "[B:S] ALS Team",
+      "url": "https://www.roblox.com/games/12886143095/Anime-Last-Stand",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+422%",
+      "pastPlaying": 432,
+      "growth7d": 4.412,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 13,
+      "reasons": [
+        "7d CCU +441%",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 9931749389,
+      "placeId": 77649408247578,
+      "name": "Dungeon Quest Reborn",
+      "playing": 2313,
+      "visits": 6397818,
+      "favorited": 8303,
+      "ageDays": 144,
+      "created": "2026-03-24T01:02:12.282Z",
+      "updatedHoursAgo": null,
+      "genre": "Action RPG",
+      "creator": "Delta Quarters OG",
+      "url": "https://www.roblox.com/games/77649408247578/Dungeon-Quest-Reborn",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 79
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9810695693327023,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 13,
+      "reasons": [
+        "Global Trending #79",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 113491250,
+      "placeId": 292439477,
+      "name": "Phantom Forces",
+      "playing": 1910,
+      "visits": 1790708367,
+      "favorited": 5978223,
+      "ageDays": 4002,
+      "created": "2015-08-31T06:00:14.907Z",
+      "updatedHoursAgo": 172.9403117775,
+      "genre": "Deathmatch Shooter",
+      "creator": "StyLiS Studios",
+      "url": "https://www.roblox.com/games/292439477/Phantom-Forces",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 86
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9076305250514249,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 13,
+      "reasons": [
+        "Global Trending #86",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10090256806,
+      "placeId": 120189115846709,
+      "name": "TTK Testing [MAP VOTING]",
+      "playing": 1256,
+      "visits": 32781719,
+      "favorited": 470169,
+      "ageDays": null,
+      "created": "2026-04-27T03:09:10.77Z",
+      "updatedHoursAgo": null,
+      "genre": "Deathmatch Shooter",
+      "creator": "Sable Digital",
+      "url": "https://www.roblox.com/games/120189115846709/TTK-Testing",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 66
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.922070689491504,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 13,
+      "reasons": [
+        "Global Trending #66",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 7949002987,
+      "placeId": 78299474948325,
+      "name": "Equistride [NEW MAP]",
+      "playing": 87,
+      "visits": 3327502,
+      "favorited": 39269,
+      "ageDays": null,
+      "created": "2025-06-19T12:57:21.96Z",
+      "updatedHoursAgo": 323.24535251444445,
+      "genre": "Pet Care",
+      "creator": "BWA - Studios",
+      "url": "https://www.roblox.com/games/78299474948325/Equistride",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 14
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8223445682825299,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 13,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "early"
+    },
+    {
+      "universeId": 7857382307,
+      "placeId": 128204084731749,
+      "name": "The Vampire Chronologies",
+      "playing": 16,
+      "visits": 950461,
+      "favorited": 9298,
+      "ageDays": 434,
+      "created": "2025-06-07T01:16:50.417Z",
+      "updatedHoursAgo": 64.7341814075,
+      "genre": "Battlegrounds & Fighting",
+      "creator": "The Vampire Chronologies",
+      "url": "https://www.roblox.com/games/128204084731749/The-Vampire-Chronologies",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 20
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9004310344827586,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 13,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 601130232,
+      "placeId": 1537690962,
+      "name": "Bee Swarm Simulator",
+      "playing": 21159,
+      "visits": 4521886179,
+      "favorited": 6507202,
+      "ageDays": 3068,
+      "created": "2018-03-21T15:59:58.777Z",
+      "updatedHoursAgo": 62.06004483416667,
+      "genre": "Incremental Simulator",
+      "creator": "Onett",
+      "url": "https://www.roblox.com/games/1537690962/Bee-Swarm-Simulator",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 87,
+        "top-playing-now": 69
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9557837776041765,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 12,
+      "reasons": [
+        "Global Trending #87",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 9680787564,
+      "placeId": 120658320085239,
+      "name": "[DAVID GOGGINS] Stay Hard Run",
+      "playing": 1270,
+      "visits": 1720078,
+      "favorited": 19273,
+      "ageDays": null,
+      "created": "2026-02-06T00:18:09.06Z",
+      "updatedHoursAgo": null,
+      "genre": "Sports",
+      "creator": "Heavy games community",
+      "url": "https://www.roblox.com/games/120658320085239/Stay-Hard-Run",
+      "sources": [
+        "top-trending",
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 21,
+        "top-trending": 56
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9522835719154737,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 12,
+      "reasons": [
+        "Global Trending #56",
+        "Up-and-Coming #21",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "没有可靠发售日期"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 2416015385,
+      "placeId": 6470225972,
+      "name": "Nowhere Railways • Early Access •",
+      "playing": 47,
+      "visits": 7601470,
+      "favorited": 45413,
+      "ageDays": 1990,
+      "created": "2021-03-03T17:02:52.047Z",
+      "updatedHoursAgo": null,
+      "genre": "Vehicle Sim",
+      "creator": "LOTH Games",
+      "url": "https://www.roblox.com/games/6470225972/Nowhere-Railways-Early-Access",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 22
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9233187772925764,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 12,
+      "reasons": [
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "低基数假增速",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 3211189518,
+      "placeId": 8389627336,
+      "name": "Find Everything",
+      "playing": 3,
+      "visits": 1923573,
+      "favorited": 107985,
+      "ageDays": 1690,
+      "created": "2021-12-29T01:49:58.377Z",
+      "updatedHoursAgo": 646.3358856469445,
+      "genre": "Scavenger Hunt",
+      "creator": "Everything Finders",
+      "url": "https://www.roblox.com/games/8389627336/Find-Everything",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 57
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.967568796906982,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 12,
+      "reasons": [
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "低基数假增速",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 2936053166,
+      "placeId": 7554888362,
+      "name": "[🦑] Squid Game X",
+      "playing": 21265,
+      "visits": 2133516044,
+      "favorited": 1722580,
+      "ageDays": 1785,
+      "created": "2021-09-24T23:38:34.723Z",
+      "updatedHoursAgo": null,
+      "genre": "Minigame",
+      "creator": "redifi",
+      "url": "https://www.roblox.com/games/7554888362/Squid-Game-X",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 54,
+        "top-playing-now": 70
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9367544830288174,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 11,
+      "reasons": [
+        "Global Trending #54",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 9561553764,
+      "placeId": 120851538706364,
+      "name": "Murder Duels",
+      "playing": 15442,
+      "visits": 133640837,
+      "favorited": 122632,
+      "ageDays": 212,
+      "created": "2026-01-14T22:16:21.543Z",
+      "updatedHoursAgo": null,
+      "genre": "Deathmatch Shooter",
+      "creator": "Breakfast",
+      "url": "https://www.roblox.com/games/120851538706364/Murder-Duels",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 88
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.945548414536175,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 11,
+      "reasons": [
+        "Global Trending #88",
+        "Early Access / Beta",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10547918402,
+      "placeId": 83264774625004,
+      "name": "[PETS] +1 Jump Crunchy ASMR Escape!",
+      "playing": 12100,
+      "visits": 12497173,
+      "favorited": 33116,
+      "ageDays": 23,
+      "created": "2026-07-22T16:42:46.932Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "Sky High Sims",
+      "url": "https://www.roblox.com/games/83264774625004/1-Jump-Crunchy-ASMR-Escape",
+      "sources": [
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 26
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9834246554434591,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 11,
+      "reasons": [
+        "Up-and-Coming #26",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 2979369058,
+      "placeId": 7670825572,
+      "name": "Pummu Talladega",
+      "playing": 4919,
+      "visits": 156399074,
+      "favorited": 240433,
+      "ageDays": 1772,
+      "created": "2021-10-07T12:32:51.997Z",
+      "updatedHoursAgo": 588.1368628816666,
+      "genre": "Vehicle Sim",
+      "creator": "ninjawarrriorr",
+      "url": "https://www.roblox.com/games/7670825572/Pummu-Talladega",
+      "sources": [
+        "ggaid-7d",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 76
+      },
+      "change7d": "+90%",
+      "pastPlaying": 2417,
+      "growth7d": 1.0352,
+      "growth24h": null,
+      "likeRatio": 0.8245379425971019,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 11,
+      "reasons": [
+        "Global Trending #76",
+        "7d CCU +104%"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 9705384247,
+      "placeId": 104856666707760,
+      "name": "KILLSTREAK!",
+      "playing": 2269,
+      "visits": 16781368,
+      "favorited": 60944,
+      "ageDays": 185,
+      "created": "2026-02-10T16:52:03.733Z",
+      "updatedHoursAgo": null,
+      "genre": "Battle Royale",
+      "creator": "Killstreak Battle Royale",
+      "url": "https://www.roblox.com/games/104856666707760/KILLSTREAK",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 89
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8129776247848537,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 11,
+      "reasons": [
+        "Global Trending #89",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 5091490171,
+      "placeId": 14772802900,
+      "name": "[🎥REPLAY] Jailbird",
+      "playing": 2206,
+      "visits": 71611424,
+      "favorited": 258642,
+      "ageDays": 1065,
+      "created": "2023-09-14T12:24:49.623Z",
+      "updatedHoursAgo": 138.97063121305555,
+      "genre": "Deathmatch Shooter",
+      "creator": "Jailbird Official",
+      "url": "https://www.roblox.com/games/14772802900/Jailbird",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 74
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9067345543255281,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 11,
+      "reasons": [
+        "Global Trending #74"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 9909593894,
+      "placeId": 114051220167664,
+      "name": "Human Missile 🚀💥",
+      "playing": 831,
+      "visits": 332786,
+      "favorited": 4132,
+      "ageDays": null,
+      "created": "2026-03-20T07:51:16.1Z",
+      "updatedHoursAgo": null,
+      "genre": "Physics Sim",
+      "creator": "Maddorith",
+      "url": "https://www.roblox.com/games/114051220167664/Human-Missile",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 69
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.726948245092207,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 11,
+      "reasons": [
+        "Global Trending #69",
+        "Early Access / Beta",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "early"
+    },
+    {
+      "universeId": 4557322431,
+      "placeId": 13042495892,
+      "name": "Project: Afternight",
+      "playing": 594,
+      "visits": 53766952,
+      "favorited": 196673,
+      "ageDays": 1224,
+      "created": "2023-04-08T12:25:19.243Z",
+      "updatedHoursAgo": 42.610491933888895,
+      "genre": "Music & Rhythm",
+      "creator": "Dawndreamer Studios",
+      "url": "https://www.roblox.com/games/13042495892/Project-Afternight",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 90
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9139379566852128,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 11,
+      "reasons": [
+        "Global Trending #90",
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 659118871,
+      "placeId": 1788251222,
+      "name": "Streamlined [ALPHA]",
+      "playing": 50,
+      "visits": 4120794,
+      "favorited": 85894,
+      "ageDays": 3011,
+      "created": "2018-05-17T18:50:22.727Z",
+      "updatedHoursAgo": 291.35006612611113,
+      "genre": "Vehicle Sim",
+      "creator": "Streamlined",
+      "url": "https://www.roblox.com/games/1788251222/Streamlined",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 15
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9284817461850493,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 11,
+      "reasons": [
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "低基数假增速",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 5721900060,
+      "placeId": 16630762868,
+      "name": "Amazonian Survival EA",
+      "playing": 1,
+      "visits": 293741,
+      "favorited": 19674,
+      "ageDays": 893,
+      "created": "2024-03-05T01:26:06.207Z",
+      "updatedHoursAgo": 77.90663507833334,
+      "genre": "Animal Sim",
+      "creator": "Amazonian Survival",
+      "url": "https://www.roblox.com/games/16630762868/Amazonian-Survival-EA",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 45
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8956043956043956,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 11,
+      "reasons": [
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "低基数假增速",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 7273185020,
+      "placeId": 107152286597557,
+      "name": "LIRR Train Simulator | Pre-Release",
+      "playing": 0,
+      "visits": 62163,
+      "favorited": 2126,
+      "ageDays": 540,
+      "created": "2025-02-21T06:22:56.473Z",
+      "updatedHoursAgo": null,
+      "genre": "Vehicle Sim",
+      "creator": "Long Island Rail Studio",
+      "url": "https://www.roblox.com/games/107152286597557/LIRR-Train-Simulator-Pre-Release",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 31
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8962765957446809,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 11,
+      "reasons": [
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "低基数假增速",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 8901905971,
+      "placeId": 127994242634536,
+      "name": "🤔 Killer or Not",
+      "playing": 31612,
+      "visits": 55661583,
+      "favorited": 1805372,
+      "ageDays": 310,
+      "created": "2025-10-08T19:26:40.823Z",
+      "updatedHoursAgo": null,
+      "genre": "1 vs All",
+      "creator": "Frist's Clothing",
+      "url": "https://www.roblox.com/games/127994242634536/Killer-or-Not",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 44,
+        "top-playing-now": 45
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.7741157556270096,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 10,
+      "reasons": [
+        "Global Trending #44"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 8723526551,
+      "placeId": 123581964009368,
+      "name": "Build and Crush",
+      "playing": 3196,
+      "visits": 10420387,
+      "favorited": 385370,
+      "ageDays": 333,
+      "created": "2025-09-15T17:20:27.733Z",
+      "updatedHoursAgo": null,
+      "genre": "Sandbox",
+      "creator": "Unsquared",
+      "url": "https://www.roblox.com/games/123581964009368/Build-and-Crush",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+161%",
+      "pastPlaying": 1179,
+      "growth7d": 1.7108,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 10,
+      "reasons": [
+        "7d CCU +171%",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 8243724761,
+      "placeId": 91296119701853,
+      "name": "[🍿] Farm a Fish 🐟",
+      "playing": 2963,
+      "visits": 44689985,
+      "favorited": 237126,
+      "ageDays": null,
+      "created": "2025-07-24T10:37:02.74Z",
+      "updatedHoursAgo": 143.00134111305556,
+      "genre": "Tycoon",
+      "creator": "Tetra Games",
+      "url": "https://www.roblox.com/games/91296119701853/Farm-a-Fish",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+86%",
+      "pastPlaying": 1581,
+      "growth7d": 0.8741,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 6,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 10,
+      "reasons": [
+        "7d CCU +87%",
+        "机制线索 6 项"
+      ],
+      "risks": [
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 1709917610,
+      "placeId": 4972273297,
+      "name": "Regretevator [ ELEVATOR SIMULATOR ]",
+      "playing": 2050,
+      "visits": 256677762,
+      "favorited": 1053535,
+      "ageDays": 2296,
+      "created": "2020-05-02T02:57:08.217Z",
+      "updatedHoursAgo": 87.8409867561111,
+      "genre": "Minigame",
+      "creator": "The Axolotl Sun",
+      "url": "https://www.roblox.com/games/4972273297/Regretevator",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 58
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.899857248694458,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 10,
+      "reasons": [
+        "Global Trending #58"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 6942586315,
+      "placeId": 93361401490452,
+      "name": "[WRAPS UPDATE] AdrenaLane (BETA)",
+      "playing": 10,
+      "visits": 1887865,
+      "favorited": 105310,
+      "ageDays": null,
+      "created": "2024-12-19T20:48:19.92Z",
+      "updatedHoursAgo": null,
+      "genre": "Vehicle Sim",
+      "creator": "UfoSquad",
+      "url": "https://www.roblox.com/games/93361401490452/AdrenaLane",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 18
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.7984307029312517,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 10,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10405010493,
+      "placeId": 130960835358983,
+      "name": "Wash The House 🧼",
+      "playing": 48151,
+      "visits": 51528428,
+      "favorited": 127720,
+      "ageDays": 48,
+      "created": "2026-06-27T16:49:52.637Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "Crystal Clean",
+      "url": "https://www.roblox.com/games/130960835358983/Wash-The-House",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 28,
+        "top-playing-now": 33
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9314621469755163,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 9,
+      "reasons": [
+        "Global Trending #28",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "玩法可能很薄"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 5166944221,
+      "placeId": 15002061926,
+      "name": "[UPD] Death Ball",
+      "playing": 11718,
+      "visits": 1595686740,
+      "favorited": 1715730,
+      "ageDays": 1042,
+      "created": "2023-10-08T05:12:53.817Z",
+      "updatedHoursAgo": 748.39318011,
+      "genre": "Battlegrounds & Fighting",
+      "creator": "⨯ Small World Games",
+      "url": "https://www.roblox.com/games/15002061926/Death-Ball",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 84
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9612176577023823,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 9,
+      "reasons": [
+        "Global Trending #84"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 7587104675,
+      "placeId": 139571938533204,
+      "name": "Baltic Sea Simulator │BETA [NEW PORT AND SHIPS]",
+      "playing": 28,
+      "visits": 490865,
+      "favorited": 17045,
+      "ageDays": null,
+      "created": "2025-04-23T12:01:10.49Z",
+      "updatedHoursAgo": 308.0960097461111,
+      "genre": "Vehicle Sim",
+      "creator": "Baltic Studios",
+      "url": "https://www.roblox.com/games/139571938533204/Baltic-Sea-Simulator-BETA",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 26
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.7562904385334291,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 9,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 1579747797,
+      "placeId": 4735589050,
+      "name": "Prizefighter Boxing",
+      "playing": 13,
+      "visits": 3608523,
+      "favorited": 45595,
+      "ageDays": 2361,
+      "created": "2020-02-27T05:14:29.727Z",
+      "updatedHoursAgo": null,
+      "genre": "Sports",
+      "creator": "Boxout Games",
+      "url": "https://www.roblox.com/games/4735589050/Prizefighter-Boxing",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 34
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.7530694061638687,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 9,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 8214342832,
+      "placeId": 71756840580475,
+      "name": "RoSim 0.4",
+      "playing": 0,
+      "visits": 574341,
+      "favorited": 33927,
+      "ageDays": 390,
+      "created": "2025-07-20T21:44:13.627Z",
+      "updatedHoursAgo": 2679.587458123889,
+      "genre": "Vehicle Sim",
+      "creator": "chedsapp",
+      "url": "https://www.roblox.com/games/71756840580475/RoSim-0-4",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 36
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8264566929133859,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 9,
+      "reasons": [
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "低基数假增速",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 7134571356,
+      "placeId": 119339172690037,
+      "name": "Mini Drifters [BETA]",
+      "playing": 0,
+      "visits": 1157162,
+      "favorited": 33266,
+      "ageDays": 568,
+      "created": "2025-01-24T02:39:28.357Z",
+      "updatedHoursAgo": null,
+      "genre": "Vehicle Sim",
+      "creator": "Gassy Studios",
+      "url": "https://www.roblox.com/games/119339172690037/Mini-Drifters",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 58
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8312195121951219,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 9,
+      "reasons": [
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "低基数假增速",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 7414497778,
+      "placeId": 95721658376580,
+      "name": "[MTC] Multicrew Tank Combat",
+      "playing": 3421,
+      "visits": 70496348,
+      "favorited": 184208,
+      "ageDays": 511,
+      "created": "2025-03-22T03:21:47.883Z",
+      "updatedHoursAgo": 876.2853489883333,
+      "genre": "Battlegrounds & Fighting",
+      "creator": "Top Giun",
+      "url": "https://www.roblox.com/games/95721658376580/Multicrew-Tank-Combat",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 71
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8404879103547398,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 8,
+      "reasons": [
+        "Global Trending #71"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 4750561026,
+      "placeId": 13687899540,
+      "name": "Cold War [BTR-40 | Humvee]",
+      "playing": 2222,
+      "visits": 23359199,
+      "favorited": 130700,
+      "ageDays": null,
+      "created": "2023-06-08T10:28:14.25Z",
+      "updatedHoursAgo": 53.38150648194444,
+      "genre": "Deathmatch Shooter",
+      "creator": "Grip Studios",
+      "url": "https://www.roblox.com/games/13687899540/Cold-War",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 63
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.7890850570360203,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 8,
+      "reasons": [
+        "Global Trending #63"
+      ],
+      "risks": [
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10417987249,
+      "placeId": 132499927511859,
+      "name": "Nebulous",
+      "playing": 1449,
+      "visits": 967581,
+      "favorited": 12637,
+      "ageDays": 46,
+      "created": "2026-06-29T19:07:44.829Z",
+      "updatedHoursAgo": null,
+      "genre": "Action RPG",
+      "creator": "latent//state",
+      "url": "https://www.roblox.com/games/132499927511859/Nebulous",
+      "sources": [
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 27
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8336044038533716,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 8,
+      "reasons": [
+        "Up-and-Coming #27",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 5364600678,
+      "placeId": 15542804777,
+      "name": "High Iron [Alpha]",
+      "playing": 11,
+      "visits": 1620925,
+      "favorited": 36793,
+      "ageDays": null,
+      "created": "2023-12-04T07:24:46.27Z",
+      "updatedHoursAgo": 368.07818451444444,
+      "genre": "Vehicle Sim",
+      "creator": "- Nebula Games -",
+      "url": "https://www.roblox.com/games/15542804777/High-Iron",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 37
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.7941765521491295,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 8,
+      "reasons": [
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "低基数假增速",
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 1054526971,
+      "placeId": 2916899287,
+      "name": "Blackhawk Rescue Mission 5",
+      "playing": 7210,
+      "visits": 604730626,
+      "favorited": 1679333,
+      "ageDays": 2722,
+      "created": "2019-03-03T04:44:11.087Z",
+      "updatedHoursAgo": null,
+      "genre": "Open World Action",
+      "creator": "PLATINUM FIVE",
+      "url": "https://www.roblox.com/games/2916899287/Blackhawk-Rescue-Mission-5",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 24
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.901057607670895,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 7,
+      "reasons": [
+        "Global Trending #24",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 7585140258,
+      "placeId": 118418618261207,
+      "name": "RUNAWAYS [beta]",
+      "playing": 6507,
+      "visits": 1616487,
+      "favorited": 28364,
+      "ageDays": 479,
+      "created": "2025-04-23T00:43:43.017Z",
+      "updatedHoursAgo": 69.3002214925,
+      "genre": "Open World Action",
+      "creator": "supercat games",
+      "url": "https://www.roblox.com/games/118418618261207/RUNAWAYS",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 14
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.92601246105919,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 6,
+      "reasons": [
+        "Global Trending #14",
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 5568657754,
+      "placeId": 16115051360,
+      "name": "[UPD] Gun and Armor Testing ",
+      "playing": 6158,
+      "visits": 36907451,
+      "favorited": 72378,
+      "ageDays": 932,
+      "created": "2024-01-26T01:11:05.427Z",
+      "updatedHoursAgo": null,
+      "genre": "Shooter",
+      "creator": "Noob Head Productions",
+      "url": "https://www.roblox.com/games/16115051360/Gun-and-Armor-Testing",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+120%",
+      "pastPlaying": 2718,
+      "growth7d": 1.2656,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 6,
+      "reasons": [
+        "7d CCU +127%",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 9520326953,
+      "placeId": 119364915719874,
+      "name": "[COMBAT] Overworld",
+      "playing": 2356,
+      "visits": 1222668,
+      "favorited": 75442,
+      "ageDays": 219,
+      "created": "2026-01-07T18:17:40.433Z",
+      "updatedHoursAgo": null,
+      "genre": "Action RPG",
+      "creator": "BADJUJU",
+      "url": "https://www.roblox.com/games/119364915719874/Overworld",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 67
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.943509960388082,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 7,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 6,
+      "reasons": [
+        "Global Trending #67",
+        "机制线索 7 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 107172930,
+      "placeId": 263761432,
+      "name": "Horrific Housing",
+      "playing": 1751,
+      "visits": 713737183,
+      "favorited": 1966363,
+      "ageDays": null,
+      "created": "2015-06-27T15:30:12.92Z",
+      "updatedHoursAgo": null,
+      "genre": "Survival",
+      "creator": "CookieScript's games",
+      "url": "https://www.roblox.com/games/263761432/Horrific-Housing",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 55
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.7816345649999206,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 6,
+      "reasons": [
+        "Global Trending #55"
+      ],
+      "risks": [
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10514087900,
+      "placeId": 100428687810944,
+      "name": "[HUSS UPD]Brisket Survival",
+      "playing": 319,
+      "visits": 4975015,
+      "favorited": 36177,
+      "ageDays": 29,
+      "created": "2026-07-16T17:39:21.351Z",
+      "updatedHoursAgo": null,
+      "genre": "1 vs All",
+      "creator": "Yeetshoe",
+      "url": "https://www.roblox.com/games/100428687810944/Brisket-Survival",
+      "sources": [
+        "up-and-coming"
+      ],
+      "ranks": {
+        "up-and-coming": 30
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.7696208366947102,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 6,
+      "reasons": [
+        "Up-and-Coming #30"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10302696629,
+      "placeId": 122511521889812,
+      "name": "Forza Horizon 6",
+      "playing": 0,
+      "visits": 168934,
+      "favorited": 7564,
+      "ageDays": 65,
+      "created": "2026-06-10T20:32:34.014Z",
+      "updatedHoursAgo": 1510.1256525263889,
+      "genre": "Racing",
+      "creator": "Ghostz Play",
+      "url": "https://www.roblox.com/games/122511521889812/Forza-Horizon-6",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 29
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.7050055617352614,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 6,
+      "reasons": [],
+      "risks": [
+        "低基数假增速",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 8828612659,
+      "placeId": 130565641176498,
+      "name": "Get Tall and Fall",
+      "playing": 2354,
+      "visits": 137467092,
+      "favorited": 143175,
+      "ageDays": 320,
+      "created": "2025-09-29T02:05:03.583Z",
+      "updatedHoursAgo": 76.798170555,
+      "genre": "Incremental Simulator",
+      "creator": "Fun First",
+      "url": "https://www.roblox.com/games/130565641176498/Get-Tall-and-Fall",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+100%",
+      "pastPlaying": 1109,
+      "growth7d": 1.1226,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 5,
+      "reasons": [
+        "7d CCU +112%"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 6466404775,
+      "placeId": 133341016381877,
+      "name": "[🐲] MOUNT RNG",
+      "playing": 2308,
+      "visits": 68689149,
+      "favorited": 129794,
+      "ageDays": null,
+      "created": "2024-08-25T05:47:50.9Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "TaleSun Studios",
+      "url": "https://www.roblox.com/games/133341016381877/MOUNT-RNG",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+121%",
+      "pastPlaying": 1050,
+      "growth7d": 1.1981,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 5,
+      "reasons": [
+        "7d CCU +120%"
+      ],
+      "risks": [
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 10231691585,
+      "placeId": 97052483255342,
+      "name": "Feed Snakes with Friends",
+      "playing": 0,
+      "visits": 213407,
+      "favorited": 20203,
+      "ageDays": 79,
+      "created": "2026-05-27T19:23:33.648Z",
+      "updatedHoursAgo": 1069.277462865,
+      "genre": "Sandbox",
+      "creator": "Ghostz Play",
+      "url": "https://www.roblox.com/games/97052483255342/Feed-Snakes-with-Friends",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 54
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.7043147208121827,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 5,
+      "reasons": [],
+      "risks": [
+        "低基数假增速",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 5569032992,
+      "placeId": 16116270224,
+      "name": "🎨 Dandy's World [ALPHA]",
+      "playing": 59063,
+      "visits": 7308113785,
+      "favorited": 4532084,
+      "ageDays": 932,
+      "created": "2024-01-26T03:52:09.063Z",
+      "updatedHoursAgo": null,
+      "genre": "Escape",
+      "creator": "BlushCrunch Studio",
+      "url": "https://www.roblox.com/games/16116270224/Dandys-World",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 6,
+        "top-playing-now": 26
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8639517337524345,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 4,
+      "reasons": [
+        "Global Trending #6",
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10178432352,
+      "placeId": 133609054222738,
+      "name": "[TRADING] Snipers Vs Runners! 💥",
+      "playing": 7952,
+      "visits": 9314316,
+      "favorited": 1087169,
+      "ageDays": 90,
+      "created": "2026-05-16T22:12:54.584Z",
+      "updatedHoursAgo": null,
+      "genre": "1 vs All",
+      "creator": "STOCK STUDIOS INC.",
+      "url": "https://www.roblox.com/games/133609054222738/Snipers-Vs-Runners",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 30
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.870174681906405,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 4,
+      "reasons": [
+        "Global Trending #30"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 6751400610,
+      "placeId": 113385048266134,
+      "name": "🎨Draw Or Oof!",
+      "playing": 6981,
+      "visits": 302538136,
+      "favorited": 7223846,
+      "ageDays": 650,
+      "created": "2024-11-02T17:21:24.357Z",
+      "updatedHoursAgo": 423.05973722361114,
+      "genre": "Coloring & Drawing",
+      "creator": "Unliked Games",
+      "url": "https://www.roblox.com/games/113385048266134/Draw-Or-Oof",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+89%",
+      "pastPlaying": 3698,
+      "growth7d": 0.8878,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 4,
+      "reasons": [
+        "7d CCU +89%"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 850110028,
+      "placeId": 2418863943,
+      "name": "[MANSIONS] Roanoke, VA Driving RP",
+      "playing": 2717,
+      "visits": 169320802,
+      "favorited": 651850,
+      "ageDays": null,
+      "created": "2018-09-27T22:23:52.59Z",
+      "updatedHoursAgo": null,
+      "genre": "Vehicle Sim",
+      "creator": "Roanoke, VA",
+      "url": "https://www.roblox.com/games/2418863943/Roanoke-VA-Driving-RP",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 47
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9069294715965581,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 4,
+      "reasons": [
+        "Global Trending #47",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 7557272025,
+      "placeId": 124027312895188,
+      "name": "sesh.",
+      "playing": 2501,
+      "visits": 40837907,
+      "favorited": 322834,
+      "ageDays": 484,
+      "created": "2025-04-18T05:31:02.407Z",
+      "updatedHoursAgo": null,
+      "genre": "Sports",
+      "creator": "pool productions.",
+      "url": "https://www.roblox.com/games/124027312895188/sesh",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+78%",
+      "pastPlaying": 1360,
+      "growth7d": 0.839,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 4,
+      "reasons": [
+        "7d CCU +84%"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 2929752024,
+      "placeId": 7534035522,
+      "name": "Tower World | Alpha",
+      "playing": 1,
+      "visits": 2103852,
+      "favorited": 93590,
+      "ageDays": 1788,
+      "created": "2021-09-21T23:58:02.657Z",
+      "updatedHoursAgo": null,
+      "genre": "Tower Obby",
+      "creator": "FrancoJ",
+      "url": "https://www.roblox.com/games/7534035522/Tower-World-Alpha",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 53
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9372636714779427,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": true,
+      "depthHits": 5,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 4,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 5 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10057403337,
+      "placeId": 84556640895285,
+      "name": "Deagle Arena",
+      "playing": 24697,
+      "visits": 94587382,
+      "favorited": 4226978,
+      "ageDays": null,
+      "created": "2026-04-19T14:40:37.58Z",
+      "updatedHoursAgo": null,
+      "genre": "Deathmatch Shooter",
+      "creator": "Deagle Arena",
+      "url": "https://www.roblox.com/games/84556640895285/Deagle-Arena",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 42,
+        "top-playing-now": 57
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8743482039397451,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 3,
+      "reasons": [
+        "Global Trending #42",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "没有可靠发售日期"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 1147796911,
+      "placeId": 3178828841,
+      "name": "Water Park World [Beta]",
+      "playing": 38,
+      "visits": 9295969,
+      "favorited": 255417,
+      "ageDays": 2649,
+      "created": "2019-05-14T16:32:34.063Z",
+      "updatedHoursAgo": 2495.541045852778,
+      "genre": "Tycoon",
+      "creator": "Den_S",
+      "url": "https://www.roblox.com/games/3178828841/Water-Park-World",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 21
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9461451562123822,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": true,
+      "depthHits": 4,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 3,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 4 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10460801145,
+      "placeId": 103037106396302,
+      "name": "TROLL Hug Tower",
+      "playing": 39363,
+      "visits": 53210172,
+      "favorited": 64982,
+      "ageDays": 39,
+      "created": "2026-07-07T01:58:01.342Z",
+      "updatedHoursAgo": 38.85033009833334,
+      "genre": "Tower Obby",
+      "creator": "Trash Container",
+      "url": "https://www.roblox.com/games/103037106396302/TROLL-Hug-Tower",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 70,
+        "top-playing-now": 37
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8602081090778615,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 2,
+      "reasons": [
+        "Global Trending #70"
+      ],
+      "risks": [
+        "玩法可能很薄"
+      ],
+      "bucket": "watch"
+    },
+    {
+      "universeId": 2682938349,
+      "placeId": 6989310863,
+      "name": "[Throwback] Wild Horse Islands",
+      "playing": 8785,
+      "visits": 659791873,
+      "favorited": 649165,
+      "ageDays": 1879,
+      "created": "2021-06-22T16:46:19.733Z",
+      "updatedHoursAgo": null,
+      "genre": "Pet Care",
+      "creator": "Happy Acres",
+      "url": "https://www.roblox.com/games/6989310863/Wild-Horse-Islands",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 60
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9216608043474215,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 6,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 2,
+      "reasons": [
+        "Global Trending #60",
+        "机制线索 6 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 4373521124,
+      "placeId": 12434569116,
+      "name": "Destination 🌇🏡 [200+ NEW ITEMS! BETA]",
+      "playing": 6,
+      "visits": 872504,
+      "favorited": 90026,
+      "ageDays": null,
+      "created": "2023-02-09T23:02:08.29Z",
+      "updatedHoursAgo": null,
+      "genre": "Life",
+      "creator": "Boba Builders",
+      "url": "https://www.roblox.com/games/12434569116/Destination",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 23
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8050352165442829,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": true,
+      "depthHits": 5,
+      "hasDepthHint": true,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 2,
+      "reasons": [
+        "Early Access / Beta",
+        "机制线索 5 项"
+      ],
+      "risks": [
+        "低基数假增速",
+        "玩法可能很薄",
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10148749921,
+      "placeId": 78515283254292,
+      "name": "Animal Hospital (Anomaly) 🧪",
+      "playing": 191072,
+      "visits": 1878449572,
+      "favorited": 2475002,
+      "ageDays": 96,
+      "created": "2026-05-10T15:38:25.274Z",
+      "updatedHoursAgo": 81.81566342694444,
+      "genre": "Survival",
+      "creator": "Animal Anomaly",
+      "url": "https://www.roblox.com/games/78515283254292/Animal-Hospital",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 2,
+        "top-playing-now": 10
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9427646070106245,
+      "blacklisted": false,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 1,
+      "reasons": [
+        "Global Trending #2"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口",
+        "CCU 已偏晚，SERP 可能已挤"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 1720936166,
+      "placeId": 4996049426,
+      "name": "[UPD] All Star Tower Defense",
+      "playing": 5479,
+      "visits": 7889411516,
+      "favorited": 2316139,
+      "ageDays": 2291,
+      "created": "2020-05-07T03:13:07.403Z",
+      "updatedHoursAgo": 88.21372082805556,
+      "genre": "Tower Defense",
+      "creator": "Top Down Games",
+      "url": "https://www.roblox.com/games/4996049426/All-Star-Tower-Defense",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+212%",
+      "pastPlaying": 1723,
+      "growth7d": 2.1799,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 6,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 1,
+      "reasons": [
+        "7d CCU +218%",
+        "机制线索 6 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 7326934954,
+      "placeId": 79546208627805,
+      "name": "[👔] 99 Nights in the Forest 🔦",
+      "playing": 314360,
+      "visits": 28952042919,
+      "favorited": 9099850,
+      "ageDays": null,
+      "created": "2025-03-04T04:46:49.73Z",
+      "updatedHoursAgo": 146.62128954027776,
+      "genre": "Survival",
+      "creator": "Grandma's Favourite Games",
+      "url": "https://www.roblox.com/games/79546208627805/99-Nights-in-the-Forest",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 5,
+        "top-playing-now": 5
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9046360816077391,
+      "blacklisted": true,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "Global Trending #5"
+      ],
+      "risks": [
+        "没有可靠发售日期",
+        "CCU 已偏晚，SERP 可能已挤"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 7709344486,
+      "placeId": 109983668079237,
+      "name": "[🐝] Steal a Brainrot",
+      "playing": 205670,
+      "visits": 72579952911,
+      "favorited": 29004182,
+      "ageDays": 456,
+      "created": "2025-05-16T00:49:12.563Z",
+      "updatedHoursAgo": null,
+      "genre": "Tycoon",
+      "creator": "BRAZILIAN SPYDER",
+      "url": "https://www.roblox.com/games/109983668079237/Steal-a-Brainrot",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 7,
+        "top-playing-now": 9
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8533109988722363,
+      "blacklisted": true,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "Global Trending #7",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "CCU 已偏晚，SERP 可能已挤"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 10144280947,
+      "placeId": 114697347887839,
+      "name": "[X2]🐒 +1 Speed Monkey Escape",
+      "playing": 122759,
+      "visits": 217380176,
+      "favorited": 5909868,
+      "ageDays": 97,
+      "created": "2026-05-09T19:12:04.372Z",
+      "updatedHoursAgo": 14.943413708888889,
+      "genre": "Incremental Simulator",
+      "creator": "100% ALGO SHOT",
+      "url": "https://www.roblox.com/games/114697347887839/1-Speed-Monkey-Escape",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 9,
+        "top-playing-now": 12
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9834758717075224,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": true,
+      "score": 0,
+      "reasons": [
+        "Global Trending #9",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "可能是老游更新尖峰",
+        "CCU 已偏晚，SERP 可能已挤"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 5203828273,
+      "placeId": 15101393044,
+      "name": "[🌴] Dress To Impress",
+      "playing": 69886,
+      "visits": 10763586704,
+      "favorited": 7166580,
+      "ageDays": 1032,
+      "created": "2023-10-18T09:11:36.563Z",
+      "updatedHoursAgo": null,
+      "genre": "Dress Up",
+      "creator": "Dress To Impress Group",
+      "url": "https://www.roblox.com/games/15101393044/Dress-To-Impress",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 3,
+        "top-playing-now": 19
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9052688050794733,
+      "blacklisted": true,
+      "thin": false,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "Global Trending #3",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 9855761734,
+      "placeId": 136020512003847,
+      "name": "San Diego Border Roleplay",
+      "playing": 55757,
+      "visits": 109051476,
+      "favorited": 178279,
+      "ageDays": 159,
+      "created": "2026-03-08T18:59:20.013Z",
+      "updatedHoursAgo": null,
+      "genre": "Life",
+      "creator": "San Diego Border Community",
+      "url": "https://www.roblox.com/games/136020512003847/San-Diego-Border-Roleplay",
+      "sources": [
+        "top-playing-now",
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 20,
+        "top-playing-now": 29
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8489753132723619,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "Global Trending #20"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 6749060816,
+      "placeId": 132352755769957,
+      "name": "[UPD] Asylum Life 🔊",
+      "playing": 7776,
+      "visits": 260200558,
+      "favorited": 1754792,
+      "ageDays": 651,
+      "created": "2024-11-02T07:31:07.557Z",
+      "updatedHoursAgo": 8.35393463,
+      "genre": "Roleplay & Avatar Sim",
+      "creator": "Asylum Life Community",
+      "url": "https://www.roblox.com/games/132352755769957/Asylum-Life",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 36
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8343983445117924,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": true,
+      "score": 0,
+      "reasons": [
+        "Global Trending #36"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "可能是老游更新尖峰",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 8178086002,
+      "placeId": 117713779364528,
+      "name": "Lethal Ape Experience [🌲FOREST]",
+      "playing": 5050,
+      "visits": 5238873,
+      "favorited": 19390,
+      "ageDays": 394,
+      "created": "2025-07-16T21:10:22.727Z",
+      "updatedHoursAgo": null,
+      "genre": "Survival",
+      "creator": "Breet Studios",
+      "url": "https://www.roblox.com/games/117713779364528/Lethal-Ape-Experience",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+92%",
+      "pastPlaying": 2409,
+      "growth7d": 1.0963,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "7d CCU +110%",
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 8628652228,
+      "placeId": 71988477124324,
+      "name": "X9999🍀 +1 KEYBOARD ESCAPE ",
+      "playing": 3091,
+      "visits": 2261852,
+      "favorited": 4407,
+      "ageDays": null,
+      "created": "2025-09-04T04:20:10.25Z",
+      "updatedHoursAgo": 84.40692304722222,
+      "genre": "Battlegrounds & Fighting",
+      "creator": "Broski and malper devs",
+      "url": "https://www.roblox.com/games/71988477124324/X9999-1-KEYBOARD-ESCAPE",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+1585%",
+      "pastPlaying": 187,
+      "growth7d": 15.5294,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "7d CCU +1553%"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 9058303084,
+      "placeId": 71543463524754,
+      "name": "Run From 67 Obby 🏃",
+      "playing": 2524,
+      "visits": 89245883,
+      "favorited": 55011,
+      "ageDays": 289,
+      "created": "2025-10-29T12:51:16.773Z",
+      "updatedHoursAgo": 504.3361216694444,
+      "genre": "Obby & Platformer",
+      "creator": "Triple Experiences",
+      "url": "https://www.roblox.com/games/71543463524754/Run-From-67-Obby",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+79%",
+      "pastPlaying": 1402,
+      "growth7d": 0.8003,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 2,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "7d CCU +80%",
+        "机制线索 2 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 6190071862,
+      "placeId": 18259975825,
+      "name": "Grave/Digger",
+      "playing": 2421,
+      "visits": 61640703,
+      "favorited": 219365,
+      "ageDays": 776,
+      "created": "2024-06-29T12:57:40.913Z",
+      "updatedHoursAgo": null,
+      "genre": "Deathmatch Shooter",
+      "creator": "Archeximus",
+      "url": "https://www.roblox.com/games/18259975825/Grave-Digger",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 62
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.879981650965562,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": true,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "Global Trending #62",
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 9175015027,
+      "placeId": 103802803330866,
+      "name": "+1 Speed Hug Keyboard Escape",
+      "playing": 2113,
+      "visits": 34193436,
+      "favorited": 4922272,
+      "ageDays": 272,
+      "created": "2025-11-15T16:43:43.283Z",
+      "updatedHoursAgo": null,
+      "genre": "Incremental Simulator",
+      "creator": "-1 CCUs",
+      "url": "https://www.roblox.com/games/103802803330866/1-Speed-Hug-Keyboard-Escape",
+      "sources": [
+        "ggaid-7d"
+      ],
+      "ranks": {},
+      "change7d": "+132%",
+      "pastPlaying": 867,
+      "growth7d": 1.4371,
+      "growth24h": null,
+      "likeRatio": null,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 3,
+      "hasDepthHint": true,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "7d CCU +144%",
+        "机制线索 3 项"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 4391829435,
+      "placeId": 12495498157,
+      "name": "FNAF: Co-op",
+      "playing": 1373,
+      "visits": 382193637,
+      "favorited": 4174789,
+      "ageDays": 1276,
+      "created": "2023-02-15T12:23:41.963Z",
+      "updatedHoursAgo": 2507.178328156111,
+      "genre": "Survival",
+      "creator": "Z0KTAR's Community Group",
+      "url": "https://www.roblox.com/games/12495498157/FNAF-Co-op",
+      "sources": [
+        "top-trending"
+      ],
+      "ranks": {
+        "top-trending": 73
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9425109756030384,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": false,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "Global Trending #73"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 2350840700,
+      "placeId": 6349094071,
+      "name": "Project Flight | Early Access Pre-Alpha",
+      "playing": 668,
+      "visits": 65364946,
+      "favorited": 369936,
+      "ageDays": 2016,
+      "created": "2021-02-05T14:02:16.043Z",
+      "updatedHoursAgo": 281.66716778694445,
+      "genre": "Vehicle Sim",
+      "creator": "Project Flight",
+      "url": "https://www.roblox.com/games/6349094071/Project-Flight-Early-Access-Pre-Alpha",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 7
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.9221431166978453,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": true,
+      "depthHits": 0,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 5841858050,
+      "placeId": 17035967585,
+      "name": " ❄ Strideway",
+      "playing": 267,
+      "visits": 38649687,
+      "favorited": 155530,
+      "ageDays": 860,
+      "created": "2024-04-06T14:18:07.557Z",
+      "updatedHoursAgo": null,
+      "genre": "Pet Care",
+      "creator": "Strideway",
+      "url": "https://www.roblox.com/games/17035967585/Strideway",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 16
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.8984498031496063,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": false,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "玩法可能很薄",
+        "年龄 >90 天，不是新游窗口",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    },
+    {
+      "universeId": 8720520697,
+      "placeId": 114043389889520,
+      "name": "Redgum [EARLY ACCESS]",
+      "playing": 9,
+      "visits": 181961,
+      "favorited": 7330,
+      "ageDays": null,
+      "created": "2025-09-15T08:43:03.93Z",
+      "updatedHoursAgo": null,
+      "genre": "Open World Action",
+      "creator": "Emergency Response AU",
+      "url": "https://www.roblox.com/games/114043389889520/Redgum",
+      "sources": [
+        "top-paid-access"
+      ],
+      "ranks": {
+        "top-paid-access": 32
+      },
+      "change7d": "",
+      "pastPlaying": null,
+      "growth7d": null,
+      "growth24h": null,
+      "likeRatio": 0.789980732177264,
+      "blacklisted": false,
+      "thin": true,
+      "earlyAccess": true,
+      "depthHits": 1,
+      "hasDepthHint": false,
+      "lowBase": true,
+      "updateSpike": false,
+      "score": 0,
+      "reasons": [
+        "Early Access / Beta"
+      ],
+      "risks": [
+        "低基数假增速",
+        "玩法可能很薄",
+        "没有可靠发售日期",
+        "只有一个来源"
+      ],
+      "bucket": "skip"
+    }
+  ],
+  "thresholds": {
+    "denom_floor": 50,
+    "fake_old_ccu": 50,
+    "low_ccu_hard": 100,
+    "low_ccu_mid": 300,
+    "low_ccu_soft": 1000,
+    "strong_ccu": 5000,
+    "try_ccu": 2500,
+    "watch_ccu": 1500,
+    "early_ccu_min": 80,
+    "resurgent_age": 90,
+    "new_in_top_playing_age": 45,
+    "late_ccu": 120000,
+    "snapshot_min_hours": 20
+  }
+}
