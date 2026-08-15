@@ -27,6 +27,13 @@ export default function AnimeVanguardsItemsPage() {
         />
         <article className="wrap article">
           <p>{copy.intro}</p>
+          <h2>{copy.memoriaTitle}</h2>
+          <p>{copy.memoriaNote}</p>
+          <DataTable
+            columns={["memoria", "exclusive to"]}
+            rows={copy.memoriaRows.map((row) => [row.name, row.unit])}
+          />
+          <h2>{copy.currencyTitle}</h2>
           <DataTable
             columns={["item", "what official pages say it does", "source"]}
             rows={copy.rows.map((row) => [row.name, row.usedFor, row.source])}

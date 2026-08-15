@@ -45,7 +45,7 @@ export const animeVanguardsCopy = {
   h1: "Anime Vanguards (Roblox) — summon, defend, evolve",
   dek: "Anime Vanguards is a Roblox tower defense game by Kitawari. Unofficial Upvane kit. Not Anime Last Stand.",
   metaDescription:
-    "Unofficial Anime Vanguards guide: Story loop, codes versus the official wiki, traits, items, and Update 14.5 unit names. Not Anime Last Stand.",
+    "Unofficial Anime Vanguards guide: Update 14.5 Lunar Bridge, Gauntlets, Codex, unit obtain paths, and codes versus the official wiki. Not Anime Last Stand.",
   heroCta: "Play on Roblox",
   nav: {
     guide: "Guide",
@@ -77,7 +77,7 @@ export const animeVanguardsCopy = {
       {
         id: "units",
         title: "Units",
-        body: "How the roster works, rarity buckets, and the 14.5 names from official wiki news.",
+        body: "How the roster works, rarity buckets, and where Update 14.5 units come from.",
       },
     ],
   },
@@ -96,7 +96,7 @@ export const animeVanguardsCopy = {
       "Clear enough Story to hit Level 30, then redeem codes. Most strings on the official table require Level 30. Path: Profile (right) → Codes — still unverified until photographed.",
       "Reroll traits at the Traits NPC other sites call Mandra. One trait per unit on the official wiki. Open the in-game Trait Index for live pity.",
       "Evolve only the unit that is still clearing your hardest mode. Essences and shards come from codes, stages, and shops the official wiki tags — questlines stay on that encyclopedia.",
-      "When Story stalls, media and the official wiki point to Challenges, Infinite, Raids, Dungeons, or Boss Rush. We have not photographed those lobbies, so treat the names as a menu, not a walkthrough.",
+      "When Story stalls, Update 14.5 names Lunar Bridge Dungeon, Gauntlets, and Worldlines alongside older Challenges, Infinite, Raids, and Boss Rush. We have not photographed those lobbies, so treat the names as a menu, not a walkthrough.",
     ],
   },
   systems: {
@@ -114,7 +114,11 @@ export const animeVanguardsCopy = {
       },
       {
         name: "Traits + Memoria + Familiars",
-        note: "Official wiki: one Trait at a time; Memoria and Familiars further buff kits. This kit has a Traits table. Familiars stay on the official encyclopedia.",
+        note: "Official wiki: one Trait at a time; Memoria and Familiars further buff kits. This kit has a Traits table plus the five 14.5 exclusive Memoria names. New familiar icons on the 14.5 graphic stay unnamed here — open Codex.",
+      },
+      {
+        name: "Codex",
+        note: "Update 14.5: in-game index for items, units, and familiars, with search. Prefer Codex or a photographed Index over a third-party dump.",
       },
       {
         name: "Evolve",
@@ -125,22 +129,71 @@ export const animeVanguardsCopy = {
   modes: {
     h2: "Modes other pages name",
     intro:
-      "These labels showed up on wiki.vanguards.gg code rows and unit copy. We have not photographed the Play lobby, so this is a menu, not a farm route.",
+      "Story through Boss Rush came from wiki labels. Lunar Bridge, Gauntlets, and Worldlines are from Kitawari’s Update 14.5 notes. We have not photographed the Play lobby, so this is a menu, not a farm route.",
     items: [
       { name: "Story", note: "Usual first grind in media beginner guides. Unlocks later menus as you clear acts." },
       { name: "Infinite", note: "Named on official code/unit pages. Survival / wave farm, map not photographed." },
       { name: "Challenges", note: "PGG says Trait Rerolls drop after Story Stage 3 Act 1 unlocks Challenges. Unverified here." },
       { name: "Raids", note: "Code rewards include raid tokens (example: Gambler's Token on an archived row)." },
-      { name: "Dungeons", note: "25th Hour news: a Dungeon for the new units. Controller Token is tagged Dungeons on the official codes table." },
+      { name: "Lunar Bridge Dungeon", note: "Update 14.5: 11 floors. Earn Controller Tokens for the dungeon shop. Phantom Thief (Joker) and Apathetic Savior (Door) are listed as dungeon units." },
+      { name: "Gauntlets", note: "Update 14.5: 8-player PvP bracket. Timed turns; highest score advances. Replays exist. Not photographed here." },
+      { name: "Worldlines", note: "Update 14.5 reset: Raging Oni vs Wrath God is unobtainable. Floor 50 reward is Rebel Fighter (Gauntlet)." },
       { name: "Boss Rush", note: "14.0 P2 news: Copycat Boss Rush. Copycat Tokens sit on archived code rows." },
       { name: "Legend Stages", note: "Shows up as a tag on essence rewards. No lobby screenshot." },
+    ],
+  },
+  update145: {
+    h2: "Update 14.5 (official notes)",
+    intro:
+      "Facts from Kitawari’s English Update 14.5 graphic (read 2026-08-16). Rewards and obtain paths only — not floor drop rates, not a soundtrack page, and not a clone of the poster.",
+    items: [
+      {
+        name: "Five new units",
+        note: "Dungeon: Phantom Thief (Joker), Apathetic Savior (Door). Worldlines Floor 50: Rebel Fighter (Gauntlet). Season 14 Battlepass: Star Crusader (Platinum). Arcana login / dungeon: Investigation Leader (Truth).",
+      },
+      {
+        name: "Five exclusive Memorias",
+        note: "Paired to those units on the graphic. Names live on the Items page. Effects were not printed on the poster.",
+      },
+      {
+        name: "Lunar Bridge Dungeon",
+        note: "11 floors. Controller Tokens buy the dungeon shop. Preview on the graphic is a green portal — not a map screenshot from this kit.",
+      },
+      {
+        name: "Gauntlets",
+        note: "Matchmake with seven other players into a random bracket. Limited turn time; highest score advances. Replays included.",
+      },
+      {
+        name: "Worldlines reset",
+        note: "Raging Oni vs Wrath God can no longer be obtained. Rebel Fighter (Gauntlet) replaces that Floor 50 slot.",
+      },
+      {
+        name: "Codex",
+        note: "In-game index for items, units, and familiars, with search. Use it when the client and a wiki page disagree.",
+      },
+      {
+        name: "Arcana login",
+        note: "Seven-day login. Graphic names Investigation Leader, Trait Rerolls, and Memoria Shards. Daily amounts not printed.",
+      },
+      {
+        name: "Season 14 Battlepass",
+        note: "Star Crusader (Platinum), exclusive Memoria Want Some, Trait Rerolls, and Stat Chips.",
+      },
+      {
+        name: "Codes",
+        note: "Same three strings as the wiki TBD table: 1DayDelay and 25thHour need Level 30; LetTheLarpingBegin has no level lock. Rewards on that graphic were generic — keep wiki stack sizes on the Codes page.",
+      },
+      {
+        name: "QOL (skip the bug list)",
+        note: "Soundtrack player, OG tag on original-run units, drag from inventory onto the hotbar, profile banner and store rework. New familiar art is on the graphic; we are not naming them from icons.",
+      },
     ],
   },
   codes: {
     h2: "Codes",
     pageH1: "Anime Vanguards codes (Roblox)",
-    dek: "Official wiki.vanguards.gg listed three TBD codes on 2026-08-16. August media still tagged older strings NEW. We have not redeemed in-game.",
-    body: "Codes typically need Level 30. Fandom and developer notes say they last about two weeks. Media describe Profile on the right, then Codes on the left of that window. We have not photographed the redeem box, so that path stays Unverified. Copy a code below — do not type it into a random shop.",
+    dek: "Official wiki.vanguards.gg listed three TBD codes on 2026-08-16. Kitawari’s Update 14.5 graphic names the same three. August media still tagged older strings NEW. We have not redeemed in-game.",
+    body: "Codes typically need Level 30. The 14.5 notes and the official wiki both say LetTheLarpingBegin has no level lock. Fandom and developer notes say codes last about two weeks. Media describe Profile on the right, then Codes on the left of that window. We have not photographed the redeem box, so that path stays Unverified. Copy a code below — do not type it into a random shop.",
     tableNote:
       "Official mention means it was on wiki.vanguards.gg’s active table (Availability TBD). Archived by wiki means the official table already moved it out — even if Beebom still says NEW. Unverified means other sites listed it. We do not mark Working until someone redeems it here.",
     copyHint: "Tap a code to copy it. Codes are case-sensitive.",
@@ -192,21 +245,21 @@ export const animeVanguardsCopy = {
         status: "Official mention",
         reward: "Official wiki: 200 Trait Rerolls",
         requirement: "Level 30",
-        source: "wiki.vanguards.gg Codes, 2026-08-16, Availability TBD",
+        source: "wiki.vanguards.gg Codes + Kitawari Update 14.5 notes, 2026-08-16, Availability TBD",
       },
       {
         code: "25thHour",
         status: "Official mention",
         reward: "Official wiki: 50 Trait Rerolls + 50 Memoria Shards",
         requirement: "Level 30",
-        source: "wiki.vanguards.gg Codes, 2026-08-16, Availability TBD",
+        source: "wiki.vanguards.gg Codes + Kitawari Update 14.5 notes, 2026-08-16, Availability TBD",
       },
       {
         code: "LetTheLarpingBegin",
         status: "Official mention",
         reward: "Official wiki: 50 Controller Tokens + 10,000 Gems + 50,000 Gold",
-        requirement: "None on the wiki row",
-        source: "wiki.vanguards.gg Codes, 2026-08-16, Availability TBD",
+        requirement: "None (14.5 notes: no level lock)",
+        source: "wiki.vanguards.gg Codes + Kitawari Update 14.5 notes, 2026-08-16, Availability TBD",
       },
       {
         code: "1DayL8",
@@ -242,7 +295,7 @@ export const animeVanguardsCopy = {
       items: [
         {
           q: "What Anime Vanguards codes work today?",
-          a: "We have not redeemed in-game. The official wiki active table on 2026-08-16 listed 1DayDelay, 25thHour, and LetTheLarpingBegin as TBD. 1DayL8, HeavyEyes, and ExecutionPart2 were already archived there even while some media pages still marked them NEW.",
+          a: "We have not redeemed in-game. Kitawari’s Update 14.5 notes and the official wiki active table on 2026-08-16 both listed 1DayDelay, 25thHour, and LetTheLarpingBegin. 1DayL8, HeavyEyes, and ExecutionPart2 were already archived on the wiki even while some media pages still marked them NEW.",
         },
         {
           q: "Where do I redeem Anime Vanguards codes?",
@@ -329,9 +382,20 @@ export const animeVanguardsCopy = {
   items: {
     h2: "Items",
     pageH1: "Anime Vanguards items — gems, rerolls, shards",
-    dek: "Currencies that show up on code rewards and official wiki item blurbs. Not a shop screenshot.",
+    dek: "Currencies that show up on code rewards, official wiki blurbs, and Kitawari’s Update 14.5 notes. Not a shop screenshot.",
     intro:
-      "Codes dump these into your inventory. Exact stack sizes change per code. Shop prices are not photographed.",
+      "Codes dump currencies into your inventory. Exact stack sizes change per code. Shop prices are not photographed. Exclusive Memoria names below come from the 14.5 graphic; effects were not printed there.",
+    memoriaTitle: "Update 14.5 exclusive Memorias",
+    memoriaNote:
+      "Paired names from Kitawari’s Update 14.5 notes (read 2026-08-16). Open Codex or the in-game Index for live effects.",
+    memoriaRows: [
+      { name: "It's Going Down Now", unit: "Apathetic Savior (Door)" },
+      { name: "Life Will Change", unit: "Phantom Thief (Joker)" },
+      { name: "Princess Rose", unit: "Rebel Fighter (Gauntlet)" },
+      { name: "Want Some", unit: "Star Crusader (Platinum)" },
+      { name: "Reach Out To The Truth", unit: "Investigation Leader (Truth)" },
+    ],
+    currencyTitle: "Currencies and tokens",
     rows: [
       {
         name: "Gems",
@@ -355,8 +419,8 @@ export const animeVanguardsCopy = {
       },
       {
         name: "Stat Chip",
-        usedFor: "Reroll a unit’s substats (wiki/battle-pass tag)",
-        source: "Archived code rows; Daily Challenge / Battle Pass tags",
+        usedFor: "Reroll a unit’s substats (wiki/battle-pass tag). Season 14 Battlepass lists them.",
+        source: "Archived code rows; Update 14.5 Battlepass line",
       },
       {
         name: "Green Essence / Rainbow Essence",
@@ -365,8 +429,8 @@ export const animeVanguardsCopy = {
       },
       {
         name: "Controller Token",
-        usedFor: "Lunar Bridge Dungeon currency on the 25th Hour code row",
-        source: "LetTheLarpingBegin official row",
+        usedFor: "Lunar Bridge Dungeon shop (Update 14.5: 11 floors; also on the LetTheLarpingBegin row)",
+        source: "Kitawari Update 14.5 notes + official codes table",
       },
       {
         name: "Extermination Token",
@@ -388,30 +452,75 @@ export const animeVanguardsCopy = {
   units: {
     h2: "Units",
     pageH1: "Anime Vanguards units — how the roster works",
-    dek: "One page on how units function and which names the official wiki posted for Update 14.5 / 14.0 P2. Not a 200-row encyclopedia and not a tier list.",
-    body: "Official wiki Unit List: units come from summoning, stages, events, and shops. In a stage they attack on an SPA timer inside Range, unless they are yen/support. Every unit has stats and passives; some have player-fired actives. You inspect owned units in Inventory; obtaining a unit once unlocks it in the Unit Index. We have not photographed that Index.",
+    dek: "One page on how units function, plus Update 14.5 obtain paths from Kitawari’s notes. Not a 200-row encyclopedia and not a tier list.",
+    body: "Official wiki Unit List: units come from summoning, stages, events, and shops. In a stage they attack on an SPA timer inside Range, unless they are yen/support. Every unit has stats and passives; some have player-fired actives. You inspect owned units in Inventory; obtaining a unit once unlocks it in the Unit Index. Update 14.5 also adds Codex. We have not photographed that Index.",
     rarityTitle: "Rarity buckets the official list uses",
     rarityNote: "Bucket names only. Full names live on wiki.vanguards.gg/Unit_List.",
     rarityRows: [
       { name: "Vanguard", note: "Top listed bucket on the official unit list. Event and banner crossovers sit here." },
-      { name: "Secret", note: "Large official bucket; 14.5 Secret names are on the news post below." },
+      { name: "Secret", note: "Large official bucket; 14.5 Secret names are on the notes below." },
       { name: "Exclusive", note: "Official list bucket, often shop / milestone / collab." },
       { name: "Mythic", note: "Official list bucket; evo forms of Secrets often land here." },
       { name: "Legendary / Epic / Rare", note: "Lower official buckets. Sprintwagon is on the Epic list and media treat it as an early farm unit — unverified here." },
     ],
-    patchTitle: "Names from official wiki news (not a live Index)",
+    patchTitle: "Update 14.5 names and obtain paths",
     patchNote:
-      "Copied from wiki.vanguards.gg homepage news for Update 14.5 (August 10, 2026) and 14.0 P2 (July 27, 2026). If the Unit Index disagrees, the Index wins.",
+      "Obtain paths from Kitawari’s Update 14.5 graphic (read 2026-08-16). Rarity tags from wiki.vanguards.gg. The graphic says Phantom Thief (Joker); older wiki news used Jester — Index wins if they still disagree. 14.0 P2 names stay from wiki news only.",
     patchRows: [
-      { name: "Apathetic Savior (Door)", update: "14.5", listed: "Official news; Secret on the unit list" },
-      { name: "Phantom Thief (Jester)", update: "14.5", listed: "Official news; Secret on the unit list" },
-      { name: "Rebel Fighter (Gauntlet)", update: "14.5", listed: "Official news; Secret on the unit list" },
-      { name: "Star Crusader (Platinum)", update: "14.5", listed: "Official news; Exclusive on the unit list" },
-      { name: "Investigation Leader (Truth)", update: "14.5", listed: "Official news; Mythic on the unit list" },
-      { name: "Cursed Copycat (Pure)", update: "14.0 P2", listed: "Official news; Secret on the unit list" },
-      { name: "Awakened Sibling (Restricted)", update: "14.0 P2", listed: "Official news; Secret on the unit list" },
-      { name: "Sword Hunter (Void)", update: "14.0 P2", listed: "Official news; Exclusive on the unit list" },
-      { name: "Cursed Gourmet (Full)", update: "14.0 P2", listed: "Official news; Mythic on the unit list" },
+      {
+        name: "Apathetic Savior (Door)",
+        update: "14.5",
+        obtain: "Lunar Bridge Dungeon",
+        listed: "Secret on the unit list",
+      },
+      {
+        name: "Phantom Thief (Joker)",
+        update: "14.5",
+        obtain: "Lunar Bridge Dungeon",
+        listed: "Secret on the unit list; wiki news also used Jester",
+      },
+      {
+        name: "Rebel Fighter (Gauntlet)",
+        update: "14.5",
+        obtain: "Worldlines Floor 50",
+        listed: "Secret on the unit list",
+      },
+      {
+        name: "Star Crusader (Platinum)",
+        update: "14.5",
+        obtain: "Season 14 Battlepass",
+        listed: "Exclusive on the unit list",
+      },
+      {
+        name: "Investigation Leader (Truth)",
+        update: "14.5",
+        obtain: "Arcana 7-day login / Dungeon",
+        listed: "Mythic on the unit list",
+      },
+      {
+        name: "Cursed Copycat (Pure)",
+        update: "14.0 P2",
+        obtain: "Not on the 14.5 graphic",
+        listed: "Official news; Secret on the unit list",
+      },
+      {
+        name: "Awakened Sibling (Restricted)",
+        update: "14.0 P2",
+        obtain: "Not on the 14.5 graphic",
+        listed: "Official news; Secret on the unit list",
+      },
+      {
+        name: "Sword Hunter (Void)",
+        update: "14.0 P2",
+        obtain: "Not on the 14.5 graphic",
+        listed: "Official news; Exclusive on the unit list",
+      },
+      {
+        name: "Cursed Gourmet (Full)",
+        update: "14.0 P2",
+        obtain: "Not on the 14.5 graphic",
+        listed: "Official news; Mythic on the unit list",
+      },
     ],
     skip: "No S-tier. No 200 cloned unit URLs. For the rest of the roster use the in-game Unit Index or wiki.vanguards.gg.",
   },
@@ -436,7 +545,7 @@ export const animeVanguardsCopy = {
       },
       {
         q: "What did Update 14.5 add?",
-        a: "Official wiki news (August 10, 2026): Apathetic Savior (Door), Phantom Thief (Jester), Rebel Fighter (Gauntlet), Star Crusader (Platinum), Investigation Leader (Truth), plus new Memoria and Vanguard Familiars. Full stats stay on that wiki or the in-game Index.",
+        a: "Kitawari’s Update 14.5 notes: Lunar Bridge Dungeon (11 floors, Controller Tokens), Gauntlets (8-player PvP bracket), Worldlines reset, Codex, Arcana login, Season 14 Battlepass, five units with exclusive Memorias, and the same three codes as the wiki TBD table. Full stats stay in Codex or on wiki.vanguards.gg.",
       },
     ],
   },
@@ -486,7 +595,7 @@ export const animeVanguardsMetadata = pageMetadata(
 
 export const animeVanguardsCodesMetadata = pageMetadata(
   "Anime Vanguards codes (Roblox) — wiki TBD vs media",
-  "Anime Vanguards codes: 1DayDelay, 25thHour, LetTheLarpingBegin were on the official wiki active table (TBD). Older media NEW codes were already archived there. Not redeemed in-game.",
+  "Anime Vanguards codes: 1DayDelay, 25thHour, LetTheLarpingBegin match Kitawari’s Update 14.5 notes and the official wiki TBD table. Older media NEW codes were already archived. Not redeemed in-game.",
   `${animeVanguards.path}/codes`,
 );
 
@@ -498,13 +607,13 @@ export const animeVanguardsTraitsMetadata = pageMetadata(
 
 export const animeVanguardsUnitsMetadata = pageMetadata(
   "Anime Vanguards units — roster rules and 14.5 names",
-  "How Anime Vanguards units work (SPA, Range, Index) plus Update 14.5 / 14.0 P2 names from official wiki news. Not a tier list.",
+  "How Anime Vanguards units work (SPA, Range, Index) plus Update 14.5 obtain paths from Kitawari’s notes. Not a tier list.",
   `${animeVanguards.path}/units`,
 );
 
 export const animeVanguardsItemsMetadata = pageMetadata(
   "Anime Vanguards items — gems, rerolls, shards",
-  "Anime Vanguards currencies from official code blurbs: Gems, Gold, Trait Rerolls, Memoria Shards, dungeon tokens. Not a shop screenshot.",
+  "Anime Vanguards currencies from codes and Update 14.5: Gems, Trait Rerolls, Memoria Shards, Lunar Bridge Controller Tokens, and five exclusive Memorias. Not a shop screenshot.",
   `${animeVanguards.path}/items`,
 );
 
@@ -589,7 +698,7 @@ export function animeVanguardsCodesJsonLd() {
         name: animeVanguardsCopy.codes.pageH1,
         url,
         description:
-          "Anime Vanguards codes: official wiki TBD list versus media NEW tags. Redeem path still unverified.",
+          "Anime Vanguards codes: Kitawari Update 14.5 notes and the official wiki TBD table versus media NEW tags. Redeem path still unverified.",
         dateModified: animeVanguards.lastChecked,
       },
       {

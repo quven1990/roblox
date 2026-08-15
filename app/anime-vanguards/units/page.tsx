@@ -36,10 +36,11 @@ export default function AnimeVanguardsUnitsPage() {
           <h2>{copy.patchTitle}</h2>
           <p>{copy.patchNote}</p>
           <DataTable
-            columns={["name", "update", "where listed"]}
+            columns={["name", "update", "obtain", "where listed"]}
             rows={copy.patchRows.map((row) => [
               row.name,
               row.update,
+              row.obtain,
               row.listed,
             ])}
           />
