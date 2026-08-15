@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import type { Metadata, Viewport } from "next";
 import { Outfit } from "next/font/google";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { MicrosoftClarity } from "@/components/MicrosoftClarity";
 import { SITE_ORIGIN, siteCopy } from "@/lib/site";
 import "./globals.css";
 
@@ -41,6 +42,7 @@ export default function RootLayout({
           src="https://plausible.shipsolo.io/js/script.js"
         />
         <GoogleAnalytics />
+        <MicrosoftClarity />
       </head>
       <body className={outfit.className}>
         <a className="skip" href="#content">

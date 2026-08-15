@@ -1,5 +1,6 @@
 import { SiteShell } from "@/components/SiteShell";
 import {
+  SITE_CLARITY_ID,
   SITE_CONTACT_EMAIL,
   SITE_GA4_ID,
   SITE_NAME,
@@ -45,7 +46,7 @@ export default function PrivacyPage() {
 
         <h2>Analytics</h2>
         <p>
-          Page views are counted in two places. A self-hosted Plausible script
+          Page views are counted in three places. A self-hosted Plausible script
           loads from plausible.shipsolo.io (data-domain upvane.com). Plausible
           is cookieless. The typical payload is the page URL, referrer, browser,
           operating system, device type, and a coarse country derived from IP
@@ -58,6 +59,14 @@ export default function PrivacyPage() {
           device, and approximate location to Google. We use it to see which
           guides are read. We do not turn on Google ads or remarketing on this
           site. Google’s own privacy policy applies to that processing.
+        </p>
+        <p>
+          Microsoft Clarity (project {SITE_CLARITY_ID}) also runs. That script
+          loads from clarity.ms. It can set cookies and record page views,
+          clicks, scrolling, and anonymized session replays so we can see how
+          the guides are used. Microsoft’s privacy policy applies to that
+          processing. This site has no login forms; do not type secrets into the
+          pages.
         </p>
         <p>
           We do not control every retention setting on those hosts. A content
@@ -90,8 +99,9 @@ export default function PrivacyPage() {
         <p>
           Play buttons and other outbound links go to Roblox or other sites we
           do not operate. Those sites have their own privacy policies. Google
-          receives Analytics data as described above. We do not sell personal
-          information and we do not run ads on this site.
+          receives Analytics data and Microsoft receives Clarity data, as
+          described above. We do not sell personal information and we do not run
+          ads on this site.
         </p>
 
         <h2>Children</h2>
