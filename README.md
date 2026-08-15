@@ -32,7 +32,7 @@ The hub lists live kits only. There is no fake 600-game dump, no Rising chart, a
 
 ## Analytics
 
-No GA / Clarity / Bing IDs are in this repo. v0 does not add fake analytics.
+Page views use self-hosted Plausible (`plausible.shipsolo.io`, `data-domain="upvane.com"`) in `app/layout.tsx`. No GA / Clarity / Bing IDs.
 
 ## Docs / research
 

@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { stealAnEgg } from "@/lib/games/steal-an-egg";
-import { SITE_ORIGIN } from "@/lib/site";
+import { absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
 
@@ -9,25 +9,55 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: `${SITE_ORIGIN}/`,
+      url: absoluteUrl("/"),
       lastModified,
       changeFrequency: "weekly",
       priority: 1,
     },
     {
-      url: `${SITE_ORIGIN}${stealAnEgg.path}`,
+      url: absoluteUrl(stealAnEgg.path),
       lastModified,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
-      url: `${SITE_ORIGIN}/privacy`,
+      url: absoluteUrl(`${stealAnEgg.path}/pets`),
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl(`${stealAnEgg.path}/eggs`),
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl(`${stealAnEgg.path}/biomes`),
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl(`${stealAnEgg.path}/mutations`),
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: absoluteUrl(`${stealAnEgg.path}/speed`),
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/privacy"),
       lastModified,
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
-      url: `${SITE_ORIGIN}/terms`,
+      url: absoluteUrl("/terms"),
       lastModified,
       changeFrequency: "yearly",
       priority: 0.3,

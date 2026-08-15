@@ -22,6 +22,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  viewportFit: "cover",
   themeColor: "#f6f7fb",
 };
 
@@ -32,6 +33,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={outfit.variable}>
+      <head>
+        <script
+          defer
+          data-domain="upvane.com"
+          src="https://plausible.shipsolo.io/js/script.js"
+        />
+      </head>
       <body className={outfit.className}>
         <a className="skip" href="#content">
           Skip to content

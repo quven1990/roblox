@@ -1,38 +1,23 @@
-import type { Metadata } from "next";
-import { SITE_NAME, SITE_ORIGIN, siteCopy } from "@/lib/site";
+import { SITE_NAME, absoluteUrl, pageMetadata, siteCopy } from "@/lib/site";
 
-export const hubCanonical = `${SITE_ORIGIN}/`;
-
-export const hubMetadata: Metadata = {
-  title: siteCopy.title,
-  description: siteCopy.metaDescription,
-  alternates: { canonical: hubCanonical },
-  openGraph: {
-    title: siteCopy.title,
-    description: siteCopy.metaDescription,
-    url: hubCanonical,
-    siteName: SITE_NAME,
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary",
-    title: siteCopy.title,
-    description: siteCopy.metaDescription,
-  },
-};
+export const hubCanonical = absoluteUrl("/");
+export const hubMetadata = pageMetadata(
+  siteCopy.title,
+  siteCopy.metaDescription,
+  "/",
+);
 
 export function hubJsonLd(gameUrls: { name: string; url: string }[]) {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE_NAME,
-    url: SITE_ORIGIN,
+    url: hubCanonical,
     description: siteCopy.metaDescription,
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,
-      url: SITE_ORIGIN,
+      url: hubCanonical,
     },
     hasPart: gameUrls.map((game) => ({
       "@type": "WebPage",

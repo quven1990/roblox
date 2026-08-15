@@ -58,7 +58,7 @@ export function HubHome() {
                   <p>{liveGame.kicker}</p>
                   <h2>{liveGame.name}</h2>
                   <span>
-                    Guide, pets index, codes check
+                    Guide, pets, eggs, speed
                     <ArrowRight size={16} aria-hidden="true" />
                   </span>
                 </div>
