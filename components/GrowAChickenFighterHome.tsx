@@ -5,6 +5,7 @@ import { SiteShell } from "@/components/SiteShell";
 import {
   growAChickenFighter,
   growAChickenFighterArt,
+  growAChickenFighterArtAlt,
   growAChickenFighterCopy,
   growAChickenFighterJsonLd,
 } from "@/lib/games/grow-a-chicken-fighter";
@@ -21,7 +22,7 @@ export function GrowAChickenFighterHome() {
           title={copy.h1}
           dek={copy.dek}
           src={growAChickenFighterArt.guide}
-          alt="Grow a Chicken Fighter Roblox thumbnail"
+          alt={growAChickenFighterArtAlt.guide}
           icon={growAChickenFighter.icon}
           eager
         >
@@ -60,7 +61,11 @@ export function GrowAChickenFighterHome() {
                       card.id as keyof typeof growAChickenFighterArt
                     ]
                   }
-                  alt=""
+                  alt={
+                    growAChickenFighterArtAlt[
+                      card.id as keyof typeof growAChickenFighterArtAlt
+                    ]
+                  }
                   width={640}
                   height={360}
                   sizes="(max-width: 640px) 100vw, 340px"

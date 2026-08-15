@@ -5,6 +5,7 @@ import { SiteShell } from "@/components/SiteShell";
 import {
   growAChickenFighter,
   growAChickenFighterArt,
+  growAChickenFighterArtAlt,
   growAChickenFighterChickensMetadata,
   growAChickenFighterCopy,
 } from "@/lib/games/grow-a-chicken-fighter";
@@ -22,7 +23,7 @@ export default function GrowAChickenFighterChickensPage() {
           title={copy.pageH1}
           dek={copy.dek}
           src={growAChickenFighterArt.chickens}
-          alt="Grow a Chicken Fighter Roblox thumbnail"
+          alt={growAChickenFighterArtAlt.chickens}
         />
         <article className="wrap article">
           <p>{copy.body}</p>

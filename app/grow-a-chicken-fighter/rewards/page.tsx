@@ -6,6 +6,7 @@ import { SiteShell } from "@/components/SiteShell";
 import {
   growAChickenFighter,
   growAChickenFighterArt,
+  growAChickenFighterArtAlt,
   growAChickenFighterCopy,
   growAChickenFighterRewardsJsonLd,
   growAChickenFighterRewardsMetadata,
@@ -25,7 +26,7 @@ export default function GrowAChickenFighterRewardsPage() {
           title={copy.pageH1}
           dek={copy.dek}
           src={growAChickenFighterArt.rewards}
-          alt="Grow a Chicken Fighter on Roblox"
+          alt={growAChickenFighterArtAlt.rewards}
         />
         <article className="wrap article">
           <p>{copy.intro}</p>

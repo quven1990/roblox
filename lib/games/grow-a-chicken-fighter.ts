@@ -21,12 +21,24 @@ export const growAChickenFighter = {
 } as const satisfies GameFacts;
 
 export const growAChickenFighterArt = {
-  guide: "/games/grow-a-chicken-fighter-thumb.png",
-  rewards: "/games/grow-a-chicken-fighter-thumb.png",
-  eggs: "/games/grow-a-chicken-fighter-thumb.png",
-  codes: "/games/grow-a-chicken-fighter-thumb.png",
-  chickens: "/games/grow-a-chicken-fighter-thumb.png",
-  fusion: "/games/grow-a-chicken-fighter-thumb.png",
+  guide: "/games/art/chicken-guide.png",
+  rewards: "/games/art/chicken-rewards.png",
+  eggs: "/games/art/chicken-eggs.png",
+  codes: "/games/art/chicken-codes.png",
+  chickens: "/games/art/chicken-chickens.png",
+  fusion: "/games/art/chicken-fusion.png",
+} as const;
+
+export const growAChickenFighterArtAlt = {
+  guide:
+    "A small LVL 1 chicken looking up a colorful Tower toward a crowned LVL 999 chicken.",
+  rewards:
+    "Level 1 starter farm next to a Level 999 hammock piled with gold and a powered chicken.",
+  eggs: "A powered chicken chasing a player who is carrying a stack of scrap across the farm.",
+  codes: "A Roblox avatar pointing forward next to a lightning-charged chicken.",
+  chickens: "A small labeled YOU chicken facing a much larger labeled BOSS chicken.",
+  fusion:
+    "Two aura-charged chickens clashing in a fenced dirt PIT while players cheer.",
 } as const;
 
 const thinPageRobots = { robots: { index: false, follow: true } } as const;
