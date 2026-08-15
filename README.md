@@ -2,7 +2,7 @@
 
 Unofficial Roblox **hub** at [upvane.com](https://upvane.com): a catalog of independent game kits. First live kit: **Steal An Egg** by and Collect Rare Pets.
 
-This repository is **not** a live production deploy. DNS and production hosting stay blocked until a human confirms.
+Pushing `master` to GitHub deploys to Cloudflare Pages (`upvane` project). Build is `npm run build`; output directory is `out/`. Production branch is `master`. Custom domains: `upvane.com` and `www.upvane.com`.
 
 ## Local site (Next.js)
 
@@ -25,8 +25,9 @@ Static HTML lands in `out/` (`output: 'export'`). Preview the export with `npm s
 |------|--------|
 | `/` | Hub homepage (kits catalog) |
 | `/steal-an-egg` | First game kit |
-| `/steal-an-egg/pets` | **noindex** placeholder until Index data exists |
-| `/privacy` `/terms` | Short unofficial legal pages |
+| `/steal-an-egg/pets` | Partial in-game Pet Index |
+| `/steal-an-egg/eggs` `/biomes` `/mutations` `/speed` | Game kit pages |
+| `/privacy` `/terms` | Unofficial legal pages |
 
 The hub lists live kits only. There is no fake 600-game dump, no Rising chart, and no codes table for games without a redeem UI. Steal An Egg has no redeem UI as of 2026-08-15.
 
