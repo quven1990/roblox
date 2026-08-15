@@ -35,6 +35,8 @@ The hub lists live kits only. There is no fake 600-game dump, no Rising chart, a
 
 Page views use self-hosted Plausible (`plausible.shipsolo.io`), Google Analytics 4 (`G-H20SYKX847`), and Microsoft Clarity (`y2tx3qa7f0`) in `app/layout.tsx`.
 
+Bing IndexNow key file is at `https://upvane.com/020c3e7fbd654fe9b601efd4cccb3779.txt`. After each `master` push, GitHub Actions waits for Cloudflare Pages then submits the live sitemap (`npm run indexnow`).
+
 ## Docs / research
 
 | File | What |

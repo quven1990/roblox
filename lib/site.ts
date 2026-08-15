@@ -7,6 +7,7 @@ export const SITE_CONTACT_EMAIL = "contact@upvane.com";
 export const SITE_PRIVACY_EMAIL = "privacy@upvane.com";
 export const SITE_GA4_ID = "G-H20SYKX847";
 export const SITE_CLARITY_ID = "y2tx3qa7f0";
+export const SITE_INDEXNOW_KEY = "020c3e7fbd654fe9b601efd4cccb3779";
 
 export function absoluteUrl(pathname = "/"): string {
   if (pathname === "/" || pathname === "") {
