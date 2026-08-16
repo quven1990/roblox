@@ -3,12 +3,14 @@ import { DataTable } from "@/components/DataTable";
 import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
 import { SiteShell } from "@/components/SiteShell";
+import { YouTubeEmbed } from "@/components/YouTubeEmbed";
 import {
   greedyGrowers,
   greedyGrowersArt,
   greedyGrowersArtAlt,
   greedyGrowersCopy,
   greedyGrowersJsonLd,
+  greedyGrowersVideos,
 } from "@/lib/games/greedy-growers";
 
 export function GreedyGrowersHome() {
@@ -85,6 +87,15 @@ export function GreedyGrowersHome() {
               </li>
             ))}
           </ol>
+          <h2 id="watch">{copy.howARunWorks.videoH2}</h2>
+          <YouTubeEmbed
+            videoId={greedyGrowersVideos.loop.id}
+            title={greedyGrowersVideos.loop.title}
+            credit={greedyGrowersVideos.loop.credit}
+            caption={copy.howARunWorks.videoCaption}
+            poster={greedyGrowersVideos.loop.poster}
+            watchUrl={greedyGrowersVideos.loop.watchUrl}
+          />
 
           <h2 id="harvest">{copy.harvest.h2}</h2>
           <p>{copy.harvest.intro}</p>

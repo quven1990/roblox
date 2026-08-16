@@ -28,6 +28,16 @@ export const greedyGrowersArt = {
   calculator: "/games/art/greedy-guide-rbx.jpg",
 } as const;
 
+export const greedyGrowersVideos = {
+  loop: {
+    id: "GkaJB8wyJEU",
+    watchUrl: "https://www.youtube.com/watch?v=GkaJB8wyJEU",
+    title: "Greedy Growers harvest loop — public English-client run",
+    credit: "ItsChalls",
+    poster: greedyGrowersArt.guide,
+  },
+} as const;
+
 export const greedyGrowersArtAlt = {
   guide:
     "Official Roblox thumbnail: Diamond Tree labeled SECRET earning millions per second, versus a lightning-struck tree at $0.",
@@ -105,6 +115,9 @@ export const greedyGrowersCopy = {
     h2: "How a first harvest works",
     intro:
       "This order follows the official Roblox description. Extra systems (watering, extra plots, rebirth, pets) stay labeled until we photograph them.",
+    videoH2: "Watch a public run",
+    videoCaption:
+      "ItsChalls recorded an English-client first harvest: river seed, plant, sell, harvest timing versus lightning, then a rebirth. This is unofficial gameplay, not a Roblox or developer video. Seed names from the clip stay off the Seeds page. The title mentions codes; the clip does not show a redeem box.",
     steps: [
       "Open Greedy Growers from the official Roblox page so you have the right creator group.",
       "Buy one seed from the river that you can afford to lose if lightning hits.",
