@@ -32,7 +32,7 @@ Static HTML lands in `out/` (`output: 'export'`). Preview the export with `npm s
 | `/anime-vanguards` | Third game kit |
 | `/anime-vanguards/codes` `/items` `/traits` `/units` | AV kit pages. Traits/units sourced from official wiki, labeled, not a 200-URL factory |
 | `/greedy-growers` | Fourth game kit. Head term lives on the guide only |
-| `/greedy-growers/codes` `/mutations` `/seeds` `/pets` | Codes disputed. Mutations/seeds/pets reported until photographed |
+| `/greedy-growers/codes` `/mutations` `/seeds` `/pets` `/calculator` | Codes disputed. Mutations/seeds/pets reported. Calculator is manual EV only |
 | `/privacy` `/terms` | Unofficial legal pages |
 
 The hub lists live kits only. Codes tables only exist when a redeem box is confirmed. Steal An Egg has no redeem UI as of 2026-08-15. Grow a Chicken Fighter lists WELCOME from the official experience page; extra codes stay unverified until photographed. Anime Vanguards codes follow wiki.vanguards.gg’s active table versus media NEW tags; none are marked working until redeemed in-game. Greedy Growers lists ILOVECATS as disputed only.

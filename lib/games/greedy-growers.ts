@@ -14,7 +14,7 @@ export const greedyGrowers = {
   kitNumber: 4,
   kicker: "Unofficial",
   lede: "Buy a seed from the river, plant it, harvest before lightning.",
-  tags: ["Guide", "Codes", "Mutations", "Seeds", "Pets"],
+  tags: ["Guide", "Codes", "Mutations", "Seeds", "Pets", "Calculator"],
   icon: "/games/greedy-growers-rbx.png",
   thumb: "/games/greedy-growers-rbx-thumb.jpg",
 } as const satisfies GameFacts;
@@ -25,6 +25,7 @@ export const greedyGrowersArt = {
   mutations: "/games/art/greedy-mutations-rbx.jpg",
   seeds: "/games/art/greedy-seeds-rbx.jpg",
   pets: "/games/art/greedy-pets-rbx.jpg",
+  calculator: "/games/art/greedy-guide-rbx.jpg",
 } as const;
 
 export const greedyGrowersArtAlt = {
@@ -38,6 +39,8 @@ export const greedyGrowersArtAlt = {
     "Official Roblox thumbnail: a Starfruit Tree labeled SECRET next to a player holding an axe, with lightning in the same shot.",
   pets:
     "Official Roblox thumbnail from the experience page. The Roblox gallery has no pet screenshot, so this page reuses the harvest still.",
+  calculator:
+    "Official Roblox thumbnail: Diamond Tree labeled SECRET versus a lightning-struck tree at $0 — used as the calculator hero.",
 } as const;
 
 export const greedyGrowersCopy = {
@@ -53,6 +56,7 @@ export const greedyGrowersCopy = {
     mutations: "Mutations",
     seeds: "Seeds",
     pets: "Pets",
+    calculator: "Calculator",
     play: "Play",
   },
   pages: {
@@ -82,6 +86,12 @@ export const greedyGrowersCopy = {
         title: "Pets",
         sitelink: "Greedy Growers pets",
         body: "Pets Update desk: eggs and slots as reported. No named roster without a photo.",
+      },
+      {
+        id: "calculator",
+        title: "Calculator",
+        sitelink: "Greedy Growers calculator",
+        body: "Manual EV tool: seed cost, harvest, mutation, pet bonus, lightning risk.",
       },
     ],
   },
@@ -337,6 +347,70 @@ export const greedyGrowersCopy = {
       ],
     },
   },
+  calculator: {
+    h2: "Calculator",
+    pageH1: "Greedy Growers calculator (Roblox) — EV and lightning risk",
+    dek: "Manual expected-value tool. Enter your seed cost, harvest, mutation, pet bonus, and lightning failure rate. No fake seed database and no default pet presets.",
+    lead: "In Greedy Growers, the calculator sits on top of the harvest loop. Use numbers from your own run. Reported mutation multipliers live on Greedy Growers mutations.",
+    intro:
+      "This is editorial math from the inputs you type. It does not know official seed prices, lightning odds, or pet ability values. Leave multipliers at 1 until you measure them.",
+    trustNote:
+      "Sample defaults are only for learning the form. Replace them with one seed, one timing window, and one pet you actually tested.",
+    formulasTitle: "Formulas",
+    formulas: [
+      {
+        name: "Base profit",
+        formula: "base harvest − seed cost",
+        note: "Clean run before pet, mutation, and risk.",
+      },
+      {
+        name: "Pet value",
+        formula: "base harvest × (1 + pet bonus %)",
+        note: "Pet bonus starts at 0 until you measure one.",
+      },
+      {
+        name: "Adjusted value",
+        formula: "pet value × mutation × fertilizer × rebirth",
+        note: "Use 1 for any multiplier you have not measured.",
+      },
+      {
+        name: "Lightning EV",
+        formula: "(adjusted value × success rate) − seed cost",
+        note: "Success rate is 1 − lightning failure %.",
+      },
+      {
+        name: "Profit per minute",
+        formula: "(EV ÷ growth minutes) × plots",
+        note: "Compare routes with different wait times.",
+      },
+      {
+        name: "Break-even harvest",
+        formula: "seed cost ÷ (success rate × multipliers)",
+        note: "Base harvest needed before the run stops losing value.",
+      },
+    ],
+    faq: {
+      h2: "FAQ",
+      items: [
+        {
+          q: "Does the Greedy Growers calculator use official numbers?",
+          a: "No. It only uses the numbers you enter. Official sources confirm the harvest loop and lightning risk, not exact failure rates or pet presets.",
+        },
+        {
+          q: "Are there default pet multipliers?",
+          a: "No. Pet ability values are not verified here, so the pet bonus starts at 0.",
+        },
+        {
+          q: "What is lightning-adjusted expected value?",
+          a: "Adjusted harvest value times success rate, minus seed cost. It estimates average profit per attempt after lightning losses.",
+        },
+        {
+          q: "Can this pick the best pet or seed?",
+          a: "It can judge the one seed and one pet you entered. It does not rank all pets or seeds.",
+        },
+      ],
+    },
+  },
   faq: {
     h2: "FAQ",
     items: [
@@ -392,6 +466,11 @@ export const greedyGrowersNav = [
     href: `${greedyGrowers.path}/pets`,
     label: greedyGrowersCopy.nav.pets,
   },
+  {
+    id: "calculator" as const,
+    href: `${greedyGrowers.path}/calculator`,
+    label: greedyGrowersCopy.nav.calculator,
+  },
 ] as const;
 
 export const greedyGrowersCanonical = absoluteUrl(greedyGrowers.path);
@@ -445,6 +524,13 @@ export const greedyGrowersPetsMetadata = ggMeta(
   "Greedy Growers pets: Pets Update desk. Public guides cite 18 pets and three slots. No named roster without an in-game photo.",
   `${greedyGrowers.path}/pets`,
   "pets",
+);
+
+export const greedyGrowersCalculatorMetadata = ggMeta(
+  greedyGrowersCopy.calculator.pageH1,
+  "Greedy Growers calculator: manual EV for seed cost, harvest, mutation, pet bonus, and lightning risk. No fake seed database or pet presets.",
+  `${greedyGrowers.path}/calculator`,
+  "calculator",
 );
 
 function faqEntities(
@@ -663,6 +749,43 @@ export function greedyGrowersPetsJsonLd() {
       breadcrumbs([
         { name: greedyGrowers.name, path: greedyGrowers.path },
         { name: "Pets", path: `${greedyGrowers.path}/pets` },
+      ]),
+    ],
+  };
+}
+
+export function greedyGrowersCalculatorJsonLd() {
+  const url = absoluteUrl(`${greedyGrowers.path}/calculator`);
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      webPageNode({
+        url,
+        name: greedyGrowersCopy.calculator.pageH1,
+        description: String(greedyGrowersCalculatorMetadata.description ?? ""),
+        image: ggImage("calculator"),
+      }),
+      {
+        "@type": "SoftwareApplication",
+        name: "Greedy Growers expected value calculator",
+        applicationCategory: "GameApplication",
+        operatingSystem: "Web",
+        description: greedyGrowersCopy.calculator.dek,
+        url,
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          priceCurrency: "USD",
+        },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        mainEntity: faqEntities(greedyGrowersCopy.calculator.faq.items),
+      },
+      breadcrumbs([
+        { name: greedyGrowers.name, path: greedyGrowers.path },
+        { name: "Calculator", path: `${greedyGrowers.path}/calculator` },
       ]),
     ],
   };

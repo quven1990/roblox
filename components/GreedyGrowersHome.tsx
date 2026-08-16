@@ -102,6 +102,10 @@ export function GreedyGrowersHome() {
             <Link href={`${greedyGrowers.path}/mutations`}>
               Greedy Growers mutations
             </Link>
+            . To turn one timed run into expected value, use the{" "}
+            <Link href={`${greedyGrowers.path}/calculator`}>
+              Greedy Growers calculator
+            </Link>
             .
           </p>
 

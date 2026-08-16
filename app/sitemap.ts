@@ -142,6 +142,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.75,
     },
     {
+      url: absoluteUrl(`${greedyGrowers.path}/calculator`),
+      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
       url: absoluteUrl("/privacy"),
       lastModified,
       changeFrequency: "yearly",
