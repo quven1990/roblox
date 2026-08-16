@@ -2,7 +2,7 @@
 
 Unofficial Roblox **hub** at [upvane.com](https://upvane.com): a catalog of independent game kits. Live kits: **Steal An Egg**, **Grow a Chicken Fighter**, and **Anime Vanguards**.
 
-Pushing `master` to GitHub deploys to Cloudflare Pages (`upvane` project). Build is `npm run build`; output directory is `out/`. Production branch is `master`. Custom domains: `upvane.com` and `www.upvane.com`.
+Pushing `master` to GitHub deploys to Cloudflare Pages (`upvane` project). Build is `npm run build`; output directory is `out/`. Production branch is `master`. Custom domains: `upvane.com` and `www.upvane.com`. The Pages alias `upvane.pages.dev` 301s to `upvane.com` via `functions/_middleware.js` (Cloudflare cannot remove `*.pages.dev`).
 
 ## Local site (Next.js)
 
