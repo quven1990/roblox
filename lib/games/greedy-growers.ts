@@ -180,8 +180,8 @@ export const greedyGrowersCopy = {
   codes: {
     h2: "Codes",
     pageH1: "Greedy Growers codes (Roblox)",
-    dek: "ILOVECATS is Disputed: 100 Tickets on some lists, missing on others. Paste in Settings — not marked Working here.",
-    lead: "ILOVECATS is Disputed for Greedy Growers: some lists say 100 Tickets, others list no codes. Paste it in Settings (cog) in-game — not marked Working here.",
+    dek: "Checked Aug 16, 2026: ILOVECATS is Disputed, not Working. Some lists say 100 Tickets; other code lists show none.",
+    lead: "Greedy Growers codes checked August 16, 2026: ILOVECATS is Disputed, not Working. Some public lists report 100 Tickets, while Dexerto, Beebom, and GameRant showed no active codes in their latest visible checks.",
     body: "Public pages put the box in Settings (top-left cog). We have not photographed that window. Do not paste codes into a third-party form.",
     tableNote:
       "Disputed means large lists disagree. Official mention would require the Roblox experience page or a creator-owned channel. Working requires a redeem on this kit. Expired stays empty until a string fails in-game.",
@@ -513,7 +513,7 @@ export const greedyGrowersMetadata = ggMeta(
 
 export const greedyGrowersCodesMetadata = ggMeta(
   greedyGrowersCopy.codes.pageH1,
-  "Greedy Growers codes: ILOVECATS is Disputed (100 Tickets vs empty lists). Redeem in Settings (cog). Not marked Working.",
+  "Greedy Growers codes checked Aug 16, 2026: ILOVECATS is Disputed, not Working. Some lists report 100 Tickets; others show no active codes.",
   `${greedyGrowers.path}/codes`,
   "codes",
 );
