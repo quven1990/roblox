@@ -1,3 +1,4 @@
+import { EvidencePanel } from "@/components/EvidencePanel";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
 import { SiteShell } from "@/components/SiteShell";
@@ -24,6 +25,19 @@ export default function StealAnEggSpeedPage() {
           alt="A toy runner on a yellow treadmill"
         />
         <article className="wrap article">
+          <EvidencePanel
+            lastChecked={stealAnEgg.lastChecked}
+            checked={`${stealAnEgg.name} Speed systems for Roblox place ${stealAnEgg.placeId}.`}
+            verified={[
+              "Treadmill, trails, pen upgrades, paid multipliers, egg reset, and settings are visible in public English-client gameplay.",
+              "Speed gates exist and can reach very high numbers in later biomes.",
+              "The page intentionally avoids a live price ladder because shop and upgrade numbers can rot quickly.",
+            ]}
+            unverified={[
+              "Exact Recommended Speed for every biome in the current client.",
+              "Complete treadmill, trail, pen, and Robux pack price tables.",
+            ]}
+          />
           {copy.sections.map((section) => (
             <section key={section.h3}>
               <h2>{section.h3}</h2>

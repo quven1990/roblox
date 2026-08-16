@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { DataTable } from "@/components/DataTable";
+import { EvidencePanel } from "@/components/EvidencePanel";
 import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
@@ -39,6 +40,19 @@ export default function GreedyGrowersMutationsPage() {
             is where stock names live.
           </p>
           <p>{copy.intro}</p>
+          <EvidencePanel
+            lastChecked={greedyGrowers.lastChecked}
+            checked={`${greedyGrowers.name} mutations for Roblox place ${greedyGrowers.placeId}.`}
+            verified={[
+              "The official game loop supports harvest timing, which is where mutation risk belongs.",
+              "Each row below is labeled Reported rather than confirmed when it comes from public mutation tables.",
+              "The page keeps seed stock names separate from mutation claims.",
+            ]}
+            unverified={[
+              "Sell-panel screenshots for each multiplier.",
+              "Whether mutations stack, how they stack, and exact weather purchase rules.",
+            ]}
+          />
           <DataTable
             columns={["mutation", "how (reported)", "multiplier", "status"]}
             rows={copy.rows.map((row) => [

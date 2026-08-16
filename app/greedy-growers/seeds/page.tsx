@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { EvidencePanel } from "@/components/EvidencePanel";
 import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
@@ -38,6 +39,19 @@ export default function GreedyGrowersSeedsPage() {
             can change what a harvest is worth after you plant.
           </p>
           <p>{copy.intro}</p>
+          <EvidencePanel
+            lastChecked={greedyGrowers.lastChecked}
+            checked={`${greedyGrowers.name} seeds for Roblox place ${greedyGrowers.placeId}.`}
+            verified={[
+              "The official Roblox page confirms the river seed, plant, grow, and harvest loop.",
+              "Official thumbnails name Starfruit Tree and Diamond Tree as SECRET marketing examples.",
+              "Public seed lists conflict, so this page explains the conflict instead of publishing a fake price table.",
+            ]}
+            unverified={[
+              "A photographed river seed belt with live names, prices, and rarities.",
+              "Whether public Oak/Pine/Apple or Basic/Strawberry/Corn/Grape lists match the current client.",
+            ]}
+          />
           <h2>{copy.conflictTitle}</h2>
           <p>{copy.conflictBody}</p>
           <h2>{copy.tipsTitle}</h2>
