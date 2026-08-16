@@ -19,7 +19,7 @@ export default function TermsPage() {
       <main id="content" className="wrap legal">
         <p className="kicker">Legal</p>
         <h1>Terms</h1>
-        <p className="meta">Last updated 2026-08-15. Unofficial fan site.</p>
+        <p className="meta">Last updated 2026-08-16. Unofficial fan site.</p>
 
         <p>
           By using {SITE_NAME} ({SITE_ORIGIN}) you agree to these terms. They
@@ -77,9 +77,10 @@ export default function TermsPage() {
           nothing to refund.
         </p>
 
-        <h2>Links</h2>
+        <h2>Links and clips</h2>
         <p>
-          Play links send you to Roblox. Roblox and other third-party sites are
+          Play links send you to Roblox. A few pages can load a YouTube player
+          after you tap play. Roblox, YouTube, and other third-party sites are
           outside these terms. Your Privacy details for this site are at{" "}
           <a href="/privacy/">/privacy</a>.
         </p>

@@ -28,6 +28,23 @@ export const stealAnEggArt = {
   speed: "/games/art/steal-speed.jpg",
 } as const;
 
+export const stealAnEggVideos = {
+  loop: {
+    id: "RZDYOCvfavg",
+    watchUrl: "https://www.youtube.com/watch?v=RZDYOCvfavg",
+    title: "Steal An Egg loop — public English-client run",
+    credit: "BasicBlox",
+    poster: stealAnEggArt.guide,
+  },
+  biomes: {
+    id: "xRhk-dUBInc",
+    watchUrl: "https://www.youtube.com/watch?v=xRhk-dUBInc",
+    title: "Later Steal An Egg biomes — public English-client run",
+    credit: "CoralBlox",
+    poster: stealAnEggArt.biomes,
+  },
+} as const;
+
 export const stealAnEggCopy = {
   title: "Steal An Egg (Roblox) — steal eggs, hatch pets, train Speed",
   h1: "Steal An Egg (Roblox) — steal eggs, hatch pets, train Speed",
@@ -82,6 +99,9 @@ export const stealAnEggCopy = {
   },
   howARunWorks: {
     h2: "How a run works",
+    videoH2: "Watch a public run",
+    videoCaption:
+      "BasicBlox recorded the steal, hatch, treadmill, and chase loop on an English client. This is unofficial gameplay, not a Roblox or developer video.",
     steps: [
       "Pick a nest or biome pet you can finish. Learn the way home before you grab the egg.",
       "Steal the egg. Carrying it is worthless until it sits in your base.",
@@ -117,7 +137,7 @@ export const stealAnEggCopy = {
     h2: "Map and Speed gates",
     body: "Zones sit behind Speed. Forest and Lake are on the in-game Index. Later names come from gameplay, not from Index labels. Recommended Speed on each gate will move with updates, so we are not publishing a number ladder.",
     source:
-      "Forest and Lake: Pet Index screenshot. Later biomes: gameplay, including the public recording “I Stole The RAREST EGG in ROBLOX STEAL AN EGG,” last checked 2026-08-15.",
+      "Forest and Lake: Pet Index screenshot. Later biomes: gameplay, including a public English-client recording by CoralBlox, last checked 2026-08-16.",
     zones: [
       { name: "Forest", note: "Index biome. Eight pet slots. Tutorial chicken lives here." },
       { name: "Lake", note: "Index biome. Frog is the first visible slot." },
@@ -204,6 +224,9 @@ export const stealAnEggCopy = {
     teaser: "Speed unlocks the next zone. Forest and Lake are Index labels; the rest are gameplay names.",
     pageH1: "Steal An Egg biomes",
     dek: "Speed-gated map for Steal An Egg. Other wikis collapse this into First / Desert / Snow / Ocean / Endgame. The list below is longer because it comes from actual runs.",
+    videoH2: "Later biomes on video",
+    videoCaption:
+      "CoralBlox recorded later biomes after Forest and Lake. Treat it as a later-game run, not a Speed table and not a secret recipe.",
     otherNote:
       "steal-an-egg-wiki.wiki collapses the map into First / Desert / Snow / Ocean / Endgame, then other articles invent Sandy Expanse, Frozen Peaks, Volcanic Depths, Sky Gardens, Cave, Tundra, and Crystal Caverns. We keep Forest → Cosmic King from Index + recordings. Desert / snow / volcano overlap in spirit; the extra names are not on our run.",
     otherRows: [

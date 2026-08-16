@@ -2,11 +2,13 @@ import Link from "next/link";
 import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
 import { SiteShell } from "@/components/SiteShell";
+import { YouTubeEmbed } from "@/components/YouTubeEmbed";
 import {
   stealAnEgg,
   stealAnEggArt,
   stealAnEggCopy,
   stealAnEggJsonLd,
+  stealAnEggVideos,
 } from "@/lib/games/steal-an-egg";
 
 export function StealAnEggHome() {
@@ -34,7 +36,7 @@ export function StealAnEggHome() {
               {copy.heroCta}
             </a>
             <a className="btn btn-ghost" href="#wiki">
-              Wiki
+              Guide pages
             </a>
           </div>
         </KitHero>
@@ -76,6 +78,15 @@ export function StealAnEggHome() {
               </li>
             ))}
           </ol>
+          <h2 id="watch">{copy.howARunWorks.videoH2}</h2>
+          <YouTubeEmbed
+            videoId={stealAnEggVideos.loop.id}
+            title={stealAnEggVideos.loop.title}
+            credit={stealAnEggVideos.loop.credit}
+            caption={copy.howARunWorks.videoCaption}
+            poster={stealAnEggVideos.loop.poster}
+            watchUrl={stealAnEggVideos.loop.watchUrl}
+          />
 
           <h2 id="stealing">{copy.stealing.h2}</h2>
           <p>{copy.stealing.body}</p>

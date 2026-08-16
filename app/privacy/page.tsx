@@ -21,7 +21,7 @@ export default function PrivacyPage() {
       <main id="content" className="wrap legal">
         <p className="kicker">Legal</p>
         <h1>Privacy</h1>
-        <p className="meta">Last updated 2026-08-15. Unofficial fan site.</p>
+        <p className="meta">Last updated 2026-08-16. Unofficial fan site.</p>
 
         <p>
           {SITE_NAME} ({SITE_ORIGIN}) publishes unofficial guides for Roblox
@@ -95,13 +95,24 @@ export default function PrivacyPage() {
           payment cards.
         </p>
 
+        <h2>YouTube clips</h2>
+        <p>
+          A few guide pages offer an unofficial gameplay clip. The player uses
+          YouTube’s privacy-enhanced host (youtube-nocookie.com) and does not
+          load until you tap play. After that tap, Google / YouTube can set
+          cookies and receive the usual player request data. Their privacy
+          policy applies to that session. A “Watch on YouTube” link is also on
+          those pages if you prefer to open YouTube yourself. We do not download
+          or host the video files.
+        </p>
+
         <h2>Third-party sites</h2>
         <p>
           Play buttons and other outbound links go to Roblox or other sites we
           do not operate. Those sites have their own privacy policies. Google
-          receives Analytics data and Microsoft receives Clarity data, as
-          described above. We do not sell personal information and we do not run
-          ads on this site.
+          receives Analytics data, Microsoft receives Clarity data, and tapping
+          a clip can send YouTube player data to Google, as described above. We
+          do not sell personal information and we do not run ads on this site.
         </p>
 
         <h2>Children</h2>

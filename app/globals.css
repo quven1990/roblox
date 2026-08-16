@@ -84,6 +84,7 @@ img {
 
 .is-kit {
   scroll-padding-top: calc(var(--topbar-h) + 52px);
+  --yt-max-h: calc(100dvh - var(--topbar-h) - 52px - 24px);
 }
 
 .is-kit h2,
@@ -1914,4 +1915,151 @@ img {
 
 .gg-calc-results .note {
   margin: 0;
+}
+
+.yt-embed {
+  margin: 12px 0 24px;
+  max-width: 100%;
+}
+
+.yt-embed-frame {
+  position: relative;
+  overflow: hidden;
+  width: min(100%, calc(var(--yt-max-h, 70dvh) * 16 / 9));
+  aspect-ratio: 16 / 9;
+  margin-inline: auto;
+  border-radius: 8px;
+  background: #111;
+  border: 1px solid var(--line);
+}
+
+.yt-embed-load {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  color: inherit;
+  background: #111;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.yt-embed-load img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.yt-embed-shade {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.32);
+  pointer-events: none;
+}
+
+.yt-embed-play {
+  width: 64px;
+  height: 64px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  box-shadow: 4px 4px 0 var(--ink);
+  pointer-events: none;
+}
+
+.yt-embed-play svg {
+  margin-left: 3px;
+}
+
+.yt-embed-ui {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.yt-embed-hint {
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.82);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.yt-embed-load:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .yt-embed-load:hover .yt-embed-shade {
+    background: rgba(15, 23, 42, 0.42);
+  }
+}
+
+.yt-embed-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.yt-embed figcaption {
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
+.yt-embed figcaption p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.yt-embed-credit {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.yt-embed-watch {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px 0;
+  font-weight: 700;
+  touch-action: manipulation;
+}
+
+@media (max-width: 640px) {
+  .yt-embed-play {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .yt-embed-play,
+  .yt-embed-hint {
+    transition: none;
+  }
 }
