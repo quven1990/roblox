@@ -15,16 +15,16 @@ export const greedyGrowers = {
   kicker: "Unofficial",
   lede: "Buy a seed from the river, plant it, harvest before lightning.",
   tags: ["Guide", "Codes", "Mutations", "Seeds", "Pets"],
-  icon: "/games/greedy-growers.png",
-  thumb: "/games/greedy-growers-thumb.jpg",
+  icon: "/games/greedy-growers-rbx.png",
+  thumb: "/games/greedy-growers-rbx-thumb.jpg",
 } as const satisfies GameFacts;
 
 export const greedyGrowersArt = {
-  guide: "/games/art/greedy-guide.jpg",
-  codes: "/games/art/greedy-codes.jpg",
-  mutations: "/games/art/greedy-mutations.jpg",
-  seeds: "/games/art/greedy-seeds.jpg",
-  pets: "/games/art/greedy-pets.jpg",
+  guide: "/games/art/greedy-guide-rbx.jpg",
+  codes: "/games/art/greedy-codes-rbx.jpg",
+  mutations: "/games/art/greedy-mutations-rbx.jpg",
+  seeds: "/games/art/greedy-seeds-rbx.jpg",
+  pets: "/games/art/greedy-pets-rbx.jpg",
 } as const;
 
 export const greedyGrowersArtAlt = {
