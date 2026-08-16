@@ -2,12 +2,14 @@ import Link from "next/link";
 import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
 import { SiteShell } from "@/components/SiteShell";
+import { YouTubeEmbed } from "@/components/YouTubeEmbed";
 import {
   growAChickenFighter,
   growAChickenFighterArt,
   growAChickenFighterArtAlt,
   growAChickenFighterCopy,
   growAChickenFighterJsonLd,
+  growAChickenFighterVideos,
 } from "@/lib/games/grow-a-chicken-fighter";
 
 export function GrowAChickenFighterHome() {
@@ -85,6 +87,15 @@ export function GrowAChickenFighterHome() {
               </li>
             ))}
           </ol>
+          <h2 id="watch">{copy.howARunWorks.videoH2}</h2>
+          <YouTubeEmbed
+            videoId={growAChickenFighterVideos.loop.id}
+            title={growAChickenFighterVideos.loop.title}
+            credit={growAChickenFighterVideos.loop.credit}
+            caption={copy.howARunWorks.videoCaption}
+            poster={growAChickenFighterVideos.loop.poster}
+            watchUrl={growAChickenFighterVideos.loop.watchUrl}
+          />
 
           <h2 id="systems">{copy.systems.h2}</h2>
           <p>{copy.systems.intro}</p>

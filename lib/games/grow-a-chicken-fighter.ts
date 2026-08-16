@@ -29,6 +29,16 @@ export const growAChickenFighterArt = {
   fusion: "/games/art/chicken-fusion.png",
 } as const;
 
+export const growAChickenFighterVideos = {
+  loop: {
+    id: "FPjeRjRSaMA",
+    watchUrl: "https://www.youtube.com/watch?v=FPjeRjRSaMA",
+    title: "Grow a Chicken Fighter loop — public English-client run",
+    credit: "ItsChalls",
+    poster: growAChickenFighterArt.guide,
+  },
+} as const;
+
 export const growAChickenFighterArtAlt = {
   guide:
     "A small LVL 1 chicken looking up a colorful Tower toward a crowned LVL 999 chicken.",
@@ -98,6 +108,9 @@ export const growAChickenFighterCopy = {
   },
   howARunWorks: {
     h2: "How a first session works",
+    videoH2: "Watch a public run",
+    videoCaption:
+      "ItsChalls recorded an English-client first session: ticket codes, Rewards claim, hatch, fuse, PIT, and an early Tower climb. This is unofficial gameplay, not a Roblox or developer video. Hatch names from the clip stay off the Index.",
     steps: [
       "Hatch an egg and put a chicken to work. The experience page says they keep laying while you are offline, so leave a worker running when you quit.",
       "Send a fighter to the PIT. That cash is what the official loop spends on the next upgrade or egg. We have not photographed PIT payouts.",
@@ -266,7 +279,7 @@ export const growAChickenFighterCopy = {
     h2: "Codes",
     pageH1: "Grow a Chicken Fighter codes (Roblox)",
     dek: "The Roblox experience page advertises CODE: WELCOME. Other lists disagree on rewards and extra codes. The photographed Rewards panel is not the redeem UI.",
-    body: "Official description includes CODE: WELCOME and says to follow the group for codes. Media describe a ticket control after the tutorial. A competing wiki says Settings → Ranking. We have not photographed the redeem box, so those two paths stay unverified. Copy a code below, then paste it in-game — not into Rewards.",
+    body: "Official description includes CODE: WELCOME and says to follow the group for codes. Media describe a ticket control after the tutorial. A competing wiki says Settings → Ranking. One public English-client recording used a ticket next to Settings. We have not photographed the redeem box, so those two paths stay unverified. Copy a code below, then paste it in-game — not into Rewards.",
     tableNote:
       "Official mention means we saw it on the experience page. Unverified means other sites listed it. Expired stays empty until a code fails in-game. We do not mark 40KCCU as working just because fan sites do.",
     copyHint: "Tap a code to copy it.",
