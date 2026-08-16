@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { stealAnEgg } from "@/lib/games/steal-an-egg";
 import { growAChickenFighter } from "@/lib/games/grow-a-chicken-fighter";
 import { animeVanguards } from "@/lib/games/anime-vanguards";
+import { greedyGrowers } from "@/lib/games/greedy-growers";
 import { absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
@@ -107,6 +108,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: absoluteUrl(`${animeVanguards.path}/units`),
       lastModified: new Date(`${animeVanguards.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.75,
+    },
+    {
+      url: absoluteUrl(greedyGrowers.path),
+      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: absoluteUrl(`${greedyGrowers.path}/codes`),
+      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
+      changeFrequency: "daily",
+      priority: 0.85,
+    },
+    {
+      url: absoluteUrl(`${greedyGrowers.path}/mutations`),
+      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl(`${greedyGrowers.path}/seeds`),
+      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl(`${greedyGrowers.path}/pets`),
+      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
       changeFrequency: "weekly",
       priority: 0.75,
     },

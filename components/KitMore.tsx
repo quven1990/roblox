@@ -10,6 +10,10 @@ import {
   growAChickenFighter,
   growAChickenFighterCopy,
 } from "@/lib/games/grow-a-chicken-fighter";
+import {
+  greedyGrowers,
+  greedyGrowersCopy,
+} from "@/lib/games/greedy-growers";
 import { stealAnEgg, stealAnEggCopy } from "@/lib/games/steal-an-egg";
 
 const kitMore = {
@@ -24,6 +28,10 @@ const kitMore = {
   "anime-vanguards": {
     game: animeVanguards,
     cards: animeVanguardsCopy.pages.cards,
+  },
+  "greedy-growers": {
+    game: greedyGrowers,
+    cards: greedyGrowersCopy.pages.cards,
   },
 } as const;
 

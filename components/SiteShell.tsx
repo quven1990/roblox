@@ -12,6 +12,11 @@ import {
   growAChickenFighterCopy,
   growAChickenFighterNav,
 } from "@/lib/games/grow-a-chicken-fighter";
+import {
+  greedyGrowers,
+  greedyGrowersCopy,
+  greedyGrowersNav,
+} from "@/lib/games/greedy-growers";
 import { stealAnEgg, stealAnEggCopy, stealAnEggNav } from "@/lib/games/steal-an-egg";
 import { SITE_CONTACT_EMAIL, SITE_NAME, SITE_PRIVACY_EMAIL, siteCopy } from "@/lib/site";
 
@@ -28,7 +33,8 @@ export type KitSection =
   | "fusion"
   | "traits"
   | "units"
-  | "items";
+  | "items"
+  | "seeds";
 
 type Current = "hub" | "legal" | KitSection;
 
@@ -51,6 +57,12 @@ function kitChrome(slug: GameSlug) {
       nav: animeVanguardsNav,
       footer: animeVanguardsCopy.footer,
       playLabel: animeVanguardsCopy.nav.play,
+    },
+    "greedy-growers": {
+      game: greedyGrowers,
+      nav: greedyGrowersNav,
+      footer: greedyGrowersCopy.footer,
+      playLabel: greedyGrowersCopy.nav.play,
     },
   } as const;
 
