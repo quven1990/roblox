@@ -26,6 +26,12 @@ export default function StealAnEggMutationsPage() {
           alt="White, gold, and silver toy chickens"
         />
         <article className="wrap article">
+          <p>
+            Steal An Egg mutations checked August 16, 2026: gameplay shows gold
+            and silver variants, huge and giant egg sizes, and Legendary hatch
+            labels. Odds, sell multipliers, and wiki-only labels stay
+            unverified.
+          </p>
           <EvidencePanel
             lastChecked={stealAnEgg.lastChecked}
             checked={`${stealAnEgg.name} mutations and sizes for Roblox place ${stealAnEgg.placeId}.`}

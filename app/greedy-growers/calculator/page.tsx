@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { GreedyGrowersCalculator } from "@/components/GreedyGrowersCalculator";
 import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
@@ -30,16 +29,7 @@ export default function GreedyGrowersCalculatorPage() {
           alt={greedyGrowersArtAlt.calculator}
         />
         <article className="wrap article">
-          <p>
-            In <Link href={greedyGrowers.path}>Greedy Growers</Link>, the
-            calculator sits on the harvest loop. Use numbers from your own run.{" "}
-            <Link href={`${greedyGrowers.path}/mutations`}>
-              Greedy Growers mutations
-            </Link>{" "}
-            and{" "}
-            <Link href={`${greedyGrowers.path}/pets`}>Greedy Growers pets</Link>{" "}
-            stay reported until photographed.
-          </p>
+          <p>{copy.lead}</p>
           <p>{copy.intro}</p>
           <div className="note warn">
             <p>{copy.trustNote}</p>

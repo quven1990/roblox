@@ -25,6 +25,12 @@ export default function StealAnEggSpeedPage() {
           alt="A toy runner on a yellow treadmill"
         />
         <article className="wrap article">
+          <p>
+            Steal An Egg Speed checked August 16, 2026: treadmill training,
+            trails, pen upgrades, paid multipliers, egg reset, and settings are
+            visible in gameplay. This page avoids a live price ladder because
+            those numbers can rot quickly.
+          </p>
           <EvidencePanel
             lastChecked={stealAnEgg.lastChecked}
             checked={`${stealAnEgg.name} Speed systems for Roblox place ${stealAnEgg.placeId}.`}

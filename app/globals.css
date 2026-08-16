@@ -648,6 +648,18 @@ img {
   font-size: 17px;
 }
 
+.hub-summary {
+  padding-top: 12px;
+}
+
+.hub-summary p {
+  margin: 0;
+  max-width: 52rem;
+  color: var(--ink-soft);
+  font-size: 16px;
+  line-height: 1.65;
+}
+
 .section-head.inline {
   display: grid;
   gap: 18px;

@@ -223,7 +223,7 @@ export const greedyGrowersCopy = {
     h2: "Mutations",
     pageH1: "Greedy Growers mutations (Roblox) — lightning and weather",
     dek: "Reported names from public Update 1.2 tables. Multipliers are not Index. Shocked and Charged depend on harvest timing.",
-    lead: "In Greedy Growers, mutations sit on top of the harvest loop on the Greedy Growers guide. River stock names live on Greedy Growers seeds.",
+    lead: "Greedy Growers mutations checked August 16, 2026: public tables report Dewy, Shocked, Radioactive, Charged, Golden, and Cosmic. Multipliers below are reported, not photographed in a sell panel.",
     intro:
       "Public articles list six mutations. Weather rows last a few minutes on those pages. Lightning rows need the strike close to harvest. We have not photographed a sell panel, so every multiplier below is reported.",
     rows: [
@@ -288,7 +288,7 @@ export const greedyGrowersCopy = {
     h2: "Seeds",
     pageH1: "Greedy Growers seeds (Roblox) — river rarities",
     dek: "Seeds are bought from the river and planted on a plot. Public name lists already disagree, so this page is not an Index.",
-    lead: "In Greedy Growers, the river is step one of the Greedy Growers guide. Mutations can change what a seed is worth after you plant it.",
+    lead: "Greedy Growers seeds checked August 16, 2026: official text confirms the river seed loop, but public SKU lists disagree. This page avoids a fake live price table until the river stock is photographed.",
     intro:
       "Official text only confirms: buy a seed from the river, plant it, grow, harvest. The official Roblox thumbnails name Starfruit Tree and Diamond Tree as SECRET. That is marketing art on the experience page, not a river SKU list or a price table.",
     conflictTitle: "Why there is no price table yet",
@@ -322,7 +322,7 @@ export const greedyGrowersCopy = {
     h2: "Pets",
     pageH1: "Greedy Growers pets (Roblox)",
     dek: "Pets Update is real as a public topic (August 2026). Named rosters on other sites are not Index here.",
-    lead: "In Greedy Growers, pets are optional on top of the Greedy Growers guide. A pet claim should change seeds, mutations, or lightning risk — or it is flavor.",
+    lead: "Greedy Growers pets checked August 16, 2026: public guides describe Pet Shop eggs and three equip slots, but this kit has no photographed pet cards yet. Named rosters stay unverified.",
     intro:
       "Public pet articles describe a Pet Shop, eggs bought with tickets, and three equip slots. We have not photographed that shop, so names such as Dog, Cat, Robin, or Turtle stay off our roster.",
     structureTitle: "What public guides describe",
@@ -364,7 +364,7 @@ export const greedyGrowersCopy = {
     h2: "Calculator",
     pageH1: "Greedy Growers calculator (Roblox) — harvest EV",
     dek: "Manual expected-value tool. Enter your seed cost, harvest, mutation, pet bonus, and lightning failure rate. No fake seed database and no default pet presets.",
-    lead: "In Greedy Growers, the calculator sits on top of the harvest loop. Use numbers from your own run. Reported mutation multipliers live on Greedy Growers mutations.",
+    lead: "Greedy Growers calculator: enter seed cost, harvest value, mutation multiplier, pet bonus, and lightning failure chance to estimate EV from your own run. It does not invent live prices or pet presets.",
     intro:
       "This is editorial math from the inputs you type. It does not know official seed prices, lightning odds, or pet ability values. Leave multipliers at 1 until you measure them.",
     trustNote:

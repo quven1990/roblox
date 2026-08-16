@@ -54,6 +54,10 @@ export function HubHome() {
           <p>{siteCopy.kits.body}</p>
         </section>
 
+        <article className="wrap hub-summary">
+          <p>{siteCopy.summary}</p>
+        </article>
+
         <section
           className="wrap featured-grid"
           data-count={String(catalog.length)}

@@ -30,14 +30,7 @@ export default function GreedyGrowersSeedsPage() {
           alt={greedyGrowersArtAlt.seeds}
         />
         <article className="wrap article">
-          <p>
-            In <Link href={greedyGrowers.path}>Greedy Growers</Link>, the river
-            is step one.{" "}
-            <Link href={`${greedyGrowers.path}/mutations`}>
-              Greedy Growers mutations
-            </Link>{" "}
-            can change what a harvest is worth after you plant.
-          </p>
+          <p>{copy.lead}</p>
           <p>{copy.intro}</p>
           <EvidencePanel
             lastChecked={greedyGrowers.lastChecked}

@@ -31,14 +31,7 @@ export default function GreedyGrowersMutationsPage() {
           alt={greedyGrowersArtAlt.mutations}
         />
         <article className="wrap article">
-          <p>
-            In <Link href={greedyGrowers.path}>Greedy Growers</Link>, mutations
-            sit on top of the harvest loop.{" "}
-            <Link href={`${greedyGrowers.path}/seeds`}>
-              Greedy Growers seeds
-            </Link>{" "}
-            is where stock names live.
-          </p>
+          <p>{copy.lead}</p>
           <p>{copy.intro}</p>
           <EvidencePanel
             lastChecked={greedyGrowers.lastChecked}

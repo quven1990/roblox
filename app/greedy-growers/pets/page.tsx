@@ -30,18 +30,7 @@ export default function GreedyGrowersPetsPage() {
           alt={greedyGrowersArtAlt.pets}
         />
         <article className="wrap article">
-          <p>
-            In <Link href={greedyGrowers.path}>Greedy Growers</Link>, pets sit on
-            top of the harvest loop. A useful pet should change{" "}
-            <Link href={`${greedyGrowers.path}/seeds`}>
-              Greedy Growers seeds
-            </Link>{" "}
-            or{" "}
-            <Link href={`${greedyGrowers.path}/mutations`}>
-              Greedy Growers mutations
-            </Link>
-            .
-          </p>
+          <p>{copy.lead}</p>
           <p>{copy.intro}</p>
           <EvidencePanel
             lastChecked={greedyGrowers.lastChecked}
