@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { EvidencePanel } from "@/components/EvidencePanel";
 import { JsonLd } from "@/components/JsonLd";
 import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
@@ -67,6 +68,21 @@ export function AnimeVanguardsHome() {
           <div className="note warn">
             <p>{copy.rightGame.notThis}</p>
           </div>
+
+          <EvidencePanel
+            lastChecked={animeVanguards.lastChecked}
+            checked={`Roblox place ${animeVanguards.placeId} by ${animeVanguards.developer}.`}
+            verified={[
+              "The Roblox page confirms the Kitawari game and core tower defense loop.",
+              "Update 14.5 details are separated from older mode and unit notes.",
+              "Codes are compared against Kitawari notes and the official wiki table when available.",
+              "Unit, item, and trait pages label official wiki facts separately from unphotographed client details.",
+            ]}
+            unverified={[
+              "Profile to Codes redeem path is still unphotographed on this kit.",
+              "Live lobby screenshots for Story, Infinite, Gauntlets, and Worldlines.",
+            ]}
+          />
 
           <h2 id="pages">{copy.pages.h2}</h2>
           <div className="wiki-grid">

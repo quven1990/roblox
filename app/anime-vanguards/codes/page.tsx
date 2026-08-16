@@ -1,5 +1,6 @@
 import { CopyCode } from "@/components/CopyCode";
 import { DataTable } from "@/components/DataTable";
+import { EvidencePanel } from "@/components/EvidencePanel";
 import { JsonLd } from "@/components/JsonLd";
 import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
@@ -41,6 +42,20 @@ export default function AnimeVanguardsCodesPage() {
             <p>{copy.answer}</p>
           </div>
           <p>{copy.body}</p>
+          <EvidencePanel
+            title="Codes verification"
+            lastChecked={animeVanguards.lastChecked}
+            checked={`${animeVanguards.name} codes for Roblox place ${animeVanguards.placeId}.`}
+            verified={[
+              "Current strings are compared against Kitawari Update 14.5 notes and the official wiki table when available.",
+              "Archived wiki rows are separated from active rows even when media pages still call them new.",
+              "Level requirements are kept in the table so users do not retry a locked code blindly.",
+            ]}
+            unverified={[
+              "The Profile to Codes redeem path is still unphotographed on this kit.",
+              "Any reward stack size not shown by the official table or notes.",
+            ]}
+          />
           <p>{copy.tableNote}</p>
           <p className="source">{copy.copyHint}</p>
           <DataTable

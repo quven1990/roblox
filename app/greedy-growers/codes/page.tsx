@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CopyCode } from "@/components/CopyCode";
 import { DataTable } from "@/components/DataTable";
+import { EvidencePanel } from "@/components/EvidencePanel";
 import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
@@ -37,6 +38,20 @@ export default function GreedyGrowersCodesPage() {
             change lightning rules.
           </p>
           <p>{copy.body}</p>
+          <EvidencePanel
+            title="Codes verification"
+            lastChecked={greedyGrowers.lastChecked}
+            checked={`${greedyGrowers.name} codes for Roblox place ${greedyGrowers.placeId}.`}
+            verified={[
+              "Public trackers disagree on ILOVECATS, so it is marked Disputed rather than Working.",
+              "The table includes source context instead of presenting a copied active list.",
+              "The guide explains that codes do not change the harvest and lightning loop.",
+            ]}
+            unverified={[
+              "A photographed Settings code box on this kit.",
+              "A successful redeem for ILOVECATS or any other current string.",
+            ]}
+          />
           <p>{copy.tableNote}</p>
           <p className="source">{copy.copyHint}</p>
           <DataTable

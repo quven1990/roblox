@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { EvidencePanel } from "@/components/EvidencePanel";
 import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
 import { SiteShell } from "@/components/SiteShell";
@@ -48,6 +49,21 @@ export function GrowAChickenFighterHome() {
           <div className="note warn">
             <p>{copy.rightGame.notThis}</p>
           </div>
+
+          <EvidencePanel
+            lastChecked={growAChickenFighter.lastChecked}
+            checked={`Roblox place ${growAChickenFighter.placeId} by ${growAChickenFighter.developer}.`}
+            verified={[
+              "The Roblox experience page names hatch eggs, PIT fights, Tower, fusion, rebirth, and offline egg laying.",
+              "A public English-client run shows ticket codes, Rewards claim, hatch, fuse, PIT, and early Tower play.",
+              "The Rewards page is based on a photographed Daily streak and Play Today window.",
+              "The codes page keeps Rewards separate from the redeem path.",
+            ]}
+            unverified={[
+              "Full PIT payout table, Tower floor list, and Rebirth threshold.",
+              "Fusion slot rules, prices, and trait transfer details.",
+            ]}
+          />
 
           <h2 id="pages">{copy.pages.h2}</h2>
           <div className="wiki-grid">

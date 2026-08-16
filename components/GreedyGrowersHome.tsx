@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { DataTable } from "@/components/DataTable";
+import { EvidencePanel } from "@/components/EvidencePanel";
 import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
 import { SiteShell } from "@/components/SiteShell";
@@ -49,6 +50,21 @@ export function GreedyGrowersHome() {
           <div className="note warn">
             <p>{copy.rightGame.notThis}</p>
           </div>
+
+          <EvidencePanel
+            lastChecked={greedyGrowers.lastChecked}
+            checked={`Roblox place ${greedyGrowers.placeId} by ${greedyGrowers.developer}.`}
+            verified={[
+              "The official Roblox page describes the seed, grow, harvest, and lightning loop.",
+              "A public English-client run shows river seed purchase, planting, harvest timing, and rebirth.",
+              "The calculator uses player-entered values instead of pretending to know hidden lightning odds.",
+              "The codes page marks ILOVECATS as Disputed because public trackers disagree.",
+            ]}
+            unverified={[
+              "Exact lightning odds, weather shop pricing, and full pet roster.",
+              "A photographed Settings code box for this kit.",
+            ]}
+          />
 
           <h2 id="pages">{copy.pages.h2}</h2>
           <div className="wiki-grid">

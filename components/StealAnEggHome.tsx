@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { EvidencePanel } from "@/components/EvidencePanel";
 import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
 import { SiteShell } from "@/components/SiteShell";
@@ -47,6 +48,21 @@ export function StealAnEggHome() {
           <div className="note warn">
             <p>{copy.rightGame.brainrot}</p>
           </div>
+
+          <EvidencePanel
+            lastChecked={stealAnEgg.lastChecked}
+            checked={`Roblox place ${stealAnEgg.placeId} by ${stealAnEgg.developer}.`}
+            verified={[
+              "The core loop is egg steal, hatch at base, pet income, Speed training, and biome gates.",
+              "Forest and Lake pet Index details come from an in-game screenshot.",
+              "Later biomes are labeled from public English-client gameplay, not invented tier names.",
+              "No redeem UI is confirmed for this kit, so there is no Steal An Egg codes page.",
+            ]}
+            unverified={[
+              "Full later-biome Index rows and exact Speed gate numbers.",
+              "Published odds for huge, giant, gold, silver, and rare egg outcomes.",
+            ]}
+          />
 
           <h2 id="wiki">{copy.wiki.h2}</h2>
           <div className="wiki-grid">

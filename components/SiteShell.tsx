@@ -184,6 +184,9 @@ export function SiteShell({
               <li>
                 <Link href="/terms">Terms of Use</Link>
               </li>
+              <li>
+                <Link href="/editorial-policy">Editorial Policy</Link>
+              </li>
             </ul>
           </div>
           <div>
