@@ -81,7 +81,7 @@ export function SiteShell({
             </span>
             <span>
               <span className="brand-name">{SITE_NAME}</span>
-              <span className="brand-sub">Roblox trend desk</span>
+              <span className="brand-sub">Unofficial Roblox kits</span>
             </span>
           </Link>
           <nav className="top-nav" aria-label="Site">
@@ -139,7 +139,7 @@ export function SiteShell({
           <div>
             <p className="brand-name">{SITE_NAME}</p>
             <p>
-              Roblox trend scanning plus focused guide hubs. Codes only when a
+              A directory of unofficial Roblox game kits. Codes only when a
               redeem box exists.
             </p>
             {kit ? (

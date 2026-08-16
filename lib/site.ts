@@ -63,14 +63,25 @@ export function pageMetadata(
 }
 
 export const siteCopy = {
-  title: "Upvane — unofficial Roblox game guides",
+  title: "Upvane — unofficial kits for three Roblox games",
   metaDescription:
-    "Unofficial Upvane hub for rising Roblox games: focused guides, pet indexes, and Play links. Not affiliated with Roblox.",
-  kicker: "Roblox trend desk",
-  h1: "Find the Roblox games getting hot right now.",
-  dek: "One homepage for the Roblox games we keep. Each title is its own guide kit. New rooms join the catalog; the radar below is only a queue.",
+    "Unofficial Upvane hub. Separate kits for Steal An Egg, Grow a Chicken Fighter, and Anime Vanguards. Pick a game — this homepage is the directory, not one of those titles.",
+  kicker: "Unofficial kits",
+  h1: "Pick the Roblox game you came for.",
+  dek: "Steal An Egg, Grow a Chicken Fighter, and Anime Vanguards each have their own guide. This homepage is the directory. It is not one of those games.",
+  heroCta: "All live guides",
+  kits: {
+    kicker: "Live kits",
+    h2: "Three games, three kits",
+    body: "Open the title you searched. Newer kits get a New label — they do not take over this page.",
+  },
+  rising: {
+    kicker: "Scan only",
+    h2: "Not a guide yet",
+    body: "These names are from the rising scan. They are not Upvane kits. Links go to Roblox, not a walkthrough.",
+  },
   nav: {
-    games: "Trend desk",
+    games: "Kits",
     unofficial: "Unofficial",
   },
   footer:

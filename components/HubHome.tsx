@@ -4,7 +4,6 @@ import {
   ExternalLink,
   Flame,
   Gamepad2,
-  Radar,
   SearchCheck,
   Sparkles,
 } from "lucide-react";
@@ -20,7 +19,6 @@ const queuedGames = risingData.games.filter(
   (game) => !liveUniverseIds.has(String(game.universeId)),
 );
 const risingGames = queuedGames.slice(0, 6);
-const heroQueue = queuedGames.slice(0, 4);
 
 function formatNumber(value: number) {
   return new Intl.NumberFormat("en-US", { notation: "compact" }).format(value);
@@ -35,91 +33,25 @@ export function HubHome() {
       <JsonLd data={hubJsonLd(catalogForJsonLd())} />
       <main id="content">
         <section className="hub-hero">
-          <div className="wrap hub-hero-grid">
-            <div className="hub-hero-copy portal-copy">
+          <div className="wrap">
+            <div className="hub-hero-copy">
               <p className="kicker">{siteCopy.kicker}</p>
               <h1>{siteCopy.h1}</h1>
               <p>{siteCopy.dek}</p>
               <div className="hero-actions">
-                <Link className="btn btn-primary" href={latest.path}>
-                  Open {latest.name}
+                <a className="btn btn-primary" href="#kits">
+                  {siteCopy.heroCta}
                   <ArrowRight size={18} aria-hidden="true" />
-                </Link>
-                <a className="btn btn-ghost" href="#kits">
-                  All live guides
                 </a>
               </div>
             </div>
-
-            <div className="portal-stage" aria-label="Live Roblox guides">
-              <Link className="cover-card" href={latest.path}>
-                <img src={latest.thumb} alt={`${latest.name} promotional art`} />
-                <span className="cover-badge">Newest kit</span>
-                <div>
-                  <p>{latest.kicker}</p>
-                  <h2>{latest.name}</h2>
-                  <span>
-                    {latest.lede}
-                    <ArrowRight size={16} aria-hidden="true" />
-                  </span>
-                </div>
-              </Link>
-
-              <div className="queue-stack">
-                <div className="scan-chip">
-                  <Radar size={16} aria-hidden="true" />
-                  <span>
-                    Scan updated{" "}
-                    {new Date(risingData.generatedAt).toLocaleDateString("en-US", {
-                      month: "short",
-                      day: "numeric",
-                    })}
-                  </span>
-                </div>
-                {heroQueue.map((game, index) => (
-                  <a
-                    key={game.universeId}
-                    className="queue-card"
-                    href={game.url}
-                    rel="noopener noreferrer"
-                  >
-                    <span>0{index + 1}</span>
-                    <div>
-                      <strong>
-                        {game.name.replace(/[\u{1F300}-\u{1FAFF}]/gu, "").trim()}
-                      </strong>
-                      <small>{formatNumber(game.playing)} playing</small>
-                    </div>
-                  </a>
-                ))}
-              </div>
-            </div>
           </div>
         </section>
 
-        <section className="wrap hub-stats" aria-label="Upvane publishing model">
-          <div>
-            <strong>{risingGames.length}</strong>
-            <span>games in the visible queue</span>
-          </div>
-          <div>
-            <strong>{catalog.length}</strong>
-            <span>live kits on this hub</span>
-          </div>
-          <div>
-            <strong>0</strong>
-            <span>fake code pages shipped</span>
-          </div>
-        </section>
-
-        <section id="kits" className="wrap section-head">
-          <p className="kicker">Live kits</p>
-          <h2>{catalog.length} rooms, one homepage</h2>
-          <p>
-            Each shipped game is its own route. The catalog grows when a kit is
-            ready — this grid is generated from that list, not from hardcoded
-            buttons.
-          </p>
+        <section id="kits" className="wrap section-head is-catalog">
+          <p className="kicker">{siteCopy.kits.kicker}</p>
+          <h2>{siteCopy.kits.h2}</h2>
+          <p>{siteCopy.kits.body}</p>
         </section>
 
         <section
@@ -185,17 +117,28 @@ export function HubHome() {
           ))}
         </section>
 
+        <section className="wrap hub-stats" aria-label="Upvane publishing model">
+          <div>
+            <strong>{catalog.length}</strong>
+            <span>live kits on this hub</span>
+          </div>
+          <div>
+            <strong>0</strong>
+            <span>fake code pages shipped</span>
+          </div>
+          <div>
+            <strong>{risingGames.length}</strong>
+            <span>names in the scan, not guides</span>
+          </div>
+        </section>
+
         <section id="rising" className="wrap rising-section">
           <div className="section-head inline">
             <div>
-              <p className="kicker">Trend queue</p>
-              <h2>Next rooms on the radar</h2>
+              <p className="kicker">{siteCopy.rising.kicker}</p>
+              <h2>{siteCopy.rising.h2}</h2>
             </div>
-            <p>
-              These candidates come from the rising scan. They can become
-              guide hubs later, or simply pass through the front page while the
-              heat is still fresh.
-            </p>
+            <p>{siteCopy.rising.body}</p>
           </div>
 
           <div className="rising-grid">
@@ -209,7 +152,9 @@ export function HubHome() {
                 <span className="rank">#{index + 1}</span>
                 <div>
                   <h3>{game.name}</h3>
-                  <p>{game.genre} by {game.creator}</p>
+                  <p>
+                    {game.genre} by {game.creator}
+                  </p>
                 </div>
                 <dl>
                   <div>
