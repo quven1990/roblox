@@ -16,7 +16,7 @@ export const stealAnEgg = {
   lede: "Steal eggs, hatch pets, train Speed.",
   tags: ["Guide", "Pets", "Eggs", "Biomes"],
   icon: "/games/steal-an-egg.png",
-  thumb: "/games/steal-an-egg-thumb.png",
+  thumb: "/games/steal-an-egg-thumb.jpg",
 } as const satisfies GameFacts;
 
 export const stealAnEggArt = {

@@ -17,7 +17,7 @@ export const growAChickenFighter = {
   lede: "Hatch, fight in the PIT, climb the Tower, fuse, rebirth.",
   tags: ["Guide", "Codes", "Rewards", "Eggs"],
   icon: "/games/grow-a-chicken-fighter.png",
-  thumb: "/games/grow-a-chicken-fighter-thumb.png",
+  thumb: "/games/grow-a-chicken-fighter-thumb.jpg",
 } as const satisfies GameFacts;
 
 export const growAChickenFighterArt = {

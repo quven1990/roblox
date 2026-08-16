@@ -59,14 +59,20 @@ export function HubHome() {
           data-count={String(catalog.length)}
           aria-label="Published Roblox guides"
         >
-          {featured.map((game) => (
+          {featured.map((game, index) => (
             <article key={game.slug} className="game-card">
-              <div
-                className="game-thumb"
-                style={{ backgroundImage: `url(${game.thumb})` }}
-                role="img"
-                aria-label={`${game.name} screenshot`}
-              />
+              <div className="game-thumb">
+                <img
+                  src={game.thumb}
+                  alt={`${game.name} screenshot`}
+                  width={960}
+                  height={540}
+                  sizes="(min-width: 960px) 50vw, 100vw"
+                  loading={index === 0 ? "eager" : "lazy"}
+                  fetchPriority={index === 0 ? "high" : "low"}
+                  decoding={index === 0 ? "sync" : "async"}
+                />
+              </div>
               <div className="game-card-body">
                 <div className="game-card-top">
                   <img
@@ -75,6 +81,8 @@ export function HubHome() {
                     alt=""
                     width={72}
                     height={72}
+                    loading="lazy"
+                    decoding="async"
                   />
                   <div>
                     <h2>{game.name}</h2>

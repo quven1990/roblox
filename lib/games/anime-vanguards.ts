@@ -16,7 +16,7 @@ export const animeVanguards = {
   lede: "Summon units, hold the track, evolve, reroll traits.",
   tags: ["Guide", "Codes", "Traits", "Units", "Items"],
   icon: "/games/anime-vanguards.png",
-  thumb: "/games/anime-vanguards-thumb.png",
+  thumb: "/games/anime-vanguards-thumb.jpg",
 } as const satisfies GameFacts;
 
 export const animeVanguardsArt = {
