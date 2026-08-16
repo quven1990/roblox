@@ -33,7 +33,7 @@ export const stealAnEggCopy = {
   h1: "Steal An Egg (Roblox) — steal eggs, hatch pets, train Speed",
   dek: "Steal An Egg is a Roblox pet / tycoon by and Collect Rare Pets. This unofficial guide is not Steal a Brainrot and not the older game titled Steal a Egg.",
   metaDescription:
-    "Steal An Egg is a Roblox game by and Collect Rare Pets. Unofficial pets Index (Chicken is Common at $1/s), eggs, biomes, mutations, and Speed. Not Steal a Brainrot.",
+    "Unofficial Steal An Egg Roblox guide: pets Index, eggs, biomes, mutations, and Speed. Not Steal a Brainrot.",
   heroCta: "Play on Roblox",
   nav: {
     guide: "Guide",
@@ -45,7 +45,7 @@ export const stealAnEggCopy = {
     play: "Play",
   },
   wiki: {
-    h2: "Wiki",
+    h2: "Guide pages",
     cards: [
       {
         id: "pets",
@@ -522,7 +522,7 @@ export const stealAnEggSpeedMetadata = pageMetadata(
 
 export const stealAnEggEggsMetadata = pageMetadata(
   "Steal An Egg eggs — nests, shop, egg reset",
-  "Where Steal An Egg eggs come from: biome nests, player steals, shop stock, egg reset, and moon event. Huge and giant are sizes. Other sites’ egg SKUs are marked unverified.",
+  "Where Steal An Egg eggs come from: nests, player steals, shop, egg reset, and moon event. Huge and giant are sizes.",
   `${stealAnEgg.path}/eggs`,
 );
 

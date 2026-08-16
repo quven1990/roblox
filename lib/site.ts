@@ -65,10 +65,10 @@ export function pageMetadata(
 export const siteCopy = {
   title: "Upvane — unofficial kits for four Roblox games",
   metaDescription:
-    "Unofficial Upvane hub. Separate kits for Steal An Egg, Grow a Chicken Fighter, Anime Vanguards, and Greedy Growers. Pick a game — this homepage is the directory, not one of those titles.",
+    "Unofficial kits for Steal An Egg, Grow a Chicken Fighter, Anime Vanguards, and Greedy Growers. This homepage is the directory.",
   kicker: "Unofficial kits",
   h1: "Pick the Roblox game you came for.",
-  dek: "Steal An Egg, Grow a Chicken Fighter, Anime Vanguards, and Greedy Growers each have their own guide. This homepage is the directory. It is not one of those games.",
+  dek: "Steal An Egg, Grow a Chicken Fighter, Anime Vanguards, and Greedy Growers each have a separate guide. This page is the directory.",
   heroCta: "All live guides",
   kits: {
     kicker: "Live kits",

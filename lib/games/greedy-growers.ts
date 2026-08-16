@@ -48,7 +48,7 @@ export const greedyGrowersCopy = {
   h1: "Greedy Growers (Roblox) — harvest before lightning",
   dek: "Greedy Growers is a Roblox game by banjo greedy lady. How to play Greedy Growers: buy a seed from the river, plant it, let the tree grow, harvest before lightning. This unofficial kit is not Grow a Garden.",
   metaDescription:
-    "Unofficial Greedy Growers Roblox guide: river seeds, harvest before lightning, disputed codes, reported mutations, and a Pets Update desk. Not Grow a Garden.",
+    "Unofficial Greedy Growers Roblox guide: river seeds, harvest before lightning, reported mutations. Not Grow a Garden.",
   heroCta: "Play on Roblox",
   nav: {
     guide: "Guide",
@@ -349,7 +349,7 @@ export const greedyGrowersCopy = {
   },
   calculator: {
     h2: "Calculator",
-    pageH1: "Greedy Growers calculator (Roblox) — EV and lightning risk",
+    pageH1: "Greedy Growers calculator (Roblox) — harvest EV",
     dek: "Manual expected-value tool. Enter your seed cost, harvest, mutation, pet bonus, and lightning failure rate. No fake seed database and no default pet presets.",
     lead: "In Greedy Growers, the calculator sits on top of the harvest loop. Use numbers from your own run. Reported mutation multipliers live on Greedy Growers mutations.",
     intro:
