@@ -32,12 +32,12 @@ export default function GreedyGrowersCodesPage() {
           alt={greedyGrowersArtAlt.codes}
         />
         <article className="wrap article">
+          <p>{copy.lead}</p>
           <p>
-            In <Link href={greedyGrowers.path}>Greedy Growers</Link>, codes are a
-            side path. The harvest loop lives on the guide. A code does not
-            change lightning rules.
+            Codes do not change lightning; the harvest loop lives on the{" "}
+            <Link href={greedyGrowers.path}>Greedy Growers guide</Link>.{" "}
+            {copy.body}
           </p>
-          <p>{copy.body}</p>
           <EvidencePanel
             title="Codes verification"
             lastChecked={greedyGrowers.lastChecked}

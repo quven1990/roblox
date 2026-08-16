@@ -180,9 +180,9 @@ export const greedyGrowersCopy = {
   codes: {
     h2: "Codes",
     pageH1: "Greedy Growers codes (Roblox)",
-    dek: "Public trackers disagree. ILOVECATS is reported as 100 Tickets on some lists and missing on others. Not marked working on this page.",
-    lead: "In Greedy Growers, codes are a side path. The harvest loop lives on the Greedy Growers guide. A code does not change lightning rules.",
-    body: "Media and aggregators describe a code box inside Settings (the cog, usually top-left). We have not photographed that window, so the path stays unverified. Do not paste codes into a third-party form.",
+    dek: "ILOVECATS is Disputed: 100 Tickets on some lists, missing on others. Paste in Settings — not marked Working here.",
+    lead: "ILOVECATS is Disputed for Greedy Growers: some lists say 100 Tickets, others list no codes. Paste it in Settings (cog) in-game — not marked Working here.",
+    body: "Public pages put the box in Settings (top-left cog). We have not photographed that window. Do not paste codes into a third-party form.",
     tableNote:
       "Disputed means large lists disagree. Official mention would require the Roblox experience page or a creator-owned channel. Working requires a redeem on this kit. Expired stays empty until a string fails in-game.",
     copyHint: "Tap a code to copy it, then try it only in-game.",
@@ -513,7 +513,7 @@ export const greedyGrowersMetadata = ggMeta(
 
 export const greedyGrowersCodesMetadata = ggMeta(
   greedyGrowersCopy.codes.pageH1,
-  "Greedy Growers codes: ILOVECATS is disputed (100 Tickets vs empty media lists). Settings redeem path unverified. Not marked working.",
+  "Greedy Growers codes: ILOVECATS is Disputed (100 Tickets vs empty lists). Redeem in Settings (cog). Not marked Working.",
   `${greedyGrowers.path}/codes`,
   "codes",
 );
