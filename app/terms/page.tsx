@@ -46,11 +46,11 @@ export default function TermsPage() {
         <h2>Trademarks and art</h2>
         <p>
           Roblox is a trademark of Roblox Corporation. Game names, characters,
-          and related marks belong to their owners. Guide images on this site
-          are unofficial illustrations inspired by recorded gameplay. They are
-          not official Roblox or developer assets, they may include generated
-          art, and they can differ from a live session. Use Roblox under
-          Roblox’s own terms.
+          and related marks belong to their owners. Some kit images are official
+          Roblox experience thumbnails and icons taken from that game’s Roblox
+          page, resized for this site. Other pages may still use unofficial
+          illustrations. None of this implies affiliation. Images can differ
+          from a live session. Use Roblox under Roblox’s own terms.
         </p>
 
         <h2>Accuracy</h2>

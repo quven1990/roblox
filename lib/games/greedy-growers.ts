@@ -29,12 +29,15 @@ export const greedyGrowersArt = {
 
 export const greedyGrowersArtAlt = {
   guide:
-    "A young tree in a dirt plot beside an empty plot under a storm sky.",
-  codes: "A wooden gear above two trees in a stormy farm plot.",
+    "Official Roblox thumbnail: Diamond Tree labeled SECRET earning millions per second, versus a lightning-struck tree at $0.",
+  codes:
+    "Official Roblox thumbnail: Starfruit Tree labeled SECRET versus a lightning-struck tree at $0.",
   mutations:
-    "One tree flashing gold-white from lightning next to a tree under a weather streak.",
-  seeds: "A river carrying mixed fruit-shaped seeds toward empty plots.",
-  pets: "Three small animal silhouettes sitting beside a growing tree.",
+    "Official Roblox thumbnail: a Diamond Tree labeled SECRET while a storm cloud strikes another tree with lightning.",
+  seeds:
+    "Official Roblox thumbnail: a Starfruit Tree labeled SECRET next to a player holding an axe, with lightning in the same shot.",
+  pets:
+    "Official Roblox thumbnail from the experience page. The Roblox gallery has no pet screenshot, so this page reuses the harvest still.",
 } as const;
 
 export const greedyGrowersCopy = {
@@ -264,10 +267,10 @@ export const greedyGrowersCopy = {
     dek: "Seeds are bought from the river and planted on a plot. Public name lists already disagree, so this page is not an Index.",
     lead: "In Greedy Growers, the river is step one of the Greedy Growers guide. Mutations can change what a seed is worth after you plant it.",
     intro:
-      "Official text only confirms: buy a seed from the river, plant it, grow, harvest. Full SKU tables on other sites conflict, so we do not copy either list as ours.",
+      "Official text only confirms: buy a seed from the river, plant it, grow, harvest. The official Roblox thumbnails name Starfruit Tree and Diamond Tree as SECRET. That is marketing art on the experience page, not a river SKU list or a price table.",
     conflictTitle: "Why there is no price table yet",
     conflictBody:
-      "One public table uses Oak, Pine, Apple, and a long rarity ladder with huge late prices. Another money guide uses Basic Seed, Strawberry, Corn, and Grape. Until we photograph the river belt, both stay off the Index.",
+      "One public table uses Oak, Pine, Apple, and a long rarity ladder with huge late prices. Another money guide uses Basic Seed, Strawberry, Corn, and Grape. Official thumbnails add Starfruit Tree and Diamond Tree. Until we photograph the river belt, none of those lists is an Index here.",
     tipsTitle: "What you can do without a SKU list",
     tips: [
       "Buy a seed you can replace if lightning hits.",
@@ -357,7 +360,7 @@ export const greedyGrowersCopy = {
   },
   disclaimer: {
     h2: "Disclaimer",
-    body: "Unofficial. Not affiliated with Roblox Corporation or banjo greedy lady. Images on this kit are illustrations, not official assets.",
+    body: "Unofficial. Not affiliated with Roblox Corporation or banjo greedy lady. Kit images are the official Roblox experience thumbnails and icon for this place, resized for the page. They are not our screenshots.",
   },
   footer:
     "Upvane · unofficial · not affiliated with Roblox Corporation or banjo greedy lady.",
