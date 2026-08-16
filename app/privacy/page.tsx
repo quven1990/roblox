@@ -53,20 +53,21 @@ export default function PrivacyPage() {
           address.
         </p>
         <p>
-          Google Analytics 4 (measurement ID {SITE_GA4_ID}) also runs. That
-          script loads from googletagmanager.com and google-analytics.com. It
-          can set first-party cookies (such as _ga) and send page URL, referrer,
+          Google Analytics 4 (measurement ID {SITE_GA4_ID}) also runs, after
+          the first tap, scroll, or key, or after 30 seconds. That script loads
+          from googletagmanager.com and google-analytics.com. It can set
+          first-party cookies (such as _ga) and send page URL, referrer,
           device, and approximate location to Google. We use it to see which
           guides are read. We do not turn on Google ads or remarketing on this
           site. Google’s own privacy policy applies to that processing.
         </p>
         <p>
-          Microsoft Clarity (project {SITE_CLARITY_ID}) also runs. That script
-          loads from clarity.ms. It can set cookies and record page views,
-          clicks, scrolling, and anonymized session replays so we can see how
-          the guides are used. Microsoft’s privacy policy applies to that
-          processing. This site has no login forms; do not type secrets into the
-          pages.
+          Microsoft Clarity (project {SITE_CLARITY_ID}) also runs on the same
+          delay. That script loads from clarity.ms. It can set cookies and
+          record page views, clicks, scrolling, and anonymized session replays
+          so we can see how the guides are used. Microsoft’s privacy policy
+          applies to that processing. This site has no login forms; do not type
+          secrets into the pages.
         </p>
         <p>
           We do not control every retention setting on those hosts. A content

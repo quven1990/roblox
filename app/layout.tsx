@@ -1,8 +1,7 @@
 import type { ReactNode } from "react";
 import type { Metadata, Viewport } from "next";
 import { Outfit } from "next/font/google";
-import { GoogleAnalytics } from "@/components/GoogleAnalytics";
-import { MicrosoftClarity } from "@/components/MicrosoftClarity";
+import { DeferredAnalytics } from "@/components/DeferredAnalytics";
 import { SITE_ORIGIN, siteCopy } from "@/lib/site";
 import "./globals.css";
 
@@ -41,14 +40,13 @@ export default function RootLayout({
           data-domain="upvane.com"
           src="https://plausible.shipsolo.io/js/script.js"
         />
-        <GoogleAnalytics />
-        <MicrosoftClarity />
       </head>
       <body className={outfit.className}>
         <a className="skip" href="#content">
           Skip to content
         </a>
         {children}
+        <DeferredAnalytics />
       </body>
     </html>
   );
