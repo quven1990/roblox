@@ -14,7 +14,7 @@ export const greedyGrowers = {
   kitNumber: 4,
   kicker: "Unofficial",
   lede: "Buy a seed from the river, plant it, harvest before lightning.",
-  tags: ["Guide", "Codes", "Mutations", "Seeds", "Pets", "Calculator"],
+  tags: ["Guide", "Codes", "Mutations", "Seeds", "Fertilizer", "Pets", "Calculator"],
   icon: "/games/greedy-growers-rbx.png",
   thumb: "/games/greedy-growers-rbx-thumb.jpg",
 } as const satisfies GameFacts;
@@ -25,7 +25,8 @@ export const greedyGrowersArt = {
   mutations: "/games/art/greedy-mutations-rbx.jpg",
   seeds: "/games/art/greedy-seeds-rbx.jpg",
   pets: "/games/art/greedy-pets-rbx.jpg",
-  calculator: "/games/art/greedy-guide-rbx.jpg",
+    calculator: "/games/art/greedy-guide-rbx.jpg",
+  fertilizer: "/games/art/greedy-guide-rbx.jpg",
 } as const;
 
 export const greedyGrowersVideos = {
@@ -51,6 +52,8 @@ export const greedyGrowersArtAlt = {
     "Official Roblox thumbnail from the experience page. The Roblox gallery has no pet screenshot, so this page reuses the harvest still.",
   calculator:
     "Official Roblox thumbnail: Diamond Tree labeled SECRET versus a lightning-struck tree at $0 — used as the calculator hero.",
+  fertilizer:
+    "Official Roblox thumbnail: Diamond Tree labeled SECRET versus a lightning-struck tree at $0 — used for the fertilizer and rebirth guide.",
 } as const;
 
 export const greedyGrowersCopy = {
@@ -66,6 +69,7 @@ export const greedyGrowersCopy = {
     mutations: "Mutations",
     seeds: "Seeds",
     pets: "Pets",
+    fertilizer: "Fertilizer",
     calculator: "Calculator",
     play: "Play",
   },
@@ -96,6 +100,12 @@ export const greedyGrowersCopy = {
         title: "Pets",
         sitelink: "Greedy Growers pets",
         body: "Pets Update desk: eggs and slots as reported. No named roster without a photo.",
+      },
+      {
+        id: "fertilizer",
+        title: "Fertilizer",
+        sitelink: "Greedy Growers fertilizer",
+        body: "Reported rebirth unlocks, fruit-income route, and EV cautions. No fake price ladder.",
       },
       {
         id: "calculator",
@@ -465,6 +475,84 @@ export const greedyGrowersCopy = {
       ],
     },
   },
+  fertilizer: {
+    h2: "Fertilizer",
+    pageH1: "Greedy Growers fertilizer and rebirth route",
+    dek: "Fertilizer is a reported progression layer after rebirth. This guide explains what public runs show, what remains unverified, and when to test it in the calculator.",
+    lead:
+      "Greedy Growers fertilizer checked August 16, 2026: public gameplay and money-route guides report fertilizer after rebirth, with Basic Fertilizer as the safest early test. Exact live costs, growth effects, and higher-tier values are not verified here.",
+    shortTitle: "Quick answer",
+    shortAnswer:
+      "Use fertilizer only when you can afford the seed, the fertilizer, and one failed lightning run. Treat fertilizer as a way to shorten exposure or improve fruit income, not as proof that a long hold is safe.",
+    evidenceTitle: "What the sources support",
+    evidenceRows: [
+      {
+        claim: "Rebirth unlocks fertilizer progression",
+        status: "Reported",
+        basis: "A public English-client run reaches rebirth; money guides report Basic Fertilizer after the first rebirth and higher tiers later.",
+        action: "Do not publish exact tier costs until the fertilizer menu is photographed on this kit.",
+      },
+      {
+        claim: "Fertilizer belongs to money routing",
+        status: "Reported",
+        basis: "External money-route pages discuss fertilizer together with harvest timing, fruit income, and rebirth.",
+        action: "Use it as a route decision, not as a standalone best-item rank.",
+      },
+      {
+        claim: "Fertilizer removes lightning risk",
+        status: "Not verified",
+        basis: "The official Roblox description still centers lightning risk; no source proves fertilizer cancels strikes.",
+        action: "Keep lightning failure chance in the calculator.",
+      },
+    ],
+    routeTitle: "Safe fertilizer route",
+    routeSteps: [
+      "Build a reserve with early harvests before you test fertilizer.",
+      "Use a cheap seed first, because losing a fertilized expensive seed can erase the session.",
+      "Record seed cost, fertilizer cost, harvest value, growth minutes, and whether lightning hit.",
+      "Enter those numbers in the calculator instead of trusting a copied profit table.",
+      "Only move to higher tiers when a full failed attempt would not stop your next run.",
+    ],
+    calculatorTitle: "How to test fertilizer EV",
+    calculatorBody:
+      "In the calculator, put fertilizer into the fertilizer multiplier only if you measured a clean before/after result. If you only know that fertilizer was applied, leave the multiplier at 1 and record the shorter growth time instead.",
+    avoidTitle: "What this page avoids",
+    avoidRows: [
+      {
+        label: "Fake tier ladder",
+        reason: "Public pages disagree and can rot after updates.",
+      },
+      {
+        label: "Guaranteed profit claims",
+        reason: "Lightning can still wipe the run unless a current source proves otherwise.",
+      },
+      {
+        label: "Script automation advice",
+        reason: "Auto-fertilizer scripts can burn coins and are outside this fair-play guide.",
+      },
+    ],
+    faq: {
+      h2: "FAQ",
+      items: [
+        {
+          q: "What does fertilizer do in Greedy Growers?",
+          a: "Public guides treat fertilizer as a progression tool for faster or better money routes after rebirth. Exact live effects are not verified here.",
+        },
+        {
+          q: "When should I use fertilizer?",
+          a: "Use it after you can afford the seed, fertilizer, and one failed lightning run. Test on cheap seeds before expensive holds.",
+        },
+        {
+          q: "Does fertilizer stop lightning?",
+          a: "Not confirmed. The official loop still warns that lightning can strike, so keep lightning risk in your EV calculation.",
+        },
+        {
+          q: "Should fertilizer get its own tier list?",
+          a: "Not yet. This kit has no photographed fertilizer menu with current costs and effects.",
+        },
+      ],
+    },
+  },
   faq: {
     h2: "FAQ",
     items: [
@@ -519,6 +607,11 @@ export const greedyGrowersNav = [
     id: "pets" as const,
     href: `${greedyGrowers.path}/pets`,
     label: greedyGrowersCopy.nav.pets,
+  },
+  {
+    id: "fertilizer" as const,
+    href: `${greedyGrowers.path}/fertilizer`,
+    label: greedyGrowersCopy.nav.fertilizer,
   },
   {
     id: "calculator" as const,
@@ -585,6 +678,13 @@ export const greedyGrowersCalculatorMetadata = ggMeta(
   "Greedy Growers calculator: manual EV for seed cost, harvest, mutation, pet bonus, and lightning risk. No fake seed database or pet presets.",
   `${greedyGrowers.path}/calculator`,
   "calculator",
+);
+
+export const greedyGrowersFertilizerMetadata = ggMeta(
+  greedyGrowersCopy.fertilizer.pageH1,
+  "Greedy Growers fertilizer guide: reported rebirth unlocks, safe route testing, calculator inputs, and what is still unverified.",
+  `${greedyGrowers.path}/fertilizer`,
+  "fertilizer",
 );
 
 function faqEntities(
@@ -840,6 +940,40 @@ export function greedyGrowersCalculatorJsonLd() {
       breadcrumbs([
         { name: greedyGrowers.name, path: greedyGrowers.path },
         { name: "Calculator", path: `${greedyGrowers.path}/calculator` },
+      ]),
+    ],
+  };
+}
+
+export function greedyGrowersFertilizerJsonLd() {
+  const url = absoluteUrl(`${greedyGrowers.path}/fertilizer`);
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      webPageNode({
+        url,
+        name: greedyGrowersCopy.fertilizer.pageH1,
+        description: String(greedyGrowersFertilizerMetadata.description ?? ""),
+        image: ggImage("fertilizer"),
+      }),
+      {
+        "@type": "HowTo",
+        name: "How to test fertilizer safely in Greedy Growers",
+        description: greedyGrowersCopy.fertilizer.shortAnswer,
+        step: greedyGrowersCopy.fertilizer.routeSteps.map((text, index) => ({
+          "@type": "HowToStep",
+          position: index + 1,
+          text,
+        })),
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        mainEntity: faqEntities(greedyGrowersCopy.fertilizer.faq.items),
+      },
+      breadcrumbs([
+        { name: greedyGrowers.name, path: greedyGrowers.path },
+        { name: "Fertilizer", path: `${greedyGrowers.path}/fertilizer` },
       ]),
     ],
   };

@@ -35,6 +35,7 @@ export type KitSection =
   | "units"
   | "items"
   | "seeds"
+  | "fertilizer"
   | "calculator";
 
 type Current = "hub" | "legal" | KitSection;
