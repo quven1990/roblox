@@ -33,6 +33,15 @@ export default function GreedyGrowersMutationsPage() {
         <article className="wrap article">
           <p>{copy.lead}</p>
           <p>{copy.intro}</p>
+          <h2>{copy.answerTitle}</h2>
+          <ol className="zone-list">
+            {copy.answers.map((item) => (
+              <li key={item.q}>
+                <strong>{item.q}</strong>
+                <span>{item.a}</span>
+              </li>
+            ))}
+          </ol>
           <EvidencePanel
             lastChecked={greedyGrowers.lastChecked}
             checked={`${greedyGrowers.name} mutations for Roblox place ${greedyGrowers.placeId}.`}

@@ -25,6 +25,16 @@ export default function StealAnEggEggsPage() {
           alt="A nest of oversized toy eggs"
         />
         <article className="wrap article">
+          <p>{copy.lead}</p>
+          <h2>{copy.indexTitle}</h2>
+          <ol className="zone-list">
+            {copy.indexAnswers.map((item) => (
+              <li key={item.name}>
+                <strong>{item.name}</strong>
+                <span>{item.note}</span>
+              </li>
+            ))}
+          </ol>
           <h2>Where eggs come from</h2>
           <ol className="zone-list">
             {copy.sources.map((source) => (

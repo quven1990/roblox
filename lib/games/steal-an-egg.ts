@@ -160,8 +160,25 @@ export const stealAnEggCopy = {
     h2: "Eggs",
     teaser:
       "Steal from pets, nests, and players. Shop eggs are a different pool. Egg reset and a moon event kick off the scramble — that is the rare-egg race other wikis write about.",
-    pageH1: "Steal An Egg eggs",
-    dek: "Where eggs come from, how hatching works, huge / giant size, and which egg names other wikis invented. No hatch-rate table — the game does not publish odds.",
+    pageH1: "Steal An Egg all eggs — index, shop, reset",
+    dek: "Eggs come from nests, pets, player steals, shop pools, and reset events. This page separates gameplay hatches from unverified wiki egg names.",
+    lead:
+      "Steal An Egg all eggs checked August 16, 2026: eggs come from biome pets, guarded nests, player steals, shop pools, and reset-event races. The Pet Index is the source of truth; shop names and wiki labels stay separate until photographed.",
+    indexTitle: "All eggs vs Pet Index vs shop",
+    indexAnswers: [
+      {
+        name: "All eggs",
+        note: "Use this page for the full evidence desk: biome/nest eggs, player steals, shop eggs, reset rares, huge and giant sizes, and gameplay hatch names.",
+      },
+      {
+        name: "Pet Index",
+        note: "The Index confirms collected pets, not every egg source. Forest and Lake names are photographed elsewhere on this kit.",
+      },
+      {
+        name: "Shop eggs",
+        note: "Shop eggs are a separate pool until their hatch appears in the Index or in clear gameplay footage.",
+      },
+    ],
     sources: [
       {
         name: "Biome / nest eggs",
@@ -544,8 +561,8 @@ export const stealAnEggSpeedMetadata = pageMetadata(
 );
 
 export const stealAnEggEggsMetadata = pageMetadata(
-  "Steal An Egg eggs — nests, shop, egg reset",
-  "Where Steal An Egg eggs come from: nests, player steals, shop, egg reset, and moon event. Huge and giant are sizes.",
+  "Steal An Egg all eggs — index, shop, reset",
+  "Steal An Egg all eggs: nests, player steals, shop pools, egg reset, moon event, huge and giant sizes, and gameplay hatch names.",
   `${stealAnEgg.path}/eggs`,
 );
 

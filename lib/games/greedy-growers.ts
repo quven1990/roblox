@@ -179,9 +179,9 @@ export const greedyGrowersCopy = {
   },
   codes: {
     h2: "Codes",
-    pageH1: "Greedy Growers codes (Roblox)",
-    dek: "Checked Aug 16, 2026: ILOVECATS is Disputed, not Working. Some lists say 100 Tickets; other code lists show none.",
-    lead: "Greedy Growers codes checked August 16, 2026: ILOVECATS is Disputed, not Working. Some public lists report 100 Tickets, while Dexerto, Beebom, and GameRant showed no active codes in their latest visible checks.",
+    pageH1: "Greedy Growers codes — ILOVECATS status",
+    dek: "No working code is confirmed on this kit. ILOVECATS stays Disputed: some lists report 100 Tickets, while other code lists show no active codes.",
+    lead: "Greedy Growers codes checked against public August 2026 lists: ILOVECATS is Disputed, not Working here. Some sites report 100 Tickets, while other code lists show no active codes.",
     body: "Public pages put the box in Settings (top-left cog). We have not photographed that window. Do not paste codes into a third-party form.",
     tableNote:
       "Disputed means large lists disagree. Official mention would require the Roblox experience page or a creator-owned channel. Working requires a redeem on this kit. Expired stays empty until a string fails in-game.",
@@ -221,11 +221,30 @@ export const greedyGrowersCopy = {
   },
   mutations: {
     h2: "Mutations",
-    pageH1: "Greedy Growers mutations (Roblox) — lightning and weather",
-    dek: "Reported names from public Update 1.2 tables. Multipliers are not Index. Shocked and Charged depend on harvest timing.",
+    pageH1: "Greedy Growers mutations list — Dewy to Cosmic",
+    dek: "All six reported mutations in one table: Dewy, Shocked, Radioactive, Charged, Golden, and Cosmic. Weather and lightning rules stay reported until photographed.",
     lead: "Greedy Growers mutations checked August 16, 2026: public tables report Dewy, Shocked, Radioactive, Charged, Golden, and Cosmic. Multipliers below are reported, not photographed in a sell panel.",
     intro:
       "Public articles list six mutations. Weather rows last a few minutes on those pages. Lightning rows need the strike close to harvest. We have not photographed a sell panel, so every multiplier below is reported.",
+    answerTitle: "Quick answers for mutation searches",
+    answers: [
+      {
+        q: "All mutations",
+        a: "Reported list: Dewy, Shocked, Radioactive, Charged, Golden, and Cosmic.",
+      },
+      {
+        q: "Lightning mutations",
+        a: "Shocked and Charged are the lightning-timing rows. Public guides split them around a higher growth line.",
+      },
+      {
+        q: "Weather mutations",
+        a: "Dewy, Radioactive, Golden, and Cosmic are reported from Misty, Acid Rain, Rainbow, and Meteor Shower weather.",
+      },
+      {
+        q: "Best multiplier",
+        a: "Cosmic is the highest reported multiplier at 100x, but this kit still labels it Reported.",
+      },
+    ],
     rows: [
       {
         name: "Dewy",
@@ -513,14 +532,14 @@ export const greedyGrowersMetadata = ggMeta(
 
 export const greedyGrowersCodesMetadata = ggMeta(
   greedyGrowersCopy.codes.pageH1,
-  "Greedy Growers codes checked Aug 16, 2026: ILOVECATS is Disputed, not Working. Some lists report 100 Tickets; others show no active codes.",
+  "Greedy Growers codes: ILOVECATS status is Disputed, not confirmed Working here. Some lists report 100 Tickets; others show no active codes.",
   `${greedyGrowers.path}/codes`,
   "codes",
 );
 
 export const greedyGrowersMutationsMetadata = ggMeta(
   greedyGrowersCopy.mutations.pageH1,
-  "Greedy Growers mutations: Dewy, Shocked, Radioactive, Charged, Golden, Cosmic as reported public names. Multipliers not photographed.",
+  "Greedy Growers mutations list: Dewy, Shocked, Radioactive, Charged, Golden, Cosmic, with reported lightning and weather rules.",
   `${greedyGrowers.path}/mutations`,
   "mutations",
 );
