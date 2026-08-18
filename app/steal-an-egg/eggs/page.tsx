@@ -1,4 +1,5 @@
 import { DataTable } from "@/components/DataTable";
+import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
 import { SiteShell } from "@/components/SiteShell";
@@ -6,6 +7,7 @@ import {
   stealAnEgg,
   stealAnEggArt,
   stealAnEggCopy,
+  stealAnEggEggsJsonLd,
   stealAnEggEggsMetadata,
 } from "@/lib/games/steal-an-egg";
 
@@ -16,6 +18,7 @@ export default function StealAnEggEggsPage() {
 
   return (
     <SiteShell current="eggs">
+      <JsonLd data={stealAnEggEggsJsonLd()} />
       <main id="content">
         <KitHero
           kicker={`${stealAnEgg.name} · Eggs`}
@@ -35,6 +38,16 @@ export default function StealAnEggEggsPage() {
               </li>
             ))}
           </ol>
+          <h2>{copy.matrixTitle}</h2>
+          <DataTable
+            columns={["source", "what it means", "Index rule", "best action"]}
+            rows={copy.matrixRows.map((row) => [
+              row.source,
+              row.what,
+              row.index,
+              row.action,
+            ])}
+          />
           <h2>Where eggs come from</h2>
           <ol className="zone-list">
             {copy.sources.map((source) => (
@@ -66,6 +79,15 @@ export default function StealAnEggEggsPage() {
             columns={["name on other wikis", "how they rank it"]}
             rows={copy.otherRows.map((row) => [row.name, row.wiki])}
           />
+          <h2>{copy.faq.h2}</h2>
+          <div className="faq">
+            {copy.faq.items.map((item) => (
+              <details key={item.q}>
+                <summary>{item.q}</summary>
+                <p>{item.a}</p>
+              </details>
+            ))}
+          </div>
           <p className="source">Last checked {stealAnEgg.lastChecked}.</p>
           <KitMore current="eggs" />
         </article>

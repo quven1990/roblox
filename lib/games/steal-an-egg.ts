@@ -179,6 +179,33 @@ export const stealAnEggCopy = {
         note: "Shop eggs are a separate pool until their hatch appears in the Index or in clear gameplay footage.",
       },
     ],
+    matrixTitle: "All eggs evidence matrix",
+    matrixRows: [
+      {
+        source: "Biome pets and guarded nests",
+        what: "Steal prompt can name the egg or target pet before you run it home.",
+        index: "Counts only after the hatch fills a Pet Index tile.",
+        action: "Train Speed first, then contest larger biome eggs.",
+      },
+      {
+        source: "Other players",
+        what: "A carried egg can be taken from a player if you catch them.",
+        index: "Same as any hatch: the tile matters, not where you stole it.",
+        action: "Upgrade pen space before chasing expensive steals.",
+      },
+      {
+        source: "Shop pools",
+        what: "Shop eggs can use brainrot-style names and coin prices.",
+        index: "Unverified until the resulting pet appears in the Index or clear footage.",
+        action: "Do not mix shop SKU names into the Index table.",
+      },
+      {
+        source: "Reset and moon-event races",
+        what: "Secret, Eternal, Cosmic, huge, or giant eggs can become the lobby scramble.",
+        index: "The hatch result is what should be recorded.",
+        action: "Leave the treadmill when the alert fires.",
+      },
+    ],
     sources: [
       {
         name: "Biome / nest eggs",
@@ -235,6 +262,23 @@ export const stealAnEggCopy = {
       { name: "Guardian Egg", wiki: "Exclusive-pets: boss spawn. Unverified." },
       { name: "Mutation Egg", wiki: "Exclusive-pets: guaranteed mutation. Unverified." },
     ],
+    faq: {
+      h2: "FAQ",
+      items: [
+        {
+          q: "What counts as all eggs in Steal An Egg?",
+          a: "All eggs includes biome and nest eggs, player steals, shop eggs, reset-event rares, and huge or giant versions. The Pet Index confirms hatches, not every egg source.",
+        },
+        {
+          q: "Are shop eggs part of the Pet Index?",
+          a: "Not automatically. A shop egg belongs in the Index only after its hatch is visible as a collected pet or a clear gameplay label.",
+        },
+        {
+          q: "Is there a guaranteed huge egg timer?",
+          a: "No guaranteed timer is published here. Gameplay shows short reset rhythms and event scrambles, but not a guaranteed huge egg every fixed number of hours.",
+        },
+      ],
+    },
   },
   biomes: {
     h2: "Biomes",
@@ -634,6 +678,75 @@ export function stealAnEggJsonLd() {
             position: 2,
             name: stealAnEgg.name,
             item: stealAnEggCanonical,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export function stealAnEggEggsJsonLd() {
+  const url = absoluteUrl(`${stealAnEgg.path}/eggs`);
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": url,
+        name: stealAnEggCopy.eggs.pageH1,
+        url,
+        description: String(stealAnEggEggsMetadata.description ?? ""),
+        dateModified: stealAnEgg.lastChecked,
+        isPartOf: {
+          "@type": "WebSite",
+          name: SITE_NAME,
+          url: absoluteUrl("/"),
+        },
+        about: {
+          "@type": "VideoGame",
+          name: stealAnEgg.name,
+          url: stealAnEgg.playUrl,
+          gamePlatform: "Roblox",
+          author: {
+            "@type": "Organization",
+            name: stealAnEgg.developer,
+          },
+          sameAs: stealAnEgg.playUrl,
+        },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        mainEntity: stealAnEggCopy.eggs.faq.items.map((item) => ({
+          "@type": "Question",
+          name: item.q,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: item.a,
+          },
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: SITE_NAME,
+            item: absoluteUrl("/"),
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: stealAnEgg.name,
+            item: stealAnEggCanonical,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: "Eggs",
+            item: url,
           },
         ],
       },

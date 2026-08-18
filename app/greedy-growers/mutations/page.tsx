@@ -42,6 +42,16 @@ export default function GreedyGrowersMutationsPage() {
               </li>
             ))}
           </ol>
+          <h2>{copy.categoriesTitle}</h2>
+          <DataTable
+            columns={["type", "mutations", "reported trigger", "how to use it"]}
+            rows={copy.categories.map((row) => [
+              row.group,
+              row.includes,
+              row.trigger,
+              row.use,
+            ])}
+          />
           <EvidencePanel
             lastChecked={greedyGrowers.lastChecked}
             checked={`${greedyGrowers.name} mutations for Roblox place ${greedyGrowers.placeId}.`}
@@ -65,6 +75,14 @@ export default function GreedyGrowersMutationsPage() {
             ])}
           />
           <p>{copy.stackNote}</p>
+          <h2>{copy.evTitle}</h2>
+          <p>
+            {copy.evBody}{" "}
+            <Link href={`${greedyGrowers.path}/calculator#tool`}>
+              Open the Greedy Growers calculator
+            </Link>
+            .
+          </p>
           <p>
             Shocked and Charged are harvest-timing questions. Return to{" "}
             <Link href={greedyGrowers.path}>Greedy Growers</Link> for early vs

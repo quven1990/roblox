@@ -245,6 +245,24 @@ export const greedyGrowersCopy = {
         a: "Cosmic is the highest reported multiplier at 100x, but this kit still labels it Reported.",
       },
     ],
+    categoriesTitle: "Lightning vs weather mutations",
+    categories: [
+      {
+        group: "Lightning",
+        includes: "Shocked, Charged",
+        trigger: "Reported when lightning hits near harvest timing",
+        use: "Use the calculator when you are deciding whether to harvest early or chase a higher multiplier.",
+      },
+      {
+        group: "Weather",
+        includes: "Dewy, Radioactive, Golden, Cosmic",
+        trigger: "Reported from Misty, Acid Rain, Rainbow, and Meteor Shower weather",
+        use: "Treat these as value multipliers only after you see the same label on your seed, plant, or fruit.",
+      },
+    ],
+    evTitle: "Use mutation values in the harvest calculator",
+    evBody:
+      "For EV, enter the reported mutation multiplier as a multiplier only after you see that mutation in your run. Leave it at 1 for unknown stacks, unverified pets, or fertilizer claims. Lightning risk belongs in the failure-rate box, not in the mutation multiplier.",
     rows: [
       {
         name: "Dewy",
@@ -299,6 +317,10 @@ export const greedyGrowersCopy = {
         {
           q: "What is the best mutation?",
           a: "We do not publish a best-mutation rank. Cosmic is the top reported multiplier, unverified here.",
+        },
+        {
+          q: "Can Greedy Growers mutations stack?",
+          a: "Public guides say stacks can happen, but the exact stack formula is not confirmed here. Use one observed multiplier in the calculator instead of adding reported percentages.",
         },
       ],
     },
