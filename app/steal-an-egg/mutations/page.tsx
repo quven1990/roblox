@@ -1,5 +1,6 @@
 import { DataTable } from "@/components/DataTable";
 import { EvidencePanel } from "@/components/EvidencePanel";
+import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
 import { SiteShell } from "@/components/SiteShell";
@@ -7,6 +8,7 @@ import {
   stealAnEgg,
   stealAnEggArt,
   stealAnEggCopy,
+  stealAnEggMutationsJsonLd,
   stealAnEggMutationsMetadata,
 } from "@/lib/games/steal-an-egg";
 
@@ -17,6 +19,7 @@ export default function StealAnEggMutationsPage() {
 
   return (
     <SiteShell current="mutations">
+      <JsonLd data={stealAnEggMutationsJsonLd()} />
       <main id="content">
         <KitHero
           kicker={`${stealAnEgg.name} · Mutations`}
@@ -26,12 +29,7 @@ export default function StealAnEggMutationsPage() {
           alt="White, gold, and silver toy chickens"
         />
         <article className="wrap article">
-          <p>
-            Steal An Egg mutations checked August 16, 2026: gameplay shows gold
-            and silver variants, huge and giant egg sizes, and Legendary hatch
-            labels. Odds, sell multipliers, and wiki-only labels stay
-            unverified.
-          </p>
+          <p>{copy.lead}</p>
           <EvidencePanel
             lastChecked={stealAnEgg.lastChecked}
             checked={`${stealAnEgg.name} mutations and sizes for Roblox place ${stealAnEgg.placeId}.`}
@@ -45,18 +43,45 @@ export default function StealAnEggMutationsPage() {
               "Whether wiki-only labels such as Shiny, Rainbow, or Crystal are live in this game.",
             ]}
           />
+          <h2>{copy.matrixTitle}</h2>
+          <DataTable
+            columns={["label", "category", "evidence", "status"]}
+            rows={copy.matrixRows.map((row) => [
+              row.label,
+              row.category,
+              row.evidence,
+              row.status,
+            ])}
+          />
           <h2>What we can confirm</h2>
           <ul className="plain-list">
             {copy.confirmed.map((line) => (
               <li key={line}>{line}</li>
             ))}
           </ul>
+          <h2>{copy.actionTitle}</h2>
+          <ol className="zone-list">
+            {copy.actions.map((step) => (
+              <li key={step}>
+                <span>{step}</span>
+              </li>
+            ))}
+          </ol>
           <h2>{copy.otherTitle}</h2>
           <p>{copy.otherNote}</p>
           <DataTable
             columns={["label", "other wikis"]}
             rows={copy.otherRows.map((row) => [row.name, row.wiki])}
           />
+          <h2>{copy.faq.h2}</h2>
+          <div className="faq">
+            {copy.faq.items.map((item) => (
+              <details key={item.q}>
+                <summary>{item.q}</summary>
+                <p>{item.a}</p>
+              </details>
+            ))}
+          </div>
           <p className="source">Last checked {stealAnEgg.lastChecked}.</p>
           <KitMore current="mutations" />
         </article>

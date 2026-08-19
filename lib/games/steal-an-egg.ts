@@ -305,14 +305,56 @@ export const stealAnEggCopy = {
     h2: "Mutations & sizes",
     teaser:
       "The official page lists rarer eggs, pet sizes, and mutations. Index tiles use color bands. Gold and silver pets showed up in gameplay as variants, not biomes.",
-    pageH1: "Steal An Egg mutations and sizes",
-    dek: "What the Index and recordings actually show: gold / silver coats, huge / giant egg size, plus leftover wiki labels.",
+    pageH1: "Steal An Egg mutations and sizes — gold, silver, huge",
+    dek: "What the Index and recordings actually show: gold and silver coats, huge and giant egg size, Legendary hatch labels, plus leftover wiki labels.",
+    lead:
+      "Steal An Egg mutations checked August 16, 2026: gameplay shows gold and silver variants, huge and giant egg sizes, and Legendary hatch labels. Odds, sell multipliers, and wiki-only labels stay unverified.",
+    matrixTitle: "Mutation vs size vs rarity",
+    matrixRows: [
+      {
+        label: "Gold / Golden",
+        category: "Mutation or coat",
+        evidence: "Gameplay showed gold Chicken plus gold gecko / centipede hatches.",
+        status: "Seen in gameplay",
+      },
+      {
+        label: "Silver",
+        category: "Mutation or coat",
+        evidence: "Gameplay showed a silver crocodile hatch.",
+        status: "Seen in gameplay",
+      },
+      {
+        label: "Huge / Giant",
+        category: "Egg size",
+        evidence: "Large carried eggs appeared in live steals; a huge Cosmic Gorilla hatched larger than a smaller one.",
+        status: "Seen in gameplay",
+      },
+      {
+        label: "Legendary",
+        category: "Rarity label",
+        evidence: "One hatch label read Legendary Golden Cosmic Gecko.",
+        status: "Seen in gameplay",
+      },
+      {
+        label: "Shiny / Rainbow / Crystal / Divine",
+        category: "Other-wiki labels",
+        evidence: "External wiki pages use these words, but this kit has not seen them on a hatch or Index panel.",
+        status: "Unverified",
+      },
+    ],
     confirmed: [
       "Official description: pets have rarities, sizes, and mutations.",
       "Index tile colors in Forest run white → green → blue → purple → pink → gold. Only white is labeled Common so far.",
       "Gameplay showed gold Chicken, gold gecko / centipede, and silver crocodile — treat gold / silver as a coat, not a zone.",
       "Huge and giant showed up as egg size in a live steal, not as a separate catalog name. A huge Cosmic Gorilla hatched larger than a smaller Cosmic Gorilla.",
       "Legendary appeared on a hatch label (Legendary Golden Cosmic Gecko).",
+    ],
+    actionTitle: "What to record before trusting a mutation claim",
+    actions: [
+      "Screenshot the hatch label and the pet card together when possible.",
+      "Record whether the word is a color coat, size label, rarity label, or biome name.",
+      "Do not copy drop odds unless the game UI or a developer-owned source prints them.",
+      "Keep huge and giant under egg size until a separate mutation panel says otherwise.",
     ],
     otherTitle: "Labels other wikis use (unverified odds)",
     otherRows: [
@@ -323,6 +365,27 @@ export const stealAnEggCopy = {
     ],
     otherNote:
       "Huge / Giant / Golden are no longer “other wiki only” — those sizes and coats showed in gameplay. Remaining wiki words still disagree (Shiny vs Mutated vs Secret). No drop rates belong here until the Index or a developer post prints them.",
+    faq: {
+      h2: "FAQ",
+      items: [
+        {
+          q: "What mutations are confirmed in Steal An Egg?",
+          a: "Gold or Golden and Silver variants are seen in gameplay. This kit treats them as coats or mutations, not as priced multipliers.",
+        },
+        {
+          q: "Are Huge and Giant mutations?",
+          a: "This kit treats Huge and Giant as egg sizes because gameplay shows them on carried eggs and hatch size, not as a separate mutation catalog.",
+        },
+        {
+          q: "What are the mutation odds in Steal An Egg?",
+          a: "No odds are published here. We have not seen official odds or a full mutation Index.",
+        },
+        {
+          q: "Are Shiny, Rainbow, Crystal, or Divine confirmed?",
+          a: "Not on this kit. Other wiki pages use those labels, but they stay unverified until they appear in-game or in a developer-owned source.",
+        },
+      ],
+    },
   },
   codes: {
     h2: "Codes",
@@ -617,8 +680,8 @@ export const stealAnEggBiomesMetadata = pageMetadata(
 );
 
 export const stealAnEggMutationsMetadata = pageMetadata(
-  "Steal An Egg mutations and sizes",
-  "Steal An Egg mutations and pet sizes: gold/silver coats, huge/giant egg size from gameplay, and leftover unverified wiki labels.",
+  stealAnEggCopy.mutations.pageH1,
+  "Steal An Egg mutations and sizes: gold and silver coats, huge and giant egg size, Legendary hatch labels, and unverified wiki-only names.",
   `${stealAnEgg.path}/mutations`,
 );
 
@@ -746,6 +809,75 @@ export function stealAnEggEggsJsonLd() {
             "@type": "ListItem",
             position: 3,
             name: "Eggs",
+            item: url,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export function stealAnEggMutationsJsonLd() {
+  const url = absoluteUrl(`${stealAnEgg.path}/mutations`);
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": url,
+        name: stealAnEggCopy.mutations.pageH1,
+        url,
+        description: String(stealAnEggMutationsMetadata.description ?? ""),
+        dateModified: stealAnEgg.lastChecked,
+        isPartOf: {
+          "@type": "WebSite",
+          name: SITE_NAME,
+          url: absoluteUrl("/"),
+        },
+        about: {
+          "@type": "VideoGame",
+          name: stealAnEgg.name,
+          url: stealAnEgg.playUrl,
+          gamePlatform: "Roblox",
+          author: {
+            "@type": "Organization",
+            name: stealAnEgg.developer,
+          },
+          sameAs: stealAnEgg.playUrl,
+        },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        mainEntity: stealAnEggCopy.mutations.faq.items.map((item) => ({
+          "@type": "Question",
+          name: item.q,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: item.a,
+          },
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: SITE_NAME,
+            item: absoluteUrl("/"),
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: stealAnEgg.name,
+            item: stealAnEggCanonical,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: "Mutations",
             item: url,
           },
         ],

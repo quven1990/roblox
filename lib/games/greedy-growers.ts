@@ -337,26 +337,82 @@ export const greedyGrowersCopy = {
   },
   seeds: {
     h2: "Seeds",
-    pageH1: "Greedy Growers seeds (Roblox) — river rarities",
-    dek: "Seeds are bought from the river and planted on a plot. Public name lists already disagree, so this page is not an Index.",
-    lead: "Greedy Growers seeds checked August 16, 2026: official text confirms the river seed loop, but public SKU lists disagree. This page avoids a fake live price table until the river stock is photographed.",
+    pageH1: "Greedy Growers seeds list — river stock conflicts",
+    dek: "Seeds are bought from the river and planted on a plot. Public seed names disagree, so this page explains what is verified before it prints a price table.",
+    lead: "Greedy Growers seeds checked August 16, 2026: the verified loop is river seed, plant, grow, harvest. Starfruit Tree and Diamond Tree appear in official thumbnails, but the live river stock, prices, and full seed list are not photographed here.",
     intro:
       "Official text only confirms: buy a seed from the river, plant it, grow, harvest. The official Roblox thumbnails name Starfruit Tree and Diamond Tree as SECRET. That is marketing art on the experience page, not a river SKU list or a price table.",
+    answerTitle: "Quick answers for seed searches",
+    answers: [
+      {
+        q: "Where to buy seeds",
+        a: "The official description puts seeds at the river. Buy there, plant on your plot, then harvest before lightning.",
+      },
+      {
+        q: "Full seed list",
+        a: "Not verified. Public lists disagree, and this kit has no photographed river stock with live names and prices.",
+      },
+      {
+        q: "Starfruit Tree / Diamond Tree",
+        a: "Those names are visible in official Roblox thumbnails as SECRET examples, not as confirmed river-shop SKUs.",
+      },
+      {
+        q: "Best seed",
+        a: "Use a seed you can replace after lightning. A copied S-tier is weaker than your own seed cost, harvest value, and failure rate.",
+      },
+    ],
+    evidenceTitle: "Seed evidence matrix",
+    evidenceRows: [
+      {
+        claim: "River is the seed source",
+        status: "Verified",
+        basis: "Official Roblox description says to buy a seed from the river, plant it, and harvest.",
+        action: "Use this as the route, but not as a price table.",
+      },
+      {
+        claim: "Starfruit Tree and Diamond Tree exist as names",
+        status: "Verified as thumbnails",
+        basis: "Official Roblox thumbnails label Starfruit Tree and Diamond Tree as SECRET examples.",
+        action: "Treat them as target leads until a live river or sell panel screenshot confirms details.",
+      },
+      {
+        claim: "Oak/Pine/Apple or Basic/Strawberry/Corn/Grape ladders",
+        status: "Conflicting reports",
+        basis: "Public guides use different seed dictionaries.",
+        action: "Do not merge them into one fake Index.",
+      },
+      {
+        claim: "Seed prices and rarities",
+        status: "Not verified",
+        basis: "No photographed river stock on this kit.",
+        action: "Record live price, growth time, harvest, mutation, and lightning result before ranking.",
+      },
+    ],
     conflictTitle: "Why there is no price table yet",
     conflictBody:
       "One public table uses Oak, Pine, Apple, and a long rarity ladder with huge late prices. Another money guide uses Basic Seed, Strawberry, Corn, and Grape. Official thumbnails add Starfruit Tree and Diamond Tree. Until we photograph the river belt, none of those lists is an Index here.",
-    tipsTitle: "What you can do without a SKU list",
-    tips: [
+    routeTitle: "Safe seed route",
+    routeSteps: [
       "Buy a seed you can replace if lightning hits.",
       "Do not spend the whole reserve on one river roll.",
       "Treat mutation value separately from the seed's base price.",
+      "If you test fertilizer or pets, change only one variable per run.",
+      "Use the calculator with your own seed cost, harvest value, growth time, and lightning failure rate.",
     ],
     faq: {
       h2: "FAQ",
       items: [
         {
+          q: "Is there a Greedy Growers seed list?",
+          a: "Not a verified full list on this kit. Public guides disagree, and we do not have a photographed river stock table yet.",
+        },
+        {
           q: "Where do I buy Greedy Growers seeds?",
           a: "The official description says the river. Plant on your plot after you buy.",
+        },
+        {
+          q: "Are Starfruit Tree and Diamond Tree real seeds?",
+          a: "They are real names on official Roblox thumbnails. This page does not treat them as confirmed river-shop SKUs or prices.",
         },
         {
           q: "What is the best Greedy Growers seed?",
@@ -371,9 +427,9 @@ export const greedyGrowersCopy = {
   },
   pets: {
     h2: "Pets",
-    pageH1: "Greedy Growers pets (Roblox)",
-    dek: "Pets Update is real as a public topic (August 2026). Named rosters on other sites are not Index here.",
-    lead: "Greedy Growers pets checked August 16, 2026: public guides describe Pet Shop eggs and three equip slots, but this kit has no photographed pet cards yet. Named rosters stay unverified.",
+    pageH1: "Greedy Growers pets, wiki claims, and tier list status",
+    dek: "Pets Update searches are real, but named rosters and S-tier lists need pet-card screenshots before they become Index here.",
+    lead: "Greedy Growers pets checked August 16, 2026: public guides describe Pet Shop eggs, three equip slots, and passive buckets. This kit has no photographed pet cards yet, so pet names, hatch odds, and tier lists stay unverified.",
     intro:
       "Public pet articles describe a Pet Shop, eggs bought with tickets, and three equip slots. We have not photographed that shop, so names such as Dog, Cat, Robin, or Turtle stay off our roster.",
     structureTitle: "What public guides describe",
@@ -391,6 +447,52 @@ export const greedyGrowersCopy = {
         note: "Reported buckets: growth speed, weather mutations, extra seeds, lightning protection. Unverified per pet.",
       },
     ],
+    wikiTitle: "Wiki, Index, and tier list status",
+    wikiRows: [
+      {
+        search: "Greedy Growers wiki",
+        answer: "Use this page as a verification desk, not a copied wiki. It separates the pet system from unverified rosters.",
+        status: "Useful, not complete",
+      },
+      {
+        search: "Greedy Growers pet Index",
+        answer: "No in-game pet Index or pet-card screenshot has been captured on this kit.",
+        status: "Missing evidence",
+      },
+      {
+        search: "Greedy Growers 18 pets",
+        answer: "Public pages say 18, but this kit has not counted them in-game.",
+        status: "Reported",
+      },
+      {
+        search: "Greedy Growers pets tier list",
+        answer: "No tier list is published until ability text, rarity, obtain path, and current hatch source are photographed.",
+        status: "Held back",
+      },
+    ],
+    abilityTitle: "How to judge a pet before a tier list exists",
+    abilityRows: [
+      {
+        bucket: "Growth speed",
+        whatToRecord: "Ability text, percent or time saved, and whether it changes one plot or all plots.",
+        whyItMatters: "Shorter growth can reduce lightning exposure.",
+      },
+      {
+        bucket: "Weather / mutation help",
+        whatToRecord: "Exact wording and whether it changes mutation chance or only event timing.",
+        whyItMatters: "Mutation value belongs in EV only after the label appears in your run.",
+      },
+      {
+        bucket: "Extra seeds",
+        whatToRecord: "Seed name, source, and whether the pet gives a seed directly or improves a roll.",
+        whyItMatters: "This affects reserve management more than raw harvest value.",
+      },
+      {
+        bucket: "Lightning protection",
+        whatToRecord: "Whether it blocks strikes, reduces odds, or only repairs loss.",
+        whyItMatters: "Lightning risk should stay in the calculator until protection is measured.",
+      },
+    ],
     rosterNote:
       "We do not print an 18-row name table copied from another site. Send an English-client pet card (name, rarity, ability text, obtain path) before a row becomes Index.",
     faq: {
@@ -401,12 +503,20 @@ export const greedyGrowersCopy = {
           a: "Public pages say 18. This kit has not counted an in-game Index.",
         },
         {
+          q: "Is there a Greedy Growers pets wiki?",
+          a: "This page acts as a verification desk for pet claims. It does not copy a full wiki roster without in-game pet-card evidence.",
+        },
+        {
           q: "How do I get Greedy Growers pets?",
           a: "Public guides say Pet Shop eggs with tickets. Unverified here. Do not copy Grow a Garden egg lists.",
         },
         {
           q: "What are the best Greedy Growers pets?",
           a: "We do not publish a pet tier list without ability screenshots.",
+        },
+        {
+          q: "What should I screenshot for a pet to become Index?",
+          a: "Capture the English-client pet card with name, rarity, ability text, obtain path, and any equip or hatch context.",
         },
       ],
     },
@@ -661,14 +771,14 @@ export const greedyGrowersMutationsMetadata = ggMeta(
 
 export const greedyGrowersSeedsMetadata = ggMeta(
   greedyGrowersCopy.seeds.pageH1,
-  "Greedy Growers seeds: buy from the river, plant on a plot. Public SKU lists disagree (Oak vs Strawberry). No Index price table.",
+  "Greedy Growers seeds list: river loop, Starfruit and Diamond thumbnail evidence, conflicting public seed names, and no fake live price table.",
   `${greedyGrowers.path}/seeds`,
   "seeds",
 );
 
 export const greedyGrowersPetsMetadata = ggMeta(
   greedyGrowersCopy.pets.pageH1,
-  "Greedy Growers pets: Pets Update desk. Public guides cite 18 pets and three slots. No named roster without an in-game photo.",
+  "Greedy Growers pets wiki desk: reported Pet Shop eggs, three slots, 18-pet claims, and why no tier list is published without pet-card screenshots.",
   `${greedyGrowers.path}/pets`,
   "pets",
 );

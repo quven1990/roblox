@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { DataTable } from "@/components/DataTable";
 import { EvidencePanel } from "@/components/EvidencePanel";
 import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
@@ -45,6 +45,15 @@ export default function GreedyGrowersPetsPage() {
               "Pet Shop egg prices, hatch odds, and unlock requirements.",
             ]}
           />
+          <h2>{copy.wikiTitle}</h2>
+          <DataTable
+            columns={["search intent", "answer", "status"]}
+            rows={copy.wikiRows.map((row) => [
+              row.search,
+              row.answer,
+              row.status,
+            ])}
+          />
           <h2>{copy.structureTitle}</h2>
           <ol className="zone-list">
             {copy.structure.map((item) => (
@@ -54,6 +63,15 @@ export default function GreedyGrowersPetsPage() {
               </li>
             ))}
           </ol>
+          <h2>{copy.abilityTitle}</h2>
+          <DataTable
+            columns={["ability bucket", "what to record", "why it matters"]}
+            rows={copy.abilityRows.map((row) => [
+              row.bucket,
+              row.whatToRecord,
+              row.whyItMatters,
+            ])}
+          />
           <div className="note warn">
             <p>{copy.rosterNote}</p>
           </div>

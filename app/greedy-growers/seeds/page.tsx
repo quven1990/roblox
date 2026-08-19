@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { DataTable } from "@/components/DataTable";
 import { EvidencePanel } from "@/components/EvidencePanel";
 import { JsonLd } from "@/components/JsonLd";
 import { KitHero } from "@/components/KitHero";
@@ -45,19 +46,38 @@ export default function GreedyGrowersSeedsPage() {
               "Whether public Oak/Pine/Apple or Basic/Strawberry/Corn/Grape lists match the current client.",
             ]}
           />
+          <h2>{copy.answerTitle}</h2>
+          <DataTable
+            columns={["query", "answer"]}
+            rows={copy.answers.map((row) => [row.q, row.a])}
+          />
+          <h2>{copy.evidenceTitle}</h2>
+          <DataTable
+            columns={["claim", "status", "basis", "action"]}
+            rows={copy.evidenceRows.map((row) => [
+              row.claim,
+              row.status,
+              row.basis,
+              row.action,
+            ])}
+          />
           <h2>{copy.conflictTitle}</h2>
           <p>{copy.conflictBody}</p>
-          <h2>{copy.tipsTitle}</h2>
+          <h2>{copy.routeTitle}</h2>
           <ol className="zone-list">
-            {copy.tips.map((tip) => (
-              <li key={tip}>
-                <span>{tip}</span>
+            {copy.routeSteps.map((step) => (
+              <li key={step}>
+                <span>{step}</span>
               </li>
             ))}
           </ol>
           <p>
             Pets that claim to drop extra seeds belong on{" "}
             <Link href={`${greedyGrowers.path}/pets`}>Greedy Growers pets</Link>
+            , and measured run math belongs in the{" "}
+            <Link href={`${greedyGrowers.path}/calculator`}>
+              Greedy Growers calculator
+            </Link>
             , not on a fake SKU list.
           </p>
           <h2>{copy.faq.h2}</h2>
