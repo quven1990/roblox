@@ -9,6 +9,7 @@ import {
   stealAnEggArt,
   stealAnEggCopy,
   stealAnEggJsonLd,
+  stealAnEggPageLastChecked,
   stealAnEggVideos,
 } from "@/lib/games/steal-an-egg";
 
@@ -49,18 +50,38 @@ export function StealAnEggHome() {
             <p>{copy.rightGame.brainrot}</p>
           </div>
 
+          <h2>{copy.update1.h2}</h2>
+          <p>{copy.update1.lead}</p>
+          <ol className="zone-list">
+            {copy.update1.rows.map((row) => (
+              <li key={row.item}>
+                <strong>
+                  {row.item} · {row.status}
+                </strong>
+                <span>{row.detail}</span>
+              </li>
+            ))}
+          </ol>
+          <p>
+            <a href={copy.update1.eventUrl} rel="noopener noreferrer">
+              {copy.update1.eventLabel} →
+            </a>
+          </p>
+
           <EvidencePanel
-            lastChecked={stealAnEgg.lastChecked}
+            lastChecked={stealAnEggPageLastChecked.guide}
             checked={`Roblox place ${stealAnEgg.placeId} by ${stealAnEgg.developer}.`}
             verified={[
               "The core loop is egg steal, hatch at base, pet income, Speed training, and biome gates.",
               "Forest and Lake pet Index details come from an in-game screenshot.",
               "Later biomes are labeled from public English-client gameplay, not invented tier names.",
+              "The official Roblox event page title says ADMIN ABUSE!? + New Zone - Steal An Egg for Update #1.",
               "No redeem UI is confirmed for this kit, so there is no Steal An Egg codes page.",
             ]}
             unverified={[
               "Full later-biome Index rows and exact Speed gate numbers.",
               "Published odds for huge, giant, gold, silver, and rare egg outcomes.",
+              "Update #1 new zone name, new mutation name, Dragon event mechanics, and rewards before launch.",
             ]}
           />
 
@@ -162,7 +183,7 @@ export function StealAnEggHome() {
           <h2>{copy.disclaimer.h2}</h2>
           <p>{copy.disclaimer.body}</p>
           <p style={{ color: "var(--muted)", fontSize: 13 }}>
-            Last checked {stealAnEgg.lastChecked}.
+            Last checked {stealAnEggPageLastChecked.guide}.
           </p>
         </article>
       </main>

@@ -9,6 +9,7 @@ import {
   stealAnEggCopy,
   stealAnEggEggsJsonLd,
   stealAnEggEggsMetadata,
+  stealAnEggPageLastChecked,
 } from "@/lib/games/steal-an-egg";
 
 export const metadata = stealAnEggEggsMetadata;
@@ -29,6 +30,8 @@ export default function StealAnEggEggsPage() {
         />
         <article className="wrap article">
           <p>{copy.lead}</p>
+          <h2>{copy.updateTitle}</h2>
+          <p>{copy.updateBody}</p>
           <h2>{copy.indexTitle}</h2>
           <ol className="zone-list">
             {copy.indexAnswers.map((item) => (
@@ -88,7 +91,9 @@ export default function StealAnEggEggsPage() {
               </details>
             ))}
           </div>
-          <p className="source">Last checked {stealAnEgg.lastChecked}.</p>
+          <p className="source">
+            Last checked {stealAnEggPageLastChecked.eggs}.
+          </p>
           <KitMore current="eggs" />
         </article>
       </main>

@@ -19,6 +19,15 @@ export const stealAnEgg = {
   thumb: "/games/steal-an-egg-thumb.jpg",
 } as const satisfies GameFacts;
 
+export const stealAnEggPageLastChecked = {
+  guide: "2026-08-20",
+  pets: "2026-08-15",
+  eggs: "2026-08-20",
+  biomes: "2026-08-20",
+  mutations: "2026-08-20",
+  speed: "2026-08-15",
+} as const;
+
 export const stealAnEggArt = {
   guide: "/games/art/steal-guide.jpg",
   pets: "/games/art/steal-pets.jpg",
@@ -46,12 +55,41 @@ export const stealAnEggVideos = {
 } as const;
 
 export const stealAnEggCopy = {
-  title: "Steal An Egg (Roblox) — steal eggs, hatch pets, train Speed",
+  title: "Steal An Egg Update #1 — new zone event status",
   h1: "Steal An Egg (Roblox) — steal eggs, hatch pets, train Speed",
   dek: "Steal An Egg is a Roblox pet / tycoon by and Collect Rare Pets. This unofficial guide is not Steal a Brainrot and not the older game titled Steal a Egg.",
   metaDescription:
-    "Unofficial Steal An Egg Roblox guide: pets Index, eggs, biomes, mutations, and Speed. Not Steal a Brainrot.",
+    "Unofficial Steal An Egg Roblox guide with Update #1 event status: new zone, Dragon Admin Abuse event, new mutation, eggs, biomes, pets, and Speed.",
   heroCta: "Play on Roblox",
+  update1: {
+    h2: "Update #1 event status",
+    lead:
+      "Steal An Egg Update #1 is scheduled for 2026-08-22 at 23:00 in the checked Roblox event view. The official event title is “ADMIN ABUSE!? + New Zone - Steal An Egg.”",
+    eventUrl: "https://www.roblox.com/events/4073678192131572359",
+    eventLabel: "Open the Roblox event page",
+    rows: [
+      {
+        item: "New Zone",
+        status: "Announced",
+        detail: "The event title and update list mention a new zone. The zone name, Speed gate, pets, and eggs are not live here yet.",
+      },
+      {
+        item: "Dragon Admin Abuse Event",
+        status: "Announced",
+        detail: "The update list names the event, but mechanics, rewards, spawn rules, and duration are not confirmed.",
+      },
+      {
+        item: "New Mutation",
+        status: "Announced",
+        detail: "The update list says a new mutation is coming. Name, trigger, odds, and value multiplier are still unknown.",
+      },
+      {
+        item: "New Event",
+        status: "Announced",
+        detail: "The update list says a new event is coming. It is not treated as a new egg, pet, or shop pool until seen in-game.",
+      },
+    ],
+  },
   nav: {
     guide: "Guide",
     pets: "Pets",
@@ -72,17 +110,17 @@ export const stealAnEggCopy = {
       {
         id: "eggs",
         title: "Eggs",
-        body: "Nests, player steals, egg reset, moon event, huge / giant sizes.",
+        body: "Nests, player steals, egg reset, moon event, huge / giant sizes, plus Update #1 event watch.",
       },
       {
         id: "biomes",
         title: "Biomes",
-        body: "Forest → Cosmic King. Tiger, Yeti, dino chases on the way.",
+        body: "Forest → Cosmic King, with Update #1 new zone status held separate until live.",
       },
       {
         id: "mutations",
         title: "Mutations",
-        body: "Gold / silver coats. Huge and giant are egg size, not wiki lore.",
+        body: "Gold / silver coats, huge / giant sizes, and the announced Update #1 mutation status.",
       },
       {
         id: "speed",
@@ -137,7 +175,7 @@ export const stealAnEggCopy = {
     h2: "Map and Speed gates",
     body: "Zones sit behind Speed. Forest and Lake are on the in-game Index. Later names come from gameplay, not from Index labels. Recommended Speed on each gate will move with updates, so we are not publishing a number ladder.",
     source:
-      "Forest and Lake: Pet Index screenshot. Later biomes: gameplay, including a public English-client recording by CoralBlox, last checked 2026-08-16.",
+      "Forest and Lake: Pet Index screenshot. Later biomes: gameplay, including a public English-client recording by CoralBlox. Update #1 event title checked 2026-08-20.",
     zones: [
       { name: "Forest", note: "Index biome. Eight pet slots. Tutorial chicken lives here." },
       { name: "Lake", note: "Index biome. Frog is the first visible slot." },
@@ -163,7 +201,10 @@ export const stealAnEggCopy = {
     pageH1: "Steal An Egg all eggs — index, shop, reset",
     dek: "Eggs come from nests, pets, player steals, shop pools, and reset events. This page separates gameplay hatches from unverified wiki egg names.",
     lead:
-      "Steal An Egg all eggs checked August 16, 2026: eggs come from biome pets, guarded nests, player steals, shop pools, and reset-event races. The Pet Index is the source of truth; shop names and wiki labels stay separate until photographed.",
+      "Steal An Egg all eggs checked August 20, 2026: eggs come from biome pets, guarded nests, player steals, shop pools, and reset-event races. Update #1 announces a Dragon Admin Abuse event and a new event, but no new egg name is verified yet.",
+    updateTitle: "Update #1 event egg watch",
+    updateBody:
+      "The Roblox event page title confirms ADMIN ABUSE!? + New Zone, and the update list mentions Dragon Admin Abuse, a new mutation, and a new event. This page does not add a Dragon Egg, Event Egg, or shop pool until a hatch, Index tile, or developer-owned source confirms it.",
     indexTitle: "All eggs vs Pet Index vs shop",
     indexAnswers: [
       {
@@ -204,6 +245,12 @@ export const stealAnEggCopy = {
         what: "Secret, Eternal, Cosmic, huge, or giant eggs can become the lobby scramble.",
         index: "The hatch result is what should be recorded.",
         action: "Leave the treadmill when the alert fires.",
+      },
+      {
+        source: "Update #1 event",
+        what: "A Dragon Admin Abuse event and a new event are announced for 2026-08-22 23:00 in the checked event view.",
+        index: "No new egg name is verified until the hatch or Index tile is visible.",
+        action: "Watch for event eggs after launch, but do not copy pre-launch names.",
       },
     ],
     sources: [
@@ -277,14 +324,38 @@ export const stealAnEggCopy = {
           q: "Is there a guaranteed huge egg timer?",
           a: "No guaranteed timer is published here. Gameplay shows short reset rhythms and event scrambles, but not a guaranteed huge egg every fixed number of hours.",
         },
+        {
+          q: "Does Update #1 add a Dragon Egg?",
+          a: "Not confirmed. Update #1 announces a Dragon Admin Abuse event, but this page does not list a Dragon Egg until an in-game hatch, Index tile, or developer-owned source confirms the egg name.",
+        },
       ],
     },
   },
   biomes: {
     h2: "Biomes",
-    teaser: "Speed unlocks the next zone. Forest and Lake are Index labels; the rest are gameplay names.",
-    pageH1: "Steal An Egg biomes",
-    dek: "Speed-gated map for Steal An Egg. Other wikis collapse this into First / Desert / Snow / Ocean / Endgame. The list below is longer because it comes from actual runs.",
+    teaser: "Speed unlocks the next zone. Forest and Lake are Index labels; Update #1 has a new zone announced but not named here yet.",
+    pageH1: "Steal An Egg biomes — Update #1 new zone status",
+    dek: "Speed-gated map for Steal An Egg, plus the official Update #1 new zone watch. The new zone is announced, but its name and Speed gate are not live here yet.",
+    updateTitle: "Update #1 new zone status",
+    updateBody:
+      "The official Roblox event title says “ADMIN ABUSE!? + New Zone - Steal An Egg.” The update list also says NEW Zone. This page keeps that new zone separate from the map list until the name, Speed gate, pets, and egg sources are visible in-game.",
+    updateRows: [
+      {
+        claim: "A new zone is coming in Update #1",
+        status: "Announced",
+        evidence: "Roblox event title and update list mention New Zone.",
+      },
+      {
+        claim: "New zone name",
+        status: "Not verified",
+        evidence: "No official name was visible in the checked event title or provided update list.",
+      },
+      {
+        claim: "Speed gate and route",
+        status: "Not verified",
+        evidence: "No live gate screenshot or post-launch gameplay has been checked yet.",
+      },
+    ],
     videoH2: "Later biomes on video",
     videoCaption:
       "CoralBlox recorded later biomes after Forest and Lake. Treat it as a later-game run, not a Speed table and not a secret recipe.",
@@ -306,9 +377,12 @@ export const stealAnEggCopy = {
     teaser:
       "The official page lists rarer eggs, pet sizes, and mutations. Index tiles use color bands. Gold and silver pets showed up in gameplay as variants, not biomes.",
     pageH1: "Steal An Egg mutations and sizes — gold, silver, huge",
-    dek: "What the Index and recordings actually show: gold and silver coats, huge and giant egg size, Legendary hatch labels, plus leftover wiki labels.",
+    dek: "What the Index, recordings, and Update #1 event page actually show: gold and silver coats, huge and giant egg size, Legendary hatch labels, plus one announced new mutation.",
     lead:
-      "Steal An Egg mutations checked August 16, 2026: gameplay shows gold and silver variants, huge and giant egg sizes, and Legendary hatch labels. Odds, sell multipliers, and wiki-only labels stay unverified.",
+      "Steal An Egg mutations checked August 20, 2026: gameplay shows gold and silver variants, huge and giant egg sizes, and Legendary hatch labels. Update #1 announces a new mutation, but its name, trigger, odds, and multiplier are not live here yet.",
+    updateTitle: "Update #1 new mutation status",
+    updateBody:
+      "The Update #1 list says NEW MUTATION. Until the mutation appears in-game or on a developer-owned source, this page treats it as announced only and keeps all odds and multipliers blank.",
     matrixTitle: "Mutation vs size vs rarity",
     matrixRows: [
       {
@@ -340,6 +414,12 @@ export const stealAnEggCopy = {
         category: "Other-wiki labels",
         evidence: "External wiki pages use these words, but this kit has not seen them on a hatch or Index panel.",
         status: "Unverified",
+      },
+      {
+        label: "Update #1 new mutation",
+        category: "Announced mutation",
+        evidence: "The official Roblox event update list says NEW MUTATION for Update #1.",
+        status: "Announced, not live here",
       },
     ],
     confirmed: [
@@ -379,6 +459,10 @@ export const stealAnEggCopy = {
         {
           q: "What are the mutation odds in Steal An Egg?",
           a: "No odds are published here. We have not seen official odds or a full mutation Index.",
+        },
+        {
+          q: "What is the new Update #1 mutation?",
+          a: "Not confirmed yet. The Update #1 list announces a new mutation, but the name, trigger, odds, and multiplier are not verified on this kit.",
         },
         {
           q: "Are Shiny, Rainbow, Crystal, or Divine confirmed?",
@@ -528,7 +612,11 @@ export const stealAnEggCopy = {
       },
       {
         q: "Are there Steal An Egg codes?",
-        a: "Not as of 2026-08-15.",
+        a: "Not as of 2026-08-20. Update #1 has an official Roblox event page, but that is not a redeem-code announcement.",
+      },
+      {
+        q: "When is Steal An Egg Update #1?",
+        a: "The Roblox event view checked on 2026-08-20 shows Update #1 scheduled for 2026-08-22 at 23:00, with a new zone, Dragon Admin Abuse event, new mutation, and new event.",
       },
       {
         q: "How do you make money?",
@@ -668,20 +756,20 @@ export const stealAnEggSpeedMetadata = pageMetadata(
 );
 
 export const stealAnEggEggsMetadata = pageMetadata(
-  "Steal An Egg all eggs — index, shop, reset",
-  "Steal An Egg all eggs: nests, player steals, shop pools, egg reset, moon event, huge and giant sizes, and gameplay hatch names.",
+  "Steal An Egg all eggs — Update #1 event watch",
+  "Steal An Egg all eggs: nests, player steals, shop pools, reset races, huge and giant sizes, plus Update #1 Dragon event egg watch.",
   `${stealAnEgg.path}/eggs`,
 );
 
 export const stealAnEggBiomesMetadata = pageMetadata(
-  "Steal An Egg biomes — Forest to Cosmic King",
-  "Steal An Egg biome list from Index photos and gameplay: Forest, Lake, Desert, Jungle, Volcano, Abyss Ocean, Prehistoric, Cosmic King. Speed-gated. No fake unlock ladder.",
+  stealAnEggCopy.biomes.pageH1,
+  "Steal An Egg biomes from Index photos and gameplay, plus Update #1 new zone status. New zone name and Speed gate are not verified yet.",
   `${stealAnEgg.path}/biomes`,
 );
 
 export const stealAnEggMutationsMetadata = pageMetadata(
   stealAnEggCopy.mutations.pageH1,
-  "Steal An Egg mutations and sizes: gold and silver coats, huge and giant egg size, Legendary hatch labels, and unverified wiki-only names.",
+  "Steal An Egg mutations and sizes: gold and silver coats, huge and giant egg size, Legendary hatch labels, plus Update #1 new mutation status.",
   `${stealAnEgg.path}/mutations`,
 );
 
@@ -708,7 +796,7 @@ export function stealAnEggJsonLd() {
         name: stealAnEggCopy.title,
         url: stealAnEggCanonical,
         description: stealAnEggCopy.metaDescription,
-        dateModified: stealAnEgg.lastChecked,
+        dateModified: stealAnEggPageLastChecked.guide,
         isPartOf: {
           "@type": "WebSite",
           name: SITE_NAME,
@@ -727,6 +815,26 @@ export function stealAnEggJsonLd() {
         },
       },
       faq,
+      {
+        "@type": "Event",
+        "@id": `${stealAnEggCanonical}#update-1-event`,
+        name: "Steal An Egg Update #1",
+        url: stealAnEggCopy.update1.eventUrl,
+        startDate: "2026-08-22T23:00:00+08:00",
+        eventStatus: "https://schema.org/EventScheduled",
+        eventAttendanceMode: "https://schema.org/OnlineEventAttendanceMode",
+        description: stealAnEggCopy.update1.lead,
+        location: {
+          "@type": "VirtualLocation",
+          url: stealAnEggCopy.update1.eventUrl,
+        },
+        about: {
+          "@type": "VideoGame",
+          name: stealAnEgg.name,
+          url: stealAnEgg.playUrl,
+          gamePlatform: "Roblox",
+        },
+      },
       {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -760,7 +868,7 @@ export function stealAnEggEggsJsonLd() {
         name: stealAnEggCopy.eggs.pageH1,
         url,
         description: String(stealAnEggEggsMetadata.description ?? ""),
-        dateModified: stealAnEgg.lastChecked,
+        dateModified: stealAnEggPageLastChecked.eggs,
         isPartOf: {
           "@type": "WebSite",
           name: SITE_NAME,
@@ -829,7 +937,7 @@ export function stealAnEggMutationsJsonLd() {
         name: stealAnEggCopy.mutations.pageH1,
         url,
         description: String(stealAnEggMutationsMetadata.description ?? ""),
-        dateModified: stealAnEgg.lastChecked,
+        dateModified: stealAnEggPageLastChecked.mutations,
         isPartOf: {
           "@type": "WebSite",
           name: SITE_NAME,

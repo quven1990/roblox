@@ -10,6 +10,7 @@ import {
   stealAnEggCopy,
   stealAnEggMutationsJsonLd,
   stealAnEggMutationsMetadata,
+  stealAnEggPageLastChecked,
 } from "@/lib/games/steal-an-egg";
 
 export const metadata = stealAnEggMutationsMetadata;
@@ -30,8 +31,10 @@ export default function StealAnEggMutationsPage() {
         />
         <article className="wrap article">
           <p>{copy.lead}</p>
+          <h2>{copy.updateTitle}</h2>
+          <p>{copy.updateBody}</p>
           <EvidencePanel
-            lastChecked={stealAnEgg.lastChecked}
+            lastChecked={stealAnEggPageLastChecked.mutations}
             checked={`${stealAnEgg.name} mutations and sizes for Roblox place ${stealAnEgg.placeId}.`}
             verified={[
               "Official description says pets have rarities, sizes, and mutations.",
@@ -82,7 +85,9 @@ export default function StealAnEggMutationsPage() {
               </details>
             ))}
           </div>
-          <p className="source">Last checked {stealAnEgg.lastChecked}.</p>
+          <p className="source">
+            Last checked {stealAnEggPageLastChecked.mutations}.
+          </p>
           <KitMore current="mutations" />
         </article>
       </main>

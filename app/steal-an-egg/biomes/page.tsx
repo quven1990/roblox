@@ -28,6 +28,16 @@ export default function StealAnEggBiomesPage() {
           alt="Toy diorama of forest, lake, desert, volcano, and cosmic biomes"
         />
         <article className="wrap article">
+          <h2>{copy.updateTitle}</h2>
+          <p>{copy.updateBody}</p>
+          <DataTable
+            columns={["claim", "status", "evidence"]}
+            rows={copy.updateRows.map((row) => [
+              row.claim,
+              row.status,
+              row.evidence,
+            ])}
+          />
           <p>{map.body}</p>
           <ol className="zone-list">
             {map.zones.map((zone) => (

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { stealAnEgg } from "@/lib/games/steal-an-egg";
+import { stealAnEgg, stealAnEggPageLastChecked } from "@/lib/games/steal-an-egg";
 import { growAChickenFighter } from "@/lib/games/grow-a-chicken-fighter";
 import { animeVanguards } from "@/lib/games/anime-vanguards";
 import { greedyGrowers } from "@/lib/games/greedy-growers";
@@ -12,7 +12,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     `${growAChickenFighter.lastChecked}T00:00:00Z`,
   );
 
-  const stealLast = new Date(`${stealAnEgg.lastChecked}T00:00:00Z`);
+  const stealLast = {
+    guide: new Date(`${stealAnEggPageLastChecked.guide}T00:00:00Z`),
+    pets: new Date(`${stealAnEggPageLastChecked.pets}T00:00:00Z`),
+    eggs: new Date(`${stealAnEggPageLastChecked.eggs}T00:00:00Z`),
+    biomes: new Date(`${stealAnEggPageLastChecked.biomes}T00:00:00Z`),
+    mutations: new Date(`${stealAnEggPageLastChecked.mutations}T00:00:00Z`),
+    speed: new Date(`${stealAnEggPageLastChecked.speed}T00:00:00Z`),
+  };
 
   return [
     {
@@ -23,37 +30,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: absoluteUrl(stealAnEgg.path),
-      lastModified: stealLast,
+      lastModified: stealLast.guide,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: absoluteUrl(`${stealAnEgg.path}/pets`),
-      lastModified: stealLast,
+      lastModified: stealLast.pets,
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
       url: absoluteUrl(`${stealAnEgg.path}/eggs`),
-      lastModified: stealLast,
+      lastModified: stealLast.eggs,
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
       url: absoluteUrl(`${stealAnEgg.path}/biomes`),
-      lastModified: stealLast,
+      lastModified: stealLast.biomes,
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
       url: absoluteUrl(`${stealAnEgg.path}/mutations`),
-      lastModified: stealLast,
+      lastModified: stealLast.mutations,
       changeFrequency: "weekly",
       priority: 0.7,
     },
     {
       url: absoluteUrl(`${stealAnEgg.path}/speed`),
-      lastModified: stealLast,
+      lastModified: stealLast.speed,
       changeFrequency: "weekly",
       priority: 0.8,
     },
