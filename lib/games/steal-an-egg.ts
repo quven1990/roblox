@@ -113,7 +113,7 @@ export const stealAnEggCopy = {
       {
         id: "pets",
         title: "Pets",
-        body: "Beebom-aligned all eggs list: rarity, biome, and income/second.",
+        body: "Pets list with rarity, biome, and income per second.",
       },
       {
         id: "eggs",
@@ -539,7 +539,7 @@ export const stealAnEggCopy = {
   },
   pets: {
     h2: "Pets",
-    body: "Pets hatch from eggs and pay income every second. The pets page mirrors Beebom’s all-eggs table: name, rarity, biome, and income/second — including blank cells Beebom has not filled yet.",
+    body: "Full Steal An Egg pets list with rarity, biome, and income per second — from Forest starters through Cosmic and limited Brainrot eggs.",
     fillFaster: {
       h2: "How to collect pets faster",
       intro:
@@ -551,43 +551,43 @@ export const stealAnEggCopy = {
         "When egg reset or a Secret / Eternal / Cosmic alert fires, leave the treadmill. Bigger eggs in later zones are the usual high-value contests.",
       ],
       skip:
-        "We do not publish an S-tier ranking. Huge eggs in the reset scramble are a size, not a timer. Blank Beebom income cells stay blank here — we do not invent numbers.",
+        "We do not publish an S-tier ranking. Huge eggs in the reset scramble are a size, not a timer. Blank income cells stay blank — we do not invent pay rates.",
     },
-    pageH1: "Steal An Egg pets — all eggs & income",
-    dek: "Full egg/pet roster with rarity, biome, and income/second — aligned to Beebom’s Steal an Egg all-eggs table.",
+    pageH1: "Steal An Egg pets list — rarity, biome, income",
+    dek: "Every listed egg pet with rarity, biome, and income per second. Forest starters through Cosmic and limited Brainrot eggs.",
     lead:
-      "Steal An Egg pets hatch from eggs and pay coins every second. The table below mirrors Beebom’s All Eggs and Pets list: Egg/Pet, Rarity, Biome, and Income/Second. Where Beebom left a rarity or income cell blank, we show — until that guide fills it. Snow is the cold / Yeti area; Cosmic is Cosmic King; Brainrot covers limited eggs.",
+      "Steal An Egg pets hatch from eggs and pay coins every second. This list covers the published roster with rarity, biome, and income/second — Chicken at $1/s up through high earners like Cerberus at $8M/s. Rows still missing rarity or income stay as — until a published figure exists. Snow is the cold / Yeti area; Cosmic is Cosmic King; Brainrot covers limited eggs.",
     tableNote:
-      "Income column is Beebom’s Income/Second (shown with /s). Roughly half the rows still have blank income on Beebom itself — those are not missing from Upvane; the source has not published them yet.",
+      "Income is per second (/s). Some later pets still have no published rarity or income; those cells are — on purpose, not omitted by mistake.",
     faq: {
       h2: "FAQ",
       items: [
         {
           q: "How many pets are in Steal An Egg?",
-          a: "Beebom’s guide mentions about 78 egg pets. Their published table is what we list here (Forest through Cosmic biomes plus Brainrot / limited eggs). Forest currently has seven named rows on that table.",
+          a: "Public lists put the roster around 78 egg pets across Forest through Cosmic, plus limited Brainrot eggs. This page shows the published name table; Forest currently has seven named rows on that table.",
         },
         {
           q: "Why are some income cells blank?",
-          a: "Beebom’s all-eggs table leaves many rarity and income cells empty while they keep updating. We copy filled cells as published and use — for blanks instead of inventing numbers.",
+          a: "Those pets do not have a published income/second figure yet. We show — instead of inventing numbers.",
         },
         {
           q: "What does income/second mean?",
-          a: "Equipped pets generate coins over time. Beebom’s Income/Second column is the figure shown here (for example Chicken $1/s, Cerberus $8M/s).",
+          a: "Equipped pets generate coins over time. Examples on this list: Chicken $1/s, Fox $180/s, King Mammoth $400K/s, Cerberus $8M/s.",
         },
       ],
     },
     linkLabel: "Open the Steal An Egg pets list →",
-    rosterTitle: "All eggs and pets (Beebom list)",
+    rosterTitle: "All eggs and pets",
     rosterNote:
-      "Read 2026-08-21 from Beebom’s Steal an Egg — All Eggs and Pets table. Columns match theirs: Egg/Pet, Rarity, Biome, Income/Second. Spelling quirks (Centapede, Tob Tobi Tob Tob, Tralaledon) stay as published. We do not invent blank rarity or income values.",
+      "Roster columns: Egg/Pet, Rarity, Biome, Income/Second. Cross-checked 2026-08-21 against Beebom’s Steal an Egg all-eggs table for names and published cells. Spelling quirks (Centapede, Tob Tobi Tob Tob, Tralaledon) stay as published. Blank rarity or income is not invented here.",
     rosterSkip:
-      "Not copied from Beebom or fan pages: steal-power, drop rates, ability text, S-tier rankings, or made-up income for blank cells.",
+      "Not listed: steal-power, drop rates, ability text, S-tier rankings, or made-up income for blank cells.",
     rarityTitle: "Rarity words on the list",
     rarityRows: [
-      { name: "Common → Epic", status: "On Beebom rows", note: "Early biomes use Common, Uncommon, Rare, Epic." },
+      { name: "Common → Epic", status: "On the list", note: "Early biomes use Common, Uncommon, Rare, Epic." },
       {
         name: "Legendary / Mythic / Secret / Cosmic",
-        status: "On Beebom rows + heard in-game",
+        status: "On the list + heard in-game",
         note: "Later biomes and rare-egg alerts use these labels.",
       },
       {
@@ -598,7 +598,7 @@ export const stealAnEggCopy = {
     ],
     indexTitle: "Index spot-check (optional)",
     indexNote:
-      "Separate from the Beebom roster: opening the in-game Index detail panel showed Chicken as Common at $1/s — same as Beebom’s Chicken row. Other Index tiles were not opened for stats in that snapshot.",
+      "Opening the in-game Index detail panel showed Chicken as Common at $1/s — same as the Chicken row above. Other Index tiles were not opened for stats in that snapshot.",
     factoryTitle: "Names from an older fan wiki that look like the wrong game",
     factoryNote:
       "steal-an-egg-wiki.wiki pet-value copy slips into Adopt Me language (Neon, Mega Neon). Listed so you do not hunt them here.",
@@ -686,7 +686,7 @@ export const stealAnEggCopy = {
       },
       {
         q: "Where is the pet list?",
-        a: "On /steal-an-egg/pets: the Beebom all-eggs table with rarity, biome, and income/second. Blank Beebom cells stay blank — we do not invent incomes.",
+        a: "On /steal-an-egg/pets: rarity, biome, and income/second for the published roster. Blank income means no published figure yet.",
       },
       {
         q: "How do I collect pets?",
@@ -698,7 +698,7 @@ export const stealAnEggCopy = {
       },
       {
         q: "What is the best pet?",
-        a: "We do not publish an S-tier. Beebom’s income column shows the published pay rates (Chicken $1/s up through high Cosmic / Secret rows). Blank cells mean Beebom has not filled them yet.",
+        a: "We do not publish an S-tier. Use the income/second column on the pets page for published pay rates. Blank cells mean no figure is published yet.",
       },
       {
         q: "Is there rebirth?",
@@ -896,7 +896,7 @@ export const stealAnEggUpdatesMetadata = pageMetadata(
 
 export const stealAnEggPetsMetadata = pageMetadata(
   stealAnEggCopy.pets.pageH1,
-  "Steal An Egg all eggs and pets: rarity, biome, and income/second from Beebom’s roster — Chicken $1/s through Cerberus $8M/s and blank cells they have not filled yet.",
+  "Steal An Egg pets list with rarity, biome, and income per second — Chicken $1/s through Cosmic and Secret earners. Blank cells mean no published figure yet.",
   `${stealAnEgg.path}/pets`,
 );
 

@@ -50,9 +50,8 @@ export default function StealAnEggPetsPage() {
           />
           <p>{copy.lead}</p>
           <p className="index-stats">
-            Roster rows: {stealAnEggPetsRoster.length}. Beebom income filled:{" "}
-            {withIncome}. Blank income cells:{" "}
-            {stealAnEggPetsRoster.length - withIncome} (empty on Beebom too).
+            Roster rows: {stealAnEggPetsRoster.length}. Income figures published:{" "}
+            {withIncome}. Still blank: {stealAnEggPetsRoster.length - withIncome}.
             Last checked {stealAnEggPageLastChecked.pets}.
           </p>
           <h2>{copy.rosterTitle}</h2>
