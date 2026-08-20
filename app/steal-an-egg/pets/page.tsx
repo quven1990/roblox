@@ -11,11 +11,20 @@ import {
   stealAnEggIndex,
   stealAnEggPetsJsonLd,
   stealAnEggPetsMetadata,
+  stealAnEggReportedPets,
 } from "@/lib/games/steal-an-egg";
 
 export const metadata = stealAnEggPetsMetadata;
 
-const columns = ["name", "biome", "rarity", "income", "notes"] as const;
+const indexColumns = ["name", "biome", "rarity", "income", "notes"] as const;
+const reportedColumns = [
+  "name",
+  "biome",
+  "rarity (reported)",
+  "income (reported)",
+  "sources",
+  "notes",
+] as const;
 
 export default function StealAnEggPetsPage() {
   const copy = stealAnEggCopy.pets;
@@ -63,11 +72,11 @@ export default function StealAnEggPetsPage() {
           <p>{copy.tableNote}</p>
           <div className="note">
             <p>
-              {index.source} Last checked {stealAnEgg.lastChecked}.
+              {index.source} Last checked {stealAnEggPageLastCheckedLabel()}.
             </p>
           </div>
           <DataTable
-            columns={columns}
+            columns={indexColumns}
             rows={index.rows.map((row) => [
               row.name,
               row.biome,
@@ -100,17 +109,27 @@ export default function StealAnEggPetsPage() {
               row.notes,
             ])}
           />
+          <h2>{copy.reportedTitle}</h2>
+          <p>{copy.reportedNote}</p>
+          <div className="note warn">
+            <p>{copy.reportedSkip}</p>
+          </div>
+          <DataTable
+            columns={reportedColumns}
+            rows={stealAnEggReportedPets.map((row) => [
+              row.name,
+              row.biome,
+              row.rarity,
+              row.income,
+              row.sources,
+              row.note,
+            ])}
+          />
           <h2>{copy.wikiRarityTitle}</h2>
           <p>{copy.wikiRarityNote}</p>
           <DataTable
-            columns={["their label", "how they use it"]}
+            columns={["label", "how it shows up"]}
             rows={copy.wikiRarityRows.map((row) => [row.name, row.wiki])}
-          />
-          <h2>{copy.otherTitle}</h2>
-          <p>{copy.otherNote}</p>
-          <DataTable
-            columns={["name on that wiki", "what they call it"]}
-            rows={copy.otherRows.map((row) => [row.name, row.wiki])}
           />
           <h2>{copy.factoryTitle}</h2>
           <p>{copy.factoryNote}</p>
@@ -135,4 +154,9 @@ export default function StealAnEggPetsPage() {
       </main>
     </SiteShell>
   );
+}
+
+function stealAnEggPageLastCheckedLabel() {
+  // Local import avoided in JSX; use the pets page date from the game module.
+  return require("@/lib/games/steal-an-egg").stealAnEggPageLastChecked.pets as string;
 }

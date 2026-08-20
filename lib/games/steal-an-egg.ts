@@ -22,7 +22,7 @@ export const stealAnEgg = {
 export const stealAnEggPageLastChecked = {
   guide: "2026-08-20",
   updates: "2026-08-20",
-  pets: "2026-08-15",
+  pets: "2026-08-21",
   eggs: "2026-08-20",
   biomes: "2026-08-20",
   mutations: "2026-08-20",
@@ -113,7 +113,7 @@ export const stealAnEggCopy = {
       {
         id: "pets",
         title: "Pets",
-        body: "In-game Index: 78 pets. Forest and Lake names photographed.",
+        body: "Photographed Index (5 of 78) plus Reported IGN / Beebom roster.",
       },
       {
         id: "eggs",
@@ -539,7 +539,7 @@ export const stealAnEggCopy = {
   },
   pets: {
     h2: "Pets",
-    body: "The in-game Pet Index is the source of truth. It is a collection log: tiles fill after you steal an egg, hatch it, and keep the pet. A photographed Index shows 78 pets total, Forest 4/8, and five named animals. Locked tiles still read ???. Hatch names from YouTube stay off the Index table. Names other wikis rank are listed separately so you can see the gap.",
+    body: "The in-game Pet Index is the source of truth. It is a collection log: tiles fill after you steal an egg, hatch it, and keep the pet. A photographed Index shows 78 pets total, Forest 4/8, and five named animals. Locked tiles still read ???. A separate Reported table below merges external name lists — it is not Index.",
     whatIndex: {
       h2: "What the Pet Index is",
       body: "Open it in-game. Each slot is one companion. Unlocked tiles show the pet you actually have. Locked tiles stay ??? until that animal is collected. Claim All dumps waiting rewards. Equip Best fills the pen from what you own. Completing a section can pay Index rewards — one Forest snapshot showed +420 Speed and $100, already claimed. Limited eggs appear as Index entries; that recording did not show how to get them. Sizes and mutations sit on the Mutations page, not as invented drop rates.",
@@ -555,32 +555,32 @@ export const stealAnEggCopy = {
         "When egg reset or a Secret / Eternal / Cosmic alert fires, leave the treadmill. Bigger eggs in later zones are the usual high-Index contest.",
       ],
       skip:
-        "We do not list a Rare / Ultra Rare ladder or “boss pets.” Huge eggs do spawn in the reset scramble — they are a size, not a 3-hour guaranteed clock. Hatch names from YouTube stay off the Index table below.",
+        "We do not publish an S-tier from external lists. Huge eggs in the reset scramble are a size, not a timer. Hatch names from YouTube stay off the photographed Index table. The IGN / Beebom roster below is Reported only.",
     },
     official:
       "Opened Index panel: Chicken is Common and pays $1/s. Index collection rewards can include Speed and coins (one Forest snapshot showed +420 Speed and $100, already claimed).",
     community:
       "Voiceover rarity labels from gameplay (Legendary, Mythic, Secret, Eternal, Cosmic) are a ladder clue only. One hatch label read Legendary Golden Cosmic Gecko. Gold / silver looks like a coat, not a biome.",
-    pageH1: "Steal An Egg pets (Index) — Chicken to Frog",
-    dek: "Photographed Index: Chicken, Bird, Owl, Raccoon, Frog — 5 of 78. Forest 4/8. Hatch names from recordings stay off the Index table.",
+    pageH1: "Steal An Egg pets — Index + reported roster",
+    dek: "Photographed Index: Chicken, Bird, Owl, Raccoon, Frog — 5 of 78. A Reported IGN + Beebom roster lists the rest — not Index.",
     lead:
-      "Photographed Pet Index: Chicken, Bird, Owl, Raccoon, and Frog — 5 of 78 unlocked in this snapshot. Forest 4/8. Hatch names from recordings stay off the Index table below.",
+      "Photographed Pet Index truth: Chicken, Bird, Owl, Raccoon, and Frog — 5 of 78 unlocked in this snapshot (Forest 4/8). External guides report about 72 biome pets (8 per biome across Forest through Cosmic) plus 6 Brainrot / limited egg pets — 78 names total. That full list is labeled Reported below. Do not treat Beebom rarities or incomes as Index.",
     tableNote:
-      "Names below are the English Index labels: Chicken, Bird, Owl, Raccoon, Frog. Stats only appear if that pet’s detail panel was opened.",
+      "Index table: English labels Chicken, Bird, Owl, Raccoon, Frog. Stats only appear if that pet’s detail panel was opened.",
     faq: {
       h2: "FAQ",
       items: [
         {
           q: "How many pets are in Steal An Egg?",
-          a: "The photographed Index shows 78 total slots. This kit has five named tiles so far: Chicken, Bird, Owl, Raccoon, and Frog.",
+          a: "The photographed Index shows 78 total slots. This kit has five named Index tiles: Chicken, Bird, Owl, Raccoon, and Frog. External IGN and Beebom lists also describe a 78-name roster; those names stay in the Reported table.",
         },
         {
           q: "Is King Mammoth on the Index?",
-          a: "A steal prompt named King Mammoth in a recording, but it is not on the photographed Index table on this page.",
+          a: "Not on the photographed Index tiles yet. A steal prompt named King Mammoth in a recording, and IGN / Beebom list it under Snow. That is Reported — not Index.",
         },
         {
-          q: "Why are wiki pet names listed separately?",
-          a: "Other sites invent rosters that do not match the Index we photographed. Those names stay below the Index table so you can see the gap.",
+          q: "What is the Reported pets table?",
+          a: "A merge of factual pet names from IGN’s All Pets list and Beebom’s all-eggs table, with Beebom rarity and income when those cells were filled. Snow maps to this kit’s Yeti / ice area; Cosmic maps to Cosmic King. Spelling quirks (for example Centapede) stay as published. It is not a photographed Index.",
         },
       ],
     },
@@ -599,47 +599,23 @@ export const stealAnEggCopy = {
         note: "A paid Divine Trail exists. Not confirmed as a pet rarity on the Index.",
       },
     ],
-    otherTitle: "Pets steal-an-egg-wiki.wiki invented (not on our Index)",
-    otherNote:
-      "Copied 2026-08-15 from steal-an-egg-wiki.wiki/en/pets and its pet-list / King Mammoth / exclusive / uncommon articles. Their hub says “30+ known pets,” then mostly writes King Mammoth. Homepage names six animals. Later articles invent a different roster. Their own FAQ says exact values are still being verified. Forest on our Index starts Chicken, Bird, Owl, Raccoon — not Meadow Chick. A steal prompt in a recording named King Mammoth on an elephant; that still is not a tile on our photographed Index. We copy the names so you can see the factory. We do not copy income, steal-power, drop rates, or abilities.",
-    otherRows: [
-      { name: "King Mammoth", wiki: "Homepage S. Other pages also call it Legendary, Mythic, and an event pet." },
-      { name: "Shadow Fox", wiki: "Homepage A. Does not appear on their pet-list article." },
-      { name: "Ember Drake", wiki: "Homepage A. Pet-list instead names Ember Fox." },
-      { name: "Coral Turtle", wiki: "Homepage B." },
-      { name: "Meadow Chick", wiki: "Homepage C / starter." },
-      { name: "Pebble Pup", wiki: "Homepage C / first hatch." },
-      { name: "Shadow Lynx", wiki: "Pet-list: Epic, speed." },
-      { name: "Crystal Drake", wiki: "Pet-list: Mythic all-rounder. Exclusive page also lists it." },
-      { name: "Ember Fox", wiki: "Pet-list: Rare. Exclusive page: event pet. Not Ember Drake." },
-      { name: "Tide Serpent", wiki: "Pet-list: Epic, defense." },
-      { name: "Frost Drake", wiki: "King Mammoth article: legendary alternative." },
-      { name: "Thunder Roc", wiki: "King Mammoth article: legendary alternative." },
-      { name: "Shadow Panther", wiki: "King Mammoth + exclusive pages." },
-      { name: "Crystal Golem", wiki: "King Mammoth article: pure income." },
-      { name: "Frost Serpent", wiki: "Exclusive-pets article." },
-      { name: "Egg Thief", wiki: "Uncommon-pets article." },
-      { name: "Nest Raider", wiki: "Uncommon-pets article." },
-      { name: "Guard Hound", wiki: "Uncommon-pets article." },
-      { name: "Shadow Prowler", wiki: "Uncommon-pets article; they call it the best uncommon earner." },
-      { name: "Vault Keeper", wiki: "Uncommon-pets article." },
-      { name: "Golden Chick", wiki: "Uncommon-pets article." },
-      { name: "Frost Bunny", wiki: "Uncommon-pets article." },
-    ],
-    wikiRarityTitle: "Rarity names that wiki uses",
+    reportedTitle: "Reported roster (IGN + Beebom) — not Index",
+    reportedNote:
+      "Read 2026-08-21 from IGN’s Steal An Egg All Pets page and Beebom’s all eggs / pets table. Upvane keeps only names, biome labels, and Beebom rarity / income cells when filled. Sources column shows IGN, Beebom, or both. Bear appears on IGN Forest but is missing from Beebom’s Forest rows. Blank Beebom cells stay as —. Snow ≈ Yeti / ice; Cosmic ≈ Cosmic King. Chicken’s Beebom Common $1 lines up with the photographed Index Common $1/s; other Beebom stats are still Reported. This table is not Working and not Index.",
+    reportedSkip:
+      "Not treated as Index: Beebom income strings (often without /s), incomplete rarity cells, steal-power, drop rates, abilities, or S-tier rankings from either site.",
+    wikiRarityTitle: "Reported rarity words (external)",
     wikiRarityNote:
-      "Their pets hub: Common → Rare → Epic → Legendary → Mythic. Other articles add Uncommon. Our photographed Index only labeled Common. Gameplay alerts use Legendary / Mythic / Secret / Eternal / Cosmic. Treat the two ladders as different dictionaries, not two official charts.",
+      "Photographed Index only labeled Common on Chicken. Beebom’s table also uses Uncommon through Secret / Cosmic on many rows. Gameplay alerts use Legendary / Mythic / Secret / Eternal / Cosmic. Treat external ladders as dictionaries, not as an Index chart.",
     wikiRarityRows: [
-      { name: "Common", wiki: "First hatch, minimal income" },
-      { name: "Uncommon", wiki: "On some articles only. Desert / early collection." },
-      { name: "Rare", wiki: "Nest eggs / snow biome in their copy" },
-      { name: "Epic", wiki: "Mid-game, nest and rare eggs" },
-      { name: "Legendary", wiki: "Rare-egg race / endgame" },
-      { name: "Mythic", wiki: "Collector chase / rarest eggs" },
+      { name: "Common", wiki: "On Index (Chicken). Also on Beebom rows." },
+      { name: "Uncommon / Rare / Epic", wiki: "Beebom Reported cells — not opened on our Index panels." },
+      { name: "Legendary / Mythic", wiki: "Beebom Reported + heard in-game alerts." },
+      { name: "Secret / Cosmic", wiki: "Beebom Reported cells; Cosmic also heard as an egg alert." },
     ],
-    factoryTitle: "Names on that wiki that are probably the wrong game",
+    factoryTitle: "Names from an older fan wiki that look like the wrong game",
     factoryNote:
-      "Their pet-value article slips into Adopt Me language (Neon, Mega Neon, trading hubs). We list those so you do not hunt them here.",
+      "steal-an-egg-wiki.wiki pet-value copy slips into Adopt Me language (Neon, Mega Neon). Listed so you do not hunt them here. Meadow Chick / Pebble Pup style invented starters are dropped — they never matched the photographed Forest Index.",
     factoryRows: [
       { name: "Neon Dragon / Mega Neon Dragon", wiki: "Pet-value page" },
       { name: "Galaxy Fox", wiki: "Pet-value page" },
@@ -647,7 +623,7 @@ export const stealAnEggCopy = {
       { name: "Golden Griffin", wiki: "Pet-value page" },
     ],
     otherSkip:
-      "Not copied as facts: 1x–32x (or 1x–100x) income multipliers, coins/min tables, steal-power numbers, Stomp Guard, hatch costs, luck potions, a player trading market, “you cannot skip hatch with Robux” (our recordings show Grow All / Instant Grow), and their Cave / Sky Gardens biomes.",
+      "Also not copied as facts: invented 1x–32x income ladders, steal-power numbers, Stomp Guard, hatch costs, luck potions, a player trading market, and Cave / Sky Gardens biomes from older fan pages.",
   },
   speed: {
     h2: "Speed",
@@ -724,7 +700,7 @@ export const stealAnEggCopy = {
       },
       {
         q: "Where is the pet list?",
-        a: "A partial Index is on /steal-an-egg/pets: Chicken, Bird, Owl, Raccoon, Frog, 78 total. Hatch names from a 2026 recording sit under that table, marked not-Index.",
+        a: "On /steal-an-egg/pets: photographed Index names Chicken, Bird, Owl, Raccoon, Frog (5 of 78), plus a Reported IGN + Beebom roster for the remaining published names — not Index.",
       },
       {
         q: "How do I fill the Pet Index?",
@@ -736,7 +712,7 @@ export const stealAnEggCopy = {
       },
       {
         q: "What is the best pet?",
-        a: "We do not have a finished Index, so we do not publish an S-tier. Chicken is the only pet with an opened Index income panel ($1/s). One huge Cosmic Gorilla hatch paid on the order of millions per second in a recording — that is one clip, not a ranking. A steal prompt named King Mammoth; it is still not on our photographed Index.",
+        a: "We do not publish an S-tier. Chicken is the only pet with an opened Index income panel ($1/s). One huge Cosmic Gorilla hatch paid on the order of millions per second in a recording — that is one clip, not a ranking. Beebom incomes on the Reported table are not Index.",
       },
       {
         q: "Is there rebirth?",
@@ -798,6 +774,88 @@ export const stealAnEggIndex = {
   ],
 } as const;
 
+/** Reported external roster (IGN All Pets + Beebom all eggs/pets). Not photographed Index. */
+export const stealAnEggReportedPets = [
+  { name: "Chicken", biome: "Forest", rarity: "Common", income: "$1", sources: "IGN · Beebom", note: "Index match: Common $1/s" },
+  { name: "Dog", biome: "Forest", rarity: "Common", income: "$2", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Bird", biome: "Forest", rarity: "Uncommon", income: "$8", sources: "IGN · Beebom", note: "On photographed Index" },
+  { name: "Owl", biome: "Forest", rarity: "Rare", income: "$35", sources: "IGN · Beebom", note: "On photographed Index" },
+  { name: "Raccoon", biome: "Forest", rarity: "Rare", income: "$45", sources: "IGN · Beebom", note: "On photographed Index" },
+  { name: "Bear", biome: "Forest", rarity: "—", income: "—", sources: "IGN", note: "IGN only; missing on Beebom table" },
+  { name: "Fox", biome: "Forest", rarity: "Epic", income: "$180", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Brr Brr Patapim", biome: "Forest", rarity: "Legendary", income: "$1.8K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Frog", biome: "Lake", rarity: "Common", income: "$3", sources: "IGN · Beebom", note: "On photographed Index" },
+  { name: "Duckling", biome: "Lake", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Catfish", biome: "Lake", rarity: "Uncommon", income: "$12", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Turtle", biome: "Lake", rarity: "Rare", income: "$60", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Trulimero Trulicina", biome: "Lake", rarity: "Epic", income: "$260", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Swan", biome: "Lake", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Axolotl", biome: "Lake", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Leviathan", biome: "Lake", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Jerboa", biome: "Desert", rarity: "Common", income: "$6", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Fennec", biome: "Desert", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Camel", biome: "Desert", rarity: "Rare", income: "$75", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Tob Tobi Tob Tob", biome: "Desert", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Snake", biome: "Desert", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Scorpion", biome: "Desert", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Sand Spider", biome: "Desert", rarity: "Mythic", income: "$16K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Royal Sphinx", biome: "Desert", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Toucan", biome: "Jungle", rarity: "Rare", income: "$110", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Chimpanzee", biome: "Jungle", rarity: "Rare", income: "$90", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Crocodile", biome: "Jungle", rarity: "Epic", income: "$420", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Gorilla", biome: "Jungle", rarity: "Legendary", income: "$4.8K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Orangutini Ananassini", biome: "Jungle", rarity: "Legendary", income: "$5.5K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Spider", biome: "Jungle", rarity: "Mythic", income: "$22K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Tiger", biome: "Jungle", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "King Snake", biome: "Jungle", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Penguin", biome: "Snow (Yeti / ice)", rarity: "—", income: "—", sources: "IGN · Beebom", note: "IGN/Beebom label Snow" },
+  { name: "Walrus", biome: "Snow (Yeti / ice)", rarity: "Epic", income: "$600", sources: "IGN · Beebom", note: "IGN/Beebom label Snow" },
+  { name: "Polar Bear", biome: "Snow (Yeti / ice)", rarity: "Legendary", income: "$7K", sources: "IGN · Beebom", note: "IGN/Beebom label Snow" },
+  { name: "Sabertooth Tiger", biome: "Snow (Yeti / ice)", rarity: "Mythic", income: "$35K", sources: "IGN · Beebom", note: "IGN/Beebom label Snow" },
+  { name: "Mammoth", biome: "Snow (Yeti / ice)", rarity: "Mythic", income: "$42K", sources: "IGN · Beebom", note: "IGN/Beebom label Snow" },
+  { name: "King Mammoth", biome: "Snow (Yeti / ice)", rarity: "Cosmic", income: "$400K", sources: "IGN · Beebom", note: "IGN/Beebom label Snow" },
+  { name: "Yeti", biome: "Snow (Yeti / ice)", rarity: "—", income: "—", sources: "IGN · Beebom", note: "IGN/Beebom label Snow" },
+  { name: "Ice Dragon", biome: "Snow (Yeti / ice)", rarity: "—", income: "—", sources: "IGN · Beebom", note: "IGN/Beebom label Snow" },
+  { name: "Lava Gecko", biome: "Volcano", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Lava Frog", biome: "Volcano", rarity: "Epic", income: "$850", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Flaming Bull", biome: "Volcano", rarity: "Legendary", income: "$9.5K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Lava Iguana", biome: "Volcano", rarity: "Legendary", income: "$11K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Chillin Chilli", biome: "Volcano", rarity: "Mythic", income: "$55K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Cerberus", biome: "Volcano", rarity: "Secret", income: "$8M", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Phoenix", biome: "Volcano", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Lava Dragon", biome: "Volcano", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Parrotfish", biome: "Abyss Ocean", rarity: "Rare", income: "$220", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Swordfish", biome: "Abyss Ocean", rarity: "Epic", income: "$1.1K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Shark", biome: "Abyss Ocean", rarity: "Legendary", income: "$15K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Orca", biome: "Abyss Ocean", rarity: "Mythic", income: "$80K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Whale Shark", biome: "Abyss Ocean", rarity: "Cosmic", income: "$700K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Beluga Whale", biome: "Abyss Ocean", rarity: "Cosmic", income: "$850K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Kraken", biome: "Abyss Ocean", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "El Maja", biome: "Abyss Ocean", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Dodo", biome: "Prehistoric", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Pterodactyl", biome: "Prehistoric", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Ankylosaurus", biome: "Prehistoric", rarity: "Mythic", income: "$120K", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Triceratops", biome: "Prehistoric", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Bronto", biome: "Prehistoric", rarity: "Cosmic", income: "$1.5M", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Tralaledon", biome: "Prehistoric", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "TRex", biome: "Prehistoric", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Mosasaurus", biome: "Prehistoric", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Centapede", biome: "Cosmic (Cosmic King)", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Spelling as published (Centapede)" },
+  { name: "Cosmic Gecko", biome: "Cosmic (Cosmic King)", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Cosmic Gorilla", biome: "Cosmic (Cosmic King)", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "La Vacca Saturno Saturnita", biome: "Cosmic (Cosmic King)", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Cosmic Dragon", biome: "Cosmic (Cosmic King)", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Cosmic Skeleton Boss", biome: "Cosmic (Cosmic King)", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Eternal Lunar Dragon", biome: "Cosmic (Cosmic King)", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Unicorn", biome: "Cosmic (Cosmic King)", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Tung Tung Sahur", biome: "Brainrot / limited eggs", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Bananita Dolphinita", biome: "Brainrot / limited eggs", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Belula Beluga", biome: "Brainrot / limited eggs", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Mangolini Parrochini", biome: "Brainrot / limited eggs", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Bomboclat Crocolat", biome: "Brainrot / limited eggs", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+  { name: "Strawberry Elephant", biome: "Brainrot / limited eggs", rarity: "—", income: "—", sources: "IGN · Beebom", note: "Reported only — not photographed Index" },
+] as const;
+
 export const stealAnEggNav = [
   {
     id: "guide" as const,
@@ -852,7 +910,7 @@ export const stealAnEggUpdatesMetadata = pageMetadata(
 
 export const stealAnEggPetsMetadata = pageMetadata(
   stealAnEggCopy.pets.pageH1,
-  "Photographed Steal An Egg Pet Index: Chicken, Bird, Owl, Raccoon, Frog — 5 of 78. Forest 4/8. Hatch names stay off the Index table.",
+  "Photographed Steal An Egg Index: Chicken, Bird, Owl, Raccoon, Frog — 5 of 78. Plus a Reported IGN + Beebom roster — not Index.",
   `${stealAnEgg.path}/pets`,
 );
 
