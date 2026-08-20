@@ -1,4 +1,6 @@
 import { DataTable } from "@/components/DataTable";
+import { JsonLd } from "@/components/JsonLd";
+import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
 import { SiteShell } from "@/components/SiteShell";
@@ -6,6 +8,7 @@ import { YouTubeEmbed } from "@/components/YouTubeEmbed";
 import {
   stealAnEgg,
   stealAnEggArt,
+  stealAnEggBiomesJsonLd,
   stealAnEggBiomesMetadata,
   stealAnEggCopy,
   stealAnEggVideos,
@@ -19,6 +22,7 @@ export default function StealAnEggBiomesPage() {
 
   return (
     <SiteShell current="biomes">
+      <JsonLd data={stealAnEggBiomesJsonLd()} />
       <main id="content">
         <KitHero
           kicker={`${stealAnEgg.name} · Biomes`}
@@ -28,6 +32,13 @@ export default function StealAnEggBiomesPage() {
           alt="Toy diorama of forest, lake, desert, volcano, and cosmic biomes"
         />
         <article className="wrap article">
+          <KitCrumb
+            trail={[
+              { href: stealAnEgg.path, label: stealAnEgg.name },
+              { label: "Biomes" },
+            ]}
+          />
+          <p>{copy.lead}</p>
           <h2>{copy.updateTitle}</h2>
           <p>{copy.updateBody}</p>
           <DataTable
@@ -63,6 +74,15 @@ export default function StealAnEggBiomesPage() {
             columns={["their name", "notes"]}
             rows={copy.otherRows.map((row) => [row.name, row.wiki])}
           />
+          <h2>{copy.faq.h2}</h2>
+          <div className="faq">
+            {copy.faq.items.map((item) => (
+              <details key={item.q}>
+                <summary>{item.q}</summary>
+                <p>{item.a}</p>
+              </details>
+            ))}
+          </div>
           <KitMore current="biomes" />
         </article>
       </main>

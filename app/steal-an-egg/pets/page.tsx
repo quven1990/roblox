@@ -1,4 +1,6 @@
 import { DataTable } from "@/components/DataTable";
+import { JsonLd } from "@/components/JsonLd";
+import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
 import { SiteShell } from "@/components/SiteShell";
@@ -7,6 +9,7 @@ import {
   stealAnEggArt,
   stealAnEggCopy,
   stealAnEggIndex,
+  stealAnEggPetsJsonLd,
   stealAnEggPetsMetadata,
 } from "@/lib/games/steal-an-egg";
 
@@ -20,6 +23,7 @@ export default function StealAnEggPetsPage() {
 
   return (
     <SiteShell current="pets">
+      <JsonLd data={stealAnEggPetsJsonLd()} />
       <main id="content">
         <KitHero
           kicker={`${stealAnEgg.name} · Index`}
@@ -29,6 +33,13 @@ export default function StealAnEggPetsPage() {
           alt="Toy chicken, bird, owl, raccoon, and frog"
         />
         <article className="wrap article">
+          <KitCrumb
+            trail={[
+              { href: stealAnEgg.path, label: stealAnEgg.name },
+              { label: "Pets" },
+            ]}
+          />
+          <p>{copy.lead}</p>
           <p className="index-stats">
             Unlocked in this snapshot: {index.photographedUnlocked}/{index.total}
             . Forest {index.forestSeen}/{index.forestTotal}. Lake at least{" "}
@@ -109,6 +120,15 @@ export default function StealAnEggPetsPage() {
           />
           <div className="note warn">
             <p>{copy.otherSkip}</p>
+          </div>
+          <h2>{copy.faq.h2}</h2>
+          <div className="faq">
+            {copy.faq.items.map((item) => (
+              <details key={item.q}>
+                <summary>{item.q}</summary>
+                <p>{item.a}</p>
+              </details>
+            ))}
           </div>
           <KitMore current="pets" />
         </article>

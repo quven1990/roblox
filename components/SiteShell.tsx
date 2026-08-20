@@ -22,6 +22,7 @@ import { SITE_CONTACT_EMAIL, SITE_NAME, SITE_PRIVACY_EMAIL, siteCopy } from "@/l
 
 export type KitSection =
   | "guide"
+  | "updates"
   | "pets"
   | "eggs"
   | "biomes"

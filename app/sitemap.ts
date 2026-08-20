@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const stealLast = {
     guide: new Date(`${stealAnEggPageLastChecked.guide}T00:00:00Z`),
+    updates: new Date(`${stealAnEggPageLastChecked.updates}T00:00:00Z`),
     pets: new Date(`${stealAnEggPageLastChecked.pets}T00:00:00Z`),
     eggs: new Date(`${stealAnEggPageLastChecked.eggs}T00:00:00Z`),
     biomes: new Date(`${stealAnEggPageLastChecked.biomes}T00:00:00Z`),
@@ -33,6 +34,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: stealLast.guide,
       changeFrequency: "weekly",
       priority: 0.9,
+    },
+    {
+      url: absoluteUrl(`${stealAnEgg.path}/updates`),
+      lastModified: stealLast.updates,
+      changeFrequency: "daily",
+      priority: 0.85,
     },
     {
       url: absoluteUrl(`${stealAnEgg.path}/pets`),

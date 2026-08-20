@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { EvidencePanel } from "@/components/EvidencePanel";
 import { JsonLd } from "@/components/JsonLd";
+import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
 import { SiteShell } from "@/components/SiteShell";
 import { YouTubeEmbed } from "@/components/YouTubeEmbed";
@@ -44,6 +45,7 @@ export function StealAnEggHome() {
         </KitHero>
 
         <article className="wrap article">
+          <KitCrumb trail={[{ label: stealAnEgg.name }]} />
           <h2>{copy.rightGame.h2}</h2>
           <p>{copy.rightGame.body}</p>
           <div className="note warn">
@@ -62,6 +64,11 @@ export function StealAnEggHome() {
               </li>
             ))}
           </ol>
+          <p>
+            <Link href={`${stealAnEgg.path}/updates`}>
+              Full Update #1 status page →
+            </Link>
+          </p>
           <p>
             <a href={copy.update1.eventUrl} rel="noopener noreferrer">
               {copy.update1.eventLabel} →

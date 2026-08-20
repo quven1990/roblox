@@ -21,6 +21,7 @@ export const stealAnEgg = {
 
 export const stealAnEggPageLastChecked = {
   guide: "2026-08-20",
+  updates: "2026-08-20",
   pets: "2026-08-15",
   eggs: "2026-08-20",
   biomes: "2026-08-20",
@@ -30,6 +31,7 @@ export const stealAnEggPageLastChecked = {
 
 export const stealAnEggArt = {
   guide: "/games/art/steal-guide.jpg",
+  updates: "/games/art/steal-guide.jpg",
   pets: "/games/art/steal-pets.jpg",
   eggs: "/games/art/steal-eggs.jpg",
   biomes: "/games/art/steal-biomes.jpg",
@@ -92,6 +94,7 @@ export const stealAnEggCopy = {
   },
   nav: {
     guide: "Guide",
+    updates: "Updates",
     pets: "Pets",
     eggs: "Eggs",
     biomes: "Biomes",
@@ -102,6 +105,11 @@ export const stealAnEggCopy = {
   wiki: {
     h2: "Guide pages",
     cards: [
+      {
+        id: "updates",
+        title: "Updates",
+        body: "Update #1 dated status: new zone, Dragon Admin Abuse, new mutation, new event.",
+      },
       {
         id: "pets",
         title: "Pets",
@@ -128,6 +136,41 @@ export const stealAnEggCopy = {
         body: "Unlock the treadmill, trails, pen. No fake price table.",
       },
     ],
+  },
+  updates: {
+    pageH1: "Steal An Egg updates — Update #1 status",
+    dek: "Dated Update #1 check: new zone, Dragon Admin Abuse, new mutation, and new event are Announced. Names, gates, and rewards stay blank until live.",
+    lead: "Steal An Egg Update #1 is scheduled for 2026-08-22 at 23:00 in the checked Roblox event view. Official title: “ADMIN ABUSE!? + New Zone - Steal An Egg.” New zone, Dragon Admin Abuse, new mutation, and new event are Announced — not live on this kit yet.",
+    howTitle: "How to read this page",
+    howBody:
+      "A Roblox event title or experience metadata timestamp is not a patch note. It proves an announcement or metadata change, not a live zone name, egg pool, mutation label, or reward table. After launch, recheck eggs, biomes, mutations, and pets in-game before trusting a pre-launch name.",
+    notTitle: "What is not a patch note",
+    notItems: [
+      "An experience “Updated” timestamp on Roblox without a named change list.",
+      "A video title that invents Dragon Egg or a zone name before the UI shows it.",
+      "A wiki roster copied from Steal a Egg (different Place ID) or Steal a Brainrot.",
+    ],
+    faq: {
+      h2: "FAQ",
+      items: [
+        {
+          q: "When is Steal An Egg Update #1?",
+          a: "The checked Roblox event view shows 2026-08-22 at 23:00. Confirm the live event page if the schedule shifts.",
+        },
+        {
+          q: "Is the new zone live?",
+          a: "Not on this kit. Update #1 announces a new zone, but the name, Speed gate, pets, and eggs are not verified yet.",
+        },
+        {
+          q: "Does Update #1 add codes?",
+          a: "No redeem UI or working code list is confirmed. The event page is not treated as a codes announcement.",
+        },
+        {
+          q: "Where should I look after the update drops?",
+          a: "Recheck biomes for the new zone, mutations for a new coat or label, eggs for event hatches, and the Pet Index for new tiles.",
+        },
+      ],
+    },
   },
   rightGame: {
     h2: "Right game",
@@ -198,10 +241,10 @@ export const stealAnEggCopy = {
     h2: "Eggs",
     teaser:
       "Steal from pets, nests, and players. Shop eggs are a different pool. Egg reset and a moon event kick off the scramble — that is the rare-egg race other wikis write about.",
-    pageH1: "Steal An Egg all eggs — index, shop, reset",
-    dek: "Eggs come from nests, pets, player steals, shop pools, and reset events. This page separates gameplay hatches from unverified wiki egg names.",
+    pageH1: "Steal An Egg all eggs — nests, shop, reset",
+    dek: "Eggs come from nests, biome pets, player steals, shop pools, and reset races. Huge and giant are sizes. Update #1 Dragon event: no new egg name verified yet.",
     lead:
-      "Steal An Egg all eggs checked August 20, 2026: eggs come from biome pets, guarded nests, player steals, shop pools, and reset-event races. Update #1 announces a Dragon Admin Abuse event and a new event, but no new egg name is verified yet.",
+      "Eggs come from nests, biome pets, player steals, shop pools, and reset races. Huge and giant are sizes, not separate catalog names. Update #1 announces a Dragon Admin Abuse event — no new egg name is verified yet.",
     updateTitle: "Update #1 event egg watch",
     updateBody:
       "The Roblox event page title confirms ADMIN ABUSE!? + New Zone, and the update list mentions Dragon Admin Abuse, a new mutation, and a new event. This page does not add a Dragon Egg, Event Egg, or shop pool until a hatch, Index tile, or developer-owned source confirms it.",
@@ -334,9 +377,28 @@ export const stealAnEggCopy = {
   biomes: {
     h2: "Biomes",
     teaser: "Speed unlocks the next zone. Forest and Lake are Index labels; Update #1 has a new zone announced but not named here yet.",
-    pageH1: "Steal An Egg biomes — Update #1 new zone status",
-    dek: "Speed-gated map for Steal An Egg, plus the official Update #1 new zone watch. The new zone is announced, but its name and Speed gate are not live here yet.",
+    pageH1: "Steal An Egg biomes — Forest to Cosmic King",
+    dek: "Current map: Forest, Lake, Desert, Jungle, Yeti/ice, Volcano, Abyss Ocean, Prehistoric, Cosmic King. Update #1 new zone: announced, name and Speed gate not live.",
+    lead:
+      "Current Steal An Egg biomes: Forest, Lake, Desert, Jungle, Yeti/ice pocket, Volcano, Abyss Ocean, Prehistoric, Cosmic King. Zones sit behind Speed. Update #1 announces a new zone — name and Speed gate are not live here yet.",
     updateTitle: "Update #1 new zone status",
+    faq: {
+      h2: "FAQ",
+      items: [
+        {
+          q: "How many biomes does Steal An Egg have?",
+          a: "This kit lists Forest through Cosmic King from Index photos and gameplay. Update #1 announces another zone that is not named here yet.",
+        },
+        {
+          q: "Is there a Speed number for each gate?",
+          a: "No live Recommended Speed ladder is published here. Gates exist and get steep in later biomes; exact numbers rot quickly.",
+        },
+        {
+          q: "Is the Update #1 new zone on the map list?",
+          a: "Not yet. It stays on the Updates page and this watch block until the name, gate, pets, and eggs are visible in-game.",
+        },
+      ],
+    },
     updateBody:
       "The official Roblox event title says “ADMIN ABUSE!? + New Zone - Steal An Egg.” The update list also says NEW Zone. This page keeps that new zone separate from the map list until the name, Speed gate, pets, and egg sources are visible in-game.",
     updateRows: [
@@ -499,10 +561,29 @@ export const stealAnEggCopy = {
       "Opened Index panel: Chicken is Common and pays $1/s. Index collection rewards can include Speed and coins (one Forest snapshot showed +420 Speed and $100, already claimed).",
     community:
       "Voiceover rarity labels from gameplay (Legendary, Mythic, Secret, Eternal, Cosmic) are a ladder clue only. One hatch label read Legendary Golden Cosmic Gecko. Gold / silver looks like a coat, not a biome.",
-    pageH1: "Steal An Egg pets (Index)",
-    dek: "Partial Index from an in-game screenshot. 5 of 78 named. steal-an-egg-wiki.wiki names sit below — not in the Index table.",
+    pageH1: "Steal An Egg pets (Index) — Chicken to Frog",
+    dek: "Photographed Index: Chicken, Bird, Owl, Raccoon, Frog — 5 of 78. Forest 4/8. Hatch names from recordings stay off the Index table.",
+    lead:
+      "Photographed Pet Index: Chicken, Bird, Owl, Raccoon, and Frog — 5 of 78 unlocked in this snapshot. Forest 4/8. Hatch names from recordings stay off the Index table below.",
     tableNote:
       "Names below are the English Index labels: Chicken, Bird, Owl, Raccoon, Frog. Stats only appear if that pet’s detail panel was opened.",
+    faq: {
+      h2: "FAQ",
+      items: [
+        {
+          q: "How many pets are in Steal An Egg?",
+          a: "The photographed Index shows 78 total slots. This kit has five named tiles so far: Chicken, Bird, Owl, Raccoon, and Frog.",
+        },
+        {
+          q: "Is King Mammoth on the Index?",
+          a: "A steal prompt named King Mammoth in a recording, but it is not on the photographed Index table on this page.",
+        },
+        {
+          q: "Why are wiki pet names listed separately?",
+          a: "Other sites invent rosters that do not match the Index we photographed. Those names stay below the Index table so you can see the gap.",
+        },
+      ],
+    },
     linkLabel: "Open the partial pets Index →",
     rarityTitle: "Rarity ladder",
     rarityRows: [
@@ -574,6 +655,21 @@ export const stealAnEggCopy = {
       "Speed is the gate for later biomes and for surviving a steal. Unlock the treadmill, train on it, then stack trails. We do not publish upgrade prices.",
     pageH1: "Steal An Egg Speed",
     dek: "How Speed works in Steal An Egg: unlock the treadmill, trails, pen, egg reset, and settings. No price ladder — those numbers rot.",
+    lead:
+      "Speed unlocks later biomes and keeps a steal alive. Train on the treadmill, stack trails, upgrade the pen, then leave for egg reset. No live price ladder — those numbers rot.",
+    faq: {
+      h2: "FAQ",
+      items: [
+        {
+          q: "How do I raise Speed in Steal An Egg?",
+          a: "Unlock the base treadmill and train on it. Trails and paid multipliers can stack on top. Exact shop prices are not published here.",
+        },
+        {
+          q: "Why does Speed matter?",
+          a: "Later biomes sit behind Speed gates, and you need Speed to finish a steal before a chase or another player takes the egg.",
+        },
+      ],
+    },
     sections: [
       {
         h3: "Treadmill",
@@ -709,6 +805,11 @@ export const stealAnEggNav = [
     label: stealAnEggCopy.nav.guide,
   },
   {
+    id: "updates" as const,
+    href: `${stealAnEgg.path}/updates`,
+    label: stealAnEggCopy.nav.updates,
+  },
+  {
     id: "pets" as const,
     href: `${stealAnEgg.path}/pets`,
     label: stealAnEggCopy.nav.pets,
@@ -743,27 +844,33 @@ export const stealAnEggMetadata = pageMetadata(
   stealAnEgg.path,
 );
 
+export const stealAnEggUpdatesMetadata = pageMetadata(
+  stealAnEggCopy.updates.pageH1,
+  "Steal An Egg Update #1 status: new zone, Dragon Admin Abuse, new mutation, and new event are Announced. Names and rewards stay blank until live.",
+  `${stealAnEgg.path}/updates`,
+);
+
 export const stealAnEggPetsMetadata = pageMetadata(
-  "Steal An Egg pets (Index) — Chicken, Forest, 78 total",
-  "Partial Steal An Egg Pet Index from an in-game screenshot: 78 pets. Forest and Lake names photographed. Chicken is Common at $1/s. Locked slots stay ???.",
+  stealAnEggCopy.pets.pageH1,
+  "Photographed Steal An Egg Pet Index: Chicken, Bird, Owl, Raccoon, Frog — 5 of 78. Forest 4/8. Hatch names stay off the Index table.",
   `${stealAnEgg.path}/pets`,
 );
 
 export const stealAnEggSpeedMetadata = pageMetadata(
   "Steal An Egg Speed — treadmill, trails, gates",
-  "How Speed works in Steal An Egg: unlock the treadmill, trails, pen, egg reset, and settings. No published upgrade price table.",
+  "Speed unlocks later biomes and keeps a steal alive: treadmill, trails, pen, egg reset, settings. No live price ladder.",
   `${stealAnEgg.path}/speed`,
 );
 
 export const stealAnEggEggsMetadata = pageMetadata(
-  "Steal An Egg all eggs — Update #1 event watch",
-  "Steal An Egg all eggs: nests, player steals, shop pools, reset races, huge and giant sizes, plus Update #1 Dragon event egg watch.",
+  stealAnEggCopy.eggs.pageH1,
+  "Eggs come from nests, biome pets, player steals, shop pools, and reset races. Huge and giant are sizes. Update #1: no new egg name verified.",
   `${stealAnEgg.path}/eggs`,
 );
 
 export const stealAnEggBiomesMetadata = pageMetadata(
   stealAnEggCopy.biomes.pageH1,
-  "Steal An Egg biomes from Index photos and gameplay, plus Update #1 new zone status. New zone name and Speed gate are not verified yet.",
+  "Steal An Egg biomes: Forest, Lake, Desert, Jungle, Yeti/ice, Volcano, Abyss Ocean, Prehistoric, Cosmic King. Update #1 new zone not named yet.",
   `${stealAnEgg.path}/biomes`,
 );
 
@@ -773,48 +880,135 @@ export const stealAnEggMutationsMetadata = pageMetadata(
   `${stealAnEgg.path}/mutations`,
 );
 
-export function stealAnEggJsonLd() {
-  const faq = {
-    "@type": "FAQPage",
-    "@id": `${stealAnEggCanonical}#faq`,
-    mainEntity: stealAnEggCopy.faq.items.map((item) => ({
-      "@type": "Question",
-      name: item.q,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: item.a,
+function faqEntities(
+  items: readonly { readonly q: string; readonly a: string }[],
+) {
+  return items.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  }));
+}
+
+function breadcrumbs(
+  crumbs: readonly { readonly name: string; readonly path: string }[],
+) {
+  return {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: SITE_NAME,
+        item: absoluteUrl("/"),
       },
-    })),
+      ...crumbs.map((crumb, index) => ({
+        "@type": "ListItem",
+        position: index + 2,
+        name: crumb.name,
+        item: absoluteUrl(crumb.path),
+      })),
+    ],
   };
+}
+
+function stealPageGraph({
+  path,
+  name,
+  description,
+  dateModified,
+  faqItems,
+  extra,
+}: {
+  path: string;
+  name: string;
+  description: string;
+  dateModified: string;
+  faqItems?: readonly { readonly q: string; readonly a: string }[];
+  extra?: readonly Record<string, unknown>[];
+}) {
+  const url = absoluteUrl(path);
+  const crumbLabel =
+    path === stealAnEgg.path
+      ? null
+      : path.split("/").filter(Boolean).slice(-1)[0];
+  const crumbName =
+    crumbLabel === "updates"
+      ? "Updates"
+      : crumbLabel === "pets"
+        ? "Pets"
+        : crumbLabel === "eggs"
+          ? "Eggs"
+          : crumbLabel === "biomes"
+            ? "Biomes"
+            : crumbLabel === "mutations"
+              ? "Mutations"
+              : crumbLabel === "speed"
+                ? "Speed"
+                : name;
+
+  const graph: Record<string, unknown>[] = [
+    {
+      "@type": "WebPage",
+      "@id": url,
+      name,
+      url,
+      description,
+      dateModified,
+      isPartOf: {
+        "@type": "WebSite",
+        name: SITE_NAME,
+        url: absoluteUrl("/"),
+      },
+      about: {
+        "@type": "VideoGame",
+        name: stealAnEgg.name,
+        url: stealAnEgg.playUrl,
+        gamePlatform: "Roblox",
+        author: {
+          "@type": "Organization",
+          name: stealAnEgg.developer,
+        },
+        sameAs: stealAnEgg.playUrl,
+      },
+    },
+  ];
+
+  if (faqItems?.length) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      mainEntity: faqEntities(faqItems),
+    });
+  }
+
+  if (extra?.length) {
+    graph.push(...extra);
+  }
+
+  graph.push(
+    path === stealAnEgg.path
+      ? breadcrumbs([{ name: stealAnEgg.name, path: stealAnEgg.path }])
+      : breadcrumbs([
+          { name: stealAnEgg.name, path: stealAnEgg.path },
+          { name: crumbName, path },
+        ]),
+  );
 
   return {
     "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "@id": stealAnEggCanonical,
-        name: stealAnEggCopy.title,
-        url: stealAnEggCanonical,
-        description: stealAnEggCopy.metaDescription,
-        dateModified: stealAnEggPageLastChecked.guide,
-        isPartOf: {
-          "@type": "WebSite",
-          name: SITE_NAME,
-          url: absoluteUrl("/"),
-        },
-        about: {
-          "@type": "VideoGame",
-          name: stealAnEgg.name,
-          url: stealAnEgg.playUrl,
-          gamePlatform: "Roblox",
-          author: {
-            "@type": "Organization",
-            name: stealAnEgg.developer,
-          },
-          sameAs: stealAnEgg.playUrl,
-        },
-      },
-      faq,
+    "@graph": graph,
+  };
+}
+
+export function stealAnEggJsonLd() {
+  return stealPageGraph({
+    path: stealAnEgg.path,
+    name: stealAnEggCopy.title,
+    description: stealAnEggCopy.metaDescription,
+    dateModified: stealAnEggPageLastChecked.guide,
+    faqItems: stealAnEggCopy.faq.items,
+    extra: [
       {
         "@type": "Event",
         "@id": `${stealAnEggCanonical}#update-1-event`,
@@ -835,161 +1029,88 @@ export function stealAnEggJsonLd() {
           gamePlatform: "Roblox",
         },
       },
+    ],
+  });
+}
+
+export function stealAnEggUpdatesJsonLd() {
+  return stealPageGraph({
+    path: `${stealAnEgg.path}/updates`,
+    name: stealAnEggCopy.updates.pageH1,
+    description: String(stealAnEggUpdatesMetadata.description ?? ""),
+    dateModified: stealAnEggPageLastChecked.updates,
+    faqItems: stealAnEggCopy.updates.faq.items,
+    extra: [
       {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: SITE_NAME,
-            item: absoluteUrl("/"),
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: stealAnEgg.name,
-            item: stealAnEggCanonical,
-          },
-        ],
+        "@type": "Event",
+        "@id": `${absoluteUrl(`${stealAnEgg.path}/updates`)}#update-1-event`,
+        name: "Steal An Egg Update #1",
+        url: stealAnEggCopy.update1.eventUrl,
+        startDate: "2026-08-22T23:00:00+08:00",
+        eventStatus: "https://schema.org/EventScheduled",
+        eventAttendanceMode: "https://schema.org/OnlineEventAttendanceMode",
+        description: stealAnEggCopy.update1.lead,
+        location: {
+          "@type": "VirtualLocation",
+          url: stealAnEggCopy.update1.eventUrl,
+        },
+        about: {
+          "@type": "VideoGame",
+          name: stealAnEgg.name,
+          url: stealAnEgg.playUrl,
+          gamePlatform: "Roblox",
+        },
       },
     ],
-  };
+  });
 }
 
 export function stealAnEggEggsJsonLd() {
-  const url = absoluteUrl(`${stealAnEgg.path}/eggs`);
+  return stealPageGraph({
+    path: `${stealAnEgg.path}/eggs`,
+    name: stealAnEggCopy.eggs.pageH1,
+    description: String(stealAnEggEggsMetadata.description ?? ""),
+    dateModified: stealAnEggPageLastChecked.eggs,
+    faqItems: stealAnEggCopy.eggs.faq.items,
+  });
+}
 
-  return {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "@id": url,
-        name: stealAnEggCopy.eggs.pageH1,
-        url,
-        description: String(stealAnEggEggsMetadata.description ?? ""),
-        dateModified: stealAnEggPageLastChecked.eggs,
-        isPartOf: {
-          "@type": "WebSite",
-          name: SITE_NAME,
-          url: absoluteUrl("/"),
-        },
-        about: {
-          "@type": "VideoGame",
-          name: stealAnEgg.name,
-          url: stealAnEgg.playUrl,
-          gamePlatform: "Roblox",
-          author: {
-            "@type": "Organization",
-            name: stealAnEgg.developer,
-          },
-          sameAs: stealAnEgg.playUrl,
-        },
-      },
-      {
-        "@type": "FAQPage",
-        "@id": `${url}#faq`,
-        mainEntity: stealAnEggCopy.eggs.faq.items.map((item) => ({
-          "@type": "Question",
-          name: item.q,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: item.a,
-          },
-        })),
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: SITE_NAME,
-            item: absoluteUrl("/"),
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: stealAnEgg.name,
-            item: stealAnEggCanonical,
-          },
-          {
-            "@type": "ListItem",
-            position: 3,
-            name: "Eggs",
-            item: url,
-          },
-        ],
-      },
-    ],
-  };
+export function stealAnEggPetsJsonLd() {
+  return stealPageGraph({
+    path: `${stealAnEgg.path}/pets`,
+    name: stealAnEggCopy.pets.pageH1,
+    description: String(stealAnEggPetsMetadata.description ?? ""),
+    dateModified: stealAnEggPageLastChecked.pets,
+    faqItems: stealAnEggCopy.pets.faq.items,
+  });
+}
+
+export function stealAnEggBiomesJsonLd() {
+  return stealPageGraph({
+    path: `${stealAnEgg.path}/biomes`,
+    name: stealAnEggCopy.biomes.pageH1,
+    description: String(stealAnEggBiomesMetadata.description ?? ""),
+    dateModified: stealAnEggPageLastChecked.biomes,
+    faqItems: stealAnEggCopy.biomes.faq.items,
+  });
 }
 
 export function stealAnEggMutationsJsonLd() {
-  const url = absoluteUrl(`${stealAnEgg.path}/mutations`);
+  return stealPageGraph({
+    path: `${stealAnEgg.path}/mutations`,
+    name: stealAnEggCopy.mutations.pageH1,
+    description: String(stealAnEggMutationsMetadata.description ?? ""),
+    dateModified: stealAnEggPageLastChecked.mutations,
+    faqItems: stealAnEggCopy.mutations.faq.items,
+  });
+}
 
-  return {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "@id": url,
-        name: stealAnEggCopy.mutations.pageH1,
-        url,
-        description: String(stealAnEggMutationsMetadata.description ?? ""),
-        dateModified: stealAnEggPageLastChecked.mutations,
-        isPartOf: {
-          "@type": "WebSite",
-          name: SITE_NAME,
-          url: absoluteUrl("/"),
-        },
-        about: {
-          "@type": "VideoGame",
-          name: stealAnEgg.name,
-          url: stealAnEgg.playUrl,
-          gamePlatform: "Roblox",
-          author: {
-            "@type": "Organization",
-            name: stealAnEgg.developer,
-          },
-          sameAs: stealAnEgg.playUrl,
-        },
-      },
-      {
-        "@type": "FAQPage",
-        "@id": `${url}#faq`,
-        mainEntity: stealAnEggCopy.mutations.faq.items.map((item) => ({
-          "@type": "Question",
-          name: item.q,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: item.a,
-          },
-        })),
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: SITE_NAME,
-            item: absoluteUrl("/"),
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: stealAnEgg.name,
-            item: stealAnEggCanonical,
-          },
-          {
-            "@type": "ListItem",
-            position: 3,
-            name: "Mutations",
-            item: url,
-          },
-        ],
-      },
-    ],
-  };
+export function stealAnEggSpeedJsonLd() {
+  return stealPageGraph({
+    path: `${stealAnEgg.path}/speed`,
+    name: stealAnEggCopy.speed.pageH1,
+    description: String(stealAnEggSpeedMetadata.description ?? ""),
+    dateModified: stealAnEggPageLastChecked.speed,
+    faqItems: stealAnEggCopy.speed.faq.items,
+  });
 }

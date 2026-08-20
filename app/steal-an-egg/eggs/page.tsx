@@ -1,5 +1,6 @@
 import { DataTable } from "@/components/DataTable";
 import { JsonLd } from "@/components/JsonLd";
+import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
 import { SiteShell } from "@/components/SiteShell";
@@ -29,6 +30,12 @@ export default function StealAnEggEggsPage() {
           alt="A nest of oversized toy eggs"
         />
         <article className="wrap article">
+          <KitCrumb
+            trail={[
+              { href: stealAnEgg.path, label: stealAnEgg.name },
+              { label: "Eggs" },
+            ]}
+          />
           <p>{copy.lead}</p>
           <h2>{copy.updateTitle}</h2>
           <p>{copy.updateBody}</p>

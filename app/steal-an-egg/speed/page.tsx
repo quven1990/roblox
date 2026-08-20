@@ -1,4 +1,6 @@
 import { EvidencePanel } from "@/components/EvidencePanel";
+import { JsonLd } from "@/components/JsonLd";
+import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
 import { SiteShell } from "@/components/SiteShell";
@@ -6,6 +8,7 @@ import {
   stealAnEgg,
   stealAnEggArt,
   stealAnEggCopy,
+  stealAnEggSpeedJsonLd,
   stealAnEggSpeedMetadata,
 } from "@/lib/games/steal-an-egg";
 
@@ -16,6 +19,7 @@ export default function StealAnEggSpeedPage() {
 
   return (
     <SiteShell current="speed">
+      <JsonLd data={stealAnEggSpeedJsonLd()} />
       <main id="content">
         <KitHero
           kicker={`${stealAnEgg.name} · Speed`}
@@ -25,12 +29,13 @@ export default function StealAnEggSpeedPage() {
           alt="A toy runner on a yellow treadmill"
         />
         <article className="wrap article">
-          <p>
-            Steal An Egg Speed checked August 16, 2026: treadmill training,
-            trails, pen upgrades, paid multipliers, egg reset, and settings are
-            visible in gameplay. This page avoids a live price ladder because
-            those numbers can rot quickly.
-          </p>
+          <KitCrumb
+            trail={[
+              { href: stealAnEgg.path, label: stealAnEgg.name },
+              { label: "Speed" },
+            ]}
+          />
+          <p>{copy.lead}</p>
           <EvidencePanel
             lastChecked={stealAnEgg.lastChecked}
             checked={`${stealAnEgg.name} Speed systems for Roblox place ${stealAnEgg.placeId}.`}
@@ -52,6 +57,15 @@ export default function StealAnEggSpeedPage() {
           ))}
           <div className="note">
             <p>{copy.willNot}</p>
+          </div>
+          <h2>{copy.faq.h2}</h2>
+          <div className="faq">
+            {copy.faq.items.map((item) => (
+              <details key={item.q}>
+                <summary>{item.q}</summary>
+                <p>{item.a}</p>
+              </details>
+            ))}
           </div>
           <p className="source">Last checked {stealAnEgg.lastChecked}.</p>
           <KitMore current="speed" />
