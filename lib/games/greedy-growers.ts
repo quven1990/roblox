@@ -189,9 +189,9 @@ export const greedyGrowersCopy = {
   },
   codes: {
     h2: "Codes",
-    pageH1: "Greedy Growers codes — ILOVECATS status",
-    dek: "No working code is confirmed on this kit. ILOVECATS stays Disputed: some lists report 100 Tickets, while other code lists show no active codes.",
-    lead: "Greedy Growers codes checked against public August 2026 lists: ILOVECATS is Disputed, not Working here. Some sites report 100 Tickets, while other code lists show no active codes.",
+    pageH1: "Greedy Growers codes — ILOVECATS (Disputed)",
+    dek: "ILOVECATS — Disputed (reported 100 Tickets). Redeem in Settings. Not marked Working here.",
+    lead: "ILOVECATS — Disputed (reported 100 Tickets). Redeem in Settings. Not marked Working here. Some August 2026 lists still show no active codes.",
     body: "Public pages put the box in Settings (top-left cog). We have not photographed that window. Do not paste codes into a third-party form.",
     tableNote:
       "Disputed means large lists disagree. Official mention would require the Roblox experience page or a creator-owned channel. Working requires a redeem on this kit. Expired stays empty until a string fails in-game.",
@@ -232,8 +232,8 @@ export const greedyGrowersCopy = {
   mutations: {
     h2: "Mutations",
     pageH1: "Greedy Growers mutations list — Dewy to Cosmic",
-    dek: "All six reported mutations in one table: Dewy, Shocked, Radioactive, Charged, Golden, and Cosmic. Weather and lightning rules stay reported until photographed.",
-    lead: "Greedy Growers mutations checked August 16, 2026: public tables report Dewy, Shocked, Radioactive, Charged, Golden, and Cosmic. Multipliers below are reported, not photographed in a sell panel.",
+    dek: "Reported list: Dewy, Shocked, Radioactive, Charged, Golden, Cosmic (Cosmic ~100x). Multipliers are reported, not from a photographed sell panel.",
+    lead: "Reported Greedy Growers mutations: Dewy, Shocked, Radioactive, Charged, Golden, and Cosmic (Cosmic ~100x). Multipliers are reported, not from a photographed sell panel.",
     intro:
       "Public articles list six mutations. Weather rows last a few minutes on those pages. Lightning rows need the strike close to harvest. We have not photographed a sell panel, so every multiplier below is reported.",
     answerTitle: "Quick answers for mutation searches",
@@ -338,8 +338,8 @@ export const greedyGrowersCopy = {
   seeds: {
     h2: "Seeds",
     pageH1: "Greedy Growers seeds list — river stock conflicts",
-    dek: "Seeds are bought from the river and planted on a plot. Public seed names disagree, so this page explains what is verified before it prints a price table.",
-    lead: "Greedy Growers seeds checked August 16, 2026: the verified loop is river seed, plant, grow, harvest. Starfruit Tree and Diamond Tree appear in official thumbnails, but the live river stock, prices, and full seed list are not photographed here.",
+    dek: "Verified: buy seeds at the river. Official thumbnails name Starfruit Tree and Diamond Tree (SECRET). Live stock and prices are not photographed — public lists conflict.",
+    lead: "Verified: buy seeds at the river. Official thumbnails name Starfruit Tree and Diamond Tree (SECRET). Full live stock and prices are not photographed here — public Oak/Pine vs Basic/Strawberry lists conflict.",
     intro:
       "Official text only confirms: buy a seed from the river, plant it, grow, harvest. The official Roblox thumbnails name Starfruit Tree and Diamond Tree as SECRET. That is marketing art on the experience page, not a river SKU list or a price table.",
     answerTitle: "Quick answers for seed searches",
@@ -428,8 +428,8 @@ export const greedyGrowersCopy = {
   pets: {
     h2: "Pets",
     pageH1: "Greedy Growers pets, wiki claims, and tier list status",
-    dek: "Pets Update searches are real, but named rosters and S-tier lists need pet-card screenshots before they become Index here.",
-    lead: "Greedy Growers pets checked August 16, 2026: public guides describe Pet Shop eggs, three equip slots, and passive buckets. This kit has no photographed pet cards yet, so pet names, hatch odds, and tier lists stay unverified.",
+    dek: "Reported pet system: Pet Shop eggs (tickets), three equip slots, passives for growth / weather / seeds / lightning. No S-tier list without pet-card screenshots.",
+    lead: "Reported pet system: Pet Shop eggs (tickets), three equip slots, passives for growth / weather / seeds / lightning. Named rosters and S-tier lists stay off this page until pet cards are photographed.",
     intro:
       "Public pet articles describe a Pet Shop, eggs bought with tickets, and three equip slots. We have not photographed that shop, so names such as Dog, Cat, Robin, or Turtle stay off our roster.",
     structureTitle: "What public guides describe",
@@ -757,28 +757,28 @@ export const greedyGrowersMetadata = ggMeta(
 
 export const greedyGrowersCodesMetadata = ggMeta(
   greedyGrowersCopy.codes.pageH1,
-  "Greedy Growers codes: ILOVECATS status is Disputed, not confirmed Working here. Some lists report 100 Tickets; others show no active codes.",
+  "ILOVECATS — Disputed (reported 100 Tickets). Redeem in Settings. Not marked Working here.",
   `${greedyGrowers.path}/codes`,
   "codes",
 );
 
 export const greedyGrowersMutationsMetadata = ggMeta(
   greedyGrowersCopy.mutations.pageH1,
-  "Greedy Growers mutations list: Dewy, Shocked, Radioactive, Charged, Golden, Cosmic, with reported lightning and weather rules.",
+  "Reported Greedy Growers mutations: Dewy, Shocked, Radioactive, Charged, Golden, Cosmic (Cosmic ~100x). Not photographed sell multipliers.",
   `${greedyGrowers.path}/mutations`,
   "mutations",
 );
 
 export const greedyGrowersSeedsMetadata = ggMeta(
   greedyGrowersCopy.seeds.pageH1,
-  "Greedy Growers seeds list: river loop, Starfruit and Diamond thumbnail evidence, conflicting public seed names, and no fake live price table.",
+  "Buy seeds at the river. Official thumbnails name Starfruit Tree and Diamond Tree (SECRET). Live stock and prices not photographed.",
   `${greedyGrowers.path}/seeds`,
   "seeds",
 );
 
 export const greedyGrowersPetsMetadata = ggMeta(
   greedyGrowersCopy.pets.pageH1,
-  "Greedy Growers pets wiki desk: reported Pet Shop eggs, three slots, 18-pet claims, and why no tier list is published without pet-card screenshots.",
+  "Reported pet system: Pet Shop eggs, three equip slots, growth/weather/seed/lightning passives. No S-tier without pet-card screenshots.",
   `${greedyGrowers.path}/pets`,
   "pets",
 );
