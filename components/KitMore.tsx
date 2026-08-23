@@ -115,6 +115,10 @@ export function KitMore({
                   : "wiki-card"
               }
               href={page.href}
+              data-analytics-event="guide_nav"
+              data-analytics-game={slug}
+              data-analytics-section={page.id}
+              data-analytics-location="kit_more"
             >
               <img
                 src={page.src}
@@ -135,12 +139,27 @@ export function KitMore({
   return (
     <nav className="kit-more" aria-label={`More ${kit.game.name} pages`}>
       {current !== "guide" ? (
-        <Link href={kit.game.path}>Guide</Link>
+        <Link
+          href={kit.game.path}
+          data-analytics-event="guide_nav"
+          data-analytics-game={slug}
+          data-analytics-section="guide"
+          data-analytics-location="kit_more"
+        >
+          Guide
+        </Link>
       ) : null}
       {kit.cards
         .filter((card) => card.id !== current)
         .map((card) => (
-          <Link key={card.id} href={`${kit.game.path}/${card.id}`}>
+          <Link
+            key={card.id}
+            href={`${kit.game.path}/${card.id}`}
+            data-analytics-event="guide_nav"
+            data-analytics-game={slug}
+            data-analytics-section={card.id}
+            data-analytics-location="kit_more"
+          >
             {card.title}
           </Link>
         ))}

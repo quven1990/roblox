@@ -34,6 +34,9 @@ export function GrowAChickenFighterHome() {
               className="btn btn-primary"
               href={growAChickenFighter.playUrl}
               rel="noopener noreferrer"
+              data-analytics-event="play_roblox"
+              data-analytics-game={growAChickenFighter.slug}
+              data-analytics-location="hero"
             >
               {copy.heroCta}
             </a>
@@ -72,6 +75,9 @@ export function GrowAChickenFighterHome() {
                 key={card.id}
                 className="wiki-card"
                 href={`${growAChickenFighter.path}/${card.id}`}
+                data-analytics-event="guide_nav"
+                data-analytics-game={growAChickenFighter.slug}
+                data-analytics-section={card.id}
               >
                 <img
                   src={

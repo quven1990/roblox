@@ -104,14 +104,26 @@ export function HubHome() {
                         ? game.path
                         : `${game.path}/${tag.toLowerCase()}`;
                     return (
-                      <Link key={tag} href={href}>
+                      <Link
+                        key={tag}
+                        href={href}
+                        data-analytics-event="hub_kit_open"
+                        data-analytics-game={game.slug}
+                        data-analytics-surface="chip"
+                      >
                         {tag}
                       </Link>
                     );
                   })}
                 </div>
                 <div className="actions">
-                  <Link className="btn btn-primary" href={game.path}>
+                  <Link
+                    className="btn btn-primary"
+                    href={game.path}
+                    data-analytics-event="hub_kit_open"
+                    data-analytics-game={game.slug}
+                    data-analytics-surface="guide"
+                  >
                     Open guide
                     <ArrowRight size={17} aria-hidden="true" />
                   </Link>
@@ -119,6 +131,9 @@ export function HubHome() {
                     className="btn btn-ghost"
                     href={game.playUrl}
                     rel="noopener noreferrer"
+                    data-analytics-event="play_roblox"
+                    data-analytics-game={game.slug}
+                    data-analytics-location="hub_card"
                   >
                     Play on Roblox
                     <ExternalLink size={16} aria-hidden="true" />
@@ -160,6 +175,8 @@ export function HubHome() {
                 className="rising-card"
                 href={game.url}
                 rel="noopener noreferrer"
+                data-analytics-event="rising_game_click"
+                data-analytics-game-name={game.name}
               >
                 <span className="rank">#{index + 1}</span>
                 <div>

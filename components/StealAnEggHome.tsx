@@ -35,6 +35,9 @@ export function StealAnEggHome() {
               className="btn btn-primary"
               href={stealAnEgg.playUrl}
               rel="noopener noreferrer"
+              data-analytics-event="play_roblox"
+              data-analytics-game={stealAnEgg.slug}
+              data-analytics-location="hero"
             >
               {copy.heroCta}
             </a>
@@ -99,6 +102,10 @@ export function StealAnEggHome() {
                 key={card.id}
                 className="wiki-card"
                 href={`${stealAnEgg.path}/${card.id}`}
+                data-analytics-event="guide_nav"
+                data-analytics-game={stealAnEgg.slug}
+                data-analytics-section={card.id}
+                data-analytics-location="wiki_grid"
               >
                 <img
                   src={stealAnEggArt[card.id]}

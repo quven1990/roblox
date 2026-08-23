@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "npx --yes serve out",
-    "indexnow": "node scripts/indexnow.mjs"
+    "indexnow": "node scripts/indexnow.mjs",
+    "analytics:register-goals": "node scripts/register-shipsolo-goals.mjs"
   },
   "engines": {
     "node": ">=20"

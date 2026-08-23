@@ -51,7 +51,7 @@ export default function GrowAChickenFighterCodesPage() {
           <DataTable
             columns={["code", "status", "reward", "source"]}
             rows={copy.rows.map((row) => [
-              <CopyCode key={row.code} code={row.code} />,
+              <CopyCode key={row.code} code={row.code} game="grow-a-chicken-fighter" />,
               row.status,
               row.reward,
               row.source,

@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
+import { trackEvent } from "@/lib/analytics";
 
 type Fields = {
   seedName: string;
@@ -234,10 +235,15 @@ const fieldGroups: {
 
 export function GreedyGrowersCalculator() {
   const [fields, setFields] = useState<Fields>(sampleDefaults);
+  const trackedUseRef = useRef(false);
   const result = useMemo(() => compute(fields), [fields]);
 
   function update(key: keyof Fields, value: string) {
     setFields((current) => ({ ...current, [key]: value }));
+    if (!trackedUseRef.current) {
+      trackedUseRef.current = true;
+      trackEvent("calculator_use", { game: "greedy-growers" });
+    }
   }
 
   return (

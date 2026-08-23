@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import type { Metadata, Viewport } from "next";
 import { Outfit } from "next/font/google";
 import { DeferredAnalytics } from "@/components/DeferredAnalytics";
+import { AnalyticsListener } from "@/components/AnalyticsListener";
 import { SITE_ORIGIN, siteCopy } from "@/lib/site";
 import "./globals.css";
 
@@ -53,6 +54,7 @@ export default function RootLayout({
           Skip to content
         </a>
         {children}
+        <AnalyticsListener />
         <DeferredAnalytics />
       </body>
     </html>

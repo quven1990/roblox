@@ -57,7 +57,7 @@ export default function GreedyGrowersCodesPage() {
           <DataTable
             columns={["code", "status", "reward", "source"]}
             rows={copy.rows.map((row) => [
-              <CopyCode key={row.code} code={row.code} />,
+              <CopyCode key={row.code} code={row.code} game="greedy-growers" />,
               row.status,
               row.reward,
               row.source,

@@ -6,12 +6,14 @@ import { FishAnAnimeRngFaq } from "@/components/FishAnAnimeRngFaq";
 import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
 import { SiteShell } from "@/components/SiteShell";
+import { YouTubeEmbed } from "@/components/YouTubeEmbed";
 import {
   fishAnAnimeRng,
   fishAnAnimeRngArt,
   fishAnAnimeRngArtAlt,
   fishAnAnimeRngCopy,
   fishAnAnimeRngJsonLd,
+  fishAnAnimeRngVideos,
 } from "@/lib/games/fish-an-anime-rng";
 
 export function FishAnAnimeRngHome() {
@@ -41,6 +43,9 @@ export function FishAnAnimeRngHome() {
               className="btn btn-primary"
               href={fishAnAnimeRng.playUrl}
               rel="noopener noreferrer"
+              data-analytics-event="play_roblox"
+              data-analytics-game={fishAnAnimeRng.slug}
+              data-analytics-location="hero"
             >
               {copy.heroCta}
             </a>
@@ -79,6 +84,9 @@ export function FishAnAnimeRngHome() {
                 key={card.id}
                 className="wiki-card faar-wiki-card"
                 href={`${fishAnAnimeRng.path}/${card.id}`}
+                data-analytics-event="guide_nav"
+                data-analytics-game={fishAnAnimeRng.slug}
+                data-analytics-section={card.id}
               >
                 <img
                   src={
@@ -111,6 +119,16 @@ export function FishAnAnimeRngHome() {
               </li>
             ))}
           </ol>
+
+          <h2 id="watch">{copy.howItWorks.videoH2}</h2>
+          <YouTubeEmbed
+            videoId={fishAnAnimeRngVideos.loop.id}
+            title={fishAnAnimeRngVideos.loop.title}
+            credit={fishAnAnimeRngVideos.loop.credit}
+            caption={copy.howItWorks.videoCaption}
+            poster={fishAnAnimeRngVideos.loop.poster}
+            watchUrl={fishAnAnimeRngVideos.loop.watchUrl}
+          />
 
           <h2>{copy.systems.h2}</h2>
           <p>{copy.systems.intro}</p>

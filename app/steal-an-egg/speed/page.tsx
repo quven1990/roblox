@@ -4,12 +4,14 @@ import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
 import { SiteShell } from "@/components/SiteShell";
+import { YouTubeEmbed } from "@/components/YouTubeEmbed";
 import {
   stealAnEgg,
   stealAnEggArt,
   stealAnEggCopy,
   stealAnEggSpeedJsonLd,
   stealAnEggSpeedMetadata,
+  stealAnEggVideos,
 } from "@/lib/games/steal-an-egg";
 
 export const metadata = stealAnEggSpeedMetadata;
@@ -48,6 +50,15 @@ export default function StealAnEggSpeedPage() {
               "Exact Recommended Speed for every biome in the current client.",
               "Complete treadmill, trail, pen, and Robux pack price tables.",
             ]}
+          />
+          <h2 id="watch">{copy.videoH2}</h2>
+          <YouTubeEmbed
+            videoId={stealAnEggVideos.speed.id}
+            title={stealAnEggVideos.speed.title}
+            credit={stealAnEggVideos.speed.credit}
+            caption={copy.videoCaption}
+            poster={stealAnEggVideos.speed.poster}
+            watchUrl={stealAnEggVideos.speed.watchUrl}
           />
           {copy.sections.map((section) => (
             <section key={section.h3}>

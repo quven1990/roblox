@@ -1,14 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import { trackEvent } from "@/lib/analytics";
 
-export function CopyCode({ code }: { code: string }) {
+export function CopyCode({ code, game }: { code: string; game: string }) {
   const [copied, setCopied] = useState(false);
 
   async function onCopy() {
     try {
       await navigator.clipboard.writeText(code);
       setCopied(true);
+      trackEvent("copy_code", { game, code });
       window.setTimeout(() => setCopied(false), 1600);
     } catch {
       // Keep the code visible so it can still be selected.

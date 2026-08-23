@@ -61,7 +61,7 @@ export default function AnimeVanguardsCodesPage() {
           <DataTable
             columns={["code", "status", "reward", "requirement", "source"]}
             rows={copy.rows.map((row) => [
-              <CopyCode key={row.code} code={row.code} />,
+              <CopyCode key={row.code} code={row.code} game="anime-vanguards" />,
               row.status,
               row.reward,
               row.requirement,
@@ -82,7 +82,7 @@ export default function AnimeVanguardsCodesPage() {
           <DataTable
             columns={["code", "reward", "requirement"]}
             rows={copy.archiveRows.map((row) => [
-              <CopyCode key={row.code} code={row.code} />,
+              <CopyCode key={row.code} code={row.code} game="anime-vanguards" />,
               row.reward,
               row.requirement,
             ])}

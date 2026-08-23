@@ -52,6 +52,9 @@ export function AnimeVanguardsHome() {
               className="btn btn-primary"
               href={animeVanguards.playUrl}
               rel="noopener noreferrer"
+              data-analytics-event="play_roblox"
+              data-analytics-game={animeVanguards.slug}
+              data-analytics-location="hero"
             >
               {copy.heroCta}
             </a>
@@ -91,6 +94,9 @@ export function AnimeVanguardsHome() {
                 key={card.id}
                 className="wiki-card"
                 href={`${animeVanguards.path}/${card.id}`}
+                data-analytics-event="guide_nav"
+                data-analytics-game={animeVanguards.slug}
+                data-analytics-section={card.id}
               >
                 <img
                   src={

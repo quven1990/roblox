@@ -131,6 +131,9 @@ export function SiteShell({
                     ? "is-on kit-name is-current"
                     : "kit-name is-other"
                 }
+                data-analytics-event="hub_kit_open"
+                data-analytics-game={game.slug}
+                data-analytics-surface="topnav"
               >
                 {game.name}
               </Link>
@@ -147,6 +150,10 @@ export function SiteShell({
                     key={item.id}
                     href={item.href}
                     className={current === item.id ? "is-on" : undefined}
+                    data-analytics-event="guide_nav"
+                    data-analytics-game={kitSlug}
+                    data-analytics-section={item.id}
+                    data-analytics-location="subnav"
                   >
                     {item.label}
                   </Link>
@@ -156,6 +163,9 @@ export function SiteShell({
                 className="play"
                 href={kit.game.playUrl}
                 rel="noopener noreferrer"
+                data-analytics-event="play_roblox"
+                data-analytics-game={kitSlug}
+                data-analytics-location="subnav"
               >
                 <Play size={14} aria-hidden="true" />
                 {kit.playLabel}

@@ -40,6 +40,23 @@ export const fishAnAnimeRngArtAlt = {
     "Official Roblox thumbnail for Fish an Anime RNG — used on the fishing rarities page.",
 } as const;
 
+export const fishAnAnimeRngVideos = {
+  loop: {
+    id: "fAaPdGDRQA4",
+    watchUrl: "https://www.youtube.com/watch?v=fAaPdGDRQA4",
+    title: "Fish an Anime RNG loop — public English-client run",
+    credit: "RyuEzzy",
+    poster: fishAnAnimeRngArt.guide,
+  },
+  redeem: {
+    id: "8aNdOE0qFIo",
+    watchUrl: "https://www.youtube.com/watch?v=8aNdOE0qFIo",
+    title: "Fish an Anime RNG codes — redeem after tutorial",
+    credit: "ItsChalls",
+    poster: fishAnAnimeRngArt.codes,
+  },
+} as const;
+
 export const fishAnAnimeRngCopy = {
   title: "Fish an Anime RNG Wiki (Roblox) — fish, base cash, rebirth",
   h1: "Fish an Anime RNG Wiki (Roblox) — fish, base cash, rebirth",
@@ -95,6 +112,9 @@ export const fishAnAnimeRngCopy = {
     h2: "How the core loop works",
     intro:
       "Steps from the Roblox description, Beebom’s August 2026 codes article, and public wiki-style guides. Exact UI labels may change after updates.",
+    videoH2: "Watch a public run",
+    videoCaption:
+      "RyuEzzy recorded gameplay in Fish an Anime RNG: pond fishing, catches, and base placement. Unofficial gameplay — not Roblox or -チート-. Does not verify code rewards or rebirth numbers.",
     steps: [
       "Launch Fish an Anime RNG on Roblox and finish the short opening tutorial. Beebom reports the Store menu (left icon) stays locked until the tutorial is done.",
       "Click the pond to fish. Each catch is an anime-style character you can keep for collection or base income.",
@@ -194,6 +214,9 @@ export const fishAnAnimeRngCopy = {
       "Type the code in the text box at the bottom of the redeem window.",
       "Press Submit. If a new code fails, try a newer server and recheck spelling.",
     ],
+    redeemVideoH2: "Watch code redemption",
+    redeemVideoCaption:
+      "ItsChalls walks through reported Fish an Anime RNG codes and the in-game redeem flow. Unofficial gameplay — not Beebom or the developer. Reward text on this page follows Beebom (August 20, 2026); the clip may show older strings.",
     rows: [
       {
         code: "1000MEMBERS",

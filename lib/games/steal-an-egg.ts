@@ -54,6 +54,20 @@ export const stealAnEggVideos = {
     credit: "CoralBlox",
     poster: stealAnEggArt.biomes,
   },
+  eggs: {
+    id: "8akAXNIICa4",
+    watchUrl: "https://www.youtube.com/watch?v=8akAXNIICa4",
+    title: "Steal An Egg eternal egg steal — public English-client run",
+    credit: "BasicBlox",
+    poster: stealAnEggArt.eggs,
+  },
+  speed: {
+    id: "er3piu10fAg",
+    watchUrl: "https://www.youtube.com/watch?v=er3piu10fAg",
+    title: "Steal An Egg Speed tips — public English-client run",
+    credit: "SpaceQT",
+    poster: stealAnEggArt.speed,
+  },
 } as const;
 
 export const stealAnEggCopy = {
@@ -314,6 +328,9 @@ export const stealAnEggCopy = {
         note: "UI can flash Secret / Eternal / Cosmic plus the biome. Leave the treadmill and contest those.",
       },
     ],
+    videoH2: "Watch a steal on video",
+    videoCaption:
+      "BasicBlox contests an Eternal egg steal, chase, and hatch on an English client. Unofficial gameplay — not a published odds table and not a guarantee every rare call matches this clip.",
     race:
       "The UI can say egg reset. Late-game footage still matches a short cycle (about five minutes). A moon event also fired in the same session and was a bust if you were slow. Treat the clock as a rhythm, not a published timer — especially not a guaranteed Huge egg every 3 hours.",
     size:
@@ -619,6 +636,9 @@ export const stealAnEggCopy = {
     dek: "How Speed works in Steal An Egg: unlock the treadmill, trails, pen, egg reset, and settings. No price ladder — those numbers rot.",
     lead:
       "Speed unlocks later biomes and keeps a steal alive. Train on the treadmill, stack trails, upgrade the pen, then leave for egg reset. No live price ladder — those numbers rot.",
+    videoH2: "Watch Speed training on video",
+    videoCaption:
+      "SpaceQT walks through treadmill training, trails, pen upgrades, and leaving for egg reset on an English client. Unofficial tips — not a live price ladder or a verified gate table.",
     faq: {
       h2: "FAQ",
       items: [

@@ -4,6 +4,7 @@ import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
 import { SiteShell } from "@/components/SiteShell";
+import { YouTubeEmbed } from "@/components/YouTubeEmbed";
 import {
   stealAnEgg,
   stealAnEggArt,
@@ -11,6 +12,7 @@ import {
   stealAnEggEggsJsonLd,
   stealAnEggEggsMetadata,
   stealAnEggPageLastChecked,
+  stealAnEggVideos,
 } from "@/lib/games/steal-an-egg";
 
 export const metadata = stealAnEggEggsMetadata;
@@ -67,6 +69,15 @@ export default function StealAnEggEggsPage() {
               </li>
             ))}
           </ol>
+          <h2 id="watch">{copy.videoH2}</h2>
+          <YouTubeEmbed
+            videoId={stealAnEggVideos.eggs.id}
+            title={stealAnEggVideos.eggs.title}
+            credit={stealAnEggVideos.eggs.credit}
+            caption={copy.videoCaption}
+            poster={stealAnEggVideos.eggs.poster}
+            watchUrl={stealAnEggVideos.eggs.watchUrl}
+          />
           <h2>The reset scramble</h2>
           <p>{copy.race}</p>
           <h2>Huge and giant</h2>

@@ -8,6 +8,7 @@ import { KitCrumb } from "@/components/KitCrumb";
 import { KitHero } from "@/components/KitHero";
 import { KitMore } from "@/components/KitMore";
 import { SiteShell } from "@/components/SiteShell";
+import { YouTubeEmbed } from "@/components/YouTubeEmbed";
 import {
   fishAnAnimeRng,
   fishAnAnimeRngArt,
@@ -15,6 +16,7 @@ import {
   fishAnAnimeRngCodesJsonLd,
   fishAnAnimeRngCodesMetadata,
   fishAnAnimeRngCopy,
+  fishAnAnimeRngVideos,
 } from "@/lib/games/fish-an-anime-rng";
 
 export const metadata = fishAnAnimeRngCodesMetadata;
@@ -65,7 +67,7 @@ export default function FishAnAnimeRngCodesPage() {
           <DataTable
             columns={["code", "status", "reward", "source"]}
             rows={copy.rows.map((row) => [
-              <CopyCode key={row.code} code={row.code} />,
+              <CopyCode key={row.code} code={row.code} game="fish-an-anime-rng" />,
               row.status,
               row.reward,
               row.source,
@@ -80,6 +82,15 @@ export default function FishAnAnimeRngCodesPage() {
               </li>
             ))}
           </ol>
+          <h2 id="watch">{copy.redeemVideoH2}</h2>
+          <YouTubeEmbed
+            videoId={fishAnAnimeRngVideos.redeem.id}
+            title={fishAnAnimeRngVideos.redeem.title}
+            credit={fishAnAnimeRngVideos.redeem.credit}
+            caption={copy.redeemVideoCaption}
+            poster={fishAnAnimeRngVideos.redeem.poster}
+            watchUrl={fishAnAnimeRngVideos.redeem.watchUrl}
+          />
           <FishAnAnimeRngFaq page="codes" />
           <p className="source">Last checked {fishAnAnimeRng.lastChecked}.</p>
           <KitMore slug="fish-an-anime-rng" current="codes" />
