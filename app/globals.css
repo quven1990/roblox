@@ -2168,3 +2168,254 @@ img {
     transition: none;
   }
 }
+
+/* Fish an Anime RNG kit accents */
+.is-kit-fish-an-anime-rng {
+  --faar-deep: #0c4a6e;
+  --faar-sky: #38bdf8;
+  --faar-glow: rgba(56, 189, 248, 0.18);
+}
+
+.is-kit-fish-an-anime-rng .kit-hero {
+  background:
+    radial-gradient(circle at 12% 18%, var(--faar-glow), transparent 320px),
+    radial-gradient(circle at 88% 12%, rgba(14, 165, 163, 0.14), transparent 280px),
+    linear-gradient(180deg, #f0f9ff 0%, #ffffff 100%);
+  border-bottom: 1px solid #bae6fd;
+}
+
+.is-kit-fish-an-anime-rng .subnav {
+  background: rgba(240, 249, 255, 0.92);
+  border-bottom-color: #bae6fd;
+}
+
+.faar-lead {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.faar-page-grid {
+  gap: 14px;
+}
+
+.faar-wiki-card {
+  border-color: #bae6fd;
+  box-shadow: 0 10px 28px rgba(12, 74, 110, 0.08);
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.faar-wiki-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--faar-deep, #0c4a6e);
+  box-shadow: 0 16px 36px rgba(12, 74, 110, 0.14);
+}
+
+.faar-system-grid {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 20px;
+}
+
+@media (min-width: 640px) {
+  .faar-system-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.faar-system-card {
+  display: grid;
+  gap: 6px;
+  padding: 16px;
+  border: 1px solid #bae6fd;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #f0f9ff, #ffffff);
+  text-decoration: none;
+  color: inherit;
+}
+
+.faar-system-card strong {
+  color: var(--faar-deep, #0c4a6e);
+  font-size: 16px;
+}
+
+.faar-system-card span {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.faar-system-card:hover {
+  border-color: var(--faar-deep, #0c4a6e);
+  color: inherit;
+}
+
+.faar-tier-grid {
+  display: grid;
+  gap: 12px;
+  margin: 12px 0 24px;
+}
+
+@media (min-width: 720px) {
+  .faar-tier-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.faar-tier-card {
+  position: relative;
+  padding: 16px 16px 14px 56px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.faar-tier-card p {
+  margin: 6px 0 10px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.faar-tier-card dl {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.faar-tier-card dt {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.faar-tier-card dd {
+  margin: 2px 0 0;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.faar-tier-badge {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  font-size: 16px;
+  color: #fff;
+  border: 2px solid var(--ink);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.faar-tier-s .faar-tier-badge {
+  background: linear-gradient(145deg, #f59e0b, #d97706);
+}
+
+.faar-tier-a .faar-tier-badge {
+  background: linear-gradient(145deg, #8b5cf6, #6d28d9);
+}
+
+.faar-tier-b .faar-tier-badge {
+  background: linear-gradient(145deg, #2563eb, #1d4ed8);
+}
+
+.faar-tier-c .faar-tier-badge {
+  background: linear-gradient(145deg, #64748b, #475569);
+}
+
+.faar-tier-d .faar-tier-badge {
+  background: linear-gradient(145deg, #94a3b8, #64748b);
+}
+
+.faar-tier-s {
+  border-color: #fcd34d;
+  background: linear-gradient(180deg, #fffbeb, #ffffff);
+}
+
+.faar-tier-a {
+  border-color: #ddd6fe;
+  background: linear-gradient(180deg, #f5f3ff, #ffffff);
+}
+
+.faar-stage-list {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 20px;
+}
+
+.faar-stage-card {
+  padding: 14px 16px;
+  border: 1px solid #bae6fd;
+  border-radius: 10px;
+  background: #f8fdff;
+}
+
+.faar-stage-card strong {
+  display: block;
+  color: var(--ink);
+}
+
+.faar-stage-priority {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.18);
+  color: var(--faar-deep, #0c4a6e);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.faar-stage-card p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.faar-crosslinks {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+@media (min-width: 640px) {
+  .faar-crosslinks {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.faar-crosslink {
+  display: grid;
+  gap: 4px;
+  padding: 14px;
+  border: 1px solid #bae6fd;
+  border-radius: 10px;
+  background: #fff;
+  text-decoration: none;
+  color: inherit;
+}
+
+.faar-crosslink strong {
+  color: var(--faar-deep, #0c4a6e);
+}
+
+.faar-crosslink span {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.faar-crosslink:hover {
+  border-color: var(--faar-deep, #0c4a6e);
+  color: inherit;
+}
+
+.faar-check-list li {
+  margin-bottom: 8px;
+}
+

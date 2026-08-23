@@ -63,7 +63,7 @@ export function pageMetadata(
 }
 
 export const siteCopy = {
-  title: "Upvane — unofficial kits for four Roblox games",
+  title: "Upvane — unofficial kits for five Roblox games",
   metaDescription:
     "Upvane tracks current Roblox game kits: latest updates, verified changes, code status, tools, and guide pages for active games.",
   kicker: "Unofficial kits",
@@ -74,7 +74,7 @@ export const siteCopy = {
   heroCta: "All live guides",
   kits: {
     kicker: "Live kits",
-    h2: "Four games, four kits",
+    h2: "Five games, five kits",
     body: "Open the title you searched. Newer kits get a New label — they do not take over this page.",
   },
   rising: {

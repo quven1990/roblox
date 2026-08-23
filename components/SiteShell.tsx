@@ -17,6 +17,11 @@ import {
   greedyGrowersCopy,
   greedyGrowersNav,
 } from "@/lib/games/greedy-growers";
+import {
+  fishAnAnimeRng,
+  fishAnAnimeRngCopy,
+  fishAnAnimeRngNav,
+} from "@/lib/games/fish-an-anime-rng";
 import { stealAnEgg, stealAnEggCopy, stealAnEggNav } from "@/lib/games/steal-an-egg";
 import { SITE_CONTACT_EMAIL, SITE_NAME, SITE_PRIVACY_EMAIL, siteCopy } from "@/lib/site";
 
@@ -37,7 +42,10 @@ export type KitSection =
   | "items"
   | "seeds"
   | "fertilizer"
-  | "calculator";
+  | "calculator"
+  | "tier-list"
+  | "characters"
+  | "rarities";
 
 type Current = "hub" | "legal" | KitSection;
 
@@ -67,6 +75,12 @@ function kitChrome(slug: GameSlug) {
       footer: greedyGrowersCopy.footer,
       playLabel: greedyGrowersCopy.nav.play,
     },
+    "fish-an-anime-rng": {
+      game: fishAnAnimeRng,
+      nav: fishAnAnimeRngNav,
+      footer: fishAnAnimeRngCopy.footer,
+      playLabel: fishAnAnimeRngCopy.nav.play,
+    },
   } as const;
 
   return bySlug[slug];
@@ -87,7 +101,11 @@ export function SiteShell({
   const onKit = Boolean(kit);
 
   return (
-    <div className={onKit ? "shell is-kit" : "shell"}>
+    <div
+      className={
+        onKit ? `shell is-kit is-kit-${kitSlug}` : "shell"
+      }
+    >
       <header className="topbar">
         <div className="topbar-inner">
           <Link href="/" className="brand">

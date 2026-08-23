@@ -14,6 +14,12 @@ import {
   greedyGrowers,
   greedyGrowersCopy,
 } from "@/lib/games/greedy-growers";
+import {
+  fishAnAnimeRng,
+  fishAnAnimeRngArt,
+  fishAnAnimeRngArtAlt,
+  fishAnAnimeRngCopy,
+} from "@/lib/games/fish-an-anime-rng";
 import { stealAnEgg, stealAnEggCopy } from "@/lib/games/steal-an-egg";
 
 const kitMore = {
@@ -33,6 +39,10 @@ const kitMore = {
     game: greedyGrowers,
     cards: greedyGrowersCopy.pages.cards,
   },
+  "fish-an-anime-rng": {
+    game: fishAnAnimeRng,
+    cards: fishAnAnimeRngCopy.pages.cards,
+  },
 } as const;
 
 export function KitMore({
@@ -44,32 +54,68 @@ export function KitMore({
 }) {
   const kit = kitMore[slug];
 
-  if (slug === "anime-vanguards") {
+  if (slug === "anime-vanguards" || slug === "fish-an-anime-rng") {
+    const art =
+      slug === "anime-vanguards"
+        ? { src: animeVanguardsArt, alt: animeVanguardsArtAlt }
+        : { src: fishAnAnimeRngArt, alt: fishAnAnimeRngArtAlt };
+    const game = kit.game;
+    const guideCopy =
+      slug === "anime-vanguards"
+        ? animeVanguardsCopy.nav.guide
+        : fishAnAnimeRngCopy.nav.guide;
+    const guideBody =
+      slug === "anime-vanguards"
+        ? "First session, Update 14.5, mode menu."
+        : "Core loop, rebirth, offline base income.";
+
+    const guideTitle =
+      slug === "fish-an-anime-rng"
+        ? "Fish an Anime RNG wiki"
+        : guideCopy;
+
     const pages = [
       {
         id: "guide",
-        href: animeVanguards.path,
-        title: animeVanguardsCopy.nav.guide,
-        body: "First session, Update 14.5, mode menu.",
-        src: animeVanguardsArt.guide,
-        alt: animeVanguardsArtAlt.guide,
+        href: game.path,
+        title: guideTitle,
+        body: guideBody,
+        src: art.src.guide,
+        alt: art.alt.guide,
       },
-      ...animeVanguardsCopy.pages.cards.map((card) => ({
+      ...kit.cards.map((card) => ({
         id: card.id,
-        href: `${animeVanguards.path}/${card.id}`,
-        title: card.title,
+        href: `${game.path}/${card.id}`,
+        title:
+          "sitelink" in card
+            ? (card as { sitelink: string }).sitelink
+            : card.title,
         body: card.body,
-        src: animeVanguardsArt[card.id as keyof typeof animeVanguardsArt],
-        alt: animeVanguardsArtAlt[card.id as keyof typeof animeVanguardsArtAlt],
+        src: art.src[card.id as keyof typeof art.src],
+        alt: art.alt[card.id as keyof typeof art.alt],
       })),
     ].filter((page) => page.id !== current);
 
     return (
       <nav className="kit-related" aria-label={`More ${kit.game.name} pages`}>
         <h2 className="kit-related-title">More in this kit</h2>
-        <div className="wiki-grid">
+        <div
+          className={
+            slug === "fish-an-anime-rng"
+              ? "wiki-grid faar-page-grid"
+              : "wiki-grid"
+          }
+        >
           {pages.map((page) => (
-            <Link key={page.id} className="wiki-card" href={page.href}>
+            <Link
+              key={page.id}
+              className={
+                slug === "fish-an-anime-rng"
+                  ? "wiki-card faar-wiki-card"
+                  : "wiki-card"
+              }
+              href={page.href}
+            >
               <img
                 src={page.src}
                 alt={page.alt}

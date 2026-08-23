@@ -2,6 +2,7 @@ import { stealAnEgg } from "@/lib/games/steal-an-egg";
 import { growAChickenFighter } from "@/lib/games/grow-a-chicken-fighter";
 import { animeVanguards } from "@/lib/games/anime-vanguards";
 import { greedyGrowers } from "@/lib/games/greedy-growers";
+import { fishAnAnimeRng } from "@/lib/games/fish-an-anime-rng";
 import { absoluteUrl } from "@/lib/site";
 
 /** Live kits on the hub. Add a game here when its pages ship. Newest last. */
@@ -10,6 +11,7 @@ export const catalog = [
   growAChickenFighter,
   animeVanguards,
   greedyGrowers,
+  fishAnAnimeRng,
 ] as const;
 
 export const games = {
@@ -17,6 +19,7 @@ export const games = {
   "grow-a-chicken-fighter": growAChickenFighter,
   "anime-vanguards": animeVanguards,
   "greedy-growers": greedyGrowers,
+  "fish-an-anime-rng": fishAnAnimeRng,
 } as const;
 
 export type GameSlug = keyof typeof games;

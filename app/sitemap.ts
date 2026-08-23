@@ -3,6 +3,7 @@ import { stealAnEgg, stealAnEggPageLastChecked } from "@/lib/games/steal-an-egg"
 import { growAChickenFighter } from "@/lib/games/grow-a-chicken-fighter";
 import { animeVanguards } from "@/lib/games/anime-vanguards";
 import { greedyGrowers } from "@/lib/games/greedy-growers";
+import { fishAnAnimeRng } from "@/lib/games/fish-an-anime-rng";
 import { absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
@@ -166,6 +167,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
       changeFrequency: "weekly",
       priority: 0.85,
+    },
+    {
+      url: absoluteUrl(fishAnAnimeRng.path),
+      lastModified: new Date(`${fishAnAnimeRng.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: absoluteUrl(`${fishAnAnimeRng.path}/codes`),
+      lastModified: new Date(`${fishAnAnimeRng.lastChecked}T00:00:00Z`),
+      changeFrequency: "daily",
+      priority: 0.85,
+    },
+    {
+      url: absoluteUrl(`${fishAnAnimeRng.path}/tier-list`),
+      lastModified: new Date(`${fishAnAnimeRng.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl(`${fishAnAnimeRng.path}/characters`),
+      lastModified: new Date(`${fishAnAnimeRng.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl(`${fishAnAnimeRng.path}/rarities`),
+      lastModified: new Date(`${fishAnAnimeRng.lastChecked}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.8,
     },
     {
       url: absoluteUrl("/privacy"),
