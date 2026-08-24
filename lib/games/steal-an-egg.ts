@@ -8,7 +8,7 @@ export const stealAnEgg = {
   universeId: "10563114921",
   placeId: "107778070777162",
   playUrl: "https://www.roblox.com/games/107778070777162/Steal-An-Egg",
-  lastChecked: "2026-08-15",
+  lastChecked: "2026-08-25",
   hasRedeemUi: false,
   path: "/steal-an-egg",
   kitNumber: 1,
@@ -20,12 +20,12 @@ export const stealAnEgg = {
 } as const satisfies GameFacts;
 
 export const stealAnEggPageLastChecked = {
-  guide: "2026-08-20",
-  updates: "2026-08-20",
-  pets: "2026-08-21",
-  eggs: "2026-08-20",
-  biomes: "2026-08-20",
-  mutations: "2026-08-20",
+  guide: "2026-08-25",
+  updates: "2026-08-25",
+  pets: "2026-08-25",
+  eggs: "2026-08-25",
+  biomes: "2026-08-25",
+  mutations: "2026-08-25",
   speed: "2026-08-15",
 } as const;
 
@@ -71,38 +71,56 @@ export const stealAnEggVideos = {
 } as const;
 
 export const stealAnEggCopy = {
-  title: "Steal An Egg Update #1 — new zone event status",
+  title: "Steal An Egg Update #1 — Cherry Blossom biome live",
   h1: "Steal An Egg (Roblox) — steal eggs, hatch pets, train Speed",
   dek: "Steal An Egg is a Roblox pet / tycoon by and Collect Rare Pets. This unofficial guide is not Steal a Brainrot and not the older game titled Steal a Egg.",
   metaDescription:
-    "Unofficial Steal An Egg Roblox guide with Update #1 event status: new zone, Dragon Admin Abuse event, new mutation, eggs, biomes, pets, and Speed.",
+    "Unofficial Steal An Egg Roblox guide: Update #1 Cherry Blossom biome, Bloom mutations, Sakura Incubator, eggs, biomes, pets, and Speed.",
   heroCta: "Play on Roblox",
   update1: {
-    h2: "Update #1 event status",
+    h2: "Update #1 — Cherry Blossom live notes",
     lead:
-      "Steal An Egg Update #1 is scheduled for 2026-08-22 at 23:00 in the checked Roblox event view. The official event title is “ADMIN ABUSE!? + New Zone - Steal An Egg.”",
+      "Steal An Egg Update #1 is treated as live on this kit as of 2026-08-25. Official Roblox event title was “ADMIN ABUSE!? + New Zone - Steal An Egg.” Post-launch notes name Cherry Blossom Biome, eight new pets, Sakura Incubator, Bloom / Spirit Bloom mutations, and The Great Bloom event. Income, Speed gates, and mutation odds are still not published here.",
     eventUrl: "https://www.roblox.com/events/4073678192131572359",
     eventLabel: "Open the Roblox event page",
+    sourceNote:
+      "Cherry Blossom names and unlock steps come from reported Update #1 live notes (2026-08-25). They are not Index screenshots on this kit yet. Speed gate numbers and $/s for the new pets stay blank until published or photographed.",
     rows: [
       {
-        item: "New Zone",
-        status: "Announced",
-        detail: "The event title and update list mention a new zone. The zone name, Speed gate, pets, and eggs are not live here yet.",
+        item: "Cherry Blossom Biome",
+        status: "Reported live",
+        detail:
+          "New biome from Update #1 notes. Speed gate and Recommended Speed are not verified on this kit.",
       },
       {
-        item: "Dragon Admin Abuse Event",
-        status: "Announced",
-        detail: "The update list names the event, but mechanics, rewards, spawn rules, and duration are not confirmed.",
+        item: "Eight new pets",
+        status: "Reported live",
+        detail:
+          "Crane (Epic), Salamander (Legendary), Red Panda (Mythic), Snow Owl (Cosmic), Koi (Cosmic), Stag (Secret), Oni Tiger (Eternal), Kitsune (Divine). Income/second not published here.",
       },
       {
-        item: "New Mutation",
-        status: "Announced",
-        detail: "The update list says a new mutation is coming. Name, trigger, odds, and value multiplier are still unknown.",
+        item: "Sakura Incubator",
+        status: "Reported live",
+        detail:
+          "Notes: hatch a Crane from a Cherry Blossom Egg, bring it to the ancient Sakura tree, restore the tree to unlock Bloom mutations.",
       },
       {
-        item: "New Event",
-        status: "Announced",
-        detail: "The update list says a new event is coming. It is not treated as a new egg, pet, or shop pool until seen in-game.",
+        item: "Bloom / Spirit Bloom",
+        status: "Reported live",
+        detail:
+          "Two new mutations from the Sakura unlock path. Spirit Bloom is described as an extremely rare variant. Odds and multipliers are blank here.",
+      },
+      {
+        item: "The Great Bloom",
+        status: "Reported live",
+        detail:
+          "Notes: every 30 minutes the biome fills with Sakura Crystal Trees. Break them, deposit Sakura Crystals into the incubator to mutate eggs.",
+      },
+      {
+        item: "Dragon Admin Abuse",
+        status: "Announced separately",
+        detail:
+          "Still named on the Roblox event list. Not mixed into the Cherry Blossom unlock path on this kit until mechanics are confirmed in-game.",
       },
     ],
   },
@@ -122,27 +140,27 @@ export const stealAnEggCopy = {
       {
         id: "updates",
         title: "Updates",
-        body: "Update #1 dated status: new zone, Dragon Admin Abuse, new mutation, new event.",
+        body: "Update #1 Cherry Blossom: biome, Sakura Incubator, Bloom mutations, Great Bloom.",
       },
       {
         id: "pets",
         title: "Pets",
-        body: "Pets list with rarity, biome, and income per second.",
+        body: "Pets list with rarity, biome, and income per second — including Cherry Blossom roster.",
       },
       {
         id: "eggs",
         title: "Eggs",
-        body: "Nests, player steals, egg reset, moon event, huge / giant sizes, plus Update #1 event watch.",
+        body: "Nests, steals, reset, Cherry Blossom Egg / Sakura Crystal mutate path.",
       },
       {
         id: "biomes",
         title: "Biomes",
-        body: "Forest → Cosmic King, with Update #1 new zone status held separate until live.",
+        body: "Forest → Cosmic King, plus Cherry Blossom from Update #1 notes.",
       },
       {
         id: "mutations",
         title: "Mutations",
-        body: "Gold / silver coats, huge / giant sizes, and the announced Update #1 mutation status.",
+        body: "Gold / silver coats, huge / giant sizes, Bloom and Spirit Bloom.",
       },
       {
         id: "speed",
@@ -152,36 +170,46 @@ export const stealAnEggCopy = {
     ],
   },
   updates: {
-    pageH1: "Steal An Egg updates — Update #1 status",
-    dek: "Dated Update #1 check: new zone, Dragon Admin Abuse, new mutation, and new event are Announced. Names, gates, and rewards stay blank until live.",
-    lead: "Steal An Egg Update #1 is scheduled for 2026-08-22 at 23:00 in the checked Roblox event view. Official title: “ADMIN ABUSE!? + New Zone - Steal An Egg.” New zone, Dragon Admin Abuse, new mutation, and new event are Announced — not live on this kit yet.",
+    pageH1: "Steal An Egg updates — Cherry Blossom Update #1",
+    dek: "Update #1 live notes: Cherry Blossom Biome, eight new pets, Sakura Incubator, Bloom / Spirit Bloom, The Great Bloom every 30 minutes.",
+    lead: "Steal An Egg Update #1 is treated as live on this kit (checked 2026-08-25). Post-launch notes name Cherry Blossom Biome and the Sakura unlock path. Roblox event title remains “ADMIN ABUSE!? + New Zone - Steal An Egg.” Income and Speed gates for the new content stay blank until photographed.",
     howTitle: "How to read this page",
     howBody:
-      "A Roblox event title or experience metadata timestamp is not a patch note. It proves an announcement or metadata change, not a live zone name, egg pool, mutation label, or reward table. After launch, recheck eggs, biomes, mutations, and pets in-game before trusting a pre-launch name.",
-    notTitle: "What is not a patch note",
+      "Event titles prove scheduling. Live notes name biome, pets, mutations, and event cadence. This kit still waits on Index tiles or in-game screenshots before publishing $/s, gate numbers, or mutation odds.",
+    sakuraTitle: "Sakura Incubator unlock (reported)",
+    sakuraSteps: [
+      "Hatch a Crane pet from a Cherry Blossom Egg.",
+      "Bring the Crane to the ancient Sakura tree in the Cherry Blossom Biome.",
+      "Restore the tree to unlock Bloom and Spirit Bloom mutations.",
+    ],
+    bloomTitle: "The Great Bloom (reported)",
+    bloomBody:
+      "Notes say The Great Bloom starts about every 30 minutes. Sakura Crystal Trees fill the Cherry Blossom Biome — break them, collect Sakura Crystals, and deposit crystals into the incubator to mutate eggs. Exact crystal costs and mutation odds are not published here.",
+    notTitle: "What is still blank on purpose",
     notItems: [
-      "An experience “Updated” timestamp on Roblox without a named change list.",
-      "A video title that invents Dragon Egg or a zone name before the UI shows it.",
-      "A wiki roster copied from Steal a Egg (different Place ID) or Steal a Brainrot.",
+      "Recommended Speed for Cherry Blossom and any other gate numbers.",
+      "Income/second for Crane through Kitsune until a published table or Index panel exists.",
+      "Bloom / Spirit Bloom odds or sell multipliers.",
+      "Dragon Admin Abuse spawn rules, rewards, and duration (still separate from Cherry Blossom notes).",
     ],
     faq: {
       h2: "FAQ",
       items: [
         {
-          q: "When is Steal An Egg Update #1?",
-          a: "The checked Roblox event view shows 2026-08-22 at 23:00. Confirm the live event page if the schedule shifts.",
+          q: "Is Steal An Egg Update #1 live?",
+          a: "Yes on this kit’s 2026-08-25 check. Notes name Cherry Blossom Biome, new pets, Sakura Incubator, Bloom mutations, and The Great Bloom.",
         },
         {
-          q: "Is the new zone live?",
-          a: "Not on this kit. Update #1 announces a new zone, but the name, Speed gate, pets, and eggs are not verified yet.",
+          q: "What is the new biome called?",
+          a: "Cherry Blossom Biome. Speed gate details are not verified here yet.",
+        },
+        {
+          q: "What are the new mutations?",
+          a: "Bloom and Spirit Bloom. Notes say Spirit Bloom is an extremely rare variant. Odds stay blank.",
         },
         {
           q: "Does Update #1 add codes?",
           a: "No redeem UI or working code list is confirmed. The event page is not treated as a codes announcement.",
-        },
-        {
-          q: "Where should I look after the update drops?",
-          a: "Recheck biomes for the new zone, mutations for a new coat or label, eggs for event hatches, and the Pet Index for new tiles.",
         },
       ],
     },
@@ -232,7 +260,7 @@ export const stealAnEggCopy = {
     h2: "Map and Speed gates",
     body: "Zones sit behind Speed. Forest and Lake are on the in-game Index. Later names come from gameplay, not from Index labels. Recommended Speed on each gate will move with updates, so we are not publishing a number ladder.",
     source:
-      "Forest and Lake: Pet Index screenshot. Later biomes: gameplay, including a public English-client recording by CoralBlox. Update #1 event title checked 2026-08-20.",
+      "Forest and Lake: Pet Index screenshot. Later biomes: gameplay, including a public English-client recording by CoralBlox. Cherry Blossom: Update #1 live notes checked 2026-08-25.",
     zones: [
       { name: "Forest", note: "Index biome. Eight pet slots. Tutorial chicken lives here." },
       { name: "Lake", note: "Index biome. Frog is the first visible slot." },
@@ -249,6 +277,10 @@ export const stealAnEggCopy = {
         name: "Cosmic King / final cosmic",
         note: "Gameplay. Last Speed wall. One recording showed Recommended Speed on the order of 700 million.",
       },
+      {
+        name: "Cherry Blossom",
+        note: "Update #1 notes. New biome with Crane → Kitsune pets, Sakura Incubator, and The Great Bloom. Speed gate not verified here.",
+      },
     ],
   },
   eggs: {
@@ -256,12 +288,12 @@ export const stealAnEggCopy = {
     teaser:
       "Steal from pets, nests, and players. Shop eggs are a different pool. Egg reset and a moon event kick off the scramble — that is the rare-egg race other wikis write about.",
     pageH1: "Steal An Egg all eggs — nests, shop, reset",
-    dek: "Eggs come from nests, biome pets, player steals, shop pools, and reset races. Huge and giant are sizes. Update #1 Dragon event: no new egg name verified yet.",
+    dek: "Eggs come from nests, biome pets, player steals, shop pools, and reset races. Huge and giant are sizes. Update #1 adds Cherry Blossom Egg / Sakura Crystal mutate path from live notes.",
     lead:
-      "Eggs come from nests, biome pets, player steals, shop pools, and reset races. Huge and giant are sizes, not separate catalog names. Update #1 announces a Dragon Admin Abuse event — no new egg name is verified yet.",
-    updateTitle: "Update #1 event egg watch",
+      "Eggs come from nests, biome pets, player steals, shop pools, and reset races. Huge and giant are sizes, not separate catalog names. Update #1 live notes name Cherry Blossom Eggs (for the Crane unlock) and Sakura Crystal deposits that mutate eggs during The Great Bloom. Dragon Admin Abuse still has no confirmed egg name here.",
+    updateTitle: "Update #1 — Cherry Blossom eggs",
     updateBody:
-      "The Roblox event page title confirms ADMIN ABUSE!? + New Zone, and the update list mentions Dragon Admin Abuse, a new mutation, and a new event. This page does not add a Dragon Egg, Event Egg, or shop pool until a hatch, Index tile, or developer-owned source confirms it.",
+      "Reported from Update #1 notes: hatch a Crane from a Cherry Blossom Egg, then use The Great Bloom (~every 30 minutes) to break Sakura Crystal Trees and deposit crystals into the Sakura Incubator to mutate eggs. Crystal costs and mutation odds stay blank. Dragon Admin Abuse remains a separate announced event without a verified egg name on this kit.",
     indexTitle: "All eggs vs Pet Index vs shop",
     indexAnswers: [
       {
@@ -304,10 +336,16 @@ export const stealAnEggCopy = {
         action: "Leave the treadmill when the alert fires.",
       },
       {
-        source: "Update #1 event",
-        what: "A Dragon Admin Abuse event and a new event are announced for 2026-08-22 23:00 in the checked event view.",
-        index: "No new egg name is verified until the hatch or Index tile is visible.",
-        action: "Watch for event eggs after launch, but do not copy pre-launch names.",
+        source: "Cherry Blossom / Sakura path",
+        what: "Update #1 notes: Cherry Blossom Egg → Crane unlock; Great Bloom crystals mutate eggs in the incubator.",
+        index: "Crane–Kitsune pets are on the pets roster as reported; Index tiles not photographed here yet.",
+        action: "Treat crystal costs and Bloom odds as unknown until the UI prints them.",
+      },
+      {
+        source: "Dragon Admin Abuse",
+        what: "Still named on the Roblox event list as a separate Update #1 piece.",
+        index: "No Dragon Egg name is verified on this kit.",
+        action: "Do not invent a Dragon Egg row from the event title alone.",
       },
     ],
     sources: [
@@ -326,6 +364,10 @@ export const stealAnEggCopy = {
       {
         name: "Announced rares",
         note: "UI can flash Secret / Eternal / Cosmic plus the biome. Leave the treadmill and contest those.",
+      },
+      {
+        name: "Cherry Blossom / Sakura",
+        note: "Update #1 notes: Cherry Blossom Eggs for Crane, plus Sakura Crystals from The Great Bloom deposited into the incubator to mutate eggs.",
       },
     ],
     videoH2: "Watch a steal on video",
@@ -386,60 +428,72 @@ export const stealAnEggCopy = {
         },
         {
           q: "Does Update #1 add a Dragon Egg?",
-          a: "Not confirmed. Update #1 announces a Dragon Admin Abuse event, but this page does not list a Dragon Egg until an in-game hatch, Index tile, or developer-owned source confirms the egg name.",
+          a: "Not confirmed. Dragon Admin Abuse is still named on the Roblox event list, but this page does not invent a Dragon Egg. Cherry Blossom Eggs are named in Update #1 live notes for the Crane unlock.",
+        },
+        {
+          q: "What is a Cherry Blossom Egg?",
+          a: "Update #1 notes: hatch a Crane from a Cherry Blossom Egg to start the Sakura Incubator unlock. Exact nest locations and odds are not photographed here.",
         },
       ],
     },
   },
   biomes: {
     h2: "Biomes",
-    teaser: "Speed unlocks the next zone. Forest and Lake are Index labels; Update #1 has a new zone announced but not named here yet.",
-    pageH1: "Steal An Egg biomes — Forest to Cosmic King",
-    dek: "Current map: Forest, Lake, Desert, Jungle, Yeti/ice, Volcano, Abyss Ocean, Prehistoric, Cosmic King. Update #1 new zone: announced, name and Speed gate not live.",
+    teaser:
+      "Speed unlocks the next zone. Forest and Lake are Index labels. Cherry Blossom is named in Update #1 live notes.",
+    pageH1: "Steal An Egg biomes — Forest to Cherry Blossom",
+    dek: "Map: Forest, Lake, Desert, Jungle, Yeti/ice, Volcano, Abyss Ocean, Prehistoric, Cosmic King, plus Cherry Blossom from Update #1 notes. Speed gates still unpublished.",
     lead:
-      "Current Steal An Egg biomes: Forest, Lake, Desert, Jungle, Yeti/ice pocket, Volcano, Abyss Ocean, Prehistoric, Cosmic King. Zones sit behind Speed. Update #1 announces a new zone — name and Speed gate are not live here yet.",
-    updateTitle: "Update #1 new zone status",
+      "Steal An Egg biomes: Forest, Lake, Desert, Jungle, Yeti/ice pocket, Volcano, Abyss Ocean, Prehistoric, Cosmic King, and Cherry Blossom (Update #1 notes, checked 2026-08-25). Zones sit behind Speed. Cherry Blossom Speed gate is not verified on this kit.",
+    updateTitle: "Update #1 — Cherry Blossom status",
     faq: {
       h2: "FAQ",
       items: [
         {
           q: "How many biomes does Steal An Egg have?",
-          a: "This kit lists Forest through Cosmic King from Index photos and gameplay. Update #1 announces another zone that is not named here yet.",
+          a: "This kit lists Forest through Cosmic King from Index photos and gameplay, plus Cherry Blossom from Update #1 live notes.",
         },
         {
           q: "Is there a Speed number for each gate?",
           a: "No live Recommended Speed ladder is published here. Gates exist and get steep in later biomes; exact numbers rot quickly.",
         },
         {
-          q: "Is the Update #1 new zone on the map list?",
-          a: "Not yet. It stays on the Updates page and this watch block until the name, gate, pets, and eggs are visible in-game.",
+          q: "What is the Cherry Blossom Biome?",
+          a: "Update #1’s new zone. Notes list eight pets from Crane to Kitsune, a Sakura Incubator unlock, and The Great Bloom event. Speed gate details stay blank here.",
         },
       ],
     },
     updateBody:
-      "The official Roblox event title says “ADMIN ABUSE!? + New Zone - Steal An Egg.” The update list also says NEW Zone. This page keeps that new zone separate from the map list until the name, Speed gate, pets, and egg sources are visible in-game.",
+      "Update #1 live notes name Cherry Blossom Biome. It is on the map list below as a reported zone. Speed gate, egg nest layout, and Index tiles for the eight pets are not photographed on this kit yet.",
     updateRows: [
       {
-        claim: "A new zone is coming in Update #1",
-        status: "Announced",
-        evidence: "Roblox event title and update list mention New Zone.",
+        claim: "New zone name",
+        status: "Reported live",
+        evidence: "Update #1 notes: Cherry Blossom Biome.",
       },
       {
-        claim: "New zone name",
-        status: "Not verified",
-        evidence: "No official name was visible in the checked event title or provided update list.",
+        claim: "Eight biome pets + rarities",
+        status: "Reported live",
+        evidence:
+          "Crane Epic → Kitsune Divine in the notes. Income/second blank on the pets page.",
       },
       {
         claim: "Speed gate and route",
         status: "Not verified",
-        evidence: "No live gate screenshot or post-launch gameplay has been checked yet.",
+        evidence: "No Recommended Speed screenshot for Cherry Blossom on this kit yet.",
+      },
+      {
+        claim: "Sakura Incubator + Great Bloom",
+        status: "Reported live",
+        evidence:
+          "Notes: Crane unlock path; Great Bloom about every 30 minutes with Sakura Crystal Trees.",
       },
     ],
     videoH2: "Later biomes on video",
     videoCaption:
-      "CoralBlox recorded later biomes after Forest and Lake. Treat it as a later-game run, not a Speed table and not a secret recipe.",
+      "CoralBlox recorded later biomes after Forest and Lake. Treat it as a later-game run, not a Speed table and not a Cherry Blossom walkthrough.",
     otherNote:
-      "steal-an-egg-wiki.wiki collapses the map into First / Desert / Snow / Ocean / Endgame, then other articles invent Sandy Expanse, Frozen Peaks, Volcanic Depths, Sky Gardens, Cave, Tundra, and Crystal Caverns. We keep Forest → Cosmic King from Index + recordings. Desert / snow / volcano overlap in spirit; the extra names are not on our run.",
+      "steal-an-egg-wiki.wiki collapses the map into First / Desert / Snow / Ocean / Endgame, then other articles invent Sandy Expanse, Frozen Peaks, Volcanic Depths, Sky Gardens, Cave, Tundra, and Crystal Caverns. We keep Forest → Cosmic King from Index + recordings, plus Cherry Blossom from Update #1 notes.",
     otherRows: [
       { name: "First / starting zone", wiki: "Their C-tier starter" },
       { name: "Desert / Sandy Expanse", wiki: "Their Speed tier 1. We do have Desert in gameplay." },
@@ -449,19 +503,20 @@ export const stealAnEggCopy = {
       { name: "Cave / Crystal Caverns", wiki: "Not on our run map." },
       { name: "Sky Gardens", wiki: "Not on our run map." },
       { name: "Endgame", wiki: "Their max-Speed bucket. We name Cosmic King." },
+      { name: "Cherry Blossom", wiki: "Update #1 notes on this kit — not from that wiki collapse." },
     ],
   },
   mutations: {
     h2: "Mutations & sizes",
     teaser:
-      "The official page lists rarer eggs, pet sizes, and mutations. Index tiles use color bands. Gold and silver pets showed up in gameplay as variants, not biomes.",
-    pageH1: "Steal An Egg mutations and sizes — gold, silver, huge",
-    dek: "What the Index, recordings, and Update #1 event page actually show: gold and silver coats, huge and giant egg size, Legendary hatch labels, plus one announced new mutation.",
+      "Official description lists rarities, sizes, and mutations. Gameplay shows gold and silver coats. Update #1 notes add Bloom and Spirit Bloom via the Sakura Incubator.",
+    pageH1: "Steal An Egg mutations — gold, silver, Bloom, Spirit Bloom",
+    dek: "Gold and silver coats, huge and giant egg sizes, Legendary hatch labels, plus Bloom and Spirit Bloom from Update #1 Cherry Blossom notes. Odds and multipliers stay blank.",
     lead:
-      "Steal An Egg mutations checked August 20, 2026: gameplay shows gold and silver variants, huge and giant egg sizes, and Legendary hatch labels. Update #1 announces a new mutation, but its name, trigger, odds, and multiplier are not live here yet.",
-    updateTitle: "Update #1 new mutation status",
+      "Steal An Egg mutations checked August 25, 2026: gameplay still shows gold and silver variants, huge and giant egg sizes, and Legendary hatch labels. Update #1 live notes add Bloom Mutation and Spirit Bloom Mutation (described as extremely rare) after unlocking the Sakura Incubator. No odds or sell multipliers are published here.",
+    updateTitle: "Update #1 — Bloom mutations",
     updateBody:
-      "The Update #1 list says NEW MUTATION. Until the mutation appears in-game or on a developer-owned source, this page treats it as announced only and keeps all odds and multipliers blank.",
+      "Reported unlock: hatch a Crane from a Cherry Blossom Egg, bring it to the ancient Sakura tree, restore the tree to unlock Bloom and Spirit Bloom. During The Great Bloom (~every 30 minutes), deposit Sakura Crystals into the incubator to mutate eggs. Crystal costs, odds, and value multipliers stay blank until the UI prints them.",
     matrixTitle: "Mutation vs size vs rarity",
     matrixRows: [
       {
@@ -489,29 +544,36 @@ export const stealAnEggCopy = {
         status: "Seen in gameplay",
       },
       {
-        label: "Shiny / Rainbow / Crystal / Divine",
+        label: "Bloom",
+        category: "Update #1 mutation",
+        evidence: "Update #1 notes: unlocked after restoring the Sakura tree with a Crane.",
+        status: "Reported live",
+      },
+      {
+        label: "Spirit Bloom",
+        category: "Update #1 mutation",
+        evidence: "Update #1 notes: extremely rare Bloom variant. Odds blank here.",
+        status: "Reported live",
+      },
+      {
+        label: "Shiny / Rainbow / Crystal",
         category: "Other-wiki labels",
         evidence: "External wiki pages use these words, but this kit has not seen them on a hatch or Index panel.",
         status: "Unverified",
-      },
-      {
-        label: "Update #1 new mutation",
-        category: "Announced mutation",
-        evidence: "The official Roblox event update list says NEW MUTATION for Update #1.",
-        status: "Announced, not live here",
       },
     ],
     confirmed: [
       "Official description: pets have rarities, sizes, and mutations.",
       "Index tile colors in Forest run white → green → blue → purple → pink → gold. Only white is labeled Common so far.",
       "Gameplay showed gold Chicken, gold gecko / centipede, and silver crocodile — treat gold / silver as a coat, not a zone.",
-      "Huge and giant showed up as egg size in a live steal, not as a separate catalog name. A huge Cosmic Gorilla hatched larger than a smaller Cosmic Gorilla.",
+      "Huge and giant showed up as egg size in a live steal, not as a separate catalog name.",
       "Legendary appeared on a hatch label (Legendary Golden Cosmic Gecko).",
+      "Update #1 notes name Bloom and Spirit Bloom after the Sakura Incubator unlock — not Index-verified on this kit yet.",
     ],
     actionTitle: "What to record before trusting a mutation claim",
     actions: [
       "Screenshot the hatch label and the pet card together when possible.",
-      "Record whether the word is a color coat, size label, rarity label, or biome name.",
+      "For Bloom / Spirit Bloom, record whether the label appears on the egg, the incubator UI, or the hatched pet.",
       "Do not copy drop odds unless the game UI or a developer-owned source prints them.",
       "Keep huge and giant under egg size until a separate mutation panel says otherwise.",
     ],
@@ -520,16 +582,19 @@ export const stealAnEggCopy = {
       { name: "Shiny", wiki: "Rare recolor / value boost" },
       { name: "Rainbow", wiki: "Event / mutation label" },
       { name: "Crystal", wiki: "King Mammoth article: +35% defense. Unverified." },
-      { name: "Divine", wiki: "Endgame variant on one wiki. We only confirmed Divine as a paid trail name." },
+      {
+        name: "Divine (trail vs pet)",
+        wiki: "Paid Divine Trail exists. Kitsune is listed as Divine rarity in Update #1 notes — different claim.",
+      },
     ],
     otherNote:
-      "Huge / Giant / Golden are no longer “other wiki only” — those sizes and coats showed in gameplay. Remaining wiki words still disagree (Shiny vs Mutated vs Secret). No drop rates belong here until the Index or a developer post prints them.",
+      "Huge / Giant / Golden are no longer “other wiki only.” Bloom / Spirit Bloom come from Update #1 notes. Remaining wiki words still disagree. No drop rates belong here until the Index or a developer post prints them.",
     faq: {
       h2: "FAQ",
       items: [
         {
           q: "What mutations are confirmed in Steal An Egg?",
-          a: "Gold or Golden and Silver variants are seen in gameplay. This kit treats them as coats or mutations, not as priced multipliers.",
+          a: "Gold or Golden and Silver variants are seen in gameplay. Bloom and Spirit Bloom are named in Update #1 live notes via the Sakura Incubator path.",
         },
         {
           q: "Are Huge and Giant mutations?",
@@ -537,14 +602,14 @@ export const stealAnEggCopy = {
         },
         {
           q: "What are the mutation odds in Steal An Egg?",
-          a: "No odds are published here. We have not seen official odds or a full mutation Index.",
+          a: "No odds are published here — including Bloom / Spirit Bloom.",
         },
         {
-          q: "What is the new Update #1 mutation?",
-          a: "Not confirmed yet. The Update #1 list announces a new mutation, but the name, trigger, odds, and multiplier are not verified on this kit.",
+          q: "What is Bloom and Spirit Bloom?",
+          a: "Update #1 mutations unlocked after hatching a Crane, restoring the Sakura tree, then using The Great Bloom crystal path. Spirit Bloom is described as extremely rare. Multipliers stay blank.",
         },
         {
-          q: "Are Shiny, Rainbow, Crystal, or Divine confirmed?",
+          q: "Are Shiny, Rainbow, or Crystal confirmed?",
           a: "Not on this kit. Other wiki pages use those labels, but they stay unverified until they appear in-game or in a developer-owned source.",
         },
       ],
@@ -571,32 +636,36 @@ export const stealAnEggCopy = {
         "We do not publish an S-tier ranking. Huge eggs in the reset scramble are a size, not a timer. Blank income cells stay blank — we do not invent pay rates.",
     },
     pageH1: "Steal An Egg pets list — rarity, biome, income",
-    dek: "Every listed egg pet with rarity, biome, and income per second. Forest starters through Cosmic and limited Brainrot eggs.",
+    dek: "Every listed egg pet with rarity, biome, and income per second. Forest starters through Cosmic, Cherry Blossom (Update #1 notes), and limited Brainrot eggs.",
     lead:
-      "Steal An Egg pets hatch from eggs and pay coins every second. This list covers the published roster with rarity, biome, and income/second — Chicken at $1/s up through high earners like Cerberus at $8M/s. Rows still missing rarity or income stay as — until a published figure exists. Snow is the cold / Yeti area; Cosmic is Cosmic King; Brainrot covers limited eggs.",
+      "Steal An Egg pets hatch from eggs and pay coins every second. This list covers the published roster with rarity, biome, and income/second — Chicken at $1/s up through high earners like Cerberus at $8M/s — plus eight Cherry Blossom pets from Update #1 notes with rarity filled and income blank. Snow is the cold / Yeti area; Cosmic is Cosmic King; Cherry Blossom is Update #1; Brainrot covers limited eggs.",
     tableNote:
-      "Income is per second (/s). Some later pets still have no published rarity or income; those cells are — on purpose, not omitted by mistake.",
+      "Income is per second (/s). Some later pets — including all Cherry Blossom rows — still have no published income; those cells are — on purpose, not omitted by mistake.",
     faq: {
       h2: "FAQ",
       items: [
         {
           q: "How many pets are in Steal An Egg?",
-          a: "Public lists put the roster around 78 egg pets across Forest through Cosmic, plus limited Brainrot eggs. This page shows the published name table; Forest currently has seven named rows on that table.",
+          a: "Public lists put the older roster around 78 egg pets across Forest through Cosmic, plus limited Brainrot eggs. This page also adds eight Cherry Blossom pets from Update #1 notes.",
         },
         {
           q: "Why are some income cells blank?",
-          a: "Those pets do not have a published income/second figure yet. We show — instead of inventing numbers.",
+          a: "Those pets do not have a published income/second figure yet. Cherry Blossom pets stay — until a published table or Index panel exists.",
         },
         {
           q: "What does income/second mean?",
           a: "Equipped pets generate coins over time. Examples on this list: Chicken $1/s, Fox $180/s, King Mammoth $400K/s, Cerberus $8M/s.",
+        },
+        {
+          q: "What pets are in Cherry Blossom?",
+          a: "Update #1 notes: Crane (Epic), Salamander (Legendary), Red Panda (Mythic), Snow Owl (Cosmic), Koi (Cosmic), Stag (Secret), Oni Tiger (Eternal), Kitsune (Divine).",
         },
       ],
     },
     linkLabel: "Open the Steal An Egg pets list →",
     rosterTitle: "All eggs and pets",
     rosterNote:
-      "Roster columns: Egg/Pet, Rarity, Biome, Income/Second. Cross-checked 2026-08-21 against Beebom’s Steal an Egg all-eggs table for names and published cells. Spelling quirks (Centapede, Tob Tobi Tob Tob, Tralaledon) stay as published. Blank rarity or income is not invented here.",
+      "Roster columns: Egg/Pet, Rarity, Biome, Income/Second. Older rows cross-checked 2026-08-21 against Beebom. Cherry Blossom rows added 2026-08-25 from Update #1 live notes (rarity only; income blank). Spelling quirks (Centapede, Tob Tobi Tob Tob, Tralaledon) stay as published.",
     rosterSkip:
       "Not listed: steal-power, drop rates, ability text, S-tier rankings, or made-up income for blank cells.",
     rarityTitle: "Rarity words on the list",
@@ -608,9 +677,14 @@ export const stealAnEggCopy = {
         note: "Later biomes and rare-egg alerts use these labels.",
       },
       {
+        name: "Eternal",
+        status: "On the list (Update #1)",
+        note: "Oni Tiger is listed as Eternal in Cherry Blossom notes.",
+      },
+      {
         name: "Divine",
-        status: "Shop name",
-        note: "A paid Divine Trail exists. Not treated as a pet rarity on this list.",
+        status: "Pet rarity + shop trail",
+        note: "Kitsune is listed as Divine in Update #1 notes. A paid Divine Trail also exists — do not mix the two claims.",
       },
     ],
     indexTitle: "Index spot-check (optional)",
@@ -694,7 +768,7 @@ export const stealAnEggCopy = {
       },
       {
         q: "When is Steal An Egg Update #1?",
-        a: "The Roblox event view checked on 2026-08-20 shows Update #1 scheduled for 2026-08-22 at 23:00, with a new zone, Dragon Admin Abuse event, new mutation, and new event.",
+        a: "Treated as live on this kit as of 2026-08-25. Notes name Cherry Blossom Biome, eight new pets, Sakura Incubator, Bloom / Spirit Bloom, and The Great Bloom. See /steal-an-egg/updates.",
       },
       {
         q: "How do you make money?",
@@ -853,6 +927,14 @@ export const stealAnEggPetsRoster = [
   { name: "Cosmic Skeleton Boss", biome: "Cosmic", rarity: "—", income: "—" },
   { name: "Eternal Lunar Dragon", biome: "Cosmic", rarity: "—", income: "—" },
   { name: "Unicorn", biome: "Cosmic", rarity: "—", income: "—" },
+  { name: "Crane", biome: "Cherry Blossom", rarity: "Epic", income: "—" },
+  { name: "Salamander", biome: "Cherry Blossom", rarity: "Legendary", income: "—" },
+  { name: "Red Panda", biome: "Cherry Blossom", rarity: "Mythic", income: "—" },
+  { name: "Snow Owl", biome: "Cherry Blossom", rarity: "Cosmic", income: "—" },
+  { name: "Koi", biome: "Cherry Blossom", rarity: "Cosmic", income: "—" },
+  { name: "Stag", biome: "Cherry Blossom", rarity: "Secret", income: "—" },
+  { name: "Oni Tiger", biome: "Cherry Blossom", rarity: "Eternal", income: "—" },
+  { name: "Kitsune", biome: "Cherry Blossom", rarity: "Divine", income: "—" },
   { name: "Tung Tung Sahur", biome: "Brainrot", rarity: "—", income: "—" },
   { name: "Bananita Dolphinita", biome: "Brainrot", rarity: "—", income: "—" },
   { name: "Belula Beluga", biome: "Brainrot", rarity: "—", income: "—" },
@@ -910,13 +992,13 @@ export const stealAnEggMetadata = pageMetadata(
 
 export const stealAnEggUpdatesMetadata = pageMetadata(
   stealAnEggCopy.updates.pageH1,
-  "Steal An Egg Update #1 status: new zone, Dragon Admin Abuse, new mutation, and new event are Announced. Names and rewards stay blank until live.",
+  "Steal An Egg Update #1: Cherry Blossom Biome, eight new pets, Sakura Incubator, Bloom / Spirit Bloom, The Great Bloom. Speed gates and $/s still blank.",
   `${stealAnEgg.path}/updates`,
 );
 
 export const stealAnEggPetsMetadata = pageMetadata(
   stealAnEggCopy.pets.pageH1,
-  "Steal An Egg pets list with rarity, biome, and income per second — Chicken $1/s through Cosmic and Secret earners. Blank cells mean no published figure yet.",
+  "Steal An Egg pets list with rarity, biome, and income/second — plus Cherry Blossom roster from Update #1 notes. Blank income means no published figure yet.",
   `${stealAnEgg.path}/pets`,
 );
 
@@ -928,19 +1010,19 @@ export const stealAnEggSpeedMetadata = pageMetadata(
 
 export const stealAnEggEggsMetadata = pageMetadata(
   stealAnEggCopy.eggs.pageH1,
-  "Eggs come from nests, biome pets, player steals, shop pools, and reset races. Huge and giant are sizes. Update #1: no new egg name verified.",
+  "Eggs from nests, biome pets, steals, shop, reset races. Update #1: Cherry Blossom Egg and Sakura Crystal mutate path from live notes.",
   `${stealAnEgg.path}/eggs`,
 );
 
 export const stealAnEggBiomesMetadata = pageMetadata(
   stealAnEggCopy.biomes.pageH1,
-  "Steal An Egg biomes: Forest, Lake, Desert, Jungle, Yeti/ice, Volcano, Abyss Ocean, Prehistoric, Cosmic King. Update #1 new zone not named yet.",
+  "Steal An Egg biomes: Forest through Cosmic King, plus Cherry Blossom from Update #1 notes. Speed gates unpublished.",
   `${stealAnEgg.path}/biomes`,
 );
 
 export const stealAnEggMutationsMetadata = pageMetadata(
   stealAnEggCopy.mutations.pageH1,
-  "Steal An Egg mutations and sizes: gold and silver coats, huge and giant egg size, Legendary hatch labels, plus Update #1 new mutation status.",
+  "Steal An Egg mutations: gold and silver coats, huge and giant sizes, Bloom and Spirit Bloom from Update #1 Sakura Incubator notes.",
   `${stealAnEgg.path}/mutations`,
 );
 

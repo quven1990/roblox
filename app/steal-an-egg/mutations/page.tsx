@@ -46,11 +46,12 @@ export default function StealAnEggMutationsPage() {
             verified={[
               "Official description says pets have rarities, sizes, and mutations.",
               "Gameplay shows gold and silver variants, huge/giant egg sizes, and a Legendary hatch label.",
-              "The table below separates other-wiki labels from what this kit has actually seen.",
+              "Update #1 live notes name Bloom and Spirit Bloom after the Sakura Incubator unlock (reported, not Index-photographed).",
+              "The table below separates other-wiki labels from gameplay and reported Update #1 names.",
             ]}
             unverified={[
               "Published mutation odds, sell multipliers, or a full official mutation Index.",
-              "Whether wiki-only labels such as Shiny, Rainbow, or Crystal are live in this game.",
+              "Bloom / Spirit Bloom crystal costs and whether wiki-only labels such as Shiny or Rainbow are live.",
             ]}
           />
           <h2>{copy.matrixTitle}</h2>

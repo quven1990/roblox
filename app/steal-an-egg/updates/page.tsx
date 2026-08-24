@@ -44,11 +44,23 @@ export default function StealAnEggUpdatesPage() {
             columns={["item", "status", "detail"]}
             rows={update.rows.map((row) => [row.item, row.status, row.detail])}
           />
+          <p>{update.sourceNote}</p>
           <p>
             <a href={update.eventUrl} rel="noopener noreferrer">
               {update.eventLabel} →
             </a>
           </p>
+          <h2>{copy.sakuraTitle}</h2>
+          <ol className="steps">
+            {copy.sakuraSteps.map((step, index) => (
+              <li key={step}>
+                <span>{String(index + 1).padStart(2, "0")}</span>
+                <p>{step}</p>
+              </li>
+            ))}
+          </ol>
+          <h2>{copy.bloomTitle}</h2>
+          <p>{copy.bloomBody}</p>
           <h2>{copy.howTitle}</h2>
           <p>{copy.howBody}</p>
           <h2>{copy.notTitle}</h2>
@@ -57,14 +69,13 @@ export default function StealAnEggUpdatesPage() {
               <li key={item}>{item}</li>
             ))}
           </ul>
-          <h2>Recheck after launch</h2>
+          <h2>Related pages</h2>
           <p>
-            After Update #1 goes live, confirm changes on{" "}
+            Details split across{" "}
             <Link href={`${stealAnEgg.path}/biomes`}>biomes</Link>,{" "}
             <Link href={`${stealAnEgg.path}/mutations`}>mutations</Link>,{" "}
             <Link href={`${stealAnEgg.path}/eggs`}>eggs</Link>, and{" "}
-            <Link href={`${stealAnEgg.path}/pets`}>pets</Link> before trusting a
-            pre-launch name.
+            <Link href={`${stealAnEgg.path}/pets`}>pets</Link>.
           </p>
           <h2>{copy.faq.h2}</h2>
           <div className="faq">

@@ -86,12 +86,13 @@ export function StealAnEggHome() {
               "Forest and Lake pet Index details come from an in-game screenshot.",
               "Later biomes are labeled from public English-client gameplay, not invented tier names.",
               "The official Roblox event page title says ADMIN ABUSE!? + New Zone - Steal An Egg for Update #1.",
+              "Update #1 live notes (2026-08-25) name Cherry Blossom Biome, Bloom / Spirit Bloom, and eight new pets — treated as reported, not Index-photographed here yet.",
               "No redeem UI is confirmed for this kit, so there is no Steal An Egg codes page.",
             ]}
             unverified={[
-              "Full later-biome Index rows and exact Speed gate numbers.",
-              "Published odds for huge, giant, gold, silver, and rare egg outcomes.",
-              "Update #1 new zone name, new mutation name, Dragon event mechanics, and rewards before launch.",
+              "Full later-biome Index rows and exact Speed gate numbers, including Cherry Blossom.",
+              "Published odds for huge, giant, gold, silver, Bloom, and Spirit Bloom outcomes.",
+              "Income/second for Crane through Kitsune, and Dragon Admin Abuse mechanics / rewards.",
             ]}
           />
 
