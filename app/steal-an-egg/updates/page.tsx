@@ -39,6 +39,11 @@ export default function StealAnEggUpdatesPage() {
             ]}
           />
           <p>{copy.lead}</p>
+          <h2>{copy.quickTitle}</h2>
+          <DataTable
+            columns={["question", "answer"]}
+            rows={copy.quickRows.map((row) => [row.question, row.answer])}
+          />
           <h2>{update.h2}</h2>
           <DataTable
             columns={["item", "status", "detail"]}

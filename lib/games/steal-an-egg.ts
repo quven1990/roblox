@@ -71,20 +71,20 @@ export const stealAnEggVideos = {
 } as const;
 
 export const stealAnEggCopy = {
-  title: "Steal An Egg Update #1 — Cherry Blossom biome live",
+  title: "Steal An Egg Update #1 — Cherry Blossom, Sakura, mutations",
   h1: "Steal An Egg (Roblox) — steal eggs, hatch pets, train Speed",
   dek: "Steal An Egg is a Roblox pet / tycoon by and Collect Rare Pets. This unofficial guide is not Steal a Brainrot and not the older game titled Steal a Egg.",
   metaDescription:
     "Unofficial Steal An Egg Roblox guide: Update #1 Cherry Blossom biome, Bloom mutations, Sakura Incubator, eggs, biomes, pets, and Speed.",
   heroCta: "Play on Roblox",
   update1: {
-    h2: "Update #1 — Cherry Blossom live notes",
+    h2: "Update #1 — Cherry Blossom, Sakura, mutations",
     lead:
-      "Steal An Egg Update #1 is treated as live on this kit as of 2026-08-25. Official Roblox event title was “ADMIN ABUSE!? + New Zone - Steal An Egg.” Post-launch notes name Cherry Blossom Biome, eight new pets, Sakura Incubator, Bloom / Spirit Bloom mutations, and The Great Bloom event. Income, Speed gates, and mutation odds are still not published here.",
+      "Steal An Egg Update #1 is treated as live on this kit as of 2026-08-25. The official Roblox event title was “ADMIN ABUSE!? + New Zone - Steal An Egg.” Reported post-launch guides name the player route as Cherry Blossom Egg → Crane → Sakura Incubator → Great Bloom crystals → Bloom / Spirit Bloom mutation. Rates, crystal thresholds, and some income figures are still marked reported instead of verified.",
     eventUrl: "https://www.roblox.com/events/4073678192131572359",
     eventLabel: "Open the Roblox event page",
     sourceNote:
-      "Cherry Blossom names and unlock steps come from reported Update #1 live notes (2026-08-25). They are not Index screenshots on this kit yet. Speed gate numbers and $/s for the new pets stay blank until published or photographed.",
+      "Roblox confirms the event shell. Cherry Blossom names, Sakura Incubator steps, pet income, and Bloom odds come from public post-launch guides checked 2026-08-25 to 2026-08-27. They are marked reported or community-reported until this kit has its own Index screenshots.",
     rows: [
       {
         item: "Cherry Blossom Biome",
@@ -94,9 +94,9 @@ export const stealAnEggCopy = {
       },
       {
         item: "Eight new pets",
-        status: "Reported live",
+        status: "Reported roster",
         detail:
-          "Crane (Epic), Salamander (Legendary), Red Panda (Mythic), Snow Owl (Cosmic), Koi (Cosmic), Stag (Secret), Oni Tiger (Eternal), Kitsune (Divine). Income/second not published here.",
+          "Crane, Salamander, Red Panda, Snowy Owl, Koi, Stag, Oni Tiger, Kitsune. Public rosters disagree on timing and completeness, so the pets page marks these as reported.",
       },
       {
         item: "Sakura Incubator",
@@ -106,15 +106,15 @@ export const stealAnEggCopy = {
       },
       {
         item: "Bloom / Spirit Bloom",
-        status: "Reported live",
+        status: "Community-reported rates",
         detail:
-          "Two new mutations from the Sakura unlock path. Spirit Bloom is described as an extremely rare variant. Odds and multipliers are blank here.",
+          "Two new mutations from the Sakura unlock path. Some guides report Bloom at 97.5% and Spirit Bloom at 2.5%; multipliers are not verified here.",
       },
       {
         item: "The Great Bloom",
-        status: "Reported live",
+        status: "Reported cadence",
         detail:
-          "Notes: every 30 minutes the biome fills with Sakura Crystal Trees. Break them, deposit Sakura Crystals into the incubator to mutate eggs.",
+          "Reported about every 30 minutes for a short crystal-farming window. Use it to fill the Sakura Incubator and mutate eggs.",
       },
       {
         item: "Dragon Admin Abuse",
@@ -170,17 +170,35 @@ export const stealAnEggCopy = {
     ],
   },
   updates: {
-    pageH1: "Steal An Egg updates — Cherry Blossom Update #1",
-    dek: "Update #1 live notes: Cherry Blossom Biome, eight new pets, Sakura Incubator, Bloom / Spirit Bloom, The Great Bloom every 30 minutes.",
-    lead: "Steal An Egg Update #1 is treated as live on this kit (checked 2026-08-25). Post-launch notes name Cherry Blossom Biome and the Sakura unlock path. Roblox event title remains “ADMIN ABUSE!? + New Zone - Steal An Egg.” Income and Speed gates for the new content stay blank until photographed.",
+    pageH1: "Steal An Egg Update #1 — Cherry Blossom, Sakura, mutations",
+    dek: "Player route for Update #1: Cherry Blossom Egg, Crane unlock, Sakura Incubator, Bloom mutation, Spirit Bloom mutation, and the reported Great Bloom crystal event.",
+    lead: "If you are searching what to do in Steal An Egg Update #1, the route is: reach Cherry Blossom, hatch a Crane from a Cherry Blossom Egg, unlock the Sakura Incubator, farm Great Bloom crystals, then roll Bloom or Spirit Bloom on eggs. Roblox confirms the event page; the exact route, odds, and new-pet income are public-guide reports checked 2026-08-27.",
+    quickTitle: "Fast answer for players",
+    quickRows: [
+      {
+        question: "What changed in Update #1?",
+        answer:
+          "Cherry Blossom zone, Sakura Incubator, Bloom / Spirit Bloom mutations, Great Bloom crystals, and eight reported Cherry Blossom pets.",
+      },
+      {
+        question: "What do I do first?",
+        answer:
+          "Reach Cherry Blossom and hatch Crane from a Cherry Blossom Egg. Multiple guides report Crane as the Sakura Incubator unlock pet.",
+      },
+      {
+        question: "What is still not verified?",
+        answer:
+          "In-kit Index screenshots for Cherry Blossom pets, official mutation multipliers, and exact crystal thresholds.",
+      },
+    ],
     howTitle: "How to read this page",
     howBody:
       "Event titles prove scheduling. Live notes name biome, pets, mutations, and event cadence. This kit still waits on Index tiles or in-game screenshots before publishing $/s, gate numbers, or mutation odds.",
     sakuraTitle: "Sakura Incubator unlock (reported)",
     sakuraSteps: [
       "Hatch a Crane pet from a Cherry Blossom Egg.",
-      "Bring the Crane to the ancient Sakura tree in the Cherry Blossom Biome.",
-      "Restore the tree to unlock Bloom and Spirit Bloom mutations.",
+      "Use the Crane at the ancient Sakura tree / Sakura Incubator in the Cherry Blossom Biome. Guides disagree on whether to call this offer or sacrifice, so check the live prompt.",
+      "Farm Sakura Crystals during The Great Bloom and deposit them into the incubator to roll Bloom or Spirit Bloom on eggs.",
     ],
     bloomTitle: "The Great Bloom (reported)",
     bloomBody:
@@ -188,8 +206,8 @@ export const stealAnEggCopy = {
     notTitle: "What is still blank on purpose",
     notItems: [
       "Recommended Speed for Cherry Blossom and any other gate numbers.",
-      "Income/second for Crane through Kitsune until a published table or Index panel exists.",
-      "Bloom / Spirit Bloom odds or sell multipliers.",
+      "Official Index screenshots for Crane through Kitsune on this kit.",
+      "Official Bloom / Spirit Bloom sell multipliers.",
       "Dragon Admin Abuse spawn rules, rewards, and duration (still separate from Cherry Blossom notes).",
     ],
     faq: {
@@ -205,7 +223,11 @@ export const stealAnEggCopy = {
         },
         {
           q: "What are the new mutations?",
-          a: "Bloom and Spirit Bloom. Notes say Spirit Bloom is an extremely rare variant. Odds stay blank.",
+          a: "Bloom and Spirit Bloom. Community guides report Bloom as common and Spirit Bloom as rare, but this kit keeps rates and multipliers labeled reported until the UI or developer source prints them.",
+        },
+        {
+          q: "How do you unlock the Sakura Incubator?",
+          a: "Reported route: hatch Crane from a Cherry Blossom Egg, use Crane at the Sakura tree / incubator, then farm Great Bloom crystals. Wording differs by guide, so follow the live prompt before spending a rare pet.",
         },
         {
           q: "Does Update #1 add codes?",
@@ -287,8 +309,8 @@ export const stealAnEggCopy = {
     h2: "Eggs",
     teaser:
       "Steal from pets, nests, and players. Shop eggs are a different pool. Egg reset and a moon event kick off the scramble — that is the rare-egg race other wikis write about.",
-    pageH1: "Steal An Egg all eggs — nests, shop, reset",
-    dek: "Eggs come from nests, biome pets, player steals, shop pools, and reset races. Huge and giant are sizes. Update #1 adds Cherry Blossom Egg / Sakura Crystal mutate path from live notes.",
+    pageH1: "Steal An Egg Cherry Blossom Egg — Crane and Sakura Incubator",
+    dek: "Cherry Blossom Egg, Crane unlock, Sakura Incubator, nests, shop pools, reset races, and which claims are reported vs Index-verified.",
     lead:
       "Eggs come from nests, biome pets, player steals, shop pools, and reset races. Huge and giant are sizes, not separate catalog names. Update #1 live notes name Cherry Blossom Eggs (for the Crane unlock) and Sakura Crystal deposits that mutate eggs during The Great Bloom. Dragon Admin Abuse still has no confirmed egg name here.",
     updateTitle: "Update #1 — Cherry Blossom eggs",
@@ -296,6 +318,18 @@ export const stealAnEggCopy = {
       "Reported from Update #1 notes: hatch a Crane from a Cherry Blossom Egg, then use The Great Bloom (~every 30 minutes) to break Sakura Crystal Trees and deposit crystals into the Sakura Incubator to mutate eggs. Crystal costs and mutation odds stay blank. Dragon Admin Abuse remains a separate announced event without a verified egg name on this kit.",
     indexTitle: "All eggs vs Pet Index vs shop",
     indexAnswers: [
+      {
+        name: "Cherry Blossom Egg",
+        note: "Reported Update #1 egg used to hatch Crane. This is the first step in the Sakura Incubator unlock path.",
+      },
+      {
+        name: "Sakura Incubator",
+        note: "Not an egg itself. It is the reported mutation machine that consumes Sakura Crystals to roll Bloom / Spirit Bloom.",
+      },
+      {
+        name: "Crane unlock",
+        note: "Reported by post-launch guides. Some call it offering Crane, others say sacrifice; this kit marks the action reported until we have a prompt screenshot.",
+      },
       {
         name: "All eggs",
         note: "Use this page for the full evidence desk: biome/nest eggs, player steals, shop eggs, reset rares, huge and giant sizes, and gameplay hatch names.",
@@ -307,6 +341,30 @@ export const stealAnEggCopy = {
       {
         name: "Shop eggs",
         note: "Shop eggs are a separate pool until their hatch appears in the Index or in clear gameplay footage.",
+      },
+    ],
+    craneTitle: "Crane unlock path (reported)",
+    craneRows: [
+      {
+        step: "Reach Cherry Blossom",
+        evidence: "Public guides report Cherry Blossom as the Update #1 zone behind late-game Speed.",
+        status: "Reported",
+      },
+      {
+        step: "Hatch Cherry Blossom Egg",
+        evidence: "Reported source for Crane, the Epic pet used by the Sakura tree / incubator prompt.",
+        status: "Reported",
+      },
+      {
+        step: "Use Crane at Sakura Incubator",
+        evidence:
+          "Guides agree Crane unlocks the Sakura Incubator, but wording differs on offer vs sacrifice.",
+        status: "Reported / prompt needed",
+      },
+      {
+        step: "Farm Sakura Crystals",
+        evidence: "The Great Bloom cadence is reported around every 30 minutes for a short window.",
+        status: "Community-reported cadence",
       },
     ],
     matrixTitle: "All eggs evidence matrix",
@@ -434,6 +492,10 @@ export const stealAnEggCopy = {
           q: "What is a Cherry Blossom Egg?",
           a: "Update #1 notes: hatch a Crane from a Cherry Blossom Egg to start the Sakura Incubator unlock. Exact nest locations and odds are not photographed here.",
         },
+        {
+          q: "Does Crane unlock the Sakura Incubator?",
+          a: "Reported, yes. Multiple post-launch guides say Crane is required for the Sakura Incubator, but this kit still wants an in-game prompt screenshot before marking the exact offer/sacrifice wording verified.",
+        },
       ],
     },
   },
@@ -475,7 +537,7 @@ export const stealAnEggCopy = {
         claim: "Eight biome pets + rarities",
         status: "Reported live",
         evidence:
-          "Crane Epic → Kitsune Divine in the notes. Income/second blank on the pets page.",
+          "Crane Epic -> Kitsune Divine in the notes. Pets page lists reported income separately from this kit's Index status.",
       },
       {
         claim: "Speed gate and route",
@@ -510,13 +572,40 @@ export const stealAnEggCopy = {
     h2: "Mutations & sizes",
     teaser:
       "Official description lists rarities, sizes, and mutations. Gameplay shows gold and silver coats. Update #1 notes add Bloom and Spirit Bloom via the Sakura Incubator.",
-    pageH1: "Steal An Egg mutations — gold, silver, Bloom, Spirit Bloom",
-    dek: "Gold and silver coats, huge and giant egg sizes, Legendary hatch labels, plus Bloom and Spirit Bloom from Update #1 Cherry Blossom notes. Odds and multipliers stay blank.",
+    pageH1: "Steal An Egg mutations — Bloom, Spirit Bloom, Sakura",
+    dek: "Bloom mutation, Spirit Bloom mutation, Sakura Incubator route, gold / silver coats, huge / giant sizes, and which mutation claims are verified vs reported.",
     lead:
       "Steal An Egg mutations checked August 25, 2026: gameplay still shows gold and silver variants, huge and giant egg sizes, and Legendary hatch labels. Update #1 live notes add Bloom Mutation and Spirit Bloom Mutation (described as extremely rare) after unlocking the Sakura Incubator. No odds or sell multipliers are published here.",
     updateTitle: "Update #1 — Bloom mutations",
     updateBody:
-      "Reported unlock: hatch a Crane from a Cherry Blossom Egg, bring it to the ancient Sakura tree, restore the tree to unlock Bloom and Spirit Bloom. During The Great Bloom (~every 30 minutes), deposit Sakura Crystals into the incubator to mutate eggs. Crystal costs, odds, and value multipliers stay blank until the UI prints them.",
+      "Reported unlock: hatch a Crane from a Cherry Blossom Egg, use Crane at the Sakura tree / Sakura Incubator, then deposit Sakura Crystals during The Great Bloom to mutate eggs. Community guides report Bloom and Spirit Bloom rates, but official multipliers and exact thresholds stay blank until the UI prints them.",
+    sakuraTitle: "Bloom / Spirit Bloom route",
+    sakuraRows: [
+      {
+        query: "bloom mutation",
+        answer:
+          "Reported common Sakura Incubator outcome after charging eggs with Sakura Crystals.",
+        status: "Reported",
+      },
+      {
+        query: "spirit bloom mutation",
+        answer:
+          "Reported rare Sakura Incubator outcome; some community guides list 2.5%, but this kit does not mark that official.",
+        status: "Community-reported odds",
+      },
+      {
+        query: "sakura mutation",
+        answer:
+          "Players usually mean the Bloom family from the Sakura Incubator, not a separate confirmed mutation named Sakura.",
+        status: "Query clarification",
+      },
+      {
+        query: "sakura incubator",
+        answer:
+          "Reported Update #1 machine unlocked with Crane and powered by Sakura Crystals from The Great Bloom.",
+        status: "Reported",
+      },
+    ],
     matrixTitle: "Mutation vs size vs rarity",
     matrixRows: [
       {
@@ -546,14 +635,14 @@ export const stealAnEggCopy = {
       {
         label: "Bloom",
         category: "Update #1 mutation",
-        evidence: "Update #1 notes: unlocked after restoring the Sakura tree with a Crane.",
+        evidence: "Reported Update #1 route: Crane unlock plus Sakura Crystal deposits in the incubator.",
         status: "Reported live",
       },
       {
         label: "Spirit Bloom",
         category: "Update #1 mutation",
-        evidence: "Update #1 notes: extremely rare Bloom variant. Odds blank here.",
-        status: "Reported live",
+        evidence: "Reported rare Bloom-family outcome. Some guides report 2.5%; official multiplier not verified.",
+        status: "Community-reported odds",
       },
       {
         label: "Shiny / Rainbow / Crystal",
@@ -602,11 +691,15 @@ export const stealAnEggCopy = {
         },
         {
           q: "What are the mutation odds in Steal An Egg?",
-          a: "No odds are published here — including Bloom / Spirit Bloom.",
+          a: "For Bloom and Spirit Bloom, some community guides report odds, but this kit keeps them labeled community-reported until the live UI or a developer-owned source prints the numbers.",
+        },
+        {
+          q: "Is Sakura a mutation in Steal An Egg?",
+          a: "Not as a separate confirmed mutation on this kit. Sakura usually refers to the Sakura Incubator route that rolls Bloom or Spirit Bloom.",
         },
         {
           q: "What is Bloom and Spirit Bloom?",
-          a: "Update #1 mutations unlocked after hatching a Crane, restoring the Sakura tree, then using The Great Bloom crystal path. Spirit Bloom is described as extremely rare. Multipliers stay blank.",
+          a: "Update #1 mutations unlocked after hatching a Crane, using the Sakura tree / incubator, then using The Great Bloom crystal path. Spirit Bloom is described as the rare outcome. Multipliers stay blank.",
         },
         {
           q: "Are Shiny, Rainbow, or Crystal confirmed?",
@@ -621,7 +714,7 @@ export const stealAnEggCopy = {
   },
   pets: {
     h2: "Pets",
-    body: "Full Steal An Egg pets list with rarity, biome, and income per second — from Forest starters through Cosmic and limited Brainrot eggs.",
+    body: "Full Steal An Egg pets list with rarity, biome, reported income per second, and separate Index status — from Forest starters through Cherry Blossom and limited Brainrot eggs.",
     fillFaster: {
       h2: "How to collect pets faster",
       intro:
@@ -633,24 +726,24 @@ export const stealAnEggCopy = {
         "When egg reset or a Secret / Eternal / Cosmic alert fires, leave the treadmill. Bigger eggs in later zones are the usual high-value contests.",
       ],
       skip:
-        "We do not publish an S-tier ranking. Huge eggs in the reset scramble are a size, not a timer. Blank income cells stay blank — we do not invent pay rates.",
+        "Rank by income you can actually hatch. Huge eggs in the reset scramble are a size, not a timer. Blank income cells stay blank when no usable roster source has published a figure.",
     },
-    pageH1: "Steal An Egg pets list — rarity, biome, income",
-    dek: "Every listed egg pet with rarity, biome, and income per second. Forest starters through Cosmic, Cherry Blossom (Update #1 notes), and limited Brainrot eggs.",
+    pageH1: "Steal An Egg pets list — income, Cherry Blossom roster",
+    dek: "Reported income roster plus Index status: Forest through Cosmic, Cherry Blossom Update #1 pets, and limited Brainrot eggs.",
     lead:
-      "Steal An Egg pets hatch from eggs and pay coins every second. This list covers the published roster with rarity, biome, and income/second — Chicken at $1/s up through high earners like Cerberus at $8M/s — plus eight Cherry Blossom pets from Update #1 notes with rarity filled and income blank. Snow is the cold / Yeti area; Cosmic is Cosmic King; Cherry Blossom is Update #1; Brainrot covers limited eggs.",
+      "Steal An Egg pets hatch from eggs and pay coins every second. This page now separates two things Google users need: a reported income roster from public guides, and the smaller Index status this kit has personally photographed. Public rosters list about 86 pets after Cherry Blossom, including reported high earners like Unicorn, Kitsune, Oni Tiger, and Eternal Lunar Dragon.",
     tableNote:
-      "Income is per second (/s). Some later pets — including all Cherry Blossom rows — still have no published income; those cells are — on purpose, not omitted by mistake.",
+      "Income is per second (/s). Values from public roster guides are reported, not developer API data. A blank cell means no usable roster source was found for that pet.",
     faq: {
       h2: "FAQ",
       items: [
         {
           q: "How many pets are in Steal An Egg?",
-          a: "Public lists put the older roster around 78 egg pets across Forest through Cosmic, plus limited Brainrot eggs. This page also adds eight Cherry Blossom pets from Update #1 notes.",
+          a: "Beebom’s older all-eggs table lists 78 rows, while newer post-update guides list about 86 pets after Cherry Blossom. This page shows the roster rows we can name and labels the smaller Index status separately.",
         },
         {
           q: "Why are some income cells blank?",
-          a: "Those pets do not have a published income/second figure yet. Cherry Blossom pets stay — until a published table or Index panel exists.",
+          a: "Those pets do not have a usable public income/second figure yet, or sources are too thin to rely on. Blank is deliberate.",
         },
         {
           q: "What does income/second mean?",
@@ -658,16 +751,34 @@ export const stealAnEggCopy = {
         },
         {
           q: "What pets are in Cherry Blossom?",
-          a: "Update #1 notes: Crane (Epic), Salamander (Legendary), Red Panda (Mythic), Snow Owl (Cosmic), Koi (Cosmic), Stag (Secret), Oni Tiger (Eternal), Kitsune (Divine).",
+          a: "Reported Cherry Blossom pets: Crane, Salamander, Red Panda, Snowy Owl, Koi, Stag, Oni Tiger, and Kitsune. Their incomes are reported from public roster pages, not from this kit’s own Index photo yet.",
         },
       ],
     },
-    linkLabel: "Open the Steal An Egg pets list →",
-    rosterTitle: "All eggs and pets",
+    linkLabel: "Open the Steal An Egg pets list ->",
+    rosterTitle: "Reported income roster + Index status",
     rosterNote:
-      "Roster columns: Egg/Pet, Rarity, Biome, Income/Second. Older rows cross-checked 2026-08-21 against Beebom. Cherry Blossom rows added 2026-08-25 from Update #1 live notes (rarity only; income blank). Spelling quirks (Centapede, Tob Tobi Tob Tob, Tralaledon) stay as published.",
+      "Roster columns: Egg/Pet, Rarity, Biome, Income/Second. Early and mid-game rows were cross-checked against Beebom; later income came from post-update public roster pages checked 2026-08-27. Spelling quirks (Centapede, Tob Tobi Tob Tob, Tralaledon) stay as published.",
     rosterSkip:
-      "Not listed: steal-power, drop rates, ability text, S-tier rankings, or made-up income for blank cells.",
+      "Not listed: steal-power, drop rates, ability text, fake S-tier rankings, or exact Bloom multipliers.",
+    sourceTitle: "Source status",
+    sourceRows: [
+      {
+        source: "This kit's Index photo",
+        use: "Confirms Chicken detail panel and a small set of early visible names.",
+        status: "Verified on this kit",
+      },
+      {
+        source: "Beebom all-eggs table",
+        use: "Confirms many early/mid roster names and income values; its Cherry Blossom rows were still TBA.",
+        status: "Reported roster",
+      },
+      {
+        source: "AllThings / Eldorado / other post-update rosters",
+        use: "Fill later Cosmic, Prehistoric, top earners, and Cherry Blossom income where public roster pages give usable figures.",
+        status: "Reported income",
+      },
+    ],
     rarityTitle: "Rarity words on the list",
     rarityRows: [
       { name: "Common → Epic", status: "On the list", note: "Early biomes use Common, Uncommon, Rare, Epic." },
@@ -854,7 +965,7 @@ export const stealAnEggIndex = {
   ],
 } as const;
 
-/** Beebom all-eggs table: Egg/Pet, Rarity, Biome, Income/Second. Blank cells stay —. */
+/** Public roster tables: Egg/Pet, Rarity, Biome, Income/Second. Blank cells stay —. */
 export const stealAnEggPetsRoster = [
   { name: "Chicken", biome: "Forest", rarity: "Common", income: "$1/s" },
   { name: "Dog", biome: "Forest", rarity: "Common", income: "$2/s" },
@@ -894,15 +1005,15 @@ export const stealAnEggPetsRoster = [
   { name: "Mammoth", biome: "Snow", rarity: "Mythic", income: "$42K/s" },
   { name: "King Mammoth", biome: "Snow", rarity: "Cosmic", income: "$400K/s" },
   { name: "Yeti", biome: "Snow", rarity: "—", income: "—" },
-  { name: "Ice Dragon", biome: "Snow", rarity: "—", income: "—" },
+  { name: "Ice Dragon", biome: "Snow", rarity: "Eternal", income: "$65M/s" },
   { name: "Lava Gecko", biome: "Volcano", rarity: "—", income: "—" },
   { name: "Lava Frog", biome: "Volcano", rarity: "Epic", income: "$850/s" },
   { name: "Flaming Bull", biome: "Volcano", rarity: "Legendary", income: "$9.5K/s" },
   { name: "Lava Iguana", biome: "Volcano", rarity: "Legendary", income: "$11K/s" },
   { name: "Chillin Chilli", biome: "Volcano", rarity: "Mythic", income: "$55K/s" },
   { name: "Cerberus", biome: "Volcano", rarity: "Secret", income: "$8M/s" },
-  { name: "Phoenix", biome: "Volcano", rarity: "—", income: "—" },
-  { name: "Lava Dragon", biome: "Volcano", rarity: "—", income: "—" },
+  { name: "Phoenix", biome: "Volcano", rarity: "Eternal", income: "$85M/s" },
+  { name: "Lava Dragon", biome: "Volcano", rarity: "Eternal", income: "$100M/s" },
   { name: "Parrotfish", biome: "Abyss Ocean", rarity: "Rare", income: "$220/s" },
   { name: "Swordfish", biome: "Abyss Ocean", rarity: "Epic", income: "$1.1K/s" },
   { name: "Shark", biome: "Abyss Ocean", rarity: "Legendary", income: "$15K/s" },
@@ -910,31 +1021,31 @@ export const stealAnEggPetsRoster = [
   { name: "Whale Shark", biome: "Abyss Ocean", rarity: "Cosmic", income: "$700K/s" },
   { name: "Beluga Whale", biome: "Abyss Ocean", rarity: "Cosmic", income: "$850K/s" },
   { name: "Kraken", biome: "Abyss Ocean", rarity: "—", income: "—" },
-  { name: "El Maja", biome: "Abyss Ocean", rarity: "—", income: "—" },
-  { name: "Dodo", biome: "Prehistoric", rarity: "—", income: "—" },
-  { name: "Pterodactyl", biome: "Prehistoric", rarity: "—", income: "—" },
+  { name: "El Maja", biome: "Abyss Ocean", rarity: "Eternal", income: "$130M/s" },
+  { name: "Dodo", biome: "Prehistoric", rarity: "Rare", income: "$280/s" },
+  { name: "Pterodactyl", biome: "Prehistoric", rarity: "Legendary", income: "$22K/s" },
   { name: "Ankylosaurus", biome: "Prehistoric", rarity: "Mythic", income: "$120K/s" },
-  { name: "Triceratops", biome: "Prehistoric", rarity: "—", income: "—" },
+  { name: "Triceratops", biome: "Prehistoric", rarity: "Cosmic", income: "$1.2M/s" },
   { name: "Bronto", biome: "Prehistoric", rarity: "Cosmic", income: "$1.5M/s" },
-  { name: "Tralaledon", biome: "Prehistoric", rarity: "—", income: "—" },
-  { name: "TRex", biome: "Prehistoric", rarity: "—", income: "—" },
-  { name: "Mosasaurus", biome: "Prehistoric", rarity: "—", income: "—" },
-  { name: "Centapede", biome: "Cosmic", rarity: "—", income: "—" },
-  { name: "Cosmic Gecko", biome: "Cosmic", rarity: "—", income: "—" },
-  { name: "Cosmic Gorilla", biome: "Cosmic", rarity: "—", income: "—" },
-  { name: "La Vacca Saturno Saturnita", biome: "Cosmic", rarity: "—", income: "—" },
-  { name: "Cosmic Dragon", biome: "Cosmic", rarity: "—", income: "—" },
-  { name: "Cosmic Skeleton Boss", biome: "Cosmic", rarity: "—", income: "—" },
-  { name: "Eternal Lunar Dragon", biome: "Cosmic", rarity: "—", income: "—" },
-  { name: "Unicorn", biome: "Cosmic", rarity: "—", income: "—" },
-  { name: "Crane", biome: "Cherry Blossom", rarity: "Epic", income: "—" },
-  { name: "Salamander", biome: "Cherry Blossom", rarity: "Legendary", income: "—" },
-  { name: "Red Panda", biome: "Cherry Blossom", rarity: "Mythic", income: "—" },
-  { name: "Snow Owl", biome: "Cherry Blossom", rarity: "Cosmic", income: "—" },
-  { name: "Koi", biome: "Cherry Blossom", rarity: "Cosmic", income: "—" },
-  { name: "Stag", biome: "Cherry Blossom", rarity: "Secret", income: "—" },
-  { name: "Oni Tiger", biome: "Cherry Blossom", rarity: "Eternal", income: "—" },
-  { name: "Kitsune", biome: "Cherry Blossom", rarity: "Divine", income: "—" },
+  { name: "Tralaledon", biome: "Prehistoric", rarity: "Secret", income: "$32M/s" },
+  { name: "TRex", biome: "Prehistoric", rarity: "Secret", income: "$25M/s" },
+  { name: "Mosasaurus", biome: "Prehistoric", rarity: "Eternal", income: "$180M/s" },
+  { name: "Centapede", biome: "Cosmic", rarity: "Epic", income: "$1.5K/s" },
+  { name: "Cosmic Gecko", biome: "Cosmic", rarity: "Legendary", income: "$30K/s" },
+  { name: "Cosmic Gorilla", biome: "Cosmic", rarity: "Mythic", income: "$180K/s" },
+  { name: "La Vacca Saturno Saturnita", biome: "Cosmic", rarity: "Cosmic", income: "$2.2M/s" },
+  { name: "Cosmic Dragon", biome: "Cosmic", rarity: "Secret", income: "$60M/s" },
+  { name: "Cosmic Skeleton Boss", biome: "Cosmic", rarity: "Secret", income: "$45M/s" },
+  { name: "Eternal Lunar Dragon", biome: "Cosmic", rarity: "Eternal", income: "$250M/s" },
+  { name: "Unicorn", biome: "Cosmic", rarity: "Divine", income: "$1B/s" },
+  { name: "Crane", biome: "Cherry Blossom", rarity: "Epic", income: "$4K/s" },
+  { name: "Salamander", biome: "Cherry Blossom", rarity: "Legendary", income: "$74K/s" },
+  { name: "Red Panda", biome: "Cherry Blossom", rarity: "Mythic", income: "$450K/s" },
+  { name: "Snowy Owl", biome: "Cherry Blossom", rarity: "Cosmic", income: "$7.5M/s" },
+  { name: "Koi", biome: "Cherry Blossom", rarity: "Cosmic", income: "$12M/s" },
+  { name: "Stag", biome: "Cherry Blossom", rarity: "Secret", income: "$145M/s" },
+  { name: "Oni Tiger", biome: "Cherry Blossom", rarity: "Eternal", income: "$600M/s" },
+  { name: "Kitsune", biome: "Cherry Blossom", rarity: "Divine", income: "$1.8B/s" },
   { name: "Tung Tung Sahur", biome: "Brainrot", rarity: "—", income: "—" },
   { name: "Bananita Dolphinita", biome: "Brainrot", rarity: "—", income: "—" },
   { name: "Belula Beluga", biome: "Brainrot", rarity: "—", income: "—" },
@@ -992,13 +1103,13 @@ export const stealAnEggMetadata = pageMetadata(
 
 export const stealAnEggUpdatesMetadata = pageMetadata(
   stealAnEggCopy.updates.pageH1,
-  "Steal An Egg Update #1: Cherry Blossom Biome, eight new pets, Sakura Incubator, Bloom / Spirit Bloom, The Great Bloom. Speed gates and $/s still blank.",
+  "Steal An Egg Update #1 route: Cherry Blossom Egg, Crane, Sakura Incubator, Bloom mutation, Spirit Bloom, Great Bloom crystals.",
   `${stealAnEgg.path}/updates`,
 );
 
 export const stealAnEggPetsMetadata = pageMetadata(
   stealAnEggCopy.pets.pageH1,
-  "Steal An Egg pets list with rarity, biome, and income/second — plus Cherry Blossom roster from Update #1 notes. Blank income means no published figure yet.",
+  "Steal An Egg pets list: reported income per second, Cherry Blossom roster, top earners, and separate Index status.",
   `${stealAnEgg.path}/pets`,
 );
 
@@ -1010,7 +1121,7 @@ export const stealAnEggSpeedMetadata = pageMetadata(
 
 export const stealAnEggEggsMetadata = pageMetadata(
   stealAnEggCopy.eggs.pageH1,
-  "Eggs from nests, biome pets, steals, shop, reset races. Update #1: Cherry Blossom Egg and Sakura Crystal mutate path from live notes.",
+  "Steal An Egg Cherry Blossom Egg guide: Crane unlock, Sakura Incubator status, Sakura Crystals, nests, shop eggs, and reset races.",
   `${stealAnEgg.path}/eggs`,
 );
 
@@ -1022,7 +1133,7 @@ export const stealAnEggBiomesMetadata = pageMetadata(
 
 export const stealAnEggMutationsMetadata = pageMetadata(
   stealAnEggCopy.mutations.pageH1,
-  "Steal An Egg mutations: gold and silver coats, huge and giant sizes, Bloom and Spirit Bloom from Update #1 Sakura Incubator notes.",
+  "Steal An Egg mutations guide: Bloom mutation, Spirit Bloom mutation, Sakura Incubator route, gold/silver, huge/giant, and status.",
   `${stealAnEgg.path}/mutations`,
 );
 

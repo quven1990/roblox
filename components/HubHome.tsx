@@ -26,7 +26,10 @@ function formatNumber(value: number) {
 
 export function HubHome() {
   const latest = latestKit();
-  const featured = [...catalog].toReversed();
+  const featured = [
+    ...catalog.filter((game) => game.slug === "steal-an-egg"),
+    ...catalog.filter((game) => game.slug !== "steal-an-egg").toReversed(),
+  ];
 
   return (
     <SiteShell current="hub">
@@ -93,7 +96,11 @@ export function HubHome() {
                     <p className="game-dev">{game.developer}</p>
                   </div>
                   <span className="status">
-                    {game.slug === latest.slug ? "New" : game.kicker}
+                    {game.slug === "steal-an-egg"
+                      ? "Main"
+                      : game.slug === latest.slug
+                        ? "New"
+                        : game.kicker}
                   </span>
                 </div>
                 <p className="game-lede">{game.lede}</p>

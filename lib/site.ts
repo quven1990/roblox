@@ -63,19 +63,19 @@ export function pageMetadata(
 }
 
 export const siteCopy = {
-  title: "Upvane — unofficial kits for five Roblox games",
+  title: "Upvane — Steal An Egg Update #1 and Roblox kits",
   metaDescription:
-    "Upvane tracks current Roblox game kits: latest updates, verified changes, code status, tools, and guide pages for active games.",
-  kicker: "Unofficial kits",
-  h1: "Pick the Roblox game you came for.",
-  dek: "Upvane tracks current Roblox game kits: latest updates, verified changes, code status, tools, and guide pages for active games.",
+    "Upvane tracks Steal An Egg Update #1, Cherry Blossom, Sakura Incubator, Bloom mutations, and current Roblox guide kits.",
+  kicker: "This week's Roblox kit desk",
+  h1: "Steal An Egg Update #1 first, other Roblox kits behind it.",
+  dek: "Cherry Blossom, Sakura Incubator, Bloom mutations, pets income, and the live Roblox guide pages worth opening now.",
   summary:
-    "Upvane is a Roblox kit desk for players who want the current answer first: what changed this week, which code claims are verified, which pages are still thin, and which tools or guide routes are worth opening.",
-  heroCta: "All live guides",
+    "Upvane is currently led by Steal An Egg because Update #1 has fresh player questions: Cherry Blossom Egg, Crane unlock, Sakura Incubator, Bloom / Spirit Bloom, and reported pet income. Other Roblox kits stay available when they have useful pages.",
+  heroCta: "Open live kits",
   kits: {
     kicker: "Live kits",
-    h2: "Five games, five kits",
-    body: "Open the title you searched. Newer kits get a New label — they do not take over this page.",
+    h2: "Current main kit + supporting guides",
+    body: "Steal An Egg is the current main kit. Open the title you searched; pages stay live only when they answer real player tasks.",
   },
   rising: {
     kicker: "Scan only",

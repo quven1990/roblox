@@ -40,6 +40,15 @@ export default function StealAnEggMutationsPage() {
           <p>{copy.lead}</p>
           <h2>{copy.updateTitle}</h2>
           <p>{copy.updateBody}</p>
+          <h2>{copy.sakuraTitle}</h2>
+          <DataTable
+            columns={["player search", "answer", "status"]}
+            rows={copy.sakuraRows.map((row) => [
+              row.query,
+              row.answer,
+              row.status,
+            ])}
+          />
           <EvidencePanel
             lastChecked={stealAnEggPageLastChecked.mutations}
             checked={`${stealAnEgg.name} mutations and sizes for Roblox place ${stealAnEgg.placeId}.`}

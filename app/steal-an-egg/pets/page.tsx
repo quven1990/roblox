@@ -57,6 +57,15 @@ export default function StealAnEggPetsPage() {
           <h2>{copy.rosterTitle}</h2>
           <p>{copy.rosterNote}</p>
           <p>{copy.tableNote}</p>
+          <h2>{copy.sourceTitle}</h2>
+          <DataTable
+            columns={["source", "how used", "status"]}
+            rows={copy.sourceRows.map((row) => [
+              row.source,
+              row.use,
+              row.status,
+            ])}
+          />
           <div className="note warn">
             <p>{copy.rosterSkip}</p>
           </div>
