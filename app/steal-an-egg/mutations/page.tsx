@@ -55,12 +55,13 @@ export default function StealAnEggMutationsPage() {
             verified={[
               "Official description says pets have rarities, sizes, and mutations.",
               "Gameplay shows gold and silver variants, huge/giant egg sizes, and a Legendary hatch label.",
+              "Update #2 live notes name Monstrous Mutation (Monster Chests) and Mecha variants (Monster Egg) — reported, not Index-photographed.",
               "Update #1 live notes name Bloom and Spirit Bloom after the Sakura Incubator unlock (reported, not Index-photographed).",
-              "The table below separates other-wiki labels from gameplay and reported Update #1 names.",
+              "The table below separates other-wiki labels from gameplay and reported update names.",
             ]}
             unverified={[
               "Published mutation odds, sell multipliers, or a full official mutation Index.",
-              "Bloom / Spirit Bloom crystal costs and whether wiki-only labels such as Shiny or Rainbow are live.",
+              "Mecha / Monstrous / Bloom / Spirit Bloom rates and whether wiki-only labels such as Shiny or Rainbow are live.",
             ]}
           />
           <h2>{copy.matrixTitle}</h2>

@@ -18,7 +18,8 @@ export const metadata = stealAnEggUpdatesMetadata;
 
 export default function StealAnEggUpdatesPage() {
   const copy = stealAnEggCopy.updates;
-  const update = stealAnEggCopy.update1;
+  const update2 = stealAnEggCopy.update2;
+  const update1 = stealAnEggCopy.update1;
 
   return (
     <SiteShell current="updates">
@@ -44,17 +45,34 @@ export default function StealAnEggUpdatesPage() {
             columns={["question", "answer"]}
             rows={copy.quickRows.map((row) => [row.question, row.answer])}
           />
-          <h2>{update.h2}</h2>
+          <h2>{update2.h2}</h2>
           <DataTable
             columns={["item", "status", "detail"]}
-            rows={update.rows.map((row) => [row.item, row.status, row.detail])}
+            rows={update2.rows.map((row) => [row.item, row.status, row.detail])}
           />
-          <p>{update.sourceNote}</p>
+          <p>{update2.sourceNote}</p>
           <p>
-            <a href={update.eventUrl} rel="noopener noreferrer">
-              {update.eventLabel} →
+            <a href={update2.eventUrl} rel="noopener noreferrer">
+              {update2.eventLabel} →
             </a>
           </p>
+          <h2>{copy.frogTitle}</h2>
+          <ol className="steps">
+            {copy.frogSteps.map((step, index) => (
+              <li key={step}>
+                <span>{String(index + 1).padStart(2, "0")}</span>
+                <p>{step}</p>
+              </li>
+            ))}
+          </ol>
+          <h2>{copy.monsterTitle}</h2>
+          <p>{copy.monsterBody}</p>
+          <h2>{update1.h2}</h2>
+          <DataTable
+            columns={["item", "status", "detail"]}
+            rows={update1.rows.map((row) => [row.item, row.status, row.detail])}
+          />
+          <p>{update1.sourceNote}</p>
           <h2>{copy.sakuraTitle}</h2>
           <ol className="steps">
             {copy.sakuraSteps.map((step, index) => (

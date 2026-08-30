@@ -63,14 +63,14 @@ export function pageMetadata(
 }
 
 export const siteCopy = {
-  title: "Upvane — Steal An Egg Update #1 and Roblox kits",
+  title: "Upvane — Steal An Egg Update #2 and Roblox kits",
   metaDescription:
-    "Upvane tracks Steal An Egg Update #1, Cherry Blossom, Sakura Incubator, Bloom mutations, and current Roblox guide kits.",
+    "Upvane tracks Steal An Egg Update #2, Titan Temple, Monster Egg, Hungry Frog, Monstrous mutation, and current Roblox guide kits.",
   kicker: "This week's Roblox kit desk",
-  h1: "Steal An Egg Update #1 first, other Roblox kits behind it.",
-  dek: "Cherry Blossom, Sakura Incubator, Bloom mutations, pets income, and the live Roblox guide pages worth opening now.",
+  h1: "Steal An Egg Update #2 first, other Roblox kits behind it.",
+  dek: "Titan Temple, Monster Egg, Hungry Frog, Monstrous mutation, pets income, and the live Roblox guide pages worth opening now.",
   summary:
-    "Upvane is currently led by Steal An Egg because Update #1 has fresh player questions: Cherry Blossom Egg, Crane unlock, Sakura Incubator, Bloom / Spirit Bloom, and reported pet income. Other Roblox kits stay available when they have useful pages.",
+    "Upvane is currently led by Steal An Egg because Update #2 has fresh player questions: Titan Temple pets, Monster Egg, Hungry Frog, Monster Chests, Monstrous Mutation, and Mecha variants. Other Roblox kits stay available when they have useful pages.",
   heroCta: "Open live kits",
   kits: {
     kicker: "Live kits",

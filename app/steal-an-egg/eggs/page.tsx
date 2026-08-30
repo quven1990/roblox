@@ -41,6 +41,15 @@ export default function StealAnEggEggsPage() {
           <p>{copy.lead}</p>
           <h2>{copy.updateTitle}</h2>
           <p>{copy.updateBody}</p>
+          <h2>{copy.frogTitle}</h2>
+          <DataTable
+            columns={["step", "evidence", "status"]}
+            rows={copy.frogRows.map((row) => [
+              row.step,
+              row.evidence,
+              row.status,
+            ])}
+          />
           <h2>{copy.craneTitle}</h2>
           <DataTable
             columns={["step", "evidence", "status"]}

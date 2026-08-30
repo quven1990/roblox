@@ -55,10 +55,10 @@ export function StealAnEggHome() {
             <p>{copy.rightGame.brainrot}</p>
           </div>
 
-          <h2>{copy.update1.h2}</h2>
-          <p>{copy.update1.lead}</p>
+          <h2>{copy.update2.h2}</h2>
+          <p>{copy.update2.lead}</p>
           <ol className="zone-list">
-            {copy.update1.rows.map((row) => (
+            {copy.update2.rows.map((row) => (
               <li key={row.item}>
                 <strong>
                   {row.item} · {row.status}
@@ -69,12 +69,12 @@ export function StealAnEggHome() {
           </ol>
           <p>
             <Link href={`${stealAnEgg.path}/updates`}>
-              Full Update #1 status page →
+              Full Update #2 status page →
             </Link>
           </p>
           <p>
-            <a href={copy.update1.eventUrl} rel="noopener noreferrer">
-              {copy.update1.eventLabel} →
+            <a href={copy.update2.eventUrl} rel="noopener noreferrer">
+              {copy.update2.eventLabel} →
             </a>
           </p>
 
@@ -85,14 +85,14 @@ export function StealAnEggHome() {
               "The core loop is egg steal, hatch at base, pet income, Speed training, and biome gates.",
               "Forest and Lake pet Index details come from an in-game screenshot.",
               "Later biomes are labeled from public English-client gameplay, not invented tier names.",
-              "The official Roblox event page title says ADMIN ABUSE!? + New Zone - Steal An Egg for Update #1.",
-              "Update #1 live notes (2026-08-25) name Cherry Blossom Biome, Bloom / Spirit Bloom, and eight new pets — treated as reported, not Index-photographed here yet.",
+              "Update #2 live notes (2026-08-30) name Titan Temple, Monster Egg, Hungry Frog, Monster Chests, Monstrous Mutation, and Mecha variants — treated as reported, not Index-photographed here yet.",
+              "Update #1 live notes (2026-08-25) name Cherry Blossom Biome, Bloom / Spirit Bloom, and eight Cherry Blossom pets — still treated as reported.",
               "No redeem UI is confirmed for this kit, so there is no Steal An Egg codes page.",
             ]}
             unverified={[
-              "Full later-biome Index rows and exact Speed gate numbers, including Cherry Blossom.",
-              "Published odds for huge, giant, gold, silver, Bloom, and Spirit Bloom outcomes.",
-              "Income/second for Crane through Kitsune, and Dragon Admin Abuse mechanics / rewards.",
+              "Full later-biome Index rows and exact Speed gate numbers, including Titan Temple and Cherry Blossom.",
+              "Published odds for huge, giant, gold, silver, Mecha, Monstrous, Bloom, and Spirit Bloom outcomes.",
+              "Income/second for Titan Temple pets and Monster Egg monsters; Dragon Admin Abuse mechanics / rewards.",
             ]}
           />
 

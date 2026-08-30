@@ -8,7 +8,7 @@ export const stealAnEgg = {
   universeId: "10563114921",
   placeId: "107778070777162",
   playUrl: "https://www.roblox.com/games/107778070777162/Steal-An-Egg",
-  lastChecked: "2026-08-25",
+  lastChecked: "2026-08-30",
   hasRedeemUi: false,
   path: "/steal-an-egg",
   kitNumber: 1,
@@ -20,12 +20,12 @@ export const stealAnEgg = {
 } as const satisfies GameFacts;
 
 export const stealAnEggPageLastChecked = {
-  guide: "2026-08-25",
-  updates: "2026-08-25",
-  pets: "2026-08-25",
-  eggs: "2026-08-25",
-  biomes: "2026-08-25",
-  mutations: "2026-08-25",
+  guide: "2026-08-30",
+  updates: "2026-08-30",
+  pets: "2026-08-30",
+  eggs: "2026-08-30",
+  biomes: "2026-08-30",
+  mutations: "2026-08-30",
   speed: "2026-08-15",
 } as const;
 
@@ -71,12 +71,59 @@ export const stealAnEggVideos = {
 } as const;
 
 export const stealAnEggCopy = {
-  title: "Steal An Egg Update #1 — Cherry Blossom, Sakura, mutations",
+  title: "Steal An Egg Update #2 — Titan Temple, Monster Egg, Hungry Frog",
   h1: "Steal An Egg (Roblox) — steal eggs, hatch pets, train Speed",
   dek: "Steal An Egg is a Roblox pet / tycoon by and Collect Rare Pets. This unofficial guide is not Steal a Brainrot and not the older game titled Steal a Egg.",
   metaDescription:
-    "Unofficial Steal An Egg Roblox guide: Update #1 Cherry Blossom biome, Bloom mutations, Sakura Incubator, eggs, biomes, pets, and Speed.",
+    "Unofficial Steal An Egg Roblox guide: Update #2 Titan Temple, Monster Egg, Hungry Frog, Monstrous mutation, pets, eggs, biomes, and Speed.",
   heroCta: "Play on Roblox",
+  update2: {
+    h2: "Update #2 — Titan Temple, Monster Egg, Hungry Frog",
+    lead:
+      "Steal An Egg Update #2 is treated as live on this kit as of 2026-08-30 from developer live notes titled “UPDATE #2 IS NOW LIVE - MONSTERS ARE HERE!” Notes name Titan Temple biome, eight new animals, a Robux-store Monster Egg, Hungry Frog parasite event, Monster Chests, and a limited-time Monstrous Mutation. Income, Speed gates, Mecha odds, and chest drop rates stay blank until this kit photographs them.",
+    eventUrl: stealAnEgg.playUrl,
+    eventLabel: "Open Steal An Egg on Roblox",
+    sourceNote:
+      "Source: developer Update #2 live notes checked 2026-08-30, plus the public Roblox experience page. Names and event steps are treated as reported live. This kit has not Index-photographed Titan Temple pets, Monster Egg hatches, Mecha variants, or Monstrous multipliers yet.",
+    rows: [
+      {
+        item: "Titan Temple Biome",
+        status: "Reported live",
+        detail:
+          "New biome from Update #2 notes with eight named animals. Speed gate and nest layout are not verified on this kit.",
+      },
+      {
+        item: "Eight new animals",
+        status: "Reported roster",
+        detail:
+          "Spideron, Crustacia, Bladehide, Mantaris, Rhinotaur, Mutant Shark, Gorilla King, Nightflame. Rarities from Legendary through Divine. Income/second not published here yet.",
+      },
+      {
+        item: "Monster Egg",
+        status: "Reported live (Robux Store)",
+        detail:
+          "Notes: available in the Robux Store; hatches 6 new monsters; every monster has a rare Mecha variant. Exact SKU price and the six monster names are not listed in the note we used.",
+      },
+      {
+        item: "Hungry Frog event",
+        status: "Reported live",
+        detail:
+          "Find an infected egg, bring it to base, feed its parasite to the Hungry Frog. Feed 5 parasites to earn a Monster Chest.",
+      },
+      {
+        item: "Monstrous Mutation",
+        status: "Reported limited-time",
+        detail:
+          "Monster Chests have a rare chance of the limited-time Monstrous Mutation for monsters from Titan Temple. Odds and multipliers are not published here.",
+      },
+      {
+        item: "Mecha variant",
+        status: "Reported rare variant",
+        detail:
+          "Every Monster Egg monster can hatch a rare Mecha variant. Not the same claim as Monstrous Mutation from Monster Chests.",
+      },
+    ],
+  },
   update1: {
     h2: "Update #1 — Cherry Blossom, Sakura, mutations",
     lead:
@@ -140,27 +187,27 @@ export const stealAnEggCopy = {
       {
         id: "updates",
         title: "Updates",
-        body: "Update #1 Cherry Blossom: biome, Sakura Incubator, Bloom mutations, Great Bloom.",
+        body: "Update #2 Titan Temple: Monster Egg, Hungry Frog, Monstrous mutation.",
       },
       {
         id: "pets",
         title: "Pets",
-        body: "Pets list with rarity, biome, and income per second — including Cherry Blossom roster.",
+        body: "Pets list with rarity, biome, and income — including Titan Temple roster.",
       },
       {
         id: "eggs",
         title: "Eggs",
-        body: "Nests, steals, reset, Cherry Blossom Egg / Sakura Crystal mutate path.",
+        body: "Nests, steals, Monster Egg, infected eggs, Hungry Frog chests.",
       },
       {
         id: "biomes",
         title: "Biomes",
-        body: "Forest → Cosmic King, plus Cherry Blossom from Update #1 notes.",
+        body: "Forest → Cosmic King, Cherry Blossom, plus Titan Temple from Update #2.",
       },
       {
         id: "mutations",
         title: "Mutations",
-        body: "Gold / silver coats, huge / giant sizes, Bloom and Spirit Bloom.",
+        body: "Gold / silver, Bloom / Spirit Bloom, Monstrous, Mecha variants.",
       },
       {
         id: "speed",
@@ -170,68 +217,82 @@ export const stealAnEggCopy = {
     ],
   },
   updates: {
-    pageH1: "Steal An Egg Update #1 — Cherry Blossom, Sakura, mutations",
-    dek: "Player route for Update #1: Cherry Blossom Egg, Crane unlock, Sakura Incubator, Bloom mutation, Spirit Bloom mutation, and the reported Great Bloom crystal event.",
-    lead: "If you are searching what to do in Steal An Egg Update #1, the route is: reach Cherry Blossom, hatch a Crane from a Cherry Blossom Egg, unlock the Sakura Incubator, farm Great Bloom crystals, then roll Bloom or Spirit Bloom on eggs. Roblox confirms the event page; the exact route, odds, and new-pet income are public-guide reports checked 2026-08-27.",
+    pageH1: "Steal An Egg Update #2 — Titan Temple, Monster Egg, Hungry Frog",
+    dek: "Player route for Update #2: Titan Temple biome, Monster Egg, Hungry Frog parasites, Monster Chests, Monstrous mutation, and Mecha variants.",
+    lead: "If you are searching what to do in Steal An Egg Update #2, the live notes say: explore Titan Temple for eight new animals, buy Monster Eggs from the Robux Store for six monsters (with rare Mecha variants), and run the Hungry Frog event — infected egg → feed parasites → Monster Chest → rare Monstrous Mutation on Titan Temple monsters. Names come from developer notes checked 2026-08-30; odds and incomes stay blank here.",
     quickTitle: "Fast answer for players",
     quickRows: [
       {
-        question: "What changed in Update #1?",
+        question: "What changed in Update #2?",
         answer:
-          "Cherry Blossom zone, Sakura Incubator, Bloom / Spirit Bloom mutations, Great Bloom crystals, and eight reported Cherry Blossom pets.",
+          "Titan Temple biome, eight new animals, Monster Egg (Robux Store), Hungry Frog parasite event, Monster Chests, Monstrous Mutation, and Mecha variants.",
       },
       {
         question: "What do I do first?",
         answer:
-          "Reach Cherry Blossom and hatch Crane from a Cherry Blossom Egg. Multiple guides report Crane as the Sakura Incubator unlock pet.",
+          "Reach Titan Temple when your Speed allows, then decide between biome steals and Robux Monster Eggs. For the event loop: find an infected egg, bring it home, feed the parasite to the Hungry Frog five times for a Monster Chest.",
       },
       {
         question: "What is still not verified?",
         answer:
-          "In-kit Index screenshots for Cherry Blossom pets, official mutation multipliers, and exact crystal thresholds.",
+          "Index screenshots for Titan Temple pets, the six Monster Egg monster names, Mecha / Monstrous odds, chest rates, and any Speed gate numbers.",
       },
     ],
     howTitle: "How to read this page",
     howBody:
-      "Event titles prove scheduling. Live notes name biome, pets, mutations, and event cadence. This kit still waits on Index tiles or in-game screenshots before publishing $/s, gate numbers, or mutation odds.",
-    sakuraTitle: "Sakura Incubator unlock (reported)",
+      "Update #2 live notes name the biome, pets, store egg, and Hungry Frog loop. Update #1 Cherry Blossom / Sakura content stays below as still-live prior content. This kit waits on Index tiles or in-game screenshots before publishing $/s, gate numbers, or mutation odds.",
+    frogTitle: "Hungry Frog event (reported)",
+    frogSteps: [
+      "Find an infected egg — notes say parasites attach to eggs across the world.",
+      "Bring the infected egg back to your base.",
+      "Feed its parasite to the Hungry Frog.",
+      "Feed 5 parasites to earn a Monster Chest. Chests can rarely grant the limited-time Monstrous Mutation for Titan Temple monsters.",
+    ],
+    monsterTitle: "Monster Egg + Mecha (reported)",
+    monsterBody:
+      "Notes place the Monster Egg in the Robux Store. It hatches 6 new monsters, and every monster has a rare Mecha variant. Exact Robux price, the six names, and Mecha odds are not printed in the note used here.",
+    sakuraTitle: "Still live from Update #1 — Sakura Incubator (reported)",
     sakuraSteps: [
       "Hatch a Crane pet from a Cherry Blossom Egg.",
       "Use the Crane at the ancient Sakura tree / Sakura Incubator in the Cherry Blossom Biome. Guides disagree on whether to call this offer or sacrifice, so check the live prompt.",
       "Farm Sakura Crystals during The Great Bloom and deposit them into the incubator to roll Bloom or Spirit Bloom on eggs.",
     ],
-    bloomTitle: "The Great Bloom (reported)",
+    bloomTitle: "The Great Bloom (reported, Update #1)",
     bloomBody:
       "Notes say The Great Bloom starts about every 30 minutes. Sakura Crystal Trees fill the Cherry Blossom Biome — break them, collect Sakura Crystals, and deposit crystals into the incubator to mutate eggs. Exact crystal costs and mutation odds are not published here.",
     notTitle: "What is still blank on purpose",
     notItems: [
-      "Recommended Speed for Cherry Blossom and any other gate numbers.",
-      "Official Index screenshots for Crane through Kitsune on this kit.",
-      "Official Bloom / Spirit Bloom sell multipliers.",
-      "Dragon Admin Abuse spawn rules, rewards, and duration (still separate from Cherry Blossom notes).",
+      "Recommended Speed for Titan Temple, Cherry Blossom, and any other gate numbers.",
+      "Official Index screenshots for Spideron through Nightflame, and for Monster Egg hatches.",
+      "Mecha variant odds, Monstrous Mutation multipliers, and Monster Chest drop rates.",
+      "Official Bloom / Spirit Bloom sell multipliers (Update #1 path still reported).",
     ],
     faq: {
       h2: "FAQ",
       items: [
         {
-          q: "Is Steal An Egg Update #1 live?",
-          a: "Yes on this kit’s 2026-08-25 check. Notes name Cherry Blossom Biome, new pets, Sakura Incubator, Bloom mutations, and The Great Bloom.",
+          q: "Is Steal An Egg Update #2 live?",
+          a: "Yes on this kit’s 2026-08-30 check of the developer live notes. They name Titan Temple, Monster Egg, Hungry Frog, Monster Chests, Monstrous Mutation, and Mecha variants.",
         },
         {
           q: "What is the new biome called?",
-          a: "Cherry Blossom Biome. Speed gate details are not verified here yet.",
+          a: "Titan Temple. Speed gate details are not verified here yet. Cherry Blossom from Update #1 remains on the map as a reported zone.",
         },
         {
-          q: "What are the new mutations?",
-          a: "Bloom and Spirit Bloom. Community guides report Bloom as common and Spirit Bloom as rare, but this kit keeps rates and multipliers labeled reported until the UI or developer source prints them.",
+          q: "What is the Monster Egg?",
+          a: "A Robux Store egg from Update #2 notes. It hatches 6 new monsters, each with a rare Mecha variant. This kit does not invent the six names or the store price.",
         },
         {
-          q: "How do you unlock the Sakura Incubator?",
-          a: "Reported route: hatch Crane from a Cherry Blossom Egg, use Crane at the Sakura tree / incubator, then farm Great Bloom crystals. Wording differs by guide, so follow the live prompt before spending a rare pet.",
+          q: "How does the Hungry Frog event work?",
+          a: "Find an infected egg, bring it to your base, feed the parasite to the Hungry Frog. Feed 5 parasites for a Monster Chest. Chests can rarely grant Monstrous Mutation for Titan Temple monsters.",
         },
         {
-          q: "Does Update #1 add codes?",
-          a: "No redeem UI or working code list is confirmed. The event page is not treated as a codes announcement.",
+          q: "What is Monstrous Mutation vs Mecha?",
+          a: "Monstrous is a limited-time mutation tied to Monster Chests for Titan Temple monsters. Mecha is a rare hatch variant for Monster Egg monsters. Different claims — do not mix them.",
+        },
+        {
+          q: "Does Update #2 add codes?",
+          a: "No redeem UI or working code list is confirmed. The live notes are not treated as a codes announcement.",
         },
       ],
     },
@@ -282,7 +343,7 @@ export const stealAnEggCopy = {
     h2: "Map and Speed gates",
     body: "Zones sit behind Speed. Forest and Lake are on the in-game Index. Later names come from gameplay, not from Index labels. Recommended Speed on each gate will move with updates, so we are not publishing a number ladder.",
     source:
-      "Forest and Lake: Pet Index screenshot. Later biomes: gameplay, including a public English-client recording by CoralBlox. Cherry Blossom: Update #1 live notes checked 2026-08-25.",
+      "Forest and Lake: Pet Index screenshot. Later biomes: gameplay, including a public English-client recording by CoralBlox. Cherry Blossom: Update #1 live notes checked 2026-08-25. Titan Temple: Update #2 live notes checked 2026-08-30.",
     zones: [
       { name: "Forest", note: "Index biome. Eight pet slots. Tutorial chicken lives here." },
       { name: "Lake", note: "Index biome. Frog is the first visible slot." },
@@ -301,7 +362,11 @@ export const stealAnEggCopy = {
       },
       {
         name: "Cherry Blossom",
-        note: "Update #1 notes. New biome with Crane → Kitsune pets, Sakura Incubator, and The Great Bloom. Speed gate not verified here.",
+        note: "Update #1 notes. Crane → Kitsune pets, Sakura Incubator, and The Great Bloom. Speed gate not verified here.",
+      },
+      {
+        name: "Titan Temple",
+        note: "Update #2 notes. Spideron → Nightflame pets, Monster Egg / Hungry Frog loops nearby in the update package. Speed gate not verified here.",
       },
     ],
   },
@@ -309,26 +374,58 @@ export const stealAnEggCopy = {
     h2: "Eggs",
     teaser:
       "Steal from pets, nests, and players. Shop eggs are a different pool. Egg reset and a moon event kick off the scramble — that is the rare-egg race other wikis write about.",
-    pageH1: "Steal An Egg Cherry Blossom Egg — Crane and Sakura Incubator",
-    dek: "Cherry Blossom Egg, Crane unlock, Sakura Incubator, nests, shop pools, reset races, and which claims are reported vs Index-verified.",
+    pageH1: "Steal An Egg Monster Egg — Hungry Frog and Titan Temple",
+    dek: "Monster Egg, Hungry Frog infected eggs, Monster Chests, nests, shop pools, reset races, and which claims are reported vs Index-verified.",
     lead:
-      "Eggs come from nests, biome pets, player steals, shop pools, and reset races. Huge and giant are sizes, not separate catalog names. Update #1 live notes name Cherry Blossom Eggs (for the Crane unlock) and Sakura Crystal deposits that mutate eggs during The Great Bloom. Dragon Admin Abuse still has no confirmed egg name here.",
-    updateTitle: "Update #1 — Cherry Blossom eggs",
+      "Eggs come from nests, biome pets, player steals, shop pools, and reset races. Huge and giant are sizes, not separate catalog names. Update #2 live notes add a Robux-store Monster Egg (6 monsters + rare Mecha variants) and infected eggs for the Hungry Frog → Monster Chest loop. Update #1 Cherry Blossom Eggs / Sakura Crystals remain on the path below. Dragon Admin Abuse still has no confirmed egg name here.",
+    updateTitle: "Update #2 — Monster Egg and Hungry Frog",
     updateBody:
-      "Reported from Update #1 notes: hatch a Crane from a Cherry Blossom Egg, then use The Great Bloom (~every 30 minutes) to break Sakura Crystal Trees and deposit crystals into the Sakura Incubator to mutate eggs. Crystal costs and mutation odds stay blank. Dragon Admin Abuse remains a separate announced event without a verified egg name on this kit.",
+      "Reported from Update #2 notes: Monster Eggs sit in the Robux Store and hatch 6 new monsters (each with a rare Mecha variant). Separately, parasites attach to eggs worldwide — bring an infected egg home, feed the parasite to the Hungry Frog, and feed 5 parasites for a Monster Chest that can rarely grant Monstrous Mutation for Titan Temple monsters. Store price, the six monster names, and drop rates stay blank.",
+    frogTitle: "Hungry Frog loop (reported)",
+    frogRows: [
+      {
+        step: "Find an infected egg",
+        evidence: "Update #2 notes: parasites attach themselves to eggs across the world.",
+        status: "Reported",
+      },
+      {
+        step: "Bring it to base",
+        evidence: "Same delivery rule as any steal — the egg has to reach your pen.",
+        status: "Reported",
+      },
+      {
+        step: "Feed the parasite to Hungry Frog",
+        evidence: "Notes name the Hungry Frog as the parasite sink.",
+        status: "Reported",
+      },
+      {
+        step: "Feed 5 parasites → Monster Chest",
+        evidence:
+          "Chest can rarely contain limited-time Monstrous Mutation for Titan Temple monsters.",
+        status: "Reported / odds unknown",
+      },
+    ],
     indexTitle: "All eggs vs Pet Index vs shop",
     indexAnswers: [
       {
+        name: "Monster Egg",
+        note: "Reported Update #2 Robux Store egg. Hatches 6 monsters with rare Mecha variants. Names and price not listed in the note used here.",
+      },
+      {
+        name: "Infected egg",
+        note: "Not a separate catalog SKU — an egg with a parasite for the Hungry Frog event.",
+      },
+      {
+        name: "Monster Chest",
+        note: "Event reward after feeding 5 parasites. Can rarely grant Monstrous Mutation for Titan Temple monsters.",
+      },
+      {
         name: "Cherry Blossom Egg",
-        note: "Reported Update #1 egg used to hatch Crane. This is the first step in the Sakura Incubator unlock path.",
+        note: "Reported Update #1 egg used to hatch Crane. First step in the Sakura Incubator unlock path.",
       },
       {
         name: "Sakura Incubator",
-        note: "Not an egg itself. It is the reported mutation machine that consumes Sakura Crystals to roll Bloom / Spirit Bloom.",
-      },
-      {
-        name: "Crane unlock",
-        note: "Reported by post-launch guides. Some call it offering Crane, others say sacrifice; this kit marks the action reported until we have a prompt screenshot.",
+        note: "Not an egg itself. Mutation machine that consumes Sakura Crystals to roll Bloom / Spirit Bloom.",
       },
       {
         name: "All eggs",
@@ -340,10 +437,10 @@ export const stealAnEggCopy = {
       },
       {
         name: "Shop eggs",
-        note: "Shop eggs are a separate pool until their hatch appears in the Index or in clear gameplay footage.",
+        note: "Shop eggs are a separate pool until their hatch appears in the Index or in clear gameplay footage. Monster Egg is the Robux Store add from Update #2.",
       },
     ],
-    craneTitle: "Crane unlock path (reported)",
+    craneTitle: "Still live — Crane unlock path (Update #1, reported)",
     craneRows: [
       {
         step: "Reach Cherry Blossom",
@@ -388,6 +485,18 @@ export const stealAnEggCopy = {
         action: "Do not mix shop SKU names into the Index table.",
       },
       {
+        source: "Monster Egg (Robux Store)",
+        what: "Update #2 notes: 6 monsters + rare Mecha variants.",
+        index: "Monster and Mecha tiles not photographed on this kit yet.",
+        action: "Treat price and Mecha odds as unknown until the store UI prints them.",
+      },
+      {
+        source: "Hungry Frog / infected eggs",
+        what: "Update #2 notes: parasites on eggs → Hungry Frog → Monster Chest → rare Monstrous Mutation.",
+        index: "Chest reward odds and Monstrous multipliers not verified here.",
+        action: "Follow the live prompt; do not invent parasite locations.",
+      },
+      {
         source: "Reset and moon-event races",
         what: "Secret, Eternal, Cosmic, huge, or giant eggs can become the lobby scramble.",
         index: "The hatch result is what should be recorded.",
@@ -418,6 +527,14 @@ export const stealAnEggCopy = {
       {
         name: "Shop eggs",
         note: "Bought separately, including brainrot-named stock. Not Index rows until they appear in Pet Index.",
+      },
+      {
+        name: "Monster Egg",
+        note: "Update #2 Robux Store egg: 6 monsters, rare Mecha variants. Price and names blank here.",
+      },
+      {
+        name: "Infected eggs / Hungry Frog",
+        note: "Update #2 event loop: parasite → Hungry Frog → 5 feeds → Monster Chest → rare Monstrous Mutation for Titan Temple monsters.",
       },
       {
         name: "Announced rares",
@@ -474,15 +591,23 @@ export const stealAnEggCopy = {
       items: [
         {
           q: "What counts as all eggs in Steal An Egg?",
-          a: "All eggs includes biome and nest eggs, player steals, shop eggs, reset-event rares, and huge or giant versions. The Pet Index confirms hatches, not every egg source.",
+          a: "All eggs includes biome and nest eggs, player steals, shop eggs, Robux Monster Eggs, infected eggs for Hungry Frog, reset-event rares, and huge or giant versions. The Pet Index confirms hatches, not every egg source.",
         },
         {
           q: "Are shop eggs part of the Pet Index?",
-          a: "Not automatically. A shop egg belongs in the Index only after its hatch is visible as a collected pet or a clear gameplay label.",
+          a: "Not automatically. A shop egg belongs in the Index only after its hatch is visible as a collected pet or a clear gameplay label. Monster Egg is a Robux Store add from Update #2 notes.",
         },
         {
           q: "Is there a guaranteed huge egg timer?",
           a: "No guaranteed timer is published here. Gameplay shows short reset rhythms and event scrambles, but not a guaranteed huge egg every fixed number of hours.",
+        },
+        {
+          q: "What is a Monster Egg?",
+          a: "Update #2 notes: a Robux Store egg that hatches 6 new monsters, each with a rare Mecha variant. Exact names and price are not printed in the note used here.",
+        },
+        {
+          q: "What is an infected egg / Hungry Frog?",
+          a: "Update #2 event: parasites attach to eggs. Bring an infected egg to base, feed the parasite to the Hungry Frog, feed 5 for a Monster Chest. Chests can rarely grant Monstrous Mutation for Titan Temple monsters.",
         },
         {
           q: "Does Update #1 add a Dragon Egg?",
@@ -502,60 +627,64 @@ export const stealAnEggCopy = {
   biomes: {
     h2: "Biomes",
     teaser:
-      "Speed unlocks the next zone. Forest and Lake are Index labels. Cherry Blossom is named in Update #1 live notes.",
-    pageH1: "Steal An Egg biomes — Forest to Cherry Blossom",
-    dek: "Map: Forest, Lake, Desert, Jungle, Yeti/ice, Volcano, Abyss Ocean, Prehistoric, Cosmic King, plus Cherry Blossom from Update #1 notes. Speed gates still unpublished.",
+      "Speed unlocks the next zone. Forest and Lake are Index labels. Cherry Blossom and Titan Temple come from Update #1 / #2 live notes.",
+    pageH1: "Steal An Egg biomes — Forest to Titan Temple",
+    dek: "Map: Forest through Cosmic King, Cherry Blossom (Update #1), and Titan Temple (Update #2). Speed gates still unpublished.",
     lead:
-      "Steal An Egg biomes: Forest, Lake, Desert, Jungle, Yeti/ice pocket, Volcano, Abyss Ocean, Prehistoric, Cosmic King, and Cherry Blossom (Update #1 notes, checked 2026-08-25). Zones sit behind Speed. Cherry Blossom Speed gate is not verified on this kit.",
-    updateTitle: "Update #1 — Cherry Blossom status",
+      "Steal An Egg biomes: Forest, Lake, Desert, Jungle, Yeti/ice pocket, Volcano, Abyss Ocean, Prehistoric, Cosmic King, Cherry Blossom (Update #1), and Titan Temple (Update #2 notes, checked 2026-08-30). Zones sit behind Speed. Titan Temple and Cherry Blossom Speed gates are not verified on this kit.",
+    updateTitle: "Update #2 — Titan Temple status",
     faq: {
       h2: "FAQ",
       items: [
         {
           q: "How many biomes does Steal An Egg have?",
-          a: "This kit lists Forest through Cosmic King from Index photos and gameplay, plus Cherry Blossom from Update #1 live notes.",
+          a: "This kit lists Forest through Cosmic King from Index photos and gameplay, plus Cherry Blossom from Update #1 and Titan Temple from Update #2 live notes.",
         },
         {
           q: "Is there a Speed number for each gate?",
           a: "No live Recommended Speed ladder is published here. Gates exist and get steep in later biomes; exact numbers rot quickly.",
         },
         {
+          q: "What is the Titan Temple Biome?",
+          a: "Update #2’s new zone. Notes list eight pets from Spideron to Nightflame, plus Monster Egg / Hungry Frog content in the same update package. Speed gate details stay blank here.",
+        },
+        {
           q: "What is the Cherry Blossom Biome?",
-          a: "Update #1’s new zone. Notes list eight pets from Crane to Kitsune, a Sakura Incubator unlock, and The Great Bloom event. Speed gate details stay blank here.",
+          a: "Update #1’s zone. Notes list eight pets from Crane to Kitsune, a Sakura Incubator unlock, and The Great Bloom event. Speed gate details stay blank here.",
         },
       ],
     },
     updateBody:
-      "Update #1 live notes name Cherry Blossom Biome. It is on the map list below as a reported zone. Speed gate, egg nest layout, and Index tiles for the eight pets are not photographed on this kit yet.",
+      "Update #2 live notes name Titan Temple. It is on the map list below as a reported zone. Speed gate, egg nest layout, and Index tiles for the eight pets are not photographed on this kit yet. Cherry Blossom from Update #1 stays on the list as reported.",
     updateRows: [
       {
         claim: "New zone name",
         status: "Reported live",
-        evidence: "Update #1 notes: Cherry Blossom Biome.",
+        evidence: "Update #2 notes: Titan Temple Biome.",
       },
       {
         claim: "Eight biome pets + rarities",
         status: "Reported live",
         evidence:
-          "Crane Epic -> Kitsune Divine in the notes. Pets page lists reported income separately from this kit's Index status.",
+          "Spideron Legendary → Nightflame Divine in the notes. Income/second blank until a usable roster source prints figures.",
       },
       {
         claim: "Speed gate and route",
         status: "Not verified",
-        evidence: "No Recommended Speed screenshot for Cherry Blossom on this kit yet.",
+        evidence: "No Recommended Speed screenshot for Titan Temple on this kit yet.",
       },
       {
-        claim: "Sakura Incubator + Great Bloom",
+        claim: "Monster Egg + Hungry Frog package",
         status: "Reported live",
         evidence:
-          "Notes: Crane unlock path; Great Bloom about every 30 minutes with Sakura Crystal Trees.",
+          "Same Update #2 notes: Robux Monster Egg, infected eggs, Hungry Frog, Monster Chests, Monstrous Mutation.",
       },
     ],
     videoH2: "Later biomes on video",
     videoCaption:
-      "CoralBlox recorded later biomes after Forest and Lake. Treat it as a later-game run, not a Speed table and not a Cherry Blossom walkthrough.",
+      "CoralBlox recorded later biomes after Forest and Lake. Treat it as a later-game run, not a Speed table and not a Titan Temple walkthrough.",
     otherNote:
-      "steal-an-egg-wiki.wiki collapses the map into First / Desert / Snow / Ocean / Endgame, then other articles invent Sandy Expanse, Frozen Peaks, Volcanic Depths, Sky Gardens, Cave, Tundra, and Crystal Caverns. We keep Forest → Cosmic King from Index + recordings, plus Cherry Blossom from Update #1 notes.",
+      "steal-an-egg-wiki.wiki collapses the map into First / Desert / Snow / Ocean / Endgame, then other articles invent Sandy Expanse, Frozen Peaks, Volcanic Depths, Sky Gardens, Cave, Tundra, and Crystal Caverns. We keep Forest → Cosmic King from Index + recordings, plus Cherry Blossom and Titan Temple from live notes.",
     otherRows: [
       { name: "First / starting zone", wiki: "Their C-tier starter" },
       { name: "Desert / Sandy Expanse", wiki: "Their Speed tier 1. We do have Desert in gameplay." },
@@ -566,25 +695,38 @@ export const stealAnEggCopy = {
       { name: "Sky Gardens", wiki: "Not on our run map." },
       { name: "Endgame", wiki: "Their max-Speed bucket. We name Cosmic King." },
       { name: "Cherry Blossom", wiki: "Update #1 notes on this kit — not from that wiki collapse." },
+      { name: "Titan Temple", wiki: "Update #2 notes on this kit — not from that wiki collapse." },
     ],
   },
   mutations: {
     h2: "Mutations & sizes",
     teaser:
-      "Official description lists rarities, sizes, and mutations. Gameplay shows gold and silver coats. Update #1 notes add Bloom and Spirit Bloom via the Sakura Incubator.",
-    pageH1: "Steal An Egg mutations — Bloom, Spirit Bloom, Sakura",
-    dek: "Bloom mutation, Spirit Bloom mutation, Sakura Incubator route, gold / silver coats, huge / giant sizes, and which mutation claims are verified vs reported.",
+      "Official description lists rarities, sizes, and mutations. Gameplay shows gold and silver coats. Update #2 adds Monstrous / Mecha; Update #1 adds Bloom / Spirit Bloom.",
+    pageH1: "Steal An Egg mutations — Monstrous, Mecha, Bloom",
+    dek: "Monstrous mutation, Mecha variants, Bloom / Spirit Bloom, gold / silver coats, huge / giant sizes, and which claims are verified vs reported.",
     lead:
-      "Steal An Egg mutations checked August 25, 2026: gameplay still shows gold and silver variants, huge and giant egg sizes, and Legendary hatch labels. Update #1 live notes add Bloom Mutation and Spirit Bloom Mutation (described as extremely rare) after unlocking the Sakura Incubator. No odds or sell multipliers are published here.",
-    updateTitle: "Update #1 — Bloom mutations",
+      "Steal An Egg mutations checked August 30, 2026: gameplay still shows gold and silver variants, huge and giant egg sizes, and Legendary hatch labels. Update #2 live notes add a limited-time Monstrous Mutation (Monster Chests / Titan Temple monsters) and rare Mecha variants on Monster Egg hatches. Update #1 still names Bloom and Spirit Bloom via the Sakura Incubator. No odds or sell multipliers are published here.",
+    updateTitle: "Update #2 — Monstrous and Mecha",
     updateBody:
-      "Reported unlock: hatch a Crane from a Cherry Blossom Egg, use Crane at the Sakura tree / Sakura Incubator, then deposit Sakura Crystals during The Great Bloom to mutate eggs. Community guides report Bloom and Spirit Bloom rates, but official multipliers and exact thresholds stay blank until the UI prints them.",
-    sakuraTitle: "Bloom / Spirit Bloom route",
+      "Reported from Update #2 notes: feed Hungry Frog parasites for Monster Chests that can rarely grant Monstrous Mutation for Titan Temple monsters. Separately, every Monster Egg monster has a rare Mecha variant. Odds and multipliers stay blank until the UI prints them.",
+    sakuraTitle: "Player searches → status",
     sakuraRows: [
+      {
+        query: "monstrous mutation",
+        answer:
+          "Limited-time Update #2 mutation for Titan Temple monsters; rare drop from Monster Chests after the Hungry Frog loop.",
+        status: "Reported",
+      },
+      {
+        query: "mecha mutation / mecha variant",
+        answer:
+          "Notes call Mecha a rare variant of Monster Egg monsters — not the same as Monstrous Mutation from chests.",
+        status: "Reported",
+      },
       {
         query: "bloom mutation",
         answer:
-          "Reported common Sakura Incubator outcome after charging eggs with Sakura Crystals.",
+          "Reported common Sakura Incubator outcome after charging eggs with Sakura Crystals (Update #1).",
         status: "Reported",
       },
       {
@@ -603,6 +745,12 @@ export const stealAnEggCopy = {
         query: "sakura incubator",
         answer:
           "Reported Update #1 machine unlocked with Crane and powered by Sakura Crystals from The Great Bloom.",
+        status: "Reported",
+      },
+      {
+        query: "hungry frog",
+        answer:
+          "Update #2 parasite sink: infected egg → feed frog → 5 parasites → Monster Chest.",
         status: "Reported",
       },
     ],
@@ -633,6 +781,19 @@ export const stealAnEggCopy = {
         status: "Seen in gameplay",
       },
       {
+        label: "Monstrous",
+        category: "Update #2 mutation",
+        evidence:
+          "Reported limited-time mutation for Titan Temple monsters from Monster Chests after Hungry Frog feeds.",
+        status: "Reported live",
+      },
+      {
+        label: "Mecha",
+        category: "Update #2 hatch variant",
+        evidence: "Reported rare variant on Monster Egg monsters from the Robux Store.",
+        status: "Reported live",
+      },
+      {
         label: "Bloom",
         category: "Update #1 mutation",
         evidence: "Reported Update #1 route: Crane unlock plus Sakura Crystal deposits in the incubator.",
@@ -657,11 +818,14 @@ export const stealAnEggCopy = {
       "Gameplay showed gold Chicken, gold gecko / centipede, and silver crocodile — treat gold / silver as a coat, not a zone.",
       "Huge and giant showed up as egg size in a live steal, not as a separate catalog name.",
       "Legendary appeared on a hatch label (Legendary Golden Cosmic Gecko).",
+      "Update #2 notes name Monstrous Mutation and Mecha variants — not Index-verified on this kit yet.",
       "Update #1 notes name Bloom and Spirit Bloom after the Sakura Incubator unlock — not Index-verified on this kit yet.",
     ],
     actionTitle: "What to record before trusting a mutation claim",
     actions: [
       "Screenshot the hatch label and the pet card together when possible.",
+      "For Monstrous, record whether the label comes from a Monster Chest, the frog UI, or the hatched Titan Temple monster.",
+      "For Mecha, record the Monster Egg hatch card — do not mix it with Monstrous Mutation.",
       "For Bloom / Spirit Bloom, record whether the label appears on the egg, the incubator UI, or the hatched pet.",
       "Do not copy drop odds unless the game UI or a developer-owned source prints them.",
       "Keep huge and giant under egg size until a separate mutation panel says otherwise.",
@@ -673,17 +837,25 @@ export const stealAnEggCopy = {
       { name: "Crystal", wiki: "King Mammoth article: +35% defense. Unverified." },
       {
         name: "Divine (trail vs pet)",
-        wiki: "Paid Divine Trail exists. Kitsune is listed as Divine rarity in Update #1 notes — different claim.",
+        wiki: "Paid Divine Trail exists. Kitsune / Nightflame are listed as Divine rarity in update notes — different claim.",
       },
     ],
     otherNote:
-      "Huge / Giant / Golden are no longer “other wiki only.” Bloom / Spirit Bloom come from Update #1 notes. Remaining wiki words still disagree. No drop rates belong here until the Index or a developer post prints them.",
+      "Huge / Giant / Golden are no longer “other wiki only.” Monstrous / Mecha come from Update #2 notes; Bloom / Spirit Bloom from Update #1. Remaining wiki words still disagree. No drop rates belong here until the Index or a developer post prints them.",
     faq: {
       h2: "FAQ",
       items: [
         {
           q: "What mutations are confirmed in Steal An Egg?",
-          a: "Gold or Golden and Silver variants are seen in gameplay. Bloom and Spirit Bloom are named in Update #1 live notes via the Sakura Incubator path.",
+          a: "Gold or Golden and Silver variants are seen in gameplay. Monstrous and Mecha are named in Update #2 live notes. Bloom and Spirit Bloom are named in Update #1 notes via the Sakura Incubator path.",
+        },
+        {
+          q: "What is Monstrous Mutation?",
+          a: "Update #2 limited-time mutation for Titan Temple monsters. Notes say Monster Chests from the Hungry Frog loop have a rare chance to grant it. Odds and multipliers stay blank here.",
+        },
+        {
+          q: "What is Mecha?",
+          a: "Update #2 notes: every Monster Egg monster has a rare Mecha variant. That is a hatch variant claim, not the same as Monstrous Mutation from chests.",
         },
         {
           q: "Are Huge and Giant mutations?",
@@ -691,7 +863,7 @@ export const stealAnEggCopy = {
         },
         {
           q: "What are the mutation odds in Steal An Egg?",
-          a: "For Bloom and Spirit Bloom, some community guides report odds, but this kit keeps them labeled community-reported until the live UI or a developer-owned source prints the numbers.",
+          a: "For Monstrous, Mecha, Bloom, and Spirit Bloom, this kit keeps odds labeled reported until the live UI or a developer-owned source prints the numbers.",
         },
         {
           q: "Is Sakura a mutation in Steal An Egg?",
@@ -714,7 +886,7 @@ export const stealAnEggCopy = {
   },
   pets: {
     h2: "Pets",
-    body: "Full Steal An Egg pets list with rarity, biome, reported income per second, and separate Index status — from Forest starters through Cherry Blossom and limited Brainrot eggs.",
+    body: "Full Steal An Egg pets list with rarity, biome, reported income per second, and separate Index status — from Forest starters through Titan Temple and limited Brainrot eggs.",
     fillFaster: {
       h2: "How to collect pets faster",
       intro:
@@ -728,10 +900,10 @@ export const stealAnEggCopy = {
       skip:
         "Rank by income you can actually hatch. Huge eggs in the reset scramble are a size, not a timer. Blank income cells stay blank when no usable roster source has published a figure.",
     },
-    pageH1: "Steal An Egg pets list — income, Cherry Blossom roster",
-    dek: "Reported income roster plus Index status: Forest through Cosmic, Cherry Blossom Update #1 pets, and limited Brainrot eggs.",
+    pageH1: "Steal An Egg pets list — Titan Temple and income roster",
+    dek: "Reported income roster plus Index status: Forest through Cosmic, Cherry Blossom, Titan Temple Update #2 pets, and limited Brainrot eggs.",
     lead:
-      "Steal An Egg pets hatch from eggs and pay coins every second. This page now separates two things Google users need: a reported income roster from public guides, and the smaller Index status this kit has personally photographed. Public rosters list about 86 pets after Cherry Blossom, including reported high earners like Unicorn, Kitsune, Oni Tiger, and Eternal Lunar Dragon.",
+      "Steal An Egg pets hatch from eggs and pay coins every second. This page separates reported income from public guides and the smaller Index status this kit has photographed. Update #2 adds Titan Temple pets (Spideron through Nightflame) with blank income until a usable roster source prints figures. Cherry Blossom and Cosmic high earners stay on the list as reported.",
     tableNote:
       "Income is per second (/s). Values from public roster guides are reported, not developer API data. A blank cell means no usable roster source was found for that pet.",
     faq: {
@@ -739,15 +911,19 @@ export const stealAnEggCopy = {
       items: [
         {
           q: "How many pets are in Steal An Egg?",
-          a: "Beebom’s older all-eggs table lists 78 rows, while newer post-update guides list about 86 pets after Cherry Blossom. This page shows the roster rows we can name and labels the smaller Index status separately.",
+          a: "Beebom’s older all-eggs table lists 78 rows, while newer post-update guides listed about 86 after Cherry Blossom. Update #2 adds eight Titan Temple names on this kit. Monster Egg’s six monsters are named as a count only until the live note lists them.",
         },
         {
           q: "Why are some income cells blank?",
-          a: "Those pets do not have a usable public income/second figure yet, or sources are too thin to rely on. Blank is deliberate.",
+          a: "Those pets do not have a usable public income/second figure yet, or sources are too thin to rely on. Titan Temple incomes stay blank on purpose until a roster source prints them.",
         },
         {
           q: "What does income/second mean?",
           a: "Equipped pets generate coins over time. Examples on this list: Chicken $1/s, Fox $180/s, King Mammoth $400K/s, Cerberus $8M/s.",
+        },
+        {
+          q: "What pets are in Titan Temple?",
+          a: "Reported Update #2 pets: Spideron, Crustacia, Bladehide, Mantaris, Rhinotaur, Mutant Shark, Gorilla King, and Nightflame. Income cells stay blank until a usable roster source publishes figures.",
         },
         {
           q: "What pets are in Cherry Blossom?",
@@ -758,9 +934,9 @@ export const stealAnEggCopy = {
     linkLabel: "Open the Steal An Egg pets list ->",
     rosterTitle: "Reported income roster + Index status",
     rosterNote:
-      "Roster columns: Egg/Pet, Rarity, Biome, Income/Second. Early and mid-game rows were cross-checked against Beebom; later income came from post-update public roster pages checked 2026-08-27. Spelling quirks (Centapede, Tob Tobi Tob Tob, Tralaledon) stay as published.",
+      "Roster columns: Egg/Pet, Rarity, Biome, Income/Second. Early and mid-game rows were cross-checked against Beebom; later income came from post-update public roster pages. Titan Temple rows are names + rarities from Update #2 notes only (income blank). Spelling quirks (Centapede, Tob Tobi Tob Tob, Tralaledon) stay as published.",
     rosterSkip:
-      "Not listed: steal-power, drop rates, ability text, fake S-tier rankings, or exact Bloom multipliers.",
+      "Not listed: steal-power, drop rates, ability text, fake S-tier rankings, Mecha odds, or exact Bloom / Monstrous multipliers.",
     sourceTitle: "Source status",
     sourceRows: [
       {
@@ -778,6 +954,11 @@ export const stealAnEggCopy = {
         use: "Fill later Cosmic, Prehistoric, top earners, and Cherry Blossom income where public roster pages give usable figures.",
         status: "Reported income",
       },
+      {
+        source: "Update #2 live notes",
+        use: "Names Titan Temple pets and rarities. Does not print income/second.",
+        status: "Reported names only",
+      },
     ],
     rarityTitle: "Rarity words on the list",
     rarityRows: [
@@ -785,17 +966,17 @@ export const stealAnEggCopy = {
       {
         name: "Legendary / Mythic / Secret / Cosmic",
         status: "On the list + heard in-game",
-        note: "Later biomes and rare-egg alerts use these labels.",
+        note: "Later biomes and rare-egg alerts use these labels. Titan Temple starts at Legendary.",
       },
       {
         name: "Eternal",
-        status: "On the list (Update #1)",
-        note: "Oni Tiger is listed as Eternal in Cherry Blossom notes.",
+        status: "On the list (Update #1 / #2)",
+        note: "Oni Tiger (Cherry Blossom) and Gorilla King (Titan Temple) are listed as Eternal in update notes.",
       },
       {
         name: "Divine",
         status: "Pet rarity + shop trail",
-        note: "Kitsune is listed as Divine in Update #1 notes. A paid Divine Trail also exists — do not mix the two claims.",
+        note: "Kitsune and Nightflame are listed as Divine in update notes. A paid Divine Trail also exists — do not mix the two claims.",
       },
     ],
     indexTitle: "Index spot-check (optional)",
@@ -1046,6 +1227,14 @@ export const stealAnEggPetsRoster = [
   { name: "Stag", biome: "Cherry Blossom", rarity: "Secret", income: "$145M/s" },
   { name: "Oni Tiger", biome: "Cherry Blossom", rarity: "Eternal", income: "$600M/s" },
   { name: "Kitsune", biome: "Cherry Blossom", rarity: "Divine", income: "$1.8B/s" },
+  { name: "Spideron", biome: "Titan Temple", rarity: "Legendary", income: "—" },
+  { name: "Crustacia", biome: "Titan Temple", rarity: "Legendary", income: "—" },
+  { name: "Bladehide", biome: "Titan Temple", rarity: "Mythic", income: "—" },
+  { name: "Mantaris", biome: "Titan Temple", rarity: "Cosmic", income: "—" },
+  { name: "Rhinotaur", biome: "Titan Temple", rarity: "Cosmic", income: "—" },
+  { name: "Mutant Shark", biome: "Titan Temple", rarity: "Secret", income: "—" },
+  { name: "Gorilla King", biome: "Titan Temple", rarity: "Eternal", income: "—" },
+  { name: "Nightflame", biome: "Titan Temple", rarity: "Divine", income: "—" },
   { name: "Tung Tung Sahur", biome: "Brainrot", rarity: "—", income: "—" },
   { name: "Bananita Dolphinita", biome: "Brainrot", rarity: "—", income: "—" },
   { name: "Belula Beluga", biome: "Brainrot", rarity: "—", income: "—" },
@@ -1103,13 +1292,13 @@ export const stealAnEggMetadata = pageMetadata(
 
 export const stealAnEggUpdatesMetadata = pageMetadata(
   stealAnEggCopy.updates.pageH1,
-  "Steal An Egg Update #1 route: Cherry Blossom Egg, Crane, Sakura Incubator, Bloom mutation, Spirit Bloom, Great Bloom crystals.",
+  "Steal An Egg Update #2 route: Titan Temple, Monster Egg, Hungry Frog, Monster Chests, Monstrous mutation, Mecha variants.",
   `${stealAnEgg.path}/updates`,
 );
 
 export const stealAnEggPetsMetadata = pageMetadata(
   stealAnEggCopy.pets.pageH1,
-  "Steal An Egg pets list: reported income per second, Cherry Blossom roster, top earners, and separate Index status.",
+  "Steal An Egg pets list: reported income per second, Titan Temple roster, Cherry Blossom pets, and separate Index status.",
   `${stealAnEgg.path}/pets`,
 );
 
@@ -1121,19 +1310,19 @@ export const stealAnEggSpeedMetadata = pageMetadata(
 
 export const stealAnEggEggsMetadata = pageMetadata(
   stealAnEggCopy.eggs.pageH1,
-  "Steal An Egg Cherry Blossom Egg guide: Crane unlock, Sakura Incubator status, Sakura Crystals, nests, shop eggs, and reset races.",
+  "Steal An Egg Monster Egg guide: Hungry Frog, infected eggs, Monster Chests, Mecha variants, nests, and reset races.",
   `${stealAnEgg.path}/eggs`,
 );
 
 export const stealAnEggBiomesMetadata = pageMetadata(
   stealAnEggCopy.biomes.pageH1,
-  "Steal An Egg biomes: Forest through Cosmic King, plus Cherry Blossom from Update #1 notes. Speed gates unpublished.",
+  "Steal An Egg biomes: Forest through Cosmic King, Cherry Blossom, and Titan Temple from Update #2 notes. Speed gates unpublished.",
   `${stealAnEgg.path}/biomes`,
 );
 
 export const stealAnEggMutationsMetadata = pageMetadata(
   stealAnEggCopy.mutations.pageH1,
-  "Steal An Egg mutations guide: Bloom mutation, Spirit Bloom mutation, Sakura Incubator route, gold/silver, huge/giant, and status.",
+  "Steal An Egg mutations guide: Monstrous mutation, Mecha variants, Bloom / Spirit Bloom, gold/silver, huge/giant, and status.",
   `${stealAnEgg.path}/mutations`,
 );
 
@@ -1268,16 +1457,16 @@ export function stealAnEggJsonLd() {
     extra: [
       {
         "@type": "Event",
-        "@id": `${stealAnEggCanonical}#update-1-event`,
-        name: "Steal An Egg Update #1",
-        url: stealAnEggCopy.update1.eventUrl,
-        startDate: "2026-08-22T23:00:00+08:00",
+        "@id": `${stealAnEggCanonical}#update-2-event`,
+        name: "Steal An Egg Update #2",
+        url: stealAnEggCopy.update2.eventUrl,
+        startDate: "2026-08-30",
         eventStatus: "https://schema.org/EventScheduled",
         eventAttendanceMode: "https://schema.org/OnlineEventAttendanceMode",
-        description: stealAnEggCopy.update1.lead,
+        description: stealAnEggCopy.update2.lead,
         location: {
           "@type": "VirtualLocation",
-          url: stealAnEggCopy.update1.eventUrl,
+          url: stealAnEggCopy.update2.eventUrl,
         },
         about: {
           "@type": "VideoGame",
@@ -1298,6 +1487,26 @@ export function stealAnEggUpdatesJsonLd() {
     dateModified: stealAnEggPageLastChecked.updates,
     faqItems: stealAnEggCopy.updates.faq.items,
     extra: [
+      {
+        "@type": "Event",
+        "@id": `${absoluteUrl(`${stealAnEgg.path}/updates`)}#update-2-event`,
+        name: "Steal An Egg Update #2",
+        url: stealAnEggCopy.update2.eventUrl,
+        startDate: "2026-08-30",
+        eventStatus: "https://schema.org/EventScheduled",
+        eventAttendanceMode: "https://schema.org/OnlineEventAttendanceMode",
+        description: stealAnEggCopy.update2.lead,
+        location: {
+          "@type": "VirtualLocation",
+          url: stealAnEggCopy.update2.eventUrl,
+        },
+        about: {
+          "@type": "VideoGame",
+          name: stealAnEgg.name,
+          url: stealAnEgg.playUrl,
+          gamePlatform: "Roblox",
+        },
+      },
       {
         "@type": "Event",
         "@id": `${absoluteUrl(`${stealAnEgg.path}/updates`)}#update-1-event`,
