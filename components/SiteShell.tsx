@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { Compass, Play } from "lucide-react";
+import { GamesMenu } from "@/components/GamesMenu";
 import { catalog, type GameSlug } from "@/lib/games";
 import {
   animeVanguards,
@@ -131,26 +132,26 @@ export function SiteShell({
             </span>
           </Link>
           <nav className="top-nav" aria-label="Site">
-            <Link href="/" className={current === "hub" ? "is-on" : undefined}>
+            <Link
+              href="/"
+              className={current === "hub" ? "is-on top-nav-hub" : "top-nav-hub"}
+            >
               <span className="nav-wide">{siteCopy.nav.games}</span>
               <span className="nav-narrow">Hub</span>
             </Link>
-            {catalog.map((game) => (
+            {kit ? (
               <Link
-                key={game.slug}
-                href={game.path}
-                className={
-                  kitSlug === game.slug
-                    ? "is-on kit-name is-current"
-                    : "kit-name is-other"
-                }
+                href={kit.game.path}
+                className="kit-current"
+                title={kit.game.name}
                 data-analytics-event="hub_kit_open"
-                data-analytics-game={game.slug}
-                data-analytics-surface="topnav"
+                data-analytics-game={kit.game.slug}
+                data-analytics-surface="topnav_current"
               >
-                {game.name}
+                {kit.game.name}
               </Link>
-            ))}
+            ) : null}
+            <GamesMenu currentSlug={kitSlug} />
             <span className="pill">{siteCopy.nav.unofficial}</span>
           </nav>
         </div>
