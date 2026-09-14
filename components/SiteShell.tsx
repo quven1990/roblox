@@ -22,6 +22,11 @@ import {
   fishAnAnimeRngCopy,
   fishAnAnimeRngNav,
 } from "@/lib/games/fish-an-anime-rng";
+import {
+  thaLemon3,
+  thaLemon3Copy,
+  thaLemon3Nav,
+} from "@/lib/games/tha-lemon-3";
 import { stealAnEgg, stealAnEggCopy, stealAnEggNav } from "@/lib/games/steal-an-egg";
 import { SITE_CONTACT_EMAIL, SITE_NAME, SITE_PRIVACY_EMAIL, siteCopy } from "@/lib/site";
 
@@ -45,12 +50,20 @@ export type KitSection =
   | "calculator"
   | "tier-list"
   | "characters"
-  | "rarities";
+  | "rarities"
+  | "money-guide"
+  | "weapons";
 
 type Current = "hub" | "legal" | KitSection;
 
 function kitChrome(slug: GameSlug) {
   const bySlug = {
+    "tha-lemon-3": {
+      game: thaLemon3,
+      nav: thaLemon3Nav,
+      footer: thaLemon3Copy.footer,
+      playLabel: thaLemon3Copy.nav.play,
+    },
     "steal-an-egg": {
       game: stealAnEgg,
       nav: stealAnEggNav,

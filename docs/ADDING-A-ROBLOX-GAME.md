@@ -62,6 +62,10 @@ Frozen ≠ delete. Frozen ≠ noindex. Frozen ≠ 301.
 
 **Answer first, evidence second.** Label rows as Verified / Community-reported / Unconfirmed / Outdated. Never invent codes, multipliers, drop rates, or update dates.
 
+## Expanding after GSC signals
+
+If Search Console later shows distinct demand for cars, heists, jobs, or codes on an Active kit, add **one** page for that intent — only when real data exists. Do not pre-build those URLs.
+
 ## Analytics
 
 Hub cards should keep firing `hub_kit_open` / `game_card_click` / `archive_game_click` via `data-analytics-*` attributes. Register new event names with `scripts/register-shipsolo-goals.mjs` when you add them.

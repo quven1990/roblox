@@ -20,9 +20,17 @@ import {
   fishAnAnimeRngArtAlt,
   fishAnAnimeRngCopy,
 } from "@/lib/games/fish-an-anime-rng";
+import {
+  thaLemon3,
+  thaLemon3Copy,
+} from "@/lib/games/tha-lemon-3";
 import { stealAnEgg, stealAnEggCopy } from "@/lib/games/steal-an-egg";
 
 const kitMore = {
+  "tha-lemon-3": {
+    game: thaLemon3,
+    cards: thaLemon3Copy.pages.cards,
+  },
   "steal-an-egg": {
     game: stealAnEgg,
     cards: stealAnEggCopy.wiki.cards,

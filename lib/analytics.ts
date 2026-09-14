@@ -22,6 +22,7 @@ export type AnalyticsProps = Record<
 
 /** Known live kit slugs — used to validate path-derived game context. */
 export const ANALYTICS_GAME_SLUGS = [
+  "tha-lemon-3",
   "steal-an-egg",
   "grow-a-chicken-fighter",
   "anime-vanguards",

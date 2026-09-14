@@ -4,6 +4,7 @@ import { growAChickenFighter } from "@/lib/games/grow-a-chicken-fighter";
 import { animeVanguards } from "@/lib/games/anime-vanguards";
 import { greedyGrowers } from "@/lib/games/greedy-growers";
 import { fishAnAnimeRng } from "@/lib/games/fish-an-anime-rng";
+import { thaLemon3 } from "@/lib/games/tha-lemon-3";
 import { absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
@@ -12,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date(
     `${growAChickenFighter.lastChecked}T00:00:00Z`,
   );
+  const lemonLast = new Date(`${thaLemon3.lastChecked}T00:00:00Z`);
 
   const stealLast = {
     guide: new Date(`${stealAnEggPageLastChecked.guide}T00:00:00Z`),
@@ -26,9 +28,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: absoluteUrl("/"),
-      lastModified,
+      lastModified: lemonLast,
       changeFrequency: "weekly",
       priority: 1,
+    },
+    {
+      url: absoluteUrl(thaLemon3.path),
+      lastModified: lemonLast,
+      changeFrequency: "weekly",
+      priority: 0.95,
+    },
+    {
+      url: absoluteUrl(`${thaLemon3.path}/money-guide`),
+      lastModified: lemonLast,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: absoluteUrl(`${thaLemon3.path}/weapons`),
+      lastModified: lemonLast,
+      changeFrequency: "weekly",
+      priority: 0.9,
     },
     {
       url: absoluteUrl(stealAnEgg.path),
