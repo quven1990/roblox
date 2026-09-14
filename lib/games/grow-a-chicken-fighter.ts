@@ -18,6 +18,13 @@ export const growAChickenFighter = {
   tags: ["Guide", "Codes", "Rewards", "Eggs"],
   icon: "/games/grow-a-chicken-fighter.png",
   thumb: "/games/grow-a-chicken-fighter-thumb.jpg",
+  status: "frozen",
+  featuredPages: [
+    { label: "Codes", href: "/grow-a-chicken-fighter/codes" },
+    { label: "Rewards", href: "/grow-a-chicken-fighter/rewards" },
+    { label: "Eggs", href: "/grow-a-chicken-fighter/eggs" },
+    { label: "Fusion", href: "/grow-a-chicken-fighter/fusion" },
+  ],
 } as const satisfies GameFacts;
 
 export const growAChickenFighterArt = {

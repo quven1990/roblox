@@ -9,6 +9,8 @@ const ANALYTICS_EVENTS = [
   "guide_nav",
   "calculator_use",
   "rising_game_click",
+  "game_card_click",
+  "archive_game_click",
 ];
 
 const API_BASE = "https://shipsolo.io/api/v1";

@@ -9,6 +9,8 @@ export const ANALYTICS_EVENTS = [
   "guide_nav",
   "calculator_use",
   "rising_game_click",
+  "game_card_click",
+  "archive_game_click",
 ] as const;
 
 export type AnalyticsEvent = (typeof ANALYTICS_EVENTS)[number];
@@ -38,6 +40,8 @@ const DATASET_PROP_MAP: Record<string, string> = {
   analyticsVideoId: "video_id",
   analyticsCode: "code",
   analyticsGameName: "game_name",
+  analyticsStatus: "status",
+  analyticsSource: "source",
 };
 
 declare global {

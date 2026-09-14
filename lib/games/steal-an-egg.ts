@@ -17,6 +17,13 @@ export const stealAnEgg = {
   tags: ["Guide", "Pets", "Eggs", "Biomes"],
   icon: "/games/steal-an-egg.png",
   thumb: "/games/steal-an-egg-thumb.jpg",
+  status: "watch",
+  featuredPages: [
+    { label: "Mutations", href: "/steal-an-egg/mutations" },
+    { label: "Eggs", href: "/steal-an-egg/eggs" },
+    { label: "Biomes", href: "/steal-an-egg/biomes" },
+    { label: "Updates", href: "/steal-an-egg/updates" },
+  ],
 } as const satisfies GameFacts;
 
 export const stealAnEggPageLastChecked = {

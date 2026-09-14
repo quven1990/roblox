@@ -17,6 +17,19 @@ export const greedyGrowers = {
   tags: ["Guide", "Codes", "Mutations", "Seeds", "Fertilizer", "Pets", "Calculator"],
   icon: "/games/greedy-growers-rbx.png",
   thumb: "/games/greedy-growers-rbx-thumb.jpg",
+  status: "watch",
+  featuredPages: [
+    { label: "Mutations", href: "/greedy-growers/mutations" },
+    { label: "Calculator", href: "/greedy-growers/calculator" },
+    { label: "Codes", href: "/greedy-growers/codes" },
+    { label: "Seeds", href: "/greedy-growers/seeds" },
+  ],
+  tools: [
+    {
+      label: "Greedy Growers Calculator",
+      href: "/greedy-growers/calculator",
+    },
+  ],
 } as const satisfies GameFacts;
 
 export const greedyGrowersArt = {

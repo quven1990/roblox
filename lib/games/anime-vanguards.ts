@@ -17,6 +17,13 @@ export const animeVanguards = {
   tags: ["Guide", "Codes", "Traits", "Units", "Items"],
   icon: "/games/anime-vanguards.png",
   thumb: "/games/anime-vanguards-thumb.jpg",
+  status: "frozen",
+  featuredPages: [
+    { label: "Codes", href: "/anime-vanguards/codes" },
+    { label: "Traits", href: "/anime-vanguards/traits" },
+    { label: "Units", href: "/anime-vanguards/units" },
+    { label: "Items", href: "/anime-vanguards/items" },
+  ],
 } as const satisfies GameFacts;
 
 export const animeVanguardsArt = {

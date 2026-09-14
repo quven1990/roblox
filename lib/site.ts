@@ -63,19 +63,42 @@ export function pageMetadata(
 }
 
 export const siteCopy = {
-  title: "Upvane — Steal An Egg Update #2 and Roblox kits",
+  title: "Upvane – Roblox Guides, Wikis, Codes & Tools",
   metaDescription:
-    "Upvane tracks Steal An Egg Update #2, Titan Temple, Monster Egg, Hungry Frog, Monstrous mutation, and current Roblox guide kits.",
-  kicker: "This week's Roblox kit desk",
-  h1: "Steal An Egg Update #2 first, other Roblox kits behind it.",
-  dek: "Titan Temple, Monster Egg, Hungry Frog, Monstrous mutation, pets income, and the live Roblox guide pages worth opening now.",
+    "Upvane tracks new and rising Roblox games with practical guides, verified data, calculators, codes, and game-specific tools.",
+  kicker: "Roblox guide hub",
+  h1: "Roblox Guides for New & Rising Games",
+  dek: "Track new and rising Roblox games with practical guides, verified data, progression help, calculators, codes, and game-specific tools.",
   summary:
-    "Upvane is currently led by Steal An Egg because Update #2 has fresh player questions: Titan Temple pets, Monster Egg, Hungry Frog, Monster Chests, Monstrous Mutation, and Mecha variants. Other Roblox kits stay available when they have useful pages.",
-  heroCta: "Open live kits",
-  kits: {
-    kicker: "Live kits",
-    h2: "Current main kit + supporting guides",
-    body: "Steal An Egg is the current main kit. Open the title you searched; pages stay live only when they answer real player tasks.",
+    "Upvane incubates Roblox game guides in small clusters. Active kits get updates. Watch kits keep proven pages. Frozen kits stay live for search but stop expanding until demand returns.",
+  heroCta: "Browse guides",
+  sections: {
+    recentlyUpdated: {
+      kicker: "Fresh checks",
+      h2: "Recently updated",
+      body: "Ordered by each kit’s lastChecked date in config — not a marketing label.",
+    },
+    active: {
+      kicker: "Incubating",
+      h2: "Active games",
+      body: "Worth updating now. New pages only when search demand and real data exist.",
+      empty: "No active incubation kits right now. Watch and archived guides stay below.",
+    },
+    watch: {
+      kicker: "Holding",
+      h2: "Watch list",
+      body: "Existing pages stay live. No batch page expansion until Google or player demand shows a signal.",
+    },
+    tools: {
+      kicker: "Interactive",
+      h2: "Useful tools",
+      body: "Calculators and helpers beat thin article pages when the game has numbers you can use.",
+    },
+    frozen: {
+      kicker: "Archive",
+      h2: "Previous Roblox guides",
+      body: "Upvane is not expanding these kits right now. URLs stay published for search and returning players.",
+    },
   },
   rising: {
     kicker: "Scan only",

@@ -748,7 +748,8 @@ img {
   background: #fff;
 }
 
-.game-card h2 {
+.game-card h2,
+.game-card h3 {
   margin: 0;
   font-size: 28px;
   color: var(--ink);
@@ -766,6 +767,7 @@ img {
   display: inline-flex;
   margin-left: auto;
   align-self: flex-start;
+  flex-shrink: 0;
   border-radius: 8px;
   border: 1px solid #fecdd3;
   background: #fff1f2;
@@ -775,6 +777,90 @@ img {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   padding: 4px 8px;
+}
+
+.status-active {
+  border-color: #bbf7d0;
+  background: #f0fdf4;
+  color: #166534;
+}
+
+.status-watch {
+  border-color: #fde68a;
+  background: #fffbeb;
+  color: #92400e;
+}
+
+.status-frozen {
+  border-color: #e5e7eb;
+  background: #f9fafb;
+  color: #4b5563;
+}
+
+.hub-empty {
+  margin: 0;
+  padding: 8px 0 24px;
+  color: var(--muted);
+}
+
+.recent-list,
+.tools-list {
+  display: grid;
+  gap: 10px;
+  padding-bottom: 8px;
+}
+
+.recent-row,
+.tool-row {
+  display: grid;
+  gap: 6px 12px;
+  align-items: center;
+  padding: 14px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: var(--card);
+  text-decoration: none;
+  color: inherit;
+  box-shadow: var(--shadow);
+}
+
+.recent-row:hover,
+.tool-row:hover {
+  border-color: var(--red);
+  color: inherit;
+}
+
+.recent-row {
+  grid-template-columns: auto 1fr auto;
+}
+
+.recent-row .recent-pages {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.recent-date {
+  color: var(--muted);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.tool-row {
+  grid-template-columns: auto 1fr auto;
+  font-weight: 700;
+}
+
+@media (min-width: 720px) {
+  .recent-row {
+    grid-template-columns: auto minmax(0, 1fr) auto minmax(0, 1.2fr);
+  }
+
+  .recent-row .recent-pages {
+    grid-column: auto;
+    justify-self: end;
+    text-align: right;
+  }
 }
 
 .game-lede {
@@ -1826,7 +1912,8 @@ img {
     padding: 16px;
   }
 
-  .game-card h2 {
+  .game-card h2,
+  .game-card h3 {
     font-size: 22px;
   }
 
@@ -1836,7 +1923,18 @@ img {
   }
 
   .status {
-    display: none;
+    display: inline-flex;
+    font-size: 10px;
+    padding: 3px 7px;
+    letter-spacing: 0.06em;
+  }
+
+  .recent-row {
+    grid-template-columns: auto 1fr;
+  }
+
+  .recent-date {
+    justify-self: end;
   }
 
   .game-thumb {

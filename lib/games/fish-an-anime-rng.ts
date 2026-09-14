@@ -12,9 +12,16 @@ export const fishAnAnimeRng = {
   hasRedeemUi: true,
   path: "/fish-an-anime-rng",
   kitNumber: 5,
-  kicker: "New",
+  kicker: "Watch",
   lede: "Click ponds, fish anime characters, place them in your base for cash.",
   tags: ["Guide", "Codes", "Tier-List", "Characters", "Rarities"],
+  status: "watch",
+  featuredPages: [
+    { label: "Characters", href: "/fish-an-anime-rng/characters" },
+    { label: "Tier list", href: "/fish-an-anime-rng/tier-list" },
+    { label: "Codes", href: "/fish-an-anime-rng/codes" },
+    { label: "Rarities", href: "/fish-an-anime-rng/rarities" },
+  ],
   icon: "/games/fish-an-anime-rng-rbx.png",
   thumb: "/games/fish-an-anime-rng-rbx-thumb.jpg",
 } as const satisfies GameFacts;
