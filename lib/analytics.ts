@@ -24,10 +24,7 @@ export type AnalyticsProps = Record<
 export const ANALYTICS_GAME_SLUGS = [
   "tha-lemon-3",
   "steal-an-egg",
-  "grow-a-chicken-fighter",
-  "anime-vanguards",
   "greedy-growers",
-  "fish-an-anime-rng",
 ] as const satisfies readonly GameSlug[];
 
 export type AnalyticsGameSlug = (typeof ANALYTICS_GAME_SLUGS)[number];

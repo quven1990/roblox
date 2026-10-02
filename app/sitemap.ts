@@ -1,19 +1,14 @@
 import type { MetadataRoute } from "next";
 import { stealAnEgg, stealAnEggPageLastChecked } from "@/lib/games/steal-an-egg";
-import { growAChickenFighter } from "@/lib/games/grow-a-chicken-fighter";
-import { animeVanguards } from "@/lib/games/anime-vanguards";
 import { greedyGrowers } from "@/lib/games/greedy-growers";
-import { fishAnAnimeRng } from "@/lib/games/fish-an-anime-rng";
 import { thaLemon3 } from "@/lib/games/tha-lemon-3";
 import { absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date(
-    `${growAChickenFighter.lastChecked}T00:00:00Z`,
-  );
   const lemonLast = new Date(`${thaLemon3.lastChecked}T00:00:00Z`);
+  const greedyLast = new Date(`${greedyGrowers.lastChecked}T00:00:00Z`);
 
   const stealLast = {
     guide: new Date(`${stealAnEggPageLastChecked.guide}T00:00:00Z`),
@@ -93,146 +88,62 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: absoluteUrl(growAChickenFighter.path),
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: absoluteUrl(`${growAChickenFighter.path}/codes`),
-      lastModified,
-      changeFrequency: "daily",
-      priority: 0.85,
-    },
-    {
-      url: absoluteUrl(`${growAChickenFighter.path}/rewards`),
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: absoluteUrl(`${growAChickenFighter.path}/eggs`),
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: absoluteUrl(animeVanguards.path),
-      lastModified: new Date(`${animeVanguards.lastChecked}T00:00:00Z`),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: absoluteUrl(`${animeVanguards.path}/codes`),
-      lastModified: new Date(`${animeVanguards.lastChecked}T00:00:00Z`),
-      changeFrequency: "daily",
-      priority: 0.85,
-    },
-    {
-      url: absoluteUrl(`${animeVanguards.path}/items`),
-      lastModified: new Date(`${animeVanguards.lastChecked}T00:00:00Z`),
-      changeFrequency: "weekly",
-      priority: 0.75,
-    },
-    {
-      url: absoluteUrl(`${animeVanguards.path}/traits`),
-      lastModified: new Date(`${animeVanguards.lastChecked}T00:00:00Z`),
-      changeFrequency: "weekly",
-      priority: 0.75,
-    },
-    {
-      url: absoluteUrl(`${animeVanguards.path}/units`),
-      lastModified: new Date(`${animeVanguards.lastChecked}T00:00:00Z`),
-      changeFrequency: "weekly",
-      priority: 0.75,
-    },
-    {
       url: absoluteUrl(greedyGrowers.path),
-      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
+      lastModified: greedyLast,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: absoluteUrl(`${greedyGrowers.path}/codes`),
-      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
+      lastModified: greedyLast,
       changeFrequency: "daily",
       priority: 0.85,
     },
     {
       url: absoluteUrl(`${greedyGrowers.path}/mutations`),
-      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
+      lastModified: greedyLast,
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
       url: absoluteUrl(`${greedyGrowers.path}/seeds`),
-      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
+      lastModified: greedyLast,
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
       url: absoluteUrl(`${greedyGrowers.path}/pets`),
-      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
+      lastModified: greedyLast,
       changeFrequency: "weekly",
       priority: 0.75,
     },
     {
       url: absoluteUrl(`${greedyGrowers.path}/fertilizer`),
-      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
+      lastModified: greedyLast,
       changeFrequency: "weekly",
       priority: 0.75,
     },
     {
       url: absoluteUrl(`${greedyGrowers.path}/calculator`),
-      lastModified: new Date(`${greedyGrowers.lastChecked}T00:00:00Z`),
+      lastModified: greedyLast,
       changeFrequency: "weekly",
       priority: 0.85,
-    },
-    {
-      url: absoluteUrl(fishAnAnimeRng.path),
-      lastModified: new Date(`${fishAnAnimeRng.lastChecked}T00:00:00Z`),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: absoluteUrl(`${fishAnAnimeRng.path}/codes`),
-      lastModified: new Date(`${fishAnAnimeRng.lastChecked}T00:00:00Z`),
-      changeFrequency: "daily",
-      priority: 0.85,
-    },
-    {
-      url: absoluteUrl(`${fishAnAnimeRng.path}/tier-list`),
-      lastModified: new Date(`${fishAnAnimeRng.lastChecked}T00:00:00Z`),
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: absoluteUrl(`${fishAnAnimeRng.path}/characters`),
-      lastModified: new Date(`${fishAnAnimeRng.lastChecked}T00:00:00Z`),
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: absoluteUrl(`${fishAnAnimeRng.path}/rarities`),
-      lastModified: new Date(`${fishAnAnimeRng.lastChecked}T00:00:00Z`),
-      changeFrequency: "weekly",
-      priority: 0.8,
     },
     {
       url: absoluteUrl("/privacy"),
-      lastModified,
+      lastModified: greedyLast,
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: absoluteUrl("/terms"),
-      lastModified,
+      lastModified: greedyLast,
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: absoluteUrl("/editorial-policy"),
-      lastModified,
+      lastModified: greedyLast,
       changeFrequency: "monthly",
       priority: 0.5,
     },

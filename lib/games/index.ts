@@ -1,8 +1,5 @@
 import { stealAnEgg } from "@/lib/games/steal-an-egg";
-import { growAChickenFighter } from "@/lib/games/grow-a-chicken-fighter";
-import { animeVanguards } from "@/lib/games/anime-vanguards";
 import { greedyGrowers } from "@/lib/games/greedy-growers";
-import { fishAnAnimeRng } from "@/lib/games/fish-an-anime-rng";
 import { thaLemon3 } from "@/lib/games/tha-lemon-3";
 import type { GameFacts, GameStatus, GameToolLink } from "@/lib/games/types";
 import { absoluteUrl } from "@/lib/site";
@@ -11,19 +8,13 @@ import { absoluteUrl } from "@/lib/site";
 export const catalog = [
   thaLemon3,
   stealAnEgg,
-  growAChickenFighter,
-  animeVanguards,
   greedyGrowers,
-  fishAnAnimeRng,
 ] as const satisfies readonly GameFacts[];
 
 export const games = {
   "tha-lemon-3": thaLemon3,
   "steal-an-egg": stealAnEgg,
-  "grow-a-chicken-fighter": growAChickenFighter,
-  "anime-vanguards": animeVanguards,
   "greedy-growers": greedyGrowers,
-  "fish-an-anime-rng": fishAnAnimeRng,
 } as const;
 
 export type GameSlug = keyof typeof games;

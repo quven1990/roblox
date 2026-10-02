@@ -1,8 +1,8 @@
 # Upvane
 
-Unofficial Roblox **new-game guide hub** at [upvane.com](https://upvane.com). Kits use **Active / Watch / Frozen** status in `lib/games/*` so the homepage incubates rising titles without deleting old URLs.
+Unofficial Roblox **new-game guide hub** at [upvane.com](https://upvane.com). Kits use **Active / Watch / Frozen** status in `lib/games/*` so the homepage incubates rising titles; zero-traffic kits are removed from the catalog and sitemap.
 
-Live kits: **Steal An Egg**, **Greedy Growers**, **Fish an Anime RNG**, **Grow a Chicken Fighter**, **Anime Vanguards**.
+Live kits: **Tha Lemon 3**, **Steal An Egg**, **Greedy Growers**.
 
 Pushing `master` to GitHub deploys to Cloudflare Pages (`upvane` project). Build is `npm run build`; output directory is `out/`. Production branch is `master`. Custom domains: `upvane.com` and `www.upvane.com`. The Pages alias `upvane.pages.dev` 301s to `upvane.com` via `functions/_middleware.js` (Cloudflare cannot remove `*.pages.dev`).
 
@@ -30,17 +30,14 @@ See [docs/ADDING-A-ROBLOX-GAME.md](docs/ADDING-A-ROBLOX-GAME.md): max **3 pages*
 | Path | Notes |
 |------|--------|
 | `/` | Hub homepage (Active / Watch / Frozen + tools) |
+| `/tha-lemon-3` | Kit (Active) |
+| `/tha-lemon-3/money-guide` `/weapons` | Lemon kit pages |
 | `/steal-an-egg` | Kit (Watch) |
 | `/steal-an-egg/pets` | Partial in-game Pet Index |
 | `/steal-an-egg/eggs` `/biomes` `/mutations` `/speed` `/updates` | Game kit pages |
-| `/grow-a-chicken-fighter` | Kit (Frozen) |
-| `/grow-a-chicken-fighter/codes` `/rewards` `/eggs` `/chickens` `/fusion` | GCF kit pages |
-| `/anime-vanguards` | Kit (Frozen) |
-| `/anime-vanguards/codes` `/items` `/traits` `/units` | AV kit pages |
 | `/greedy-growers` | Kit (Watch) |
-| `/greedy-growers/codes` `/mutations` `/seeds` `/pets` `/calculator` | Codes disputed. Mutations/seeds/pets reported. Calculator is manual EV only |
-| `/fish-an-anime-rng` | Kit (Watch) |
-| `/privacy` `/terms` | Unofficial legal pages |
+| `/greedy-growers/codes` `/mutations` `/seeds` `/pets` `/fertilizer` `/calculator` | Codes disputed. Mutations/seeds/pets reported. Calculator is manual EV only |
+| `/privacy` `/terms` `/editorial-policy` | Unofficial legal / editorial pages |
 
 Codes tables only exist when a redeem box is confirmed. Steal An Egg has no redeem UI as of 2026-08-15. Greedy Growers lists ILOVECATS as disputed only.
 

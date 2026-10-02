@@ -4,25 +4,10 @@ import { Compass, Play } from "lucide-react";
 import { GamesMenu } from "@/components/GamesMenu";
 import { catalog, type GameSlug } from "@/lib/games";
 import {
-  animeVanguards,
-  animeVanguardsCopy,
-  animeVanguardsNav,
-} from "@/lib/games/anime-vanguards";
-import {
-  growAChickenFighter,
-  growAChickenFighterCopy,
-  growAChickenFighterNav,
-} from "@/lib/games/grow-a-chicken-fighter";
-import {
   greedyGrowers,
   greedyGrowersCopy,
   greedyGrowersNav,
 } from "@/lib/games/greedy-growers";
-import {
-  fishAnAnimeRng,
-  fishAnAnimeRngCopy,
-  fishAnAnimeRngNav,
-} from "@/lib/games/fish-an-anime-rng";
 import {
   thaLemon3,
   thaLemon3Copy,
@@ -40,18 +25,9 @@ export type KitSection =
   | "mutations"
   | "speed"
   | "codes"
-  | "rewards"
-  | "chickens"
-  | "fusion"
-  | "traits"
-  | "units"
-  | "items"
   | "seeds"
   | "fertilizer"
   | "calculator"
-  | "tier-list"
-  | "characters"
-  | "rarities"
   | "money-guide"
   | "weapons";
 
@@ -71,29 +47,11 @@ function kitChrome(slug: GameSlug) {
       footer: stealAnEggCopy.footer,
       playLabel: stealAnEggCopy.nav.play,
     },
-    "grow-a-chicken-fighter": {
-      game: growAChickenFighter,
-      nav: growAChickenFighterNav,
-      footer: growAChickenFighterCopy.footer,
-      playLabel: growAChickenFighterCopy.nav.play,
-    },
-    "anime-vanguards": {
-      game: animeVanguards,
-      nav: animeVanguardsNav,
-      footer: animeVanguardsCopy.footer,
-      playLabel: animeVanguardsCopy.nav.play,
-    },
     "greedy-growers": {
       game: greedyGrowers,
       nav: greedyGrowersNav,
       footer: greedyGrowersCopy.footer,
       playLabel: greedyGrowersCopy.nav.play,
-    },
-    "fish-an-anime-rng": {
-      game: fishAnAnimeRng,
-      nav: fishAnAnimeRngNav,
-      footer: fishAnAnimeRngCopy.footer,
-      playLabel: fishAnAnimeRngCopy.nav.play,
     },
   } as const;
 
