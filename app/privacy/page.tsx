@@ -21,7 +21,7 @@ export default function PrivacyPage() {
       <main id="content" className="wrap legal">
         <p className="kicker">Legal</p>
         <h1>Privacy</h1>
-        <p className="meta">Last updated 2026-08-16. Unofficial fan site.</p>
+        <p className="meta">Policy reviewed 2026-10-17. Unofficial guide website.</p>
 
         <p>
           {SITE_NAME} ({SITE_ORIGIN}) publishes unofficial guides for Roblox
@@ -47,8 +47,7 @@ export default function PrivacyPage() {
         <h2>Analytics</h2>
         <p>
           Page views are counted in three places. A self-hosted Plausible script
-          loads from plausible.shipsolo.io (data-domain upvane.com). Plausible
-          is cookieless. The typical payload is the page URL, referrer, browser,
+          loads from plausible.shipsolo.io (data-domain upvane.com). The project does not configure cookies for Plausible; the hosted script and server settings still need operator confirmation. A typical Plausible payload is the page URL, referrer, browser,
           operating system, device type, and a coarse country derived from IP
           address.
         </p>
@@ -57,31 +56,32 @@ export default function PrivacyPage() {
           the first tap, scroll, or key, or after 30 seconds. That script loads
           from googletagmanager.com and google-analytics.com. It can set
           first-party cookies (such as _ga) and send page URL, referrer,
-          device, and approximate location to Google. We use it to see which
-          guides are read. We do not turn on Google ads or remarketing on this
+          device, and approximate location to Google. It is configured for site analytics. The operator needs to confirm the specific data uses and dashboard settings. We do not turn on Google ads or remarketing on this
           site. Google’s own privacy policy applies to that processing.
         </p>
         <p>
           Microsoft Clarity (project {SITE_CLARITY_ID}) also runs on the same
           delay. That script loads from clarity.ms. It can set cookies and
-          record page views, clicks, scrolling, and anonymized session replays
+          record page views, clicks, scrolling, and session replays
           so we can see how the guides are used. Microsoft’s privacy policy
           applies to that processing. This site has no login forms; do not type
           secrets into the pages.
         </p>
         <p>
-          We do not control every retention setting on those hosts. A content
+          Analytics retention periods, provider settings, and the site operator’s legal identity have not been verified in this codebase and need operator confirmation. A content
           blocker that stops the analytics scripts is enough if you prefer not
           to be counted. You can also email {SITE_PRIVACY_EMAIL} with questions
           about the count.
         </p>
 
+        <h2>Interaction events</h2>
+        <p>The site can send named interaction events to Plausible when its event API is available, including guide navigation, outbound play links, video plays, code copying, and calculator use. Event properties include the game, page, location, and relevant action details. No account identifier is added by the site code.</p>
+
         <h2>Hosting and fonts</h2>
         <p>
           The company that serves these pages receives standard request data
           such as IP address, user agent, time, and the path you asked for.
-          That is normal web hosting for security and uptime. We do not use
-          those logs to build a profile of you.
+          Hosting log purposes, access, and retention need confirmation from the operator.
         </p>
         <p>
           The Outfit typeface is bundled with this site at build time. Visiting
@@ -90,9 +90,7 @@ export default function PrivacyPage() {
 
         <h2>If you email us</h2>
         <p>
-          Mail to {SITE_CONTACT_EMAIL} or {SITE_PRIVACY_EMAIL} is stored in
-          ordinary email inboxes. We keep what we need to answer you and then
-          delete threads we no longer need. Do not send Roblox passwords or
+          Emailing {SITE_CONTACT_EMAIL} or {SITE_PRIVACY_EMAIL} sends the information you include to the configured mail provider. The provider and email retention period need operator confirmation. Do not send Roblox passwords or
           payment cards.
         </p>
 

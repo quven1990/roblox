@@ -2,6 +2,7 @@ import { SiteShell } from "@/components/SiteShell";
 import {
   SITE_CONTACT_EMAIL,
   SITE_NAME,
+  UNOFFICIAL_NOTICE,
   SITE_ORIGIN,
   SITE_PRIVACY_EMAIL,
   pageMetadata,
@@ -19,7 +20,7 @@ export default function TermsPage() {
       <main id="content" className="wrap legal">
         <p className="kicker">Legal</p>
         <h1>Terms</h1>
-        <p className="meta">Last updated 2026-08-16. Unofficial fan site.</p>
+        <p className="meta">Policy reviewed 2026-10-17. Unofficial guide website.</p>
 
         <p>
           By using {SITE_NAME} ({SITE_ORIGIN}) you agree to these terms. They
@@ -37,10 +38,7 @@ export default function TermsPage() {
 
         <h2>Unofficial site</h2>
         <p>
-          {SITE_NAME} is unofficial. It is not affiliated with, endorsed by, or
-          sponsored by Roblox Corporation or the developers of games covered
-          here. Titles that say “wiki” mean fan notes. They are not the in-game
-          Index and they are not official patch notes.
+          {UNOFFICIAL_NOTICE}
         </p>
 
         <h2>Trademarks and art</h2>

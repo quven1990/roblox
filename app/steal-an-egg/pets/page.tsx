@@ -57,15 +57,6 @@ export default function StealAnEggPetsPage() {
           <h2>{copy.rosterTitle}</h2>
           <p>{copy.rosterNote}</p>
           <p>{copy.tableNote}</p>
-          <h2>{copy.sourceTitle}</h2>
-          <DataTable
-            columns={["source", "how used", "status"]}
-            rows={copy.sourceRows.map((row) => [
-              row.source,
-              row.use,
-              row.status,
-            ])}
-          />
           <div className="note warn">
             <p>{copy.rosterSkip}</p>
           </div>
@@ -141,7 +132,18 @@ export default function StealAnEggPetsPage() {
               </details>
             ))}
           </div>
+          <h2>Related guides</h2>
           <KitMore current="pets" />
+          <h2>{copy.sourceTitle}</h2>
+          <DataTable
+            columns={["source", "how used", "status"]}
+            rows={copy.sourceRows.map((row) => [
+              row.source,
+              row.use,
+              row.status,
+            ])}
+          />
+          <p className="source">Content last checked {stealAnEggPageLastChecked.pets}. Reported figures remain separate from Index evidence; blank values are unknown.</p>
         </article>
       </main>
     </SiteShell>

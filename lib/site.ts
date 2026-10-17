@@ -63,14 +63,14 @@ export function pageMetadata(
 }
 
 export const siteCopy = {
-  title: "Upvane – Roblox Guides, Wikis, Codes & Tools",
+  title: "Upvane | Unofficial Guides for Roblox Games",
   metaDescription:
-    "Upvane tracks new and rising Roblox games with practical guides, verified data, calculators, codes, and game-specific tools.",
+    "Find walkthroughs, item locations, progression guides, and useful tools for selected Roblox games.",
   kicker: "Roblox guide hub",
-  h1: "Roblox Guides for New & Rising Games",
-  dek: "Track new and rising Roblox games with practical guides, verified data, progression help, calculators, codes, and game-specific tools.",
+  h1: "Unofficial Guides for Roblox Games",
+  dek: "Find walkthroughs, item locations, progression guides, and useful tools for selected Roblox games.",
   summary:
-    "Upvane incubates Roblox game guides in small clusters. Active kits get updates. Watch kits keep proven pages. Frozen kits stay live for search but stop expanding until demand returns.",
+    "Upvane helps English-speaking players explore selected Roblox games with walkthroughs, reference tables, progression tips, and practical tools. Guide pages distinguish known facts from community reports and details that still need confirmation.",
   heroCta: "Browse guides",
   sections: {
     recentlyUpdated: {
@@ -106,9 +106,11 @@ export const siteCopy = {
     body: "These names are from the rising scan. They are not Upvane kits. Links go to Roblox, not a walkthrough.",
   },
   nav: {
-    games: "Kits",
+    games: "Guides",
     unofficial: "Unofficial",
   },
   footer:
     "Upvane is unofficial. Not affiliated with Roblox Corporation or the developers of games covered here.",
 } as const;
+
+export const UNOFFICIAL_NOTICE = "Upvane is an independent, unofficial guide website. It is not affiliated with, endorsed by, or sponsored by Roblox Corporation or the developers of the games covered. Roblox and the respective game names and marks belong to their owners.";

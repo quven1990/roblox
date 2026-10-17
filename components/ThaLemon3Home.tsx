@@ -23,7 +23,7 @@ export function ThaLemon3Home() {
       <JsonLd data={thaLemon3JsonLd()} />
       <main id="content">
         <KitHero
-          kicker={thaLemon3.kicker}
+          kicker="Unofficial game guide"
           title={copy.h1}
           dek={copy.dek}
           src={thaLemon3Art.guide}

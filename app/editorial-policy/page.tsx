@@ -18,7 +18,7 @@ export default function EditorialPolicyPage() {
       <main id="content" className="wrap legal">
         <p className="kicker">Editorial policy</p>
         <h1>How Upvane verifies Roblox game kits</h1>
-        <p className="meta">Last updated 2026-08-16. Unofficial fan site.</p>
+        <p className="meta">Policy reviewed 2026-10-17. Unofficial guide website.</p>
 
         <p>
           {SITE_NAME} publishes unofficial Roblox game kits. The goal is to help
@@ -28,8 +28,7 @@ export default function EditorialPolicyPage() {
 
         <h2>How games are chosen</h2>
         <p>
-          The homepage can mention games from a rising scan, but a scanned name
-          is not automatically a guide. A game becomes a kit only when there is
+          The homepage links to games with published content. A game guide is added when there is
           enough player demand, enough searchable gameplay detail, and a clear
           way to verify facts from the Roblox page, in-game UI, official notes,
           or public English-client gameplay.

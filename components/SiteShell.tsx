@@ -14,7 +14,7 @@ import {
   thaLemon3Nav,
 } from "@/lib/games/tha-lemon-3";
 import { stealAnEgg, stealAnEggCopy, stealAnEggNav } from "@/lib/games/steal-an-egg";
-import { SITE_CONTACT_EMAIL, SITE_NAME, SITE_PRIVACY_EMAIL, siteCopy } from "@/lib/site";
+import { SITE_CONTACT_EMAIL, SITE_NAME, SITE_PRIVACY_EMAIL, UNOFFICIAL_NOTICE, siteCopy } from "@/lib/site";
 
 export type KitSection =
   | "guide"
@@ -86,7 +86,7 @@ export function SiteShell({
             </span>
             <span>
               <span className="brand-name">{SITE_NAME}</span>
-              <span className="brand-sub">Unofficial Roblox kits</span>
+              <span className="brand-sub">Unofficial game guides</span>
             </span>
           </Link>
           <nav className="top-nav" aria-label="Site">
@@ -154,8 +154,7 @@ export function SiteShell({
           <div>
             <p className="brand-name">{SITE_NAME}</p>
             <p>
-              A directory of unofficial Roblox game kits. Codes only when a
-              redeem box exists.
+              Unofficial guides, reference pages, and tools for selected Roblox games.
             </p>
             {kit ? (
               <ul className="footer-kit-links">
@@ -208,7 +207,7 @@ export function SiteShell({
           </div>
         </div>
         <div className="wrap" style={{ paddingTop: 16 }}>
-          <p>{kit ? kit.footer : siteCopy.footer}</p>
+          <p>{UNOFFICIAL_NOTICE}</p>
         </div>
       </footer>
     </div>

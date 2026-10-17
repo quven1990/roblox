@@ -3,15 +3,7 @@
 import { useEffect, useId, useRef, useState } from "react";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
-import {
-  catalog,
-  gamesByStatus,
-  statusLabel,
-  type GameSlug,
-} from "@/lib/games";
-import type { GameStatus } from "@/lib/games/types";
-
-const STATUS_ORDER: GameStatus[] = ["active", "watch", "frozen"];
+import { catalog, type GameSlug } from "@/lib/games";
 
 export function GamesMenu({ currentSlug }: { currentSlug?: GameSlug }) {
   const [open, setOpen] = useState(false);
@@ -71,18 +63,11 @@ export function GamesMenu({ currentSlug }: { currentSlug?: GameSlug }) {
           data-analytics-surface="games_menu"
           onClick={() => setOpen(false)}
         >
-          All kits (Hub)
+          All game guides
         </Link>
-        {STATUS_ORDER.map((status) => {
-          const games = gamesByStatus(status);
-          if (games.length === 0) {
-            return null;
-          }
-          return (
-            <div key={status} className="games-menu-group">
-              <p className="games-menu-label">{statusLabel(status)}</p>
+        <div className="games-menu-group">
               <ul>
-                {games.map((game) => (
+                {catalog.map((game) => (
                   <li key={game.slug}>
                     <Link
                       href={game.path}
@@ -112,10 +97,8 @@ export function GamesMenu({ currentSlug }: { currentSlug?: GameSlug }) {
                   </li>
                 ))}
               </ul>
-            </div>
-          );
-        })}
-        <p className="games-menu-count">{catalog.length} kits</p>
+        </div>
+        <p className="games-menu-count">{catalog.length} games</p>
       </div>
     </div>
   );

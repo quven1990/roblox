@@ -22,7 +22,7 @@ export function StealAnEggHome() {
       <JsonLd data={stealAnEggJsonLd()} />
       <main id="content">
         <KitHero
-          kicker={stealAnEgg.kicker}
+          kicker="Unofficial game guide"
           title={copy.h1}
           dek={copy.dek}
           src={stealAnEggArt.guide}
@@ -77,49 +77,6 @@ export function StealAnEggHome() {
               {copy.update2.eventLabel} →
             </a>
           </p>
-
-          <EvidencePanel
-            lastChecked={stealAnEggPageLastChecked.guide}
-            checked={`Roblox place ${stealAnEgg.placeId} by ${stealAnEgg.developer}.`}
-            verified={[
-              "The core loop is egg steal, hatch at base, pet income, Speed training, and biome gates.",
-              "Forest and Lake pet Index details come from an in-game screenshot.",
-              "Later biomes are labeled from public English-client gameplay, not invented tier names.",
-              "Update #2 live notes (2026-08-30) name Titan Temple, Monster Egg, Hungry Frog, Monster Chests, Monstrous Mutation, and Mecha variants — treated as reported, not Index-photographed here yet.",
-              "Update #1 live notes (2026-08-25) name Cherry Blossom Biome, Bloom / Spirit Bloom, and eight Cherry Blossom pets — still treated as reported.",
-              "No redeem UI is confirmed for this kit, so there is no Steal An Egg codes page.",
-            ]}
-            unverified={[
-              "Full later-biome Index rows and exact Speed gate numbers, including Titan Temple and Cherry Blossom.",
-              "Published odds for huge, giant, gold, silver, Mecha, Monstrous, Bloom, and Spirit Bloom outcomes.",
-              "Income/second for Titan Temple pets and Monster Egg monsters; Dragon Admin Abuse mechanics / rewards.",
-            ]}
-          />
-
-          <h2 id="wiki">{copy.wiki.h2}</h2>
-          <div className="wiki-grid">
-            {copy.wiki.cards.map((card) => (
-              <Link
-                key={card.id}
-                className="wiki-card"
-                href={`${stealAnEgg.path}/${card.id}`}
-                data-analytics-event="guide_nav"
-                data-analytics-game={stealAnEgg.slug}
-                data-analytics-section={card.id}
-                data-analytics-location="wiki_grid"
-              >
-                <img
-                  src={stealAnEggArt[card.id]}
-                  alt=""
-                  width={640}
-                  height={360}
-                  sizes="(max-width: 640px) 100vw, 340px"
-                />
-                <strong>{card.title}</strong>
-                <span>{card.body}</span>
-              </Link>
-            ))}
-          </div>
 
           <h2 id="guide">{copy.howARunWorks.h2}</h2>
           <ol className="steps">
@@ -194,6 +151,50 @@ export function StealAnEggHome() {
               </details>
             ))}
           </div>
+
+          <h2 id="wiki">{copy.wiki.h2}</h2>
+          <div className="wiki-grid">
+            {copy.wiki.cards.map((card) => (
+              <Link
+                key={card.id}
+                className="wiki-card"
+                href={`${stealAnEgg.path}/${card.id}`}
+                data-analytics-event="guide_nav"
+                data-analytics-game={stealAnEgg.slug}
+                data-analytics-section={card.id}
+                data-analytics-location="wiki_grid"
+              >
+                <img
+                  src={stealAnEggArt[card.id]}
+                  alt=""
+                  width={640}
+                  height={360}
+                  sizes="(max-width: 640px) 100vw, 340px"
+                />
+                <strong>{card.title}</strong>
+                <span>{card.body}</span>
+              </Link>
+            ))}
+          </div>
+
+          <h2>Sources and version notes</h2>
+          <EvidencePanel
+            lastChecked={stealAnEggPageLastChecked.guide}
+            checked={`Roblox place ${stealAnEgg.placeId} by ${stealAnEgg.developer}.`}
+            verified={[
+              "The core loop is egg steal, hatch at base, pet income, Speed training, and biome gates.",
+              "Forest and Lake pet Index details come from an in-game screenshot.",
+              "Later biomes are labeled from public English-client gameplay, not invented tier names.",
+              "Update #2 live notes (2026-08-30) name Titan Temple, Monster Egg, Hungry Frog, Monster Chests, Monstrous Mutation, and Mecha variants — treated as reported, not Index-photographed here yet.",
+              "Update #1 live notes (2026-08-25) name Cherry Blossom Biome, Bloom / Spirit Bloom, and eight Cherry Blossom pets — still treated as reported.",
+              "No redeem UI is confirmed for this kit, so there is no Steal An Egg codes page.",
+            ]}
+            unverified={[
+              "Full later-biome Index rows and exact Speed gate numbers, including Titan Temple and Cherry Blossom.",
+              "Published odds for huge, giant, gold, silver, Mecha, Monstrous, Bloom, and Spirit Bloom outcomes.",
+              "Income/second for Titan Temple pets and Monster Egg monsters; Dragon Admin Abuse mechanics / rewards.",
+            ]}
+          />
 
           <h2>{copy.disclaimer.h2}</h2>
           <p>{copy.disclaimer.body}</p>
