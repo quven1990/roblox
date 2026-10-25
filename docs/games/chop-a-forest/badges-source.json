@@ -1,0 +1,384 @@
+{
+  "source": "https://badges.roblox.com/v1/universes/10767386157/badges?limit=100&sortOrder=Asc",
+  "retrievedAt": "2026-10-25T06:05:47.896256+00:00",
+  "data": {
+    "previousPageCursor": null,
+    "nextPageCursor": null,
+    "data": [
+      {
+        "id": 2787015709416261,
+        "name": "Welcome to the Forest",
+        "description": "Join Chop A Forest for the first time.",
+        "displayName": "Welcome to the Forest",
+        "displayDescription": "Join Chop A Forest for the first time.",
+        "enabled": true,
+        "iconImageId": 125040617639522,
+        "displayIconImageId": 125040617639522,
+        "created": "2026-10-02T21:49:28.35+00:00",
+        "updated": "2026-10-02T21:49:28.35+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 1214424,
+          "awardedCount": 13466634,
+          "winRatePercentage": 1.0
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 2218074839531289,
+        "name": "Timber!",
+        "description": "Fell 10 trees.",
+        "displayName": "Timber!",
+        "displayDescription": "Fell 10 trees.",
+        "enabled": true,
+        "iconImageId": 92779722626766,
+        "displayIconImageId": 92779722626766,
+        "created": "2026-10-02T21:50:01.7+00:00",
+        "updated": "2026-10-02T21:50:01.7+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 855864,
+          "awardedCount": 9433670,
+          "winRatePercentage": 1.0
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 3585245600366398,
+        "name": "Lumberjack",
+        "description": "Fell 100 trees.",
+        "displayName": "Lumberjack",
+        "displayDescription": "Fell 100 trees.",
+        "enabled": true,
+        "iconImageId": 120263580594923,
+        "displayIconImageId": 120263580594923,
+        "created": "2026-10-02T21:50:32.688+00:00",
+        "updated": "2026-10-02T21:50:32.688+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 375322,
+          "awardedCount": 3555525,
+          "winRatePercentage": 0.523
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 785679726643690,
+        "name": "Sharp Start",
+        "description": "Buy the Axe.",
+        "displayName": "Sharp Start",
+        "displayDescription": "Buy the Axe.",
+        "enabled": true,
+        "iconImageId": 99760421666313,
+        "displayIconImageId": 99760421666313,
+        "created": "2026-10-02T21:50:59.109+00:00",
+        "updated": "2026-10-02T21:50:59.109+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 872580,
+          "awardedCount": 9532620,
+          "winRatePercentage": 1.0
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 212136908152383,
+        "name": "Chainsaw Wielder",
+        "description": "Buy the Chainsaw.",
+        "displayName": "Chainsaw Wielder",
+        "displayDescription": "Buy the Chainsaw.",
+        "enabled": true,
+        "iconImageId": 117501462114681,
+        "displayIconImageId": 117501462114681,
+        "created": "2026-10-02T21:51:26.194+00:00",
+        "updated": "2026-10-02T21:51:26.194+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 118405,
+          "awardedCount": 953450,
+          "winRatePercentage": 0.165
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 3740163225462280,
+        "name": "Clean Sweep",
+        "description": "Buy the Log Vacuum.",
+        "displayName": "Clean Sweep",
+        "displayDescription": "Buy the Log Vacuum.",
+        "enabled": true,
+        "iconImageId": 118473796553301,
+        "displayIconImageId": 118473796553301,
+        "created": "2026-10-02T21:58:33.892+00:00",
+        "updated": "2026-10-02T21:58:33.892+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 452663,
+          "awardedCount": 4730281,
+          "winRatePercentage": 0.631
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 676536583071863,
+        "name": "Demolition Expert",
+        "description": "Buy the Dynamite.",
+        "displayName": "Demolition Expert",
+        "displayDescription": "Buy the Dynamite.",
+        "enabled": true,
+        "iconImageId": 108988385914809,
+        "displayIconImageId": 108988385914809,
+        "created": "2026-10-02T21:59:48.02+00:00",
+        "updated": "2026-10-02T21:59:48.02+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 101905,
+          "awardedCount": 1019368,
+          "winRatePercentage": 0.142
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 3116945984381688,
+        "name": "Forest Feller",
+        "description": "Fell 1,000 trees.",
+        "displayName": "Forest Feller",
+        "displayDescription": "Fell 1,000 trees.",
+        "enabled": true,
+        "iconImageId": 139916008493750,
+        "displayIconImageId": 139916008493750,
+        "created": "2026-10-02T22:00:25.455+00:00",
+        "updated": "2026-10-02T22:00:25.455+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 64584,
+          "awardedCount": 495987,
+          "winRatePercentage": 0.09
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 2362667821850202,
+        "name": "Legendary Logger",
+        "description": "Fell 10,000 trees.",
+        "displayName": "Legendary Logger",
+        "displayDescription": "Fell 10,000 trees.",
+        "enabled": true,
+        "iconImageId": 118235759622919,
+        "displayIconImageId": 118235759622919,
+        "created": "2026-10-02T22:01:01.602+00:00",
+        "updated": "2026-10-02T22:01:01.602+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 618,
+          "awardedCount": 3578,
+          "winRatePercentage": 0.001
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 3389908096654138,
+        "name": "Forest Cleared",
+        "description": "Fell every tree in a forest and cash out.",
+        "displayName": "Forest Cleared",
+        "displayDescription": "Fell every tree in a forest and cash out.",
+        "enabled": true,
+        "iconImageId": 115613141083611,
+        "displayIconImageId": 115613141083611,
+        "created": "2026-10-02T22:01:39.641+00:00",
+        "updated": "2026-10-02T22:01:39.641+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 70613,
+          "awardedCount": 552683,
+          "winRatePercentage": 0.098
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 3373891161081263,
+        "name": "Speedrunner",
+        "description": "Clear a forest in under 3 hours.",
+        "displayName": "Speedrunner",
+        "displayDescription": "Clear a forest in under 3 hours.",
+        "enabled": true,
+        "iconImageId": 116314184671872,
+        "displayIconImageId": 116314184671872,
+        "created": "2026-10-02T22:02:20.48+00:00",
+        "updated": "2026-10-02T22:02:20.48+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 55833,
+          "awardedCount": 461965,
+          "winRatePercentage": 0.078
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 796116614056079,
+        "name": "Speed Demon",
+        "description": "Clear a forest in under 2 hours.",
+        "displayName": "Speed Demon",
+        "displayDescription": "Clear a forest in under 2 hours.",
+        "enabled": true,
+        "iconImageId": 88288076012189,
+        "displayIconImageId": 88288076012189,
+        "created": "2026-10-02T22:02:57.106+00:00",
+        "updated": "2026-10-02T22:02:57.106+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 18951,
+          "awardedCount": 207382,
+          "winRatePercentage": 0.026
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 425862013302646,
+        "name": "Timber Tornado",
+        "description": "Clear a forest in under 90 minutes.",
+        "displayName": "Timber Tornado",
+        "displayDescription": "Clear a forest in under 90 minutes.",
+        "enabled": true,
+        "iconImageId": 110490892810580,
+        "displayIconImageId": 110490892810580,
+        "created": "2026-10-02T22:03:31.291+00:00",
+        "updated": "2026-10-02T22:03:31.291+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 3670,
+          "awardedCount": 57330,
+          "winRatePercentage": 0.005
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 368647457279711,
+        "name": "Desert Cleared",
+        "description": "Clear every cactus in the desert and hit the detonator.",
+        "displayName": "Desert Cleared",
+        "displayDescription": "Clear every cactus in the desert and hit the detonator.",
+        "enabled": true,
+        "iconImageId": 130175288998129,
+        "displayIconImageId": 130175288998129,
+        "created": "2026-10-19T08:10:15.763+00:00",
+        "updated": "2026-10-19T08:10:15.763+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 3810,
+          "awardedCount": 16828,
+          "winRatePercentage": 0.005
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 516084990747472,
+        "name": "Dune Runner",
+        "description": "Clear the desert in under 4 hours.",
+        "displayName": "Dune Runner",
+        "displayDescription": "Clear the desert in under 4 hours.",
+        "enabled": true,
+        "iconImageId": 96618132746779,
+        "displayIconImageId": 96618132746779,
+        "created": "2026-10-19T08:11:02.984+00:00",
+        "updated": "2026-10-19T08:11:02.984+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 3548,
+          "awardedCount": 15853,
+          "winRatePercentage": 0.005
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 3939488163167668,
+        "name": "Sandstorm",
+        "description": "Clear the desert in under 2 hours 30 minutes.",
+        "displayName": "Sandstorm",
+        "displayDescription": "Clear the desert in under 2 hours 30 minutes.",
+        "enabled": true,
+        "iconImageId": 101694969046030,
+        "displayIconImageId": 101694969046030,
+        "created": "2026-10-19T08:11:46.653+00:00",
+        "updated": "2026-10-19T08:11:46.653+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 1654,
+          "awardedCount": 8483,
+          "winRatePercentage": 0.002
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      },
+      {
+        "id": 2509582570351896,
+        "name": "Desert Tornado",
+        "description": "Clear the desert in under 2 hours.",
+        "displayName": "Desert Tornado",
+        "displayDescription": "Clear the desert in under 2 hours.",
+        "enabled": true,
+        "iconImageId": 82525668232575,
+        "displayIconImageId": 82525668232575,
+        "created": "2026-10-19T08:12:34.466+00:00",
+        "updated": "2026-10-19T08:12:34.466+00:00",
+        "statistics": {
+          "pastDayAwardedCount": 782,
+          "awardedCount": 4280,
+          "winRatePercentage": 0.001
+        },
+        "awardingUniverse": {
+          "id": 10767386157,
+          "name": "[\ud83c\udf83] Chop A Forest",
+          "rootPlaceId": 103363457515322
+        }
+      }
+    ]
+  }
+}

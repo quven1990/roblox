@@ -1,3 +1,4 @@
+import { chopAForest, chopReviewed } from "@/lib/games/chop-a-forest";
 import type { MetadataRoute } from "next";
 import { stealAnEgg, stealAnEggPageLastChecked } from "@/lib/games/steal-an-egg";
 import { greedyGrowers } from "@/lib/games/greedy-growers";
@@ -21,9 +22,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   };
 
   return [
+    ...[chopAForest.path, `${chopAForest.path}/zones`, `${chopAForest.path}/tools`].map(path => ({ url: absoluteUrl(path), lastModified: new Date(`${chopReviewed}T00:00:00Z`), changeFrequency: "weekly" as const, priority: path === chopAForest.path ? 0.9 : 0.8 })),
     {
       url: absoluteUrl("/"),
-      lastModified: lemonLast,
+      lastModified: new Date(`${chopReviewed}T00:00:00Z`),
       changeFrequency: "weekly",
       priority: 1,
     },

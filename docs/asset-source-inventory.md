@@ -35,3 +35,10 @@
 - `components/YouTubeEmbed.tsx` 使用点击加载的 youtube-nocookie.com iframe，不下载视频。封面复用各页本地 Art 文件，不能据此认定封面是该视频截图。视频作者身份、嵌入可用性、封面截取权及条款适用情况待人工确认。
 - `lib/games/steal-an-egg.ts` 的 Index 来源写为 “In-game Pet Index screenshot, 2026-08-15”；`docs/games/steal-an-egg-copy.md` 也记录截图。未找到该 Index 原始截图文件及授权记录，截图作者/拍摄方式/原件待确认。现有事实标注保留，未把缺失原件补造为亲测证明。
 - `.wiki`、Beebom、AllThings、Eldorado 等在内容中作为文字事实来源/争议线索；本轮未搬运其配图。逐文件素材清单不能以这些文字引用充当图片许可。
+
+## 2026-10-25 新增：Chop A Forest
+
+- 首页游戏卡片及 `/chop-a-forest/`：`public/games/chop-a-forest/forest.svg`，本轮为 Upvane 编写的原创 SVG 森林插画，不含第三方游戏/Wiki 图片；明确注明非实机、非游戏地图。
+- 首页/游戏菜单：`public/games/chop-a-forest/icon.svg`，本轮原创树木矢量图标；不是 Roblox 官方标识。
+- 两个内页采用现有 Lucide 图标、CSS 和原有字体，未新增第三方素材或字体服务。
+- 内容事实来源及原始 API 记录见 `docs/games/chop-a-forest/evidence-ledger.md`。此前已有素材的待确认事项继续保留，不因本轮新增而视为已获授权。

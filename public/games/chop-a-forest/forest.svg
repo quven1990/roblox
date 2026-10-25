@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="400" y1="0" x2="400" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#173c2f"/><stop offset="1" stop-color="#2d5640"/></linearGradient>
+    <linearGradient id="land" x1="400" y1="230" x2="400" y2="610" gradientUnits="userSpaceOnUse"><stop stop-color="#88a46d"/><stop offset="1" stop-color="#4e7650"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" stroke="#d9e5bc" stroke-opacity=".06"/></pattern>
+    <g id="tree"><ellipse cy="8" rx="27" ry="10" fill="#12382a" opacity=".25"/><path d="M-5-37H5V9H-5z" fill="#b48652"/><path d="m0-131 36 62H22l23 40H-45l23-40H-36z" fill="#204a35"/><path d="m0-131 36 62H22l23 40H0z" fill="#123d2d"/><path d="m0-131-36 62h14l-23 40h11L5-105z" fill="#3d6847" opacity=".75"/></g>
+    <g id="goldtree"><ellipse cy="8" rx="24" ry="9" fill="#12382a" opacity=".2"/><path d="M-4-30H4V9H-4z" fill="#735434"/><path d="m0-103 32 46H20l20 34H-40l20-34H-32z" fill="#c5b36b"/><path d="m0-103 32 46H20l20 34H0z" fill="#9c9f58"/></g>
+  </defs>
+  <rect width="800" height="650" rx="12" fill="url(#sky)"/>
+  <rect width="800" height="650" rx="12" fill="url(#grid)"/>
+  <circle cx="650" cy="114" r="53" fill="#d9ddb0" opacity=".9"/>
+  <path d="M0 311 130 198l133 109L435 148l186 158L800 231v419H0z" fill="#3a6043"/>
+  <path d="m0 378 212-155 193 129 178-94 217 127v265H0z" fill="#52774d"/>
+  <ellipse cx="403" cy="437" rx="326" ry="151" fill="#0c2c22" opacity=".28"/>
+  <path d="M84 430c0-101 140-181 316-181s316 80 316 181v47c0 89-140 145-316 145S84 566 84 477z" fill="#33543a"/>
+  <ellipse cx="400" cy="430" rx="316" ry="181" fill="url(#land)"/>
+  <path d="M405 603c98-65-9-88 25-148 28-50 159-37 139-91-14-37-87-43-100-86" stroke="#c8b381" stroke-width="42"/>
+  <path d="M405 603c98-65-9-88 25-148 28-50 159-37 139-91-14-37-87-43-100-86" stroke="#efdfab" stroke-width="2" stroke-dasharray="5 9"/>
+  <use href="#tree" transform="translate(316 341) scale(.85)"/><use href="#tree" transform="translate(394 314) scale(.73)"/>
+  <use href="#tree" transform="translate(224 382) scale(1.03)"/><use href="#tree" transform="translate(291 422) scale(.8)"/>
+  <use href="#tree" transform="translate(170 453) scale(.88)"/><use href="#tree" transform="translate(335 502) scale(1.2)"/>
+  <use href="#goldtree" transform="translate(622 414) scale(1)"/><use href="#tree" transform="translate(611 510) scale(1.1)"/>
+  <use href="#goldtree" transform="translate(538 556) scale(.78)"/><use href="#tree" transform="translate(241 537) scale(.8)"/>
+  <ellipse cx="487" cy="473" rx="49" ry="14" fill="#153d2b" opacity=".2"/>
+  <path d="m449 428 40-27 40 27v38l-40 21-40-21z" fill="#bc9464"/><path d="m489 401 40 27v38l-40 21z" fill="#997249"/>
+  <path d="m441 428 48-39 48 39-48 22z" fill="#243e2f"/><path d="m489 389 48 39-48 22z" fill="#152f25"/>
+  <path d="m478 455 17 9v20l-17-9z" fill="#694f36"/><path d="m459 440 11 6v12l-11-6z" fill="#e5d39c"/>
+  <g transform="translate(397 543) rotate(-20)"><rect width="44" height="21" rx="7" fill="#8b6545"/><ellipse cx="44" cy="10.5" rx="8" ry="10.5" fill="#d8bd8b"/><ellipse cx="44" cy="10.5" rx="4" ry="6" stroke="#ab895b"/></g>
+  <path d="M93 111h73m-36-36v73M680 546h36m-18-18v36" stroke="#c6d3a8" stroke-opacity=".4"/>
+  <circle cx="130" cy="111" r="23" stroke="#c6d3a8" stroke-opacity=".4"/>
+  <path d="m130 94 6 17-6-4-6 4z" fill="#c6d3a8"/>
+  <g fill="#d3dcb9" opacity=".7"><circle cx="116" cy="255" r="2"/><circle cx="709" cy="212" r="2"/><circle cx="572" cy="122" r="2"/><circle cx="213" cy="163" r="2"/></g>
+</svg>

@@ -1,0 +1,130 @@
+{
+  "source": "https://apis.roblox.com/virtual-events/v1/universes/10767386157/virtual-events",
+  "retrievedAt": "2026-10-25T06:05:50.081209+00:00",
+  "data": {
+    "nextPageCursor": "",
+    "previousPageCursor": "",
+    "data": [
+      {
+        "id": "6323213996929450620",
+        "title": "CHAPTER 2",
+        "displayTitle": "CHAPTER 2",
+        "subtitle": "the desert awaits you. ",
+        "displaySubtitle": "the desert awaits you. ",
+        "description": "...",
+        "displayDescription": "...",
+        "eventTime": {
+          "startUtc": "2026-10-19T17:00:34.884+00:00",
+          "endUtc": "2026-10-23T17:00:34.884+00:00"
+        },
+        "host": {
+          "hostName": "WCT Capital",
+          "hasVerifiedBadge": false,
+          "hostType": "group",
+          "hostId": 169690820
+        },
+        "universeId": 10767386157,
+        "placeId": 103363457515322,
+        "eventStatus": "active",
+        "eventVisibility": "public",
+        "createdUtc": "2026-10-19T15:17:34.029+00:00",
+        "updatedUtc": "2026-10-19T15:17:34.172+00:00",
+        "eventCategories": [
+          {
+            "category": "newContent",
+            "rank": 0
+          }
+        ],
+        "thumbnails": [
+          {
+            "mediaId": 133987694712961,
+            "rank": 0
+          }
+        ],
+        "allThumbnailsCreated": false,
+        "tagline": "",
+        "featuringStatus": "disabled"
+      },
+      {
+        "id": "5256730605583991347",
+        "title": "UPDATE 1",
+        "displayTitle": "UPDATE 1",
+        "subtitle": "NEW MACHINE.",
+        "displaySubtitle": "NEW MACHINE.",
+        "description": "",
+        "displayDescription": "",
+        "eventTime": {
+          "startUtc": "2026-10-17T19:00:47.011+00:00",
+          "endUtc": "2026-10-24T18:55:47.011+00:00"
+        },
+        "host": {
+          "hostName": "WCT Capital",
+          "hasVerifiedBadge": false,
+          "hostType": "group",
+          "hostId": 169690820
+        },
+        "universeId": 10767386157,
+        "placeId": 103363457515322,
+        "eventStatus": "active",
+        "eventVisibility": "public",
+        "createdUtc": "2026-10-10T12:03:36.023+00:00",
+        "updatedUtc": "2026-10-10T12:03:36.182+00:00",
+        "eventCategories": [
+          {
+            "category": "newContent",
+            "rank": 0
+          }
+        ],
+        "thumbnails": [
+          {
+            "mediaId": 90954975218003,
+            "rank": 0
+          }
+        ],
+        "allThumbnailsCreated": false,
+        "tagline": "",
+        "featuringStatus": "disabled"
+      },
+      {
+        "id": "7871286754760852034",
+        "title": "???",
+        "displayTitle": "???",
+        "subtitle": "HALLOWEEN UPD.",
+        "displaySubtitle": "HALLOWEEN UPD.",
+        "description": "???",
+        "displayDescription": "???",
+        "eventTime": {
+          "startUtc": "2026-10-24T19:00:33.842+00:00",
+          "endUtc": "2026-10-31T19:55:33.842+00:00"
+        },
+        "host": {
+          "hostName": "WCT Capital",
+          "hasVerifiedBadge": false,
+          "hostType": "group",
+          "hostId": 169690820
+        },
+        "universeId": 10767386157,
+        "placeId": 103363457515322,
+        "eventStatus": "active",
+        "eventVisibility": "public",
+        "createdUtc": "2026-10-04T14:51:58.969+00:00",
+        "updatedUtc": "2026-10-21T21:01:03.928+00:00",
+        "eventCategories": [
+          {
+            "category": "newContent",
+            "rank": 0
+          }
+        ],
+        "thumbnails": [
+          {
+            "mediaId": 75555984842642,
+            "rank": 0
+          }
+        ],
+        "allThumbnailsCreated": false,
+        "tagline": "",
+        "featuringStatus": "disabled"
+      }
+    ]
+  }
+}

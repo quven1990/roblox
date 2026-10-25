@@ -1,3 +1,4 @@
+import { chopAForest, chopPages } from "@/lib/games/chop-a-forest";
 import Link from "next/link";
 import type { GameSlug } from "@/lib/games";
 import {
@@ -11,6 +12,7 @@ import {
 import { stealAnEgg, stealAnEggCopy } from "@/lib/games/steal-an-egg";
 
 const kitMore = {
+  "chop-a-forest": { game: chopAForest, cards: chopPages },
   "tha-lemon-3": {
     game: thaLemon3,
     cards: thaLemon3Copy.pages.cards,

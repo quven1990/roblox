@@ -1,8 +1,8 @@
 # Upvane
 
-Unofficial Roblox **new-game guide hub** at [upvane.com](https://upvane.com). Kits use **Active / Watch / Frozen** status in `lib/games/*` so the homepage incubates rising titles; zero-traffic kits are removed from the catalog and sitemap.
+Upvane is an independent, unofficial English guide site for selected Roblox games at [upvane.com](https://upvane.com). Internal lifecycle status remains in `lib/games/*`; public pages focus on published guides and useful tools.
 
-Live kits: **Tha Lemon 3**, **Steal An Egg**, **Greedy Growers**.
+Live games: **Chop A Forest**, **Tha Lemon 3**, **Steal An Egg**, **Greedy Growers**.
 
 Pushing `master` to GitHub deploys to Cloudflare Pages (`upvane` project). Build is `npm run build`; output directory is `out/`. Production branch is `master`. Custom domains: `upvane.com` and `www.upvane.com`. The Pages alias `upvane.pages.dev` 301s to `upvane.com` via `functions/_middleware.js` (Cloudflare cannot remove `*.pages.dev`).
 
@@ -29,7 +29,10 @@ See [docs/ADDING-A-ROBLOX-GAME.md](docs/ADDING-A-ROBLOX-GAME.md): max **3 pages*
 
 | Path | Notes |
 |------|--------|
-| `/` | Hub homepage (Active / Watch / Frozen + tools) |
+| `/` | Published game guides and useful tools |
+| `/chop-a-forest` | Illustrated beginner guide and bottleneck finder |
+| `/chop-a-forest/zones` | Chapter 1 route, first Boss and locked gates |
+| `/chop-a-forest/tools` | Coin upgrades, trucks and editable purchase planner |
 | `/tha-lemon-3` | Kit (Active) |
 | `/tha-lemon-3/money-guide` `/weapons` | Lemon kit pages |
 | `/steal-an-egg` | Kit (Watch) |

@@ -1,3 +1,4 @@
+import { chopAForest, chopNav } from "@/lib/games/chop-a-forest";
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { Compass, Play } from "lucide-react";
@@ -17,6 +18,8 @@ import { stealAnEgg, stealAnEggCopy, stealAnEggNav } from "@/lib/games/steal-an-
 import { SITE_CONTACT_EMAIL, SITE_NAME, SITE_PRIVACY_EMAIL, UNOFFICIAL_NOTICE, siteCopy } from "@/lib/site";
 
 export type KitSection =
+  | "zones"
+  | "tools"
   | "guide"
   | "updates"
   | "pets"
@@ -35,6 +38,7 @@ type Current = "hub" | "legal" | KitSection;
 
 function kitChrome(slug: GameSlug) {
   const bySlug = {
+    "chop-a-forest": { game: chopAForest, nav: chopNav, footer: UNOFFICIAL_NOTICE, playLabel: "Play" },
     "tha-lemon-3": {
       game: thaLemon3,
       nav: thaLemon3Nav,
