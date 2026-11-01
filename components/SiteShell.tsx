@@ -1,5 +1,6 @@
 import { chopAForest, chopNav } from "@/lib/games/chop-a-forest";
 import { sellAMillionSushi, sushiNav } from "@/lib/games/sell-a-million-sushi";
+import { plus1SpiderArm, spiderNav } from "@/lib/games/plus-1-spider-arm";
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { Compass, Play } from "lucide-react";
@@ -19,6 +20,8 @@ import { stealAnEgg, stealAnEggCopy, stealAnEggNav } from "@/lib/games/steal-an-
 import { SITE_CONTACT_EMAIL, SITE_NAME, SITE_PRIVACY_EMAIL, UNOFFICIAL_NOTICE, siteCopy } from "@/lib/site";
 
 export type KitSection =
+  | "climbing-grip"
+  | "rebirth"
   | "merge-fishermen"
   | "not-making-money"
   | "gems"
@@ -42,6 +45,7 @@ type Current = "hub" | "legal" | KitSection;
 
 function kitChrome(slug: GameSlug) {
   const bySlug = {
+    "plus-1-spider-arm": { game: plus1SpiderArm, nav: spiderNav, footer: UNOFFICIAL_NOTICE, playLabel: "Play" },
     "sell-a-million-sushi": { game: sellAMillionSushi, nav: sushiNav, footer: UNOFFICIAL_NOTICE, playLabel: "Play" },
     "chop-a-forest": { game: chopAForest, nav: chopNav, footer: UNOFFICIAL_NOTICE, playLabel: "Play" },
     "tha-lemon-3": {

@@ -52,3 +52,13 @@
 | 合并、收入排查页 | components/SushiGuide.tsx + sushi.css | CSS/现有 Lucide 图标编排的流程图 | 现有依赖许可延续，无新增素材服务 | 否，示意图 | 不作为游戏地图或 UI 截图 |
 
 视频仅文字来源链接：RORO PLAYZ / k5dkj8A5Wj4；已在浏览器查看相关画面，不下载、不复制封面、不新增嵌入播放器。内容证据时间点见 docs/games/sell-a-million-sushi/project-control.md。旧素材的待确认事项继续保留。
+
+## 2026-11-01 新增：+1 Spider Arm
+
+| 使用页面 | 素材文件 | 已知来源 | 许可依据 | 是否实机 | 人工确认事项 |
+|---|---|---|---|---|---|
+| 首页卡片、/plus-1-spider-arm/ | public/games/plus-1-spider-arm/rooftops.svg | 本轮为Upvane编写的原创机械攀爬装置/屋顶矢量插画；无游戏或Wiki图像复制 | 项目内原创SVG代码，无第三方游戏素材授权主张 | 否，页面标注Illustration, not gameplay | 若未来换成实机截图，需记录作者、原件及使用依据 |
+| 首页及游戏菜单 | public/games/plus-1-spider-arm/icon.svg | 本轮原创机械装置图标；无Roblox官方Logo或角色标识 | 项目内原创代码 | 否 | 不代表游戏开发者官方图标 |
+| Grip/Rebirth页面 | components/SpiderGuide.tsx 与spider.css | CSS与既有Lucide图标编排示意图 | 现有依赖延续，无新增素材服务 | 否，明确为图示而非实机UI | 不把示意条作为实测数值或恢复公式 |
+
+视频仅外链引用Valtric/aI7qoVmn0dc，相关帧实际查看；无封面复制、视频下载或新播放器嵌入。社区报告只引用事实，未搬运Wiki配图。历史待确认事项保留。
