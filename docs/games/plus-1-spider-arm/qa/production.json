@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-11-01T14:54:19.846Z",
+  "rows": [
+    {
+      "path": "/",
+      "status": 200,
+      "h1": "Unofficial Guides for Roblox Games",
+      "canonical": "https://upvane.com/",
+      "width": 1440,
+      "total": 1440,
+      "brokenImages": []
+    },
+    {
+      "path": "/plus-1-spider-arm/",
+      "status": 200,
+      "h1": "+1 Spider Arm.Climb with a plan.",
+      "canonical": "https://upvane.com/plus-1-spider-arm/",
+      "width": 1440,
+      "total": 1440,
+      "brokenImages": []
+    },
+    {
+      "path": "/plus-1-spider-arm/climbing-grip/",
+      "status": 200,
+      "h1": "Keep the hold.Watch your Grip.",
+      "canonical": "https://upvane.com/plus-1-spider-arm/climbing-grip/",
+      "width": 1440,
+      "total": 1440,
+      "brokenImages": []
+    },
+    {
+      "path": "/plus-1-spider-arm/rebirth/",
+      "status": 200,
+      "h1": "Before you reset.Read the boost.",
+      "canonical": "https://upvane.com/plus-1-spider-arm/rebirth/",
+      "width": 1440,
+      "total": 1440,
+      "brokenImages": []
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "h1": "Unofficial Guides for Roblox Games",
+      "canonical": "https://upvane.com/",
+      "width": 390,
+      "total": 390,
+      "brokenImages": []
+    },
+    {
+      "path": "/plus-1-spider-arm/",
+      "status": 200,
+      "h1": "+1 Spider Arm.Climb with a plan.",
+      "canonical": "https://upvane.com/plus-1-spider-arm/",
+      "width": 390,
+      "total": 390,
+      "brokenImages": []
+    },
+    {
+      "path": "/plus-1-spider-arm/climbing-grip/",
+      "status": 200,
+      "h1": "Keep the hold.Watch your Grip.",
+      "canonical": "https://upvane.com/plus-1-spider-arm/climbing-grip/",
+      "width": 390,
+      "total": 390,
+      "brokenImages": []
+    },
+    {
+      "path": "/plus-1-spider-arm/rebirth/",
+      "status": 200,
+      "h1": "Before you reset.Read the boost.",
+      "canonical": "https://upvane.com/plus-1-spider-arm/rebirth/",
+      "width": 390,
+      "total": 390,
+      "brokenImages": []
+    }
+  ],
+  "errors": [],
+  "sitemapUrls": 32,
+  "externalAnalyticsRequests": "blocked"
+}

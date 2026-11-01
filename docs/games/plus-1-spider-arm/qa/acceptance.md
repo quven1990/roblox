@@ -13,4 +13,4 @@
 - First full run found360pxnav overflow from copied selector;corrected and all35layouts rerun. No unresolved failures.
 - Independent content/integration/visual review finalGO, no unresolvedP0/P1/necessaryP2.
 
-Screenshots are Upvanewebsite QA screenshots, not game-client playtest evidence. Human checks and source limitations remain in ../project-control.md. Production verification pending release.
+Screenshots are Upvanewebsite QA screenshots, not game-client playtest evidence. Human checks and source limitations remain in ../project-control.md. Production verification:8 desktop/mobile checks PASS, all4 paths HTTP200, correct canonical, no broken images/document overflow/client errors; live sitemap32URLs. See production.json and live-guide screenshots.

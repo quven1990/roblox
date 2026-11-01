@@ -44,7 +44,7 @@ Cream-lavender reading canvas, purple/charcoal type, dark rooftop illustration w
 - Compliance: no new providers, scripts, iframe, official logo or third-party wiki screenshots. Existing analytics only adds this game context slug; legal implementation/disclosures unchanged.
 - Build/QA: PASS. Final production build produced40 static outputs. TypeScript and diff checks passed. Browser matrix35 layouts (7 routes×1440/1024/768/390/360),64 internal linked paths, new fragments, schemas, canonical, no document overflow/bad images/page exceptions. Actual mobile click journey and keyboard table scroll passed. Sitemap32URLs;robots link correct. A 360pxnav selector failure was fixed and full matrix rerun.
 - Independent review: final GO. One source-completeness P2 fixed; final report confirms no unresolved P0/P1/necessaryP2. See qa/independent-review.md.
-- Release/GSC/IndexNow: pending; only after final GO and verified live sitemap includes all three paths.
+- Release: b7228bc pushed to master; Cloudflare Pages deployment84710031-838f-474a-9bf4-d80d70f680dd completedsuccess. Eight production browser checks passed at1440/390. GSC sitemapPUT204/verify200,32submitted,0errors,notpending; IndexNow200 for32URLs. Submission is not page indexing confirmation. Receipts and file manifest are in release-report.md.
 
 ## Human checks remaining
 Independent client playtest; mobile/controller binding; full retention rules for Wins/items/armatures on reset; higher worlds/stages and patch changes; measured recovery/drain and XP stacking; search-volume/query-demand evidence. Unknowns are stated or omitted. Existing legacy asset/license/operator/privacy retention open items remain unresolved, not silently replaced.
