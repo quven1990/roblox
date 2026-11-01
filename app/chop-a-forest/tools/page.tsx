@@ -10,7 +10,7 @@ export default function ChopToolsPage() {
   return <ChopLayout page="tools" title="Chop A Forest tools, backpacks and truck buy order">
     <ChopHero page="tools" title="Chop A Forest tools." accent="Buy for the bottleneck." description="A coin-first upgrade reference, an editable purchase planner, and the small truck and tool mistakes that can stall a good run." />
     <div className="cf-wrap cf-answer-bar"><span className="cf-eyebrow">WHAT TO BUY FIRST</span><p>Use <strong>Axe → first Backpack → Rusty Runabout</strong> as a starting plan. After that, watch your run: longer cutting calls for a tool upgrade; repeated walking calls for storage or transport.</p><a href="#planner">Work out your next target <ArrowRight size={14} aria-hidden="true" /></a></div>
-    <ChopArticle links={[{ id: "coin-upgrades", label: "Coin upgrade reference" }, { id: "planner", label: "Your next coin target" }, { id: "hauling", label: "Bag or truck?" }, { id: "cutting", label: "Axe, saw & overheating" }, { id: "conflicts", label: "What the reports disagree on" }, { id: "faq", label: "Quick answers" }, { id: "sources", label: "Sources & version" }]}>
+    <ChopArticle links={[{ id: "coin-upgrades", label: "Coin upgrade reference" }, { id: "planner", label: "Your next coin target" }, { id: "hauling", label: "Bag or truck?" }, { id: "truck-troubleshooting", label: "Truck not working?" }, { id: "cutting", label: "Axe, saw & overheating" }, { id: "conflicts", label: "What the reports disagree on" }, { id: "faq", label: "Quick answers" }, { id: "sources", label: "Sources & version" }]}>
       <ChopSection id="coin-upgrades" number="01" title="The useful early-game numbers.">
         <p className="cf-lead">These are community-reported coin costs from Oct 17–19. They are not a live shop feed. Keep coin items separate from similarly named Robux passes.</p>
         <div className="cf-table-wrap"><table className="cf-table"><caption>Early purchases · reported prices and capacity</caption><thead><tr><th scope="col">Purchase</th><th scope="col">Coin cost</th><th scope="col">What it solves</th></tr></thead><tbody>{chopPurchaseRows.map(row => <tr key={row.name}><th scope="row">{row.name}<small>{row.capacity === "—" ? "Cutting tool" : row.capacity}</small></th><td>{row.price}</td><td>{row.use}<small>{row.note}</small></td></tr>)}</tbody></table></div>
@@ -26,12 +26,23 @@ export default function ChopToolsPage() {
         <div className="cf-process-line"><div><span>1</span><strong>Buy & spawn</strong><p>Confirm the selected vehicle.</p></div><div><span>2</span><strong>Load the bed</strong><p>Use its log-loading prompt.</p></div><div><span>3</span><strong>Drive & sell</strong><p>Sell at the pad; collect the dropped coins.</p></div></div>
         <p>For a clean comparison, keep the same trees and tools for one loop before and after an upgrade. Watch how often you stop, not just the balance after a lucky load. This is a way to judge your own run, not a claim of a particular coins-per-minute return.</p>
       </ChopSection>
-      <ChopSection id="cutting" number="04" title="Faster cutting is useful only while it is cutting.">
+      <ChopSection id="truck-troubleshooting" number="04" title="Find the truck action that did not complete.">
+        <p>Before buying another vehicle, distinguish an unspawned purchase from an empty load or an unfinished sale. The Garage report documents separate controls for each stage. These checks apply to that reported UI; follow the prompts in your current build. <SourceLink source="trucks" /></p>
+        <div className="cf-table-wrap"><table className="cf-table"><caption>Truck troubleshooting: symptom → check → action</caption><thead><tr><th scope="col">What you see</th><th scope="col">Check</th><th scope="col">Next action</th></tr></thead><tbody>
+          <tr><th scope="row">Bought a truck, but no vehicle outside</th><td>Spawn</td><td>Return to the Garage pad, select the purchased truck and choose SPAWN. Buying and spawning are separate steps.</td></tr>
+          <tr><th scope="row">Pressing E puts you in the seat</th><td>Load</td><td>Exit the driving interaction. Aim at the truck bed and use its log-loading prompt; check that your backpack empties into the bed.</td></tr>
+          <tr><th scope="row">At the sell pad, but cargo remains</th><td>Sell</td><td>Look for the truck-sale prompt and complete it. Check the sale message and empty cargo counter before leaving.</td></tr>
+          <tr><th scope="row">Sale completed, coins on the ground</th><td>Collect</td><td>Step out by the chipper and collect its dropped coins before driving back to the trees.</td></tr>
+        </tbody></table></div>
+        <ChopNote title="The tutorial can be the missing prerequisite"><p>The Oct 19 walkthrough reports that the Rusty Runabout purchase only registers once the TRUCK QUEST objective is active. If you have enough coins but the tutorial does not advance, inspect the current objective and finish earlier tasks first. This is a version-specific lead, not proof that every purchase issue is quest-related. <SourceLink source="route" /></p></ChopNote>
+        <p>If the displayed objective, purchased status and vehicle selection still disagree, note those three states for a developer report. Do not repeatedly spend coins or buy a paid pass to test whether it fixes the issue.</p>
+      </ChopSection>
+      <ChopSection id="cutting" number="05" title="Faster cutting is useful only while it is cutting.">
         <p>The chainsaw report describes a held cutting action and a heat bar. An overheated saw temporarily stops working; use its heat display rather than assuming repeated clicks will restart it. Reposition or handle the logs while it cools. Exact cooldown seconds are not verified here. <SourceLink source="saw" /></p>
         <ChopNote tone="green" title="Separate the tool, the trial and the pass."><p>The official Chainsaw Forever description promises the tool in every run. A trial has a timer; an in-run coin offer, if your version has one, is a different listing again. Neither an ownership badge nor the pass price proves what a coin-shop version costs. <SourceLink source="passes" /></p></ChopNote>
         <p>If chopping is already quick but loose logs are piling up, buying another cutting upgrade is a poor answer to that observation. First compare pickup, loading and sale time. If there are no logs piling up and the tree is the wait, inspect the tool’s next upgrade instead.</p>
       </ChopSection>
-      <ChopSection id="conflicts" number="05" title="Numbers we would not spend from.">
+      <ChopSection id="conflicts" number="06" title="Numbers we would not spend from.">
         <p>Some published values conflict. A useful reference should tell you where it stops being reliable, before you press Buy.</p>
         <ul className="cf-conflict-list"><li><strong>First Backpack capacity:</strong> the dedicated bag guide reports 15; older tables include 10. Confirm the displayed capacity rather than assuming a universal tier history. <SourceLink source="backpack" /></li><li><strong>Early truck speed:</strong> the Garage report contains different readings. We retain its coin costs and capacity leads, but do not use a guessed speed progression. <SourceLink source="trucks" /></li><li><strong>Coin Chainsaw availability:</strong> AllThingsHow reports a coin option, while the other saw guide focuses on the Robux pass. We have not confirmed the current coin offer, so it is not a saving target in the planner. <SourceLink source="route" /> <SourceLink source="saw" /></li></ul>
         <Link className="cf-inline-link" href="/chop-a-forest/zones#locked-gate">If the problem is a locked gate, start here instead <ArrowRight size={16} aria-hidden="true" /></Link>
@@ -43,7 +54,7 @@ export default function ChopToolsPage() {
         { q: "Can the planner tell me how much money I will earn?", a: <p>No. It only subtracts your coin balance from an editable purchase price. It does not model tree values, class bonuses, mutations, paid multipliers or completion time.</p> },
       ]} />
       <ChopRelated current="tools" />
-      <ChopSources sources={["official", "route", "backpack", "trucks", "saw", "passes"]} />
+      <ChopSources reviewed="November 1, 2026" sources={["official", "route", "backpack", "trucks", "saw", "passes"]} />
     </ChopArticle>
   </ChopLayout>;
 }

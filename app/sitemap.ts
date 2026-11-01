@@ -23,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...["/chop-a-forest/gems", "/chop-a-forest/pets"].map(path => ({ url: absoluteUrl(path), lastModified: new Date("2026-11-01T00:00:00Z"), changeFrequency: "weekly" as const, priority: 0.7 })),
-    ...[chopAForest.path, `${chopAForest.path}/zones`, `${chopAForest.path}/tools`].map(path => ({ url: absoluteUrl(path), lastModified: new Date(`${chopReviewed}T00:00:00Z`), changeFrequency: "weekly" as const, priority: path === chopAForest.path ? 0.9 : 0.8 })),
+    ...[chopAForest.path, `${chopAForest.path}/zones`, `${chopAForest.path}/tools`].map(path => ({ url: absoluteUrl(path), lastModified: new Date(path.endsWith("/tools") ? "2026-11-01T00:00:00Z" : `${chopReviewed}T00:00:00Z`), changeFrequency: "weekly" as const, priority: path === chopAForest.path ? 0.9 : 0.8 })),
     {
       url: absoluteUrl("/"),
       lastModified: new Date("2026-11-01T00:00:00Z"),

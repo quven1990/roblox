@@ -19,7 +19,7 @@ export function ChopLayout({ page, title, children }: { page: ChopPage; title: s
 }
 
 export function ChopHero({ page, title, accent, description }: { page: ChopPage; title: string; accent: string; description: string }) {
-  const fresh = page === "gems" || page === "pets";
+  const fresh = page === "gems" || page === "pets" || page === "tools";
   const anchor = page === "gems" ? "gem-sources" : page === "pets" ? "get-egg" : page === "guide" ? "first-purchases" : page === "zones" ? "zone-order" : "coin-upgrades";
   const cta = page === "gems" ? "Find a Gem source" : page === "pets" ? "Pick up and hatch an egg" : page === "guide" ? "Plan your first purchases" : page === "zones" ? "See the forest route" : "Compare coin upgrades";
   return (

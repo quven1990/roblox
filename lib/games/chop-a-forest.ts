@@ -100,7 +100,7 @@ export function chopJsonLd(page: "guide" | "zones" | "tools" | "gems" | "pets", 
   return {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "Article", headline: title, url: absoluteUrl(path), inLanguage: "en", datePublished: reviewed, dateModified: reviewed, author: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl() }, publisher: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl() }, about: { "@type": "VideoGame", name: chopAForest.name, url: chopAForest.playUrl } },
+      { "@type": "Article", headline: title, url: absoluteUrl(path), inLanguage: "en", datePublished: reviewed, dateModified: page === "tools" ? "2026-11-01" : reviewed, author: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl() }, publisher: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl() }, about: { "@type": "VideoGame", name: chopAForest.name, url: chopAForest.playUrl } },
       { "@type": "BreadcrumbList", itemListElement: [
         { "@type": "ListItem", position: 1, name: SITE_NAME, item: absoluteUrl() },
         { "@type": "ListItem", position: 2, name: chopAForest.name, item: absoluteUrl(chopAForest.path) },
