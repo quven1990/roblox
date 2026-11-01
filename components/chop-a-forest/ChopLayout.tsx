@@ -5,13 +5,13 @@ import { SiteShell } from "@/components/SiteShell";
 import { JsonLd } from "@/components/JsonLd";
 import { chopAForest, chopJsonLd, chopPages, chopSources, type ChopSourceKey } from "@/lib/games/chop-a-forest";
 
-export type ChopPage = "guide" | "zones" | "tools";
+export type ChopPage = "guide" | "zones" | "tools" | "gems" | "pets";
 export function ChopLayout({ page, title, children }: { page: ChopPage; title: string; children: ReactNode }) {
   return (
     <SiteShell current={page} slug="chop-a-forest">
       <JsonLd data={chopJsonLd(page, title)} />
       <main id="content" className={`cf cf-${page}`}>
-        <div className="cf-wrap cf-breadcrumb"><Link href="/">Game guides</Link><ChevronRight size={12} aria-hidden="true" />{page === "guide" ? <span>Chop A Forest</span> : <><Link href={chopAForest.path}>Chop A Forest</Link><ChevronRight size={12} aria-hidden="true" /><span>{page === "zones" ? "Zones & bosses" : "Tools & upgrades"}</span></>}</div>
+        <div className="cf-wrap cf-breadcrumb"><Link href="/">Game guides</Link><ChevronRight size={12} aria-hidden="true" />{page === "guide" ? <span>Chop A Forest</span> : <><Link href={chopAForest.path}>Chop A Forest</Link><ChevronRight size={12} aria-hidden="true" /><span>{page === "zones" ? "Zones & bosses" : page === "gems" ? "Free Gems" : page === "pets" ? "Eggs & pets" : "Tools & upgrades"}</span></>}</div>
         {children}
       </main>
     </SiteShell>
@@ -19,16 +19,19 @@ export function ChopLayout({ page, title, children }: { page: ChopPage; title: s
 }
 
 export function ChopHero({ page, title, accent, description }: { page: ChopPage; title: string; accent: string; description: string }) {
+  const fresh = page === "gems" || page === "pets";
+  const anchor = page === "gems" ? "gem-sources" : page === "pets" ? "get-egg" : page === "guide" ? "first-purchases" : page === "zones" ? "zone-order" : "coin-upgrades";
+  const cta = page === "gems" ? "Find a Gem source" : page === "pets" ? "Pick up and hatch an egg" : page === "guide" ? "Plan your first purchases" : page === "zones" ? "See the forest route" : "Compare coin upgrades";
   return (
     <header className={`cf-wrap cf-hero ${page === "guide" ? "" : "cf-hero-inner"}`}>
       <div className="cf-hero-copy">
-        <p className="cf-eyebrow"><span className="cf-dot" /> UPVANE FIELD GUIDE <span className="cf-edition">/ {page === "guide" ? "01 — START HERE" : page === "zones" ? "02 — FIND YOUR WAY" : "03 — GEAR UP"}</span></p>
+        <p className="cf-eyebrow"><span className="cf-dot" /> UPVANE FIELD GUIDE <span className="cf-edition">/ {page === "guide" ? "01 — START HERE" : page === "zones" ? "02 — FIND YOUR WAY" : page === "gems" ? "04 — GEMS" : page === "pets" ? "05 — PETS" : "03 — GEAR UP"}</span></p>
         <h1>{title}<em>{accent}</em></h1>
         <p className="cf-deck">{description}</p>
-        <div className="cf-hero-actions"><a className="cf-button" href={page === "guide" ? "#first-purchases" : page === "zones" ? "#zone-order" : "#coin-upgrades"}>{page === "guide" ? "Plan your first purchases" : page === "zones" ? "See the forest route" : "Compare coin upgrades"}<ArrowDown size={16} aria-hidden="true" /></a>{page === "guide" && <a className="cf-text-link" href={chopAForest.playUrl} rel="noopener noreferrer" data-analytics-event="play_roblox" data-analytics-game="chop-a-forest" data-analytics-location="hero">Play on Roblox <ArrowUpRight size={16} aria-hidden="true" /></a>}</div>
-        <div className="cf-review"><Leaf size={14} aria-hidden="true" /><span>Source review: <time dateTime="2026-10-25">Oct 25, 2026</time></span><span className="cf-review-divider" />Independent guide</div>
+        <div className="cf-hero-actions"><a className="cf-button" href={`#${anchor}`}>{cta}<ArrowDown size={16} aria-hidden="true" /></a>{page === "guide" && <a className="cf-text-link" href={chopAForest.playUrl} rel="noopener noreferrer" data-analytics-event="play_roblox" data-analytics-game="chop-a-forest" data-analytics-location="hero">Play on Roblox <ArrowUpRight size={16} aria-hidden="true" /></a>}</div>
+        <div className="cf-review"><Leaf size={14} aria-hidden="true" /><span>Source review: <time dateTime={fresh ? "2026-11-01" : "2026-10-25"}>{fresh ? "Nov 1, 2026" : "Oct 25, 2026"}</time></span><span className="cf-review-divider" />Independent guide</div>
       </div>
-      {page === "guide" ? <figure className="cf-hero-art"><img src="/games/chop-a-forest/forest.svg" alt="Upvane illustration of a forest, a winding trail and a timber cabin" width={800} height={650} fetchPriority="high" /><figcaption><span><TreePine size={13} aria-hidden="true" /> FOREST FIELD NOTES</span><span>Illustration, not gameplay</span></figcaption></figure> : <div className="cf-inner-art" aria-hidden="true"><TreePine strokeWidth={.8} /><span>{page === "zones" ? "08" : "03"}</span><p>{page === "zones" ? "REPORTED FOREST AREAS" : "FIRST COIN TARGETS"}</p></div>}
+      {page === "guide" ? <figure className="cf-hero-art"><img src="/games/chop-a-forest/forest.svg" alt="Upvane illustration of a forest, a winding trail and a timber cabin" width={800} height={650} fetchPriority="high" /><figcaption><span><TreePine size={13} aria-hidden="true" /> FOREST FIELD NOTES</span><span>Illustration, not gameplay</span></figcaption></figure> : <div className="cf-inner-art" aria-hidden="true"><TreePine strokeWidth={.8} /><span>{page === "zones" ? "08" : page === "gems" ? "04" : page === "pets" ? "05" : "03"}</span><p>{page === "zones" ? "REPORTED FOREST AREAS" : page === "gems" ? "CURRENCY FIELD NOTES" : page === "pets" ? "HATCH & EQUIP" : "FIRST COIN TARGETS"}</p></div>}
     </header>
   );
 }
@@ -58,6 +61,6 @@ export function ChopRelated({ current }: { current: ChopPage }) {
   return <section className="cf-section cf-related" aria-labelledby="cf-related-title"><p className="cf-eyebrow">KEEP YOUR RUN MOVING</p><h2 id="cf-related-title">Your next useful read.</h2><div>{pages.filter(p => p.id !== current).map((p, i) => <Link key={p.id} href={p.href} data-analytics-event="guide_nav" data-analytics-game="chop-a-forest" data-analytics-section={p.id} data-analytics-location="related"><span className="cf-related-num">0{i + 1}</span><h3>{p.title}</h3><p>{p.body}</p><ArrowRight size={21} aria-hidden="true" /></Link>)}</div></section>;
 }
 
-export function ChopSources({ sources }: { sources: ChopSourceKey[] }) {
-  return <section id="sources" className="cf-sources"><p className="cf-eyebrow">SOURCES & VERSION NOTES</p><h2>What this guide is based on.</h2><p>Reviewed October 25, 2026. Upvane checked the public listing and the dated reports below; we have not independently played this build. Reported prices, controls and gates can change. Your current shop panel and objective take precedence.</p><ol>{sources.map(key => <li key={key}><a href={chopSources[key].href} rel="noopener noreferrer">{chopSources[key].label}<ExternalLink size={12} aria-hidden="true" /></a><p>{chopSources[key].note}</p></li>)}</ol><p className="cf-source-footnote">Recommendations about what to buy next are Upvane’s planning advice, not measured completion-time claims. Artwork is an original Upvane illustration, not an in-game map or screenshot. <Link href="/editorial-policy">How we handle evidence <ArrowRight size={12} aria-hidden="true" /></Link></p></section>;
+export function ChopSources({ sources, reviewed = "October 25, 2026" }: { sources: ChopSourceKey[]; reviewed?: string }) {
+  return <section id="sources" className="cf-sources"><p className="cf-eyebrow">SOURCES & VERSION NOTES</p><h2>What this guide is based on.</h2><p>Reviewed {reviewed}. Upvane checked the public listing and the dated reports below; we have not independently played this build. Reported prices, controls and gates can change. Your current shop panel and objective take precedence.</p><ol>{sources.map(key => <li key={key}><a href={chopSources[key].href} rel="noopener noreferrer">{chopSources[key].label}<ExternalLink size={12} aria-hidden="true" /></a><p>{chopSources[key].note}</p></li>)}</ol><p className="cf-source-footnote">Recommendations about what to buy next are Upvane’s planning advice, not measured completion-time claims. Artwork is an original Upvane illustration, not an in-game map or screenshot. <Link href="/editorial-policy">How we handle evidence <ArrowRight size={12} aria-hidden="true" /></Link></p></section>;
 }

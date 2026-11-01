@@ -1,0 +1,522 @@
+{
+  "site": "sc-domain:upvane.com",
+  "capturedAt": "2026-11-01T04:19:44.388Z",
+  "latestFinalDate": "2026-10-30",
+  "daily": {
+    "request": {
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "dimensions": [
+        "date"
+      ],
+      "rowLimit": 25000,
+      "dataState": "final",
+      "type": "web"
+    },
+    "rows": [
+      {
+        "keys": [
+          "2026-10-01"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-02"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "2026-10-03"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-04"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-05"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-06"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-07"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-08"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-09"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-10"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-11"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "2026-10-12"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-13"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-14"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-15"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "2026-10-16"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "2026-10-17"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-18"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-19"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-20"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-21"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-22"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-23"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-24"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-25"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "2026-10-26"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-27"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-28"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-29"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-30"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      }
+    ],
+    "responseAggregationType": "byProperty"
+  },
+  "last7": {
+    "request": {
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-30",
+      "dimensions": [],
+      "rowLimit": 25000,
+      "dataState": "final",
+      "type": "web"
+    },
+    "rows": [
+      {
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 1
+      }
+    ],
+    "responseAggregationType": "byProperty"
+  },
+  "prior7_pages": {
+    "request": {
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-23",
+      "dimensions": [
+        "page"
+      ],
+      "rowLimit": 25000,
+      "dataState": "final",
+      "type": "web"
+    },
+    "responseAggregationType": "byPage"
+  },
+  "last28_queries": {
+    "request": {
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-30",
+      "dimensions": [
+        "query"
+      ],
+      "rowLimit": 25000,
+      "dataState": "final",
+      "type": "web"
+    },
+    "responseAggregationType": "byProperty"
+  },
+  "prior7": {
+    "request": {
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-23",
+      "dimensions": [],
+      "rowLimit": 25000,
+      "dataState": "final",
+      "type": "web"
+    },
+    "rows": [
+      {
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      }
+    ],
+    "responseAggregationType": "byProperty"
+  },
+  "last28_query_pages": {
+    "request": {
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-30",
+      "dimensions": [
+        "query",
+        "page"
+      ],
+      "rowLimit": 25000,
+      "dataState": "final",
+      "type": "web"
+    },
+    "responseAggregationType": "byPage"
+  },
+  "chop_daily": {
+    "request": {
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-30",
+      "dimensions": [
+        "date"
+      ],
+      "rowLimit": 25000,
+      "dataState": "final",
+      "type": "web",
+      "dimensionFilterGroups": [
+        {
+          "filters": [
+            {
+              "dimension": "page",
+              "operator": "contains",
+              "expression": "/chop-a-forest/"
+            }
+          ]
+        }
+      ]
+    },
+    "rows": [
+      {
+        "keys": [
+          "2026-10-25"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-26"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-27"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-28"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-29"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-10-30"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      }
+    ],
+    "responseAggregationType": "byPage"
+  },
+  "last7_query_pages": {
+    "request": {
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-30",
+      "dimensions": [
+        "query",
+        "page"
+      ],
+      "rowLimit": 25000,
+      "dataState": "final",
+      "type": "web"
+    },
+    "responseAggregationType": "byPage"
+  },
+  "last7_pages": {
+    "request": {
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-30",
+      "dimensions": [
+        "page"
+      ],
+      "rowLimit": 25000,
+      "dataState": "final",
+      "type": "web"
+    },
+    "rows": [
+      {
+        "keys": [
+          "https://upvane.com/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://upvane.com/greedy-growers/fertilizer/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "https://upvane.com/grow-a-chicken-fighter/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "https://upvane.com/steal-an-egg/pets/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 3.6666666666666665
+      },
+      {
+        "keys": [
+          "https://upvane.com/steal-an-egg/speed/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 4.666666666666666
+      }
+    ],
+    "responseAggregationType": "byPage"
+  }
+}

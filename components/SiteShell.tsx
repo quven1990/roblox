@@ -18,6 +18,7 @@ import { stealAnEgg, stealAnEggCopy, stealAnEggNav } from "@/lib/games/steal-an-
 import { SITE_CONTACT_EMAIL, SITE_NAME, SITE_PRIVACY_EMAIL, UNOFFICIAL_NOTICE, siteCopy } from "@/lib/site";
 
 export type KitSection =
+  | "gems"
   | "zones"
   | "tools"
   | "guide"

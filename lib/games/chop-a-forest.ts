@@ -24,6 +24,8 @@ export const chopAForest = {
   featuredPages: [
     { label: "Zones & bosses", href: "/chop-a-forest/zones" },
     { label: "Tools & upgrades", href: "/chop-a-forest/tools" },
+    { label: "Free Gems", href: "/chop-a-forest/gems" },
+    { label: "Eggs & pets", href: "/chop-a-forest/pets" },
   ],
 } as const satisfies GameFacts;
 
@@ -34,11 +36,16 @@ export const chopNav = [
 ] as const;
 
 export const chopPages = [
+  { id: "gems", title: "Get Gems without guessing the payout", body: "Claim checks, source conflicts, and choosing your first Gem Perk.", href: "/chop-a-forest/gems" },
+  { id: "pets", title: "Turn a dropped egg into an equipped pet", body: "The Acorn Egg pickup, hatch menu and equip checks, without a made-up pet ranking.", href: "/chop-a-forest/pets" },
   { id: "zones", title: "Get through the next gate", body: "Chapter 1 zone order, Old Barkback, and a checklist for a locked Birch Grove.", href: "/chop-a-forest/zones" },
   { id: "tools", title: "Make your next purchase count", body: "Coin prices, carrying capacity, truck loading, and when a faster tool will actually help.", href: "/chop-a-forest/tools" },
 ] as const;
 
 export const chopSources = {
+  gems: { label: "MMORocks: Gems and Gem Perks", href: "https://mmorocks.com/games/chop-a-forest/gems-and-gem-perks/", note: "Community playtest dated Oct 18, updated Oct 19; source reviewed Nov 1. Gem income and early perk reports." },
+  gemRewards: { label: "AllThingsHow: free Gem claims", href: "https://allthings.how/chop-a-forest-how-to-get-more-gems-for-free/", note: "Oct 14 report, reviewed Nov 1. Rewards-panel observations; amounts and Mutation Luck figures differ from later reports." },
+  petSteps: { label: "MMORocks: pets, eggs and equipping", href: "https://mmorocks.com/games/chop-a-forest/pets-and-eggs/", note: "Oct 18 playtest, updated Oct 19; reviewed Nov 1. Pickup, hatch and equip steps are reported, not an Upvane playtest." },
   badges: { label: "Roblox: creator’s badge requirements", href: "https://badges.roblox.com/v1/universes/10767386157/badges?limit=100&sortOrder=Asc", note: "Fetched Oct 25: forest cash-out, desert detonator and separate timed-clear requirements." },
   passes: { label: "Roblox: current game pass listing", href: "https://apis.roblox.com/game-passes/v1/universes/10767386157/game-passes?pageSize=100&passView=Full", note: "Fetched Oct 25: Forever tool names and creator descriptions. A pass description does not confirm in-run coin prices." },
   official: { label: "WCT Capital’s Roblox listing", href: chopAForest.playUrl, note: "Game identity, chop–sell–upgrade loop, and the solo/friend save statement. Reviewed Oct 25." },
@@ -87,16 +94,17 @@ export const chopToolsMetadata = pageMetadata(
   `${chopAForest.path}/tools`,
 );
 
-export function chopJsonLd(page: "guide" | "zones" | "tools", title: string) {
+export function chopJsonLd(page: "guide" | "zones" | "tools" | "gems" | "pets", title: string) {
+  const reviewed = page === "gems" || page === "pets" ? "2026-11-01" : chopReviewed;
   const path = page === "guide" ? chopAForest.path : `${chopAForest.path}/${page}`;
   return {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "Article", headline: title, url: absoluteUrl(path), inLanguage: "en", datePublished: chopReviewed, dateModified: chopReviewed, author: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl() }, publisher: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl() }, about: { "@type": "VideoGame", name: chopAForest.name, url: chopAForest.playUrl } },
+      { "@type": "Article", headline: title, url: absoluteUrl(path), inLanguage: "en", datePublished: reviewed, dateModified: reviewed, author: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl() }, publisher: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl() }, about: { "@type": "VideoGame", name: chopAForest.name, url: chopAForest.playUrl } },
       { "@type": "BreadcrumbList", itemListElement: [
         { "@type": "ListItem", position: 1, name: SITE_NAME, item: absoluteUrl() },
         { "@type": "ListItem", position: 2, name: chopAForest.name, item: absoluteUrl(chopAForest.path) },
-        ...(page === "guide" ? [] : [{ "@type": "ListItem", position: 3, name: page === "zones" ? "Zones & bosses" : "Tools & upgrades", item: absoluteUrl(path) }]),
+        ...(page === "guide" ? [] : [{ "@type": "ListItem", position: 3, name: page === "zones" ? "Zones & bosses" : page === "gems" ? "Free Gems" : page === "pets" ? "Eggs & pets" : "Tools & upgrades", item: absoluteUrl(path) }]),
       ] },
     ],
   };
