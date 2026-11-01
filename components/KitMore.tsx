@@ -1,4 +1,5 @@
 import { chopAForest, chopPages } from "@/lib/games/chop-a-forest";
+import { sellAMillionSushi, sushiPages } from "@/lib/games/sell-a-million-sushi";
 import Link from "next/link";
 import type { GameSlug } from "@/lib/games";
 import {
@@ -12,6 +13,7 @@ import {
 import { stealAnEgg, stealAnEggCopy } from "@/lib/games/steal-an-egg";
 
 const kitMore = {
+  "sell-a-million-sushi": { game: sellAMillionSushi, cards: sushiPages },
   "chop-a-forest": { game: chopAForest, cards: chopPages },
   "tha-lemon-3": {
     game: thaLemon3,

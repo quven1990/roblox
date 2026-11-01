@@ -42,3 +42,13 @@
 - 首页/游戏菜单：`public/games/chop-a-forest/icon.svg`，本轮原创树木矢量图标；不是 Roblox 官方标识。
 - 两个内页采用现有 Lucide 图标、CSS 和原有字体，未新增第三方素材或字体服务。
 - 内容事实来源及原始 API 记录见 `docs/games/chop-a-forest/evidence-ledger.md`。此前已有素材的待确认事项继续保留，不因本轮新增而视为已获授权。
+
+## 2026-11-01 新增：Sell a Million Sushi
+
+| 使用页面 | 素材文件 | 已知来源 | 许可依据 | 是否实机 | 人工确认事项 |
+|---|---|---|---|---|---|
+| 首页游戏卡片、/sell-a-million-sushi/ | public/games/sell-a-million-sushi/restaurant.svg | 本轮为 Upvane 编写的原创海边寿司柜台 SVG；未复制游戏或 Wiki 图像 | 项目内原创代码；不宣称游戏素材已获授权 | 否，页面标明 Illustration, not gameplay | 未来若替换为截图需另记拍摄者、原件及适用依据 |
+| 首页及游戏菜单 | public/games/sell-a-million-sushi/icon.svg | 本轮原创寿司矢量图标 | 项目内原创代码；无 Roblox 官方标识 | 否 | 无新增第三方图片凭证主张 |
+| 合并、收入排查页 | components/SushiGuide.tsx + sushi.css | CSS/现有 Lucide 图标编排的流程图 | 现有依赖许可延续，无新增素材服务 | 否，示意图 | 不作为游戏地图或 UI 截图 |
+
+视频仅文字来源链接：RORO PLAYZ / k5dkj8A5Wj4；已在浏览器查看相关画面，不下载、不复制封面、不新增嵌入播放器。内容证据时间点见 docs/games/sell-a-million-sushi/project-control.md。旧素材的待确认事项继续保留。

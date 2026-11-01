@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="700" viewBox="0 0 960 700">
+<defs><pattern id="waves" width="140" height="44" patternUnits="userSpaceOnUse"><path d="M0 22q35-25 70 0t70 0" fill="none" stroke="#accfc3" stroke-width="2"/></pattern><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e8edcf"/><stop offset="1" stop-color="#f5e7c5"/></linearGradient></defs>
+<rect width="960" height="700" fill="url(#sky)"/><circle cx="746" cy="156" r="76" fill="#ed805e"/>
+<path d="M0 300q210-90 470-5t490-10v415H0z" fill="#79b3ab"/><path d="M0 300q210-90 470-5t490-10v415H0z" fill="url(#waves)"/>
+<path d="M80 470 450 325 909 489 526 661z" fill="#173d46"/><path d="m80 470 446 165 383-146v29L526 690 80 500z" fill="#102f38"/>
+<path d="m174 406 270-98 304 105-273 106z" fill="#c7a17c"/>
+<path d="M183 208v221l22 8V217m505-18v232l22-9V191" fill="#173d46"/>
+<path d="m139 211 281-114 351 115-283 117z" fill="#173d46"/><path d="m139 211 349 118 283-117v20L488 350 139 232z" fill="#102f38"/>
+<path d="m202 194 219-87 281 92-216 90z" fill="#42636a"/>
+<path d="m250 177 236 78m-181-101 235 79m-178-102 235 78" stroke="#6d8a87" stroke-width="4"/>
+<path d="M241 265v124m409-114v116" stroke="#173d46" stroke-width="11"/>
+<path d="m220 363 238-77 232 78-232 88z" fill="#fff6df"/><path d="M220 363v38l238 88 232-86v-39l-232 88z" fill="#bd785a"/>
+<path d="m287 366 57-19 67 23-57 21z" fill="#173d46"/><ellipse cx="351" cy="364" rx="25" ry="9" fill="#fff6df"/><path d="m329 354 18-6 27 10-17 7z" fill="#ef805e"/>
+<path d="m478 363 47-15 56 19-48 17z" fill="#173d46"/><ellipse cx="529" cy="361" rx="20" ry="8" fill="#fff6df"/><path d="m512 353 14-5 22 8-15 6z" fill="#ef805e"/>
+<path d="M269 256v38m356-37v38" stroke="#173d46" stroke-width="3"/><path d="M253 284q16-18 32 0v43q-16 15-32 0zm356 0q16-18 32 0v43q-16 15-32 0z" fill="#ed805e"/>
+<path d="m125 489 18-94m-6 32q-50-45-67-15 37 5 67 15m1-2q9-62 38-54-17 29-38 54" fill="#355f59"/>
+<circle cx="788" cy="462" r="19" fill="#fff2d1"/><path d="m770 481-12 55m44-55 12 42" stroke="#fff2d1" stroke-width="6"/>
+<path d="M0 661q200-25 379 17t581-1v23H0z" fill="#aacdc0"/>
+</svg>

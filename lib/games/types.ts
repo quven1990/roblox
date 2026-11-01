@@ -19,7 +19,8 @@ export type GameFacts = {
   placeId: string;
   playUrl: string;
   lastChecked: string;
-  hasRedeemUi: boolean;
+  /** null means the current redemption UI has not been verified. */
+  hasRedeemUi: boolean | null;
   path: `/${string}`;
   kitNumber: number;
   kicker: string;

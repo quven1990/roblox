@@ -1,4 +1,5 @@
 import { chopAForest } from "@/lib/games/chop-a-forest";
+import { sellAMillionSushi } from "@/lib/games/sell-a-million-sushi";
 import { stealAnEgg } from "@/lib/games/steal-an-egg";
 import { greedyGrowers } from "@/lib/games/greedy-growers";
 import { thaLemon3 } from "@/lib/games/tha-lemon-3";
@@ -7,6 +8,7 @@ import { absoluteUrl } from "@/lib/site";
 
 /** Live kits on the hub. Add a game here when its pages ship. */
 export const catalog = [
+  sellAMillionSushi,
   chopAForest,
   thaLemon3,
   stealAnEgg,
@@ -14,6 +16,7 @@ export const catalog = [
 ] as const satisfies readonly GameFacts[];
 
 export const games = {
+  "sell-a-million-sushi": sellAMillionSushi,
   "chop-a-forest": chopAForest,
   "tha-lemon-3": thaLemon3,
   "steal-an-egg": stealAnEgg,

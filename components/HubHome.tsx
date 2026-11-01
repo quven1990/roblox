@@ -21,9 +21,9 @@ export function HubHome() {
         </div></div></section>
         <article className="wrap hub-summary"><p>{siteCopy.summary}</p></article>
         <section id="games" className="wrap section-head is-catalog"><p className="kicker">Explore</p><h2>Game guides</h2><p>Choose a game to find its walkthroughs and reference pages.</p></section>
-        <section className="wrap featured-grid" data-count={String(Math.min(catalog.length, 4))} aria-label="Game guides">
+        <section className="wrap featured-grid" data-count={String(catalog.length)} aria-label="Game guides">
           {catalog.map((game, index) => <article className="game-card" key={game.slug}>
-            <div className="game-thumb"><img src={game.thumb} alt={game.slug === "chop-a-forest" ? "Original Upvane forest illustration for the Chop A Forest guide" : `${game.name} game artwork`} width={960} height={540} loading={index === 0 ? "eager" : "lazy"} /></div>
+            <div className="game-thumb"><img src={game.thumb} alt={game.slug === "sell-a-million-sushi" ? "Original Upvane sushi restaurant illustration, not gameplay" : game.slug === "chop-a-forest" ? "Original Upvane forest illustration for the Chop A Forest guide" : `${game.name} game artwork`} width={960} height={540} loading={index === 0 ? "eager" : "lazy"} /></div>
             <div className="game-card-body"><div className="game-card-top"><img className="game-icon" src={game.icon} alt="" width={72} height={72} /><h3>{game.name}</h3></div>
               <p className="game-lede">{game.slug === "tha-lemon-3" ? "Game overview and listing details for the 223Z STUDIOS experience." : game.lede}</p><div className="chips">{game.featuredPages.filter(page => game.slug !== "tha-lemon-3" || page.href === game.path).map(page => <Link key={page.href} href={page.href}>{page.label}</Link>)}</div>
               <div className="actions"><Link className="btn btn-primary" href={game.path} data-analytics-event="hub_kit_open" data-analytics-game={game.slug} data-analytics-surface="home">Explore {game.name}<ArrowRight size={17} aria-hidden="true" /></Link></div>
