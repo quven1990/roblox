@@ -1,0 +1,642 @@
+{
+  "base": "http://127.0.0.1:4186",
+  "capturedAt": "2026-11-06T13:41:06.544Z",
+  "layouts": [
+    {
+      "path": "/",
+      "width": 1440,
+      "status": 200,
+      "title": "Upvane | Unofficial Guides for Roblox Games",
+      "h1": 1,
+      "canonical": "https://upvane.com/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/practical-basketball/",
+      "width": 1440,
+      "status": 200,
+      "title": "Practical Basketball Beginner Guide: Controls & First Practice | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 714.96875,
+      "artY": 212
+    },
+    {
+      "path": "/practical-basketball/controls/",
+      "width": 1440,
+      "status": 200,
+      "title": "Practical Basketball Controls: PC, Xbox & PlayStation | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/controls/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 714.96875,
+      "artY": 212
+    },
+    {
+      "path": "/practical-basketball/shooting-and-dunking/",
+      "width": 1440,
+      "status": 200,
+      "title": "Practical Basketball: How to Shoot, Dunk & Check Failed Finishes | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/shooting-and-dunking/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 714.96875,
+      "artY": 212
+    },
+    {
+      "path": "/plus-1-spider-arm/",
+      "width": 1440,
+      "status": 200,
+      "title": "+1 Spider Arm Beginner Guide: Grip, Wins & First Upgrades | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/plus-1-spider-arm/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/steal-an-egg/pets/",
+      "width": 1440,
+      "status": 200,
+      "title": "Steal An Egg pets list — Titan Temple and income roster",
+      "h1": 1,
+      "canonical": "https://upvane.com/steal-an-egg/pets/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/chop-a-forest/tools/",
+      "width": 1440,
+      "status": 200,
+      "title": "Chop A Forest Tools, Backpacks & Truck Buy Order | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/chop-a-forest/tools/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/",
+      "width": 1024,
+      "status": 200,
+      "title": "Upvane | Unofficial Guides for Roblox Games",
+      "h1": 1,
+      "canonical": "https://upvane.com/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/practical-basketball/",
+      "width": 1024,
+      "status": 200,
+      "title": "Practical Basketball Beginner Guide: Controls & First Practice | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 599.96875,
+      "artY": 198
+    },
+    {
+      "path": "/practical-basketball/controls/",
+      "width": 1024,
+      "status": 200,
+      "title": "Practical Basketball Controls: PC, Xbox & PlayStation | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/controls/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 607.734375,
+      "artY": 201.875
+    },
+    {
+      "path": "/practical-basketball/shooting-and-dunking/",
+      "width": 1024,
+      "status": 200,
+      "title": "Practical Basketball: How to Shoot, Dunk & Check Failed Finishes | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/shooting-and-dunking/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 607.734375,
+      "artY": 201.875
+    },
+    {
+      "path": "/plus-1-spider-arm/",
+      "width": 1024,
+      "status": 200,
+      "title": "+1 Spider Arm Beginner Guide: Grip, Wins & First Upgrades | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/plus-1-spider-arm/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/steal-an-egg/pets/",
+      "width": 1024,
+      "status": 200,
+      "title": "Steal An Egg pets list — Titan Temple and income roster",
+      "h1": 1,
+      "canonical": "https://upvane.com/steal-an-egg/pets/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/chop-a-forest/tools/",
+      "width": 1024,
+      "status": 200,
+      "title": "Chop A Forest Tools, Backpacks & Truck Buy Order | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/chop-a-forest/tools/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "status": 200,
+      "title": "Upvane | Unofficial Guides for Roblox Games",
+      "h1": 1,
+      "canonical": "https://upvane.com/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/practical-basketball/",
+      "width": 768,
+      "status": 200,
+      "title": "Practical Basketball Beginner Guide: Controls & First Practice | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 591.90625,
+      "artY": 238.40625
+    },
+    {
+      "path": "/practical-basketball/controls/",
+      "width": 768,
+      "status": 200,
+      "title": "Practical Basketball Controls: PC, Xbox & PlayStation | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/controls/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 637.484375,
+      "artY": 261.203125
+    },
+    {
+      "path": "/practical-basketball/shooting-and-dunking/",
+      "width": 768,
+      "status": 200,
+      "title": "Practical Basketball: How to Shoot, Dunk & Check Failed Finishes | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/shooting-and-dunking/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 637.484375,
+      "artY": 261.203125
+    },
+    {
+      "path": "/plus-1-spider-arm/",
+      "width": 768,
+      "status": 200,
+      "title": "+1 Spider Arm Beginner Guide: Grip, Wins & First Upgrades | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/plus-1-spider-arm/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/steal-an-egg/pets/",
+      "width": 768,
+      "status": 200,
+      "title": "Steal An Egg pets list — Titan Temple and income roster",
+      "h1": 1,
+      "canonical": "https://upvane.com/steal-an-egg/pets/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/chop-a-forest/tools/",
+      "width": 768,
+      "status": 200,
+      "title": "Chop A Forest Tools, Backpacks & Truck Buy Order | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/chop-a-forest/tools/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "status": 200,
+      "title": "Upvane | Unofficial Guides for Roblox Games",
+      "h1": 1,
+      "canonical": "https://upvane.com/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/practical-basketball/",
+      "width": 390,
+      "status": 200,
+      "title": "Practical Basketball Beginner Guide: Controls & First Practice | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 532.625,
+      "artY": 800.25
+    },
+    {
+      "path": "/practical-basketball/controls/",
+      "width": 390,
+      "status": 200,
+      "title": "Practical Basketball Controls: PC, Xbox & PlayStation | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/controls/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 550.890625,
+      "artY": 818.515625
+    },
+    {
+      "path": "/practical-basketball/shooting-and-dunking/",
+      "width": 390,
+      "status": 200,
+      "title": "Practical Basketball: How to Shoot, Dunk & Check Failed Finishes | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/shooting-and-dunking/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 577.140625,
+      "artY": 873.5625
+    },
+    {
+      "path": "/plus-1-spider-arm/",
+      "width": 390,
+      "status": 200,
+      "title": "+1 Spider Arm Beginner Guide: Grip, Wins & First Upgrades | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/plus-1-spider-arm/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/steal-an-egg/pets/",
+      "width": 390,
+      "status": 200,
+      "title": "Steal An Egg pets list — Titan Temple and income roster",
+      "h1": 1,
+      "canonical": "https://upvane.com/steal-an-egg/pets/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/chop-a-forest/tools/",
+      "width": 390,
+      "status": 200,
+      "title": "Chop A Forest Tools, Backpacks & Truck Buy Order | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/chop-a-forest/tools/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/",
+      "width": 360,
+      "status": 200,
+      "title": "Upvane | Unofficial Guides for Roblox Games",
+      "h1": 1,
+      "canonical": "https://upvane.com/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/practical-basketball/",
+      "width": 360,
+      "status": 200,
+      "title": "Practical Basketball Beginner Guide: Controls & First Practice | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 577.140625,
+      "artY": 873.5625
+    },
+    {
+      "path": "/practical-basketball/controls/",
+      "width": 360,
+      "status": 200,
+      "title": "Practical Basketball Controls: PC, Xbox & PlayStation | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/controls/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 621.65625,
+      "artY": 918.078125
+    },
+    {
+      "path": "/practical-basketball/shooting-and-dunking/",
+      "width": 360,
+      "status": 200,
+      "title": "Practical Basketball: How to Shoot, Dunk & Check Failed Finishes | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/shooting-and-dunking/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 710.6875,
+      "artY": 1007.109375
+    },
+    {
+      "path": "/plus-1-spider-arm/",
+      "width": 360,
+      "status": 200,
+      "title": "+1 Spider Arm Beginner Guide: Grip, Wins & First Upgrades | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/plus-1-spider-arm/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/steal-an-egg/pets/",
+      "width": 360,
+      "status": 200,
+      "title": "Steal An Egg pets list — Titan Temple and income roster",
+      "h1": 1,
+      "canonical": "https://upvane.com/steal-an-egg/pets/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/chop-a-forest/tools/",
+      "width": 360,
+      "status": 200,
+      "title": "Chop A Forest Tools, Backpacks & Truck Buy Order | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/chop-a-forest/tools/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/",
+      "width": 320,
+      "status": 200,
+      "title": "Upvane | Unofficial Guides for Roblox Games",
+      "h1": 1,
+      "canonical": "https://upvane.com/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/practical-basketball/",
+      "width": 320,
+      "status": 200,
+      "title": "Practical Basketball Beginner Guide: Controls & First Practice | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 621.65625,
+      "artY": 946.875
+    },
+    {
+      "path": "/practical-basketball/controls/",
+      "width": 320,
+      "status": 200,
+      "title": "Practical Basketball Controls: PC, Xbox & PlayStation | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/controls/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 621.65625,
+      "artY": 946.875
+    },
+    {
+      "path": "/practical-basketball/shooting-and-dunking/",
+      "width": 320,
+      "status": 200,
+      "title": "Practical Basketball: How to Shoot, Dunk & Check Failed Finishes | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/shooting-and-dunking/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 736.9375,
+      "artY": 1062.15625
+    },
+    {
+      "path": "/plus-1-spider-arm/",
+      "width": 320,
+      "status": 200,
+      "title": "+1 Spider Arm Beginner Guide: Grip, Wins & First Upgrades | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/plus-1-spider-arm/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/steal-an-egg/pets/",
+      "width": 320,
+      "status": 200,
+      "title": "Steal An Egg pets list — Titan Temple and income roster",
+      "h1": 1,
+      "canonical": "https://upvane.com/steal-an-egg/pets/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/chop-a-forest/tools/",
+      "width": 320,
+      "status": 200,
+      "title": "Chop A Forest Tools, Backpacks & Truck Buy Order | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/chop-a-forest/tools/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "status": 200
+    },
+    {
+      "href": "/practical-basketball/",
+      "status": 200
+    },
+    {
+      "href": "/plus-1-spider-arm/",
+      "status": 200
+    },
+    {
+      "href": "/sell-a-million-sushi/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/",
+      "status": 200
+    },
+    {
+      "href": "/tha-lemon-3/",
+      "status": 200
+    },
+    {
+      "href": "/steal-an-egg/",
+      "status": 200
+    },
+    {
+      "href": "/greedy-growers/",
+      "status": 200
+    },
+    {
+      "href": "/practical-basketball/controls/",
+      "status": 200
+    },
+    {
+      "href": "/practical-basketball/shooting-and-dunking/",
+      "status": 200
+    },
+    {
+      "href": "/plus-1-spider-arm/climbing-grip/",
+      "status": 200
+    },
+    {
+      "href": "/plus-1-spider-arm/rebirth/",
+      "status": 200
+    },
+    {
+      "href": "/sell-a-million-sushi/merge-fishermen/",
+      "status": 200
+    },
+    {
+      "href": "/sell-a-million-sushi/not-making-money/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/zones/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/tools/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/gems/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/pets/",
+      "status": 200
+    },
+    {
+      "href": "/steal-an-egg/mutations/",
+      "status": 200
+    },
+    {
+      "href": "/steal-an-egg/eggs/",
+      "status": 200
+    },
+    {
+      "href": "/steal-an-egg/biomes/",
+      "status": 200
+    },
+    {
+      "href": "/steal-an-egg/updates/",
+      "status": 200
+    },
+    {
+      "href": "/greedy-growers/mutations/",
+      "status": 200
+    },
+    {
+      "href": "/greedy-growers/calculator/",
+      "status": 200
+    },
+    {
+      "href": "/greedy-growers/codes/",
+      "status": 200
+    },
+    {
+      "href": "/greedy-growers/seeds/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/tools/#planner",
+      "status": 200
+    },
+    {
+      "href": "/privacy/",
+      "status": 200
+    },
+    {
+      "href": "/terms/",
+      "status": 200
+    },
+    {
+      "href": "/editorial-policy/",
+      "status": 200
+    },
+    {
+      "href": "/steal-an-egg/pets/",
+      "status": 200
+    },
+    {
+      "href": "/steal-an-egg/speed/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/zones/#locked-gate",
+      "status": 200
+    }
+  ],
+  "clientErrors": [],
+  "sitemapUrls": 35,
+  "interactions": "PASS: homepage→guide→controls; device toggle and compare; keyboard table scroll; FAQ; four diagnosis states; games menu; legacy game; privacy",
+  "analytics": "External requests blocked; no QA analytics sent"
+}

@@ -2,7 +2,7 @@
 
 Upvane is an independent, unofficial English guide site for selected Roblox games at [upvane.com](https://upvane.com). Internal lifecycle status remains in `lib/games/*`; public pages focus on published guides and useful tools.
 
-Live games: **Chop A Forest**, **Tha Lemon 3**, **Steal An Egg**, **Greedy Growers**.
+Live games: **Practical Basketball**, **+1 Spider Arm**, **Sell a Million Sushi**, **Chop A Forest**, **Tha Lemon 3**, **Steal An Egg**, **Greedy Growers**.
 
 Pushing `master` to GitHub deploys to Cloudflare Pages (`upvane` project). Build is `npm run build`; output directory is `out/`. Production branch is `master`. Custom domains: `upvane.com` and `www.upvane.com`. The Pages alias `upvane.pages.dev` 301s to `upvane.com` via `functions/_middleware.js` (Cloudflare cannot remove `*.pages.dev`).
 
@@ -30,6 +30,9 @@ See [docs/ADDING-A-ROBLOX-GAME.md](docs/ADDING-A-ROBLOX-GAME.md): max **3 pages*
 | Path | Notes |
 |------|--------|
 | `/` | Published game guides and useful tools |
+| `/practical-basketball` | Beginner practice order and role planning for Practical’s Games’ Alpha |
+| `/practical-basketball/controls` | Reported PC, Xbox and PlayStation essentials with device selection |
+| `/practical-basketball/shooting-and-dunking` | Shot/finish symptom checks and a repeatable practice routine |
 | `/chop-a-forest` | Illustrated beginner guide and bottleneck finder |
 | `/chop-a-forest/zones` | Chapter 1 route, first Boss and locked gates |
 | `/chop-a-forest/tools` | Coin upgrades, trucks and editable purchase planner |

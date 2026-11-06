@@ -1,4 +1,5 @@
 import { chopAForest, chopReviewed } from "@/lib/games/chop-a-forest";
+import { practicalBasketball, basketballReviewed } from "@/lib/games/practical-basketball";
 import { sellAMillionSushi, sushiReviewed } from "@/lib/games/sell-a-million-sushi";
 import { plus1SpiderArm, spiderReviewed } from "@/lib/games/plus-1-spider-arm";
 import type { MetadataRoute } from "next";
@@ -24,13 +25,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   };
 
   return [
+    ...[practicalBasketball.path, `${practicalBasketball.path}/controls`, `${practicalBasketball.path}/shooting-and-dunking`].map(path => ({ url: absoluteUrl(path), lastModified: new Date(`${basketballReviewed}T00:00:00Z`), changeFrequency: "weekly" as const, priority: path === practicalBasketball.path ? 0.9 : 0.7 })),
     ...[plus1SpiderArm.path, `${plus1SpiderArm.path}/climbing-grip`, `${plus1SpiderArm.path}/rebirth`].map(path => ({ url: absoluteUrl(path), lastModified: new Date(`${spiderReviewed}T00:00:00Z`), changeFrequency: "weekly" as const, priority: path === plus1SpiderArm.path ? 0.9 : 0.7 })),
     ...[sellAMillionSushi.path, `${sellAMillionSushi.path}/merge-fishermen`, `${sellAMillionSushi.path}/not-making-money`].map(path => ({ url: absoluteUrl(path), lastModified: new Date(`${sushiReviewed}T00:00:00Z`), changeFrequency: "weekly" as const, priority: path === sellAMillionSushi.path ? 0.9 : 0.7 })),
     ...["/chop-a-forest/gems", "/chop-a-forest/pets"].map(path => ({ url: absoluteUrl(path), lastModified: new Date("2026-11-01T00:00:00Z"), changeFrequency: "weekly" as const, priority: 0.7 })),
     ...[chopAForest.path, `${chopAForest.path}/zones`, `${chopAForest.path}/tools`].map(path => ({ url: absoluteUrl(path), lastModified: new Date(path.endsWith("/tools") ? "2026-11-01T00:00:00Z" : `${chopReviewed}T00:00:00Z`), changeFrequency: "weekly" as const, priority: path === chopAForest.path ? 0.9 : 0.8 })),
     {
       url: absoluteUrl("/"),
-      lastModified: new Date("2026-11-01T00:00:00Z"),
+      lastModified: new Date("2026-11-06T00:00:00Z"),
       changeFrequency: "weekly",
       priority: 1,
     },

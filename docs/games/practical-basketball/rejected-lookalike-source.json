@@ -1,0 +1,59 @@
+{
+  "capturedAt": "2026-11-06T13:26:50.238Z",
+  "placeLookup": {
+    "url": "https://apis.roblox.com/universes/v1/places/124235162470177/universe",
+    "status": 200,
+    "data": {
+      "universeId": 10041062620
+    }
+  },
+  "game": {
+    "url": "https://games.roblox.com/v1/games?universeIds=10041062620",
+    "status": 200,
+    "data": {
+      "data": [
+        {
+          "id": 10041062620,
+          "rootPlaceId": 124235162470177,
+          "name": "[OUT NOW!🚧] Practical Basketball 🏀",
+          "description": "LIKE THE GAME AND BUY ACCESS TO PLAY! DONT FALL FOR OTHER FAKE SCAMS!!!\n\nNOTE: This is the (FULL RELEASE) of Practical Basketball this game is fully finished and been through many stress test!\n\n🏀 Step onto the court and embrace the ultimate basketball journey with Practical Basketball's newest park release! \n\nAt Practical Basketball, our court is built on fairness. Cheaters don't stand a chance – we detect and ban them. Play fair!\n\nTags; Practical Basketball, Hoop Nation 2, Arcade Basketball, Playground Basketball, hoops, hoopz, basketball, bball, roball, 2k, 2k23, 2k24, best basketball game, 2k25, 2k26, nba, cts, ets, roblox 2k, stress test\n\nShow your love for Practical Basketball by leaving a thumbs-up 👍 and marking it as a favorite ⭐. Your support fuels our drive ",
+          "sourceName": null,
+          "sourceDescription": null,
+          "creator": {
+            "id": 583357958,
+            "name": "Practical's Physics V2",
+            "type": "Group",
+            "isRNVAccount": false,
+            "hasVerifiedBadge": false
+          },
+          "price": null,
+          "allowedGearGenres": [
+            "All"
+          ],
+          "allowedGearCategories": [],
+          "isGenreEnforced": false,
+          "copyingAllowed": false,
+          "playing": 0,
+          "visits": 4595587,
+          "maxPlayers": 10,
+          "created": "2026-04-16T00:00:15.06Z",
+          "updated": "2026-10-30T22:04:42.408Z",
+          "studioAccessToApisAllowed": false,
+          "createVipServersAllowed": false,
+          "universeAvatarType": "MorphToR15",
+          "genre": "All",
+          "genre_l1": "Sports & Racing",
+          "genre_l2": "Sports",
+          "untranslated_genre_l1": "sports_and_racing",
+          "isAllGenre": true,
+          "isFavoritedByUser": false,
+          "favoritedCount": 6421,
+          "canonicalUrlPath": "/games/124235162470177/Practical-Basketball",
+          "isContentRestricted": false,
+          "isOfficiallyLicensed": false,
+          "isCommunityLicensed": false
+        }
+      ]
+    }
+  }
+}

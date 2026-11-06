@@ -62,3 +62,13 @@
 | Grip/Rebirth页面 | components/SpiderGuide.tsx 与spider.css | CSS与既有Lucide图标编排示意图 | 现有依赖延续，无新增素材服务 | 否，明确为图示而非实机UI | 不把示意条作为实测数值或恢复公式 |
 
 视频仅外链引用Valtric/aI7qoVmn0dc，相关帧实际查看；无封面复制、视频下载或新播放器嵌入。社区报告只引用事实，未搬运Wiki配图。历史待确认事项保留。
+
+## 2026-11-06 新增：Practical Basketball
+
+| 使用页面 | 素材文件 | 已知来源 | 许可依据 | 是否实机 | 人工确认事项 |
+|---|---|---|---|---|---|
+| 首页卡片、Practical Basketball 三页 | public/games/practical-basketball/court.svg | 本轮为 Upvane 编写的原创篮球场和篮球矢量插画；无游戏、Wiki 或视频图像复制 | 项目内原创 SVG 代码；不主张任何游戏素材授权 | 否，页面标明 Illustration, not gameplay；并非游戏地图 | 未来若换截图，需另记拍摄者、原件和使用依据 |
+| 首页、游戏菜单 | public/games/practical-basketball/icon.svg | 本轮原创篮球符号，无 Roblox 官方标识 | 项目内原创代码 | 否 | 不是开发者官方游戏图标 |
+| 控制速查、投篮排错 | components/BasketballControls.tsx 与 basketball.css | 文字、HTML/CSS 和现有字体；无外部图像 | 项目内代码及现有依赖；无新增素材服务 | 否 | 不作为游戏 UI 或实机测试证据 |
+
+YouTube 已作为调研线索检查，但旧 Vorzy 视频无法公开播放，另两条未能取得可核验内容；未把标题/简介冒充已观看的实机证据。未下载视频、复制封面或新增播放器。来源与限制见 docs/games/practical-basketball/project-control.md。旧素材待确认事项保留。

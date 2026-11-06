@@ -1,4 +1,5 @@
 import { chopAForest, chopPages } from "@/lib/games/chop-a-forest";
+import { practicalBasketball, basketballPages } from "@/lib/games/practical-basketball";
 import { sellAMillionSushi, sushiPages } from "@/lib/games/sell-a-million-sushi";
 import { plus1SpiderArm, spiderPages } from "@/lib/games/plus-1-spider-arm";
 import Link from "next/link";
@@ -14,6 +15,7 @@ import {
 import { stealAnEgg, stealAnEggCopy } from "@/lib/games/steal-an-egg";
 
 const kitMore = {
+  "practical-basketball": { game: practicalBasketball, cards: basketballPages },
   "plus-1-spider-arm": { game: plus1SpiderArm, cards: spiderPages },
   "sell-a-million-sushi": { game: sellAMillionSushi, cards: sushiPages },
   "chop-a-forest": { game: chopAForest, cards: chopPages },
