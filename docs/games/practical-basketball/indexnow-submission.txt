@@ -1,0 +1,40 @@
+
+> upvane@0.1.0 indexnow
+> node scripts/indexnow.mjs
+
+IndexNow 200 for 35 URLs
+  https://upvane.com/practical-basketball/
+  https://upvane.com/practical-basketball/controls/
+  https://upvane.com/practical-basketball/shooting-and-dunking/
+  https://upvane.com/plus-1-spider-arm/
+  https://upvane.com/plus-1-spider-arm/climbing-grip/
+  https://upvane.com/plus-1-spider-arm/rebirth/
+  https://upvane.com/sell-a-million-sushi/
+  https://upvane.com/sell-a-million-sushi/merge-fishermen/
+  https://upvane.com/sell-a-million-sushi/not-making-money/
+  https://upvane.com/chop-a-forest/gems/
+  https://upvane.com/chop-a-forest/pets/
+  https://upvane.com/chop-a-forest/
+  https://upvane.com/chop-a-forest/zones/
+  https://upvane.com/chop-a-forest/tools/
+  https://upvane.com/
+  https://upvane.com/tha-lemon-3/
+  https://upvane.com/tha-lemon-3/money-guide/
+  https://upvane.com/tha-lemon-3/weapons/
+  https://upvane.com/steal-an-egg/
+  https://upvane.com/steal-an-egg/updates/
+  https://upvane.com/steal-an-egg/pets/
+  https://upvane.com/steal-an-egg/eggs/
+  https://upvane.com/steal-an-egg/biomes/
+  https://upvane.com/steal-an-egg/mutations/
+  https://upvane.com/steal-an-egg/speed/
+  https://upvane.com/greedy-growers/
+  https://upvane.com/greedy-growers/codes/
+  https://upvane.com/greedy-growers/mutations/
+  https://upvane.com/greedy-growers/seeds/
+  https://upvane.com/greedy-growers/pets/
+  https://upvane.com/greedy-growers/fertilizer/
+  https://upvane.com/greedy-growers/calculator/
+  https://upvane.com/privacy/
+  https://upvane.com/terms/
+  https://upvane.com/editorial-policy/

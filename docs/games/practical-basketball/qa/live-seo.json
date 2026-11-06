@@ -1,0 +1,35 @@
+{
+  "capturedAt": "2026-11-06T13:46:11.428Z",
+  "pages": [
+    {
+      "path": "/practical-basketball/",
+      "status": 200,
+      "canonical": "https://upvane.com/practical-basketball/",
+      "xRobotsTag": null,
+      "contentType": "text/html; charset=utf-8",
+      "h1Count": 1,
+      "reviewedCopy": true,
+      "wrongId": false
+    },
+    {
+      "path": "/practical-basketball/controls/",
+      "status": 200,
+      "canonical": "https://upvane.com/practical-basketball/controls/",
+      "xRobotsTag": null,
+      "contentType": "text/html; charset=utf-8",
+      "h1Count": 1,
+      "reviewedCopy": true,
+      "wrongId": false
+    },
+    {
+      "path": "/practical-basketball/shooting-and-dunking/",
+      "status": 200,
+      "canonical": "https://upvane.com/practical-basketball/shooting-and-dunking/",
+      "xRobotsTag": null,
+      "contentType": "text/html; charset=utf-8",
+      "h1Count": 1,
+      "reviewedCopy": true,
+      "wrongId": false
+    }
+  ]
+}

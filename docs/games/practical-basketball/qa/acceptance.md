@@ -9,4 +9,5 @@
 - Browser QA used isolated contexts with external requests blocked. No QA visits or conversions were submitted to analytics. Screenshots depict Upvane pages, not Roblox gameplay.
 - Independent review: GO, no P0/P1. One P2 wording corrected. Test harness fixes addressed lazy hidden menu images, menuitem role and asynchronous client navigation; these were test assumptions, not product defects.
 - Human checks: Alpha client playtest, developer control messages, touch layout, build/dunk thresholds and current tutorial rewards remain unverified. No such verification is claimed publicly.
-- Production verification and submission receipts: pending.
+- Production: PASS, 8 layouts (home + three new pages × 1440/390), 30 linked paths, all interactive checks, no client errors. Live HTML confirms HTTP200, self-canonical, no X-Robots-Tag noindex and final reviewed source copy.
+- Cloudflare deployment 1c1d7336-7baf-47d6-9cab-4a5e5f320d40 succeeded for code commit be1dda3. GSC sitemap submission204/verification200, pending processing; IndexNow200 for35 URLs. Submission is not indexing or acquisition evidence.

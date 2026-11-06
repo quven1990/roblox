@@ -1,0 +1,56 @@
+{
+  "capturedAt": "2026-11-06T13:44:34.067Z",
+  "project": "upvane",
+  "environment": "production",
+  "id": "1c1d7336-7baf-47d6-9cab-4a5e5f320d40",
+  "createdOn": "2026-11-06T13:43:30.195816Z",
+  "modifiedOn": "2026-11-06T13:44:29.415508Z",
+  "trigger": {
+    "type": "github:push",
+    "metadata": {
+      "branch": "master",
+      "commit_hash": "be1dda37b8721878e0f1e88c65872d45ad1e00c3",
+      "commit_message": "feat: add Practical Basketball guides and controls [skip actions]",
+      "commit_dirty": false
+    }
+  },
+  "latestStage": {
+    "name": "deploy",
+    "started_on": "2026-11-06T13:44:19.193914Z",
+    "ended_on": "2026-11-06T13:44:29.415508Z",
+    "status": "success"
+  },
+  "stages": [
+    {
+      "name": "queued",
+      "started_on": "2026-11-06T13:43:30.36432Z",
+      "ended_on": "2026-11-06T13:43:30.370781Z",
+      "status": "success"
+    },
+    {
+      "name": "initialize",
+      "started_on": "2026-11-06T13:43:30.370781Z",
+      "ended_on": "2026-11-06T13:43:33.178635Z",
+      "status": "success"
+    },
+    {
+      "name": "clone_repo",
+      "started_on": "2026-11-06T13:43:33.178635Z",
+      "ended_on": "2026-11-06T13:43:39.186245Z",
+      "status": "success"
+    },
+    {
+      "name": "build",
+      "started_on": "2026-11-06T13:43:39.186245Z",
+      "ended_on": "2026-11-06T13:44:19.193914Z",
+      "status": "success"
+    },
+    {
+      "name": "deploy",
+      "started_on": "2026-11-06T13:44:19.193914Z",
+      "ended_on": "2026-11-06T13:44:29.415508Z",
+      "status": "success"
+    }
+  ],
+  "url": "https://1c1d7336.upvane.pages.dev"
+}

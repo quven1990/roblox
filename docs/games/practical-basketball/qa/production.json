@@ -1,0 +1,232 @@
+{
+  "base": "https://upvane.com",
+  "capturedAt": "2026-11-06T13:45:42.794Z",
+  "layouts": [
+    {
+      "path": "/",
+      "width": 1440,
+      "status": 200,
+      "title": "Upvane | Unofficial Guides for Roblox Games",
+      "h1": 1,
+      "canonical": "https://upvane.com/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/practical-basketball/",
+      "width": 1440,
+      "status": 200,
+      "title": "Practical Basketball Beginner Guide: Controls & First Practice | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 714.96875,
+      "artY": 212
+    },
+    {
+      "path": "/practical-basketball/controls/",
+      "width": 1440,
+      "status": 200,
+      "title": "Practical Basketball Controls: PC, Xbox & PlayStation | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/controls/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 714.96875,
+      "artY": 212
+    },
+    {
+      "path": "/practical-basketball/shooting-and-dunking/",
+      "width": 1440,
+      "status": 200,
+      "title": "Practical Basketball: How to Shoot, Dunk & Check Failed Finishes | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/shooting-and-dunking/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 714.96875,
+      "artY": 212
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "status": 200,
+      "title": "Upvane | Unofficial Guides for Roblox Games",
+      "h1": 1,
+      "canonical": "https://upvane.com/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true
+    },
+    {
+      "path": "/practical-basketball/",
+      "width": 390,
+      "status": 200,
+      "title": "Practical Basketball Beginner Guide: Controls & First Practice | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 532.625,
+      "artY": 800.25
+    },
+    {
+      "path": "/practical-basketball/controls/",
+      "width": 390,
+      "status": 200,
+      "title": "Practical Basketball Controls: PC, Xbox & PlayStation | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/controls/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 550.890625,
+      "artY": 818.515625
+    },
+    {
+      "path": "/practical-basketball/shooting-and-dunking/",
+      "width": 390,
+      "status": 200,
+      "title": "Practical Basketball: How to Shoot, Dunk & Check Failed Finishes | Upvane",
+      "h1": 1,
+      "canonical": "https://upvane.com/practical-basketball/shooting-and-dunking/",
+      "overflow": false,
+      "badImages": [],
+      "hasNotice": true,
+      "answerY": 577.140625,
+      "artY": 873.5625
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "status": 200
+    },
+    {
+      "href": "/practical-basketball/",
+      "status": 200
+    },
+    {
+      "href": "/plus-1-spider-arm/",
+      "status": 200
+    },
+    {
+      "href": "/sell-a-million-sushi/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/",
+      "status": 200
+    },
+    {
+      "href": "/tha-lemon-3/",
+      "status": 200
+    },
+    {
+      "href": "/steal-an-egg/",
+      "status": 200
+    },
+    {
+      "href": "/greedy-growers/",
+      "status": 200
+    },
+    {
+      "href": "/practical-basketball/controls/",
+      "status": 200
+    },
+    {
+      "href": "/practical-basketball/shooting-and-dunking/",
+      "status": 200
+    },
+    {
+      "href": "/plus-1-spider-arm/climbing-grip/",
+      "status": 200
+    },
+    {
+      "href": "/plus-1-spider-arm/rebirth/",
+      "status": 200
+    },
+    {
+      "href": "/sell-a-million-sushi/merge-fishermen/",
+      "status": 200
+    },
+    {
+      "href": "/sell-a-million-sushi/not-making-money/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/zones/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/tools/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/gems/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/pets/",
+      "status": 200
+    },
+    {
+      "href": "/steal-an-egg/mutations/",
+      "status": 200
+    },
+    {
+      "href": "/steal-an-egg/eggs/",
+      "status": 200
+    },
+    {
+      "href": "/steal-an-egg/biomes/",
+      "status": 200
+    },
+    {
+      "href": "/steal-an-egg/updates/",
+      "status": 200
+    },
+    {
+      "href": "/greedy-growers/mutations/",
+      "status": 200
+    },
+    {
+      "href": "/greedy-growers/calculator/",
+      "status": 200
+    },
+    {
+      "href": "/greedy-growers/codes/",
+      "status": 200
+    },
+    {
+      "href": "/greedy-growers/seeds/",
+      "status": 200
+    },
+    {
+      "href": "/chop-a-forest/tools/#planner",
+      "status": 200
+    },
+    {
+      "href": "/privacy/",
+      "status": 200
+    },
+    {
+      "href": "/terms/",
+      "status": 200
+    },
+    {
+      "href": "/editorial-policy/",
+      "status": 200
+    }
+  ],
+  "clientErrors": [],
+  "sitemapUrls": 35,
+  "interactions": "PASS: homepage→guide→controls; device toggle and compare; keyboard table scroll; FAQ; four diagnosis states; games menu; legacy game; privacy",
+  "analytics": "External requests blocked; no QA analytics sent"
+}
